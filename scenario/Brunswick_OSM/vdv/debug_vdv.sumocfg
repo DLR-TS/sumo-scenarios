@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/17/19 15:27:48 by Eclipse SUMO Version v1_1_0+0874-f94428c67d
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../detail/bs_miv_detail.net.xml"/>
+        <route-files value="transit.rou.xml"/>
+        <additional-files value="stops.add.xml,transitVTypes.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="transit_out.rou.xml"/>
+        <vehroute-output.sorted value="true"/>
+    </output>
+
+    <time>
+        <begin value="1:4:0:0"/>
+    </time>
+
+    <processing>
+        <route-steps value="1"/>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+</configuration>

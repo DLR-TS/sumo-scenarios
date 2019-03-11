@@ -1,0 +1,567 @@
+<additional>
+    <busStop id="41011" lane="319389908#0_0" startPos="11.6848678298" endPos="41.6848678298" name="S?dstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="19712" lane="323951971#1_0" startPos="158.604984783" endPos="188.604984783" name="Holzmindener Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="19711" lane="-323951971#6_0" startPos="0.0" endPos="30.0" name="Holzmindener Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="41012" lane="5021501#0_0" startPos="0.0" endPos="30.0" name="S?dstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="54211" lane="332896119#1_0" startPos="0.0" endPos="30.0" name="Museumstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="54212" lane="317365381#0_0" startPos="0.0" endPos="30.0" name="Museumstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="7812" lane="-30773148#9_0" startPos="52.9282961789" endPos="82.9282961789" name="Brockenblick Pos. 12" friendlyPos="true" />
+    <busStop id="38612" lane="4747687#4_0" startPos="41.6382673948" endPos="71.6382673948" name="Sielkamp Pos. 12" friendlyPos="true" />
+    <busStop id="39711" lane="41290240#0_0" startPos="0.0" endPos="30.0" name="Stadtpark Pos. 11" friendlyPos="true" />
+    <busStop id="39712" lane="533525960_0" startPos="53.1926070195" endPos="83.1926070195" name="Stadtpark Pos. 12" friendlyPos="true" />
+    <busStop id="14912" lane="35047528#1_0" startPos="0.0" endPos="30.0" name="Gliesmaroder Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="7512" lane="315422093#0_0" startPos="0.0" endPos="30.0" name="Schloss Pos. 12" friendlyPos="true" />
+    <busStop id="7511" lane="27220216_0" startPos="0.0" endPos="30.0" name="Schloss Pos. 11" friendlyPos="true" />
+    <busStop id="23511" lane="-5184855#3_0" startPos="254.761238696" endPos="284.761238696" name="Herzogin-Elisabeth-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="18812" lane="55833388#2_0" startPos="194.75674058" endPos="224.75674058" name="Noetherstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="18811" lane="-55833388#4_0" startPos="324.579557761" endPos="354.579557761" name="Noetherstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="23512" lane="5184855#0_0" startPos="13.2978853447" endPos="43.2978853447" name="Herzogin-Elisabeth-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="2911" lane="-173277793_0" startPos="134.134944207" endPos="164.134944207" name="Am Kalkwerk Pos. 11" friendlyPos="true" />
+    <busStop id="2912" lane="621507752#1_0" startPos="0.0" endPos="30.0" name="Am Kalkwerk Pos. 12" friendlyPos="true" />
+    <busStop id="14911" lane="33049438#1_0" startPos="17.2075958473" endPos="47.2075958473" name="Gliesmaroder Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="2914" lane="621507752#1_0" startPos="109.942445326" endPos="139.942445326" name="Am Kalkwerk Pos. 14" friendlyPos="true" />
+    <busStop id="30212" lane="-610184077_0" startPos="0.0" endPos="30.0" name="Nehrkornweg Pos. 12" friendlyPos="true" />
+    <busStop id="30211" lane="-610184077_0" startPos="0.0" endPos="30.0" name="Nehrkornweg Pos. 11" friendlyPos="true" />
+    <busStop id="37911" lane="-246580705#4_0" startPos="21.0744605565" endPos="51.0744605565" name="Schwarzer Kamp Pos. 11" friendlyPos="true" />
+    <busStop id="32711" lane="-625238456_0" startPos="0.0" endPos="30.0" name="Peterskamp Pos. 11" friendlyPos="true" />
+    <busStop id="32712" lane="625238454_0" startPos="2.00334467667" endPos="32.0033446767" name="Peterskamp Pos. 12" friendlyPos="true" />
+    <busStop id="37912" lane="246580705#1_0" startPos="214.045669043" endPos="244.045669043" name="Schwarzer Kamp Pos. 12" friendlyPos="true" />
+    <busStop id="42511" lane="-7016592#4_0" startPos="28.3416559613" endPos="58.3416559613" name="Unter den Linden Pos. 11" friendlyPos="true" />
+    <busStop id="42512" lane="7016592#0_0" startPos="0.0" endPos="30.0" name="Unter den Linden Pos. 12" friendlyPos="true" />
+    <busStop id="14211" lane="-238389805#11_0" startPos="363.340709645" endPos="393.340709645" name="Luftfahrtbundesamt Pos. 11" friendlyPos="true" />
+    <busStop id="14212" lane="500532444#0_0" startPos="594.983727822" endPos="624.983727822" name="Luftfahrtbundesamt Pos. 12" friendlyPos="true" />
+    <busStop id="58311" lane="381603795#8_0" startPos="130.000432605" endPos="160.000432605" name="Neckarstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="17911" lane="334152813#6_0" startPos="0.0" endPos="30.0" name="Hauptfriedhof Pos. 11" friendlyPos="true" />
+    <busStop id="31912" lane="6074642#3_0" startPos="0.0" endPos="30.0" name="Ottenroder Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="31911" lane="6074641#3_0" startPos="62.8587779916" endPos="92.8587779916" name="Ottenroder Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="2312" lane="30425410#4_0" startPos="37.5965594644" endPos="67.5965594644" name="Am Forst Pos. 12" friendlyPos="true" />
+    <busStop id="2311" lane="-30425410#5_0" startPos="18.7611014709" endPos="48.7611014709" name="Am Forst Pos. 11" friendlyPos="true" />
+    <busStop id="36611" lane="-657618384_0" startPos="26.7956686669" endPos="56.7956686669" name="Sandanger Pos. 11" friendlyPos="true" />
+    <busStop id="36612" lane="10750085#6_0" startPos="91.9763693814" endPos="121.976369381" name="Sandanger Pos. 12" friendlyPos="true" />
+    <busStop id="37212" lane="-108915782#2_0" startPos="0.0" endPos="30.0" name="Schlesierweg Pos. 12" friendlyPos="true" />
+    <busStop id="5912" lane="501199062#0_0" startPos="0.0" endPos="30.0" name="Bahnhof Gliesmarode Pos. 12" friendlyPos="true" />
+    <busStop id="32012" lane="-647345116#1_0" startPos="0.0" endPos="30.0" name="Ottweilerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="32011" lane="380290359#0_0" startPos="402.179453394" endPos="432.179453394" name="Ottweilerstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="22711" lane="-24570897#0_0" startPos="0.0" endPos="30.0" name="J?delstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="22712" lane="-24570897#0_0" startPos="0.0" endPos="30.0" name="J?delstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="33811" lane="60922609#0_0" startPos="23.4179335807" endPos="53.4179335807" name="Radeklint Pos. 11" friendlyPos="true" />
+    <busStop id="33812" lane="30424335#0_0" startPos="2.40035099542" endPos="32.4003509954" name="Radeklint Pos. 12" friendlyPos="true" />
+    <busStop id="57611" lane="-610203691_0" startPos="24.5994293236" endPos="54.5994293236" name="Alter Rautheimer Weg Pos. 11" friendlyPos="true" />
+    <busStop id="57612" lane="610203691_0" startPos="50.6540965398" endPos="80.6540965398" name="Alter Rautheimer Weg Pos. 12" friendlyPos="true" />
+    <busStop id="12011" lane="24727641#1_0" startPos="36.0520936857" endPos="66.0520936857" name="Emma-Kraume-Stra?e Pos. 11" friendlyPos="true" />
+    <chargingStation id="4" chargeDelay="2" chargeInTransit="1" power="200000" efficiency="0.95" endPos="39.8606752464" lane="6144590#1_0" startPos="9.86067524639" friendlyPos="true" />
+    <busStop id="12012" lane="24727641#1_0" startPos="12.2393470871" endPos="42.2393470871" name="Emma-Kraume-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="17313" lane="307704875#0_0" startPos="0.923889576185" endPos="30.9238895762" name="Hansestra?e Mitte Pos. 13" friendlyPos="true" />
+    <busStop id="17314" lane="511308706#0_0" startPos="0.0" endPos="30.0" name="Hansestra?e Mitte Pos. 14" friendlyPos="true" />
+    <busStop id="8512" lane="320432219#0_0" startPos="0.0" endPos="30.0" name="B?rgerpark Pos. 12" friendlyPos="true" />
+    <busStop id="4212" lane="23620035#6_0" startPos="0.0" endPos="30.0" name="Am Queckenberg Pos. 12" friendlyPos="true" />
+    <busStop id="31412" lane="311549884#0_0" startPos="0.0" endPos="30.0" name="Otto-von-Guericke-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="31411" lane="32055649#0_0" startPos="0.0" endPos="30.0" name="Otto-von-Guericke-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="34111" lane="-323956185#1_0" startPos="7.38666083915" endPos="37.3866608391" name="Zivildienstschule Pos. 11" friendlyPos="true" />
+    <busStop id="34112" lane="361120214#0_0" startPos="45.4806880645" endPos="75.4806880645" name="Zivildienstschule Pos. 12" friendlyPos="true" />
+    <busStop id="2514" lane="-5989176#1_0" startPos="92.4687868926" endPos="122.468786893" name="Am Grasplatz Pos. 14" friendlyPos="true" />
+    <busStop id="27714" lane="173277151#0_0" startPos="157.187669753" endPos="187.187669753" name="Liegnitzstra?e Pos. 14" friendlyPos="true" />
+    <busStop id="5811" lane="377715252#0_0" startPos="0.0" endPos="30.0" name="Korfesstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="37311" lane="53650434#0_0" startPos="11.517520748" endPos="41.517520748" name="Schmalbachstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="28712" lane="508536571_0" startPos="9.16958869445" endPos="39.1695886945" name="Maybachstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="28711" lane="-508536570_0" startPos="53.0012187008" endPos="83.0012187008" name="Maybachstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="16811" lane="81362183#0_0" startPos="25.5046570466" endPos="55.5046570466" name="Hallestra?e Pos. 11" friendlyPos="true" />
+    <busStop id="16812" lane="5199987#4_0" startPos="300.976515251" endPos="330.976515251" name="Hallestra?e Pos. 12" friendlyPos="true" />
+    <busStop id="39311" lane="-10061776#4_0" startPos="1.04160444064" endPos="31.0416044406" name="St.-Wendel-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="39312" lane="10061776#3_0" startPos="37.8541061683" endPos="67.8541061683" name="St.-Wendel-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="11612" lane="610178987#1_0" startPos="4.73898647597" endPos="34.738986476" name="Eichhahnweg Pos. 12" friendlyPos="true" />
+    <busStop id="11611" lane="-23952837#0_0" startPos="12.2885672559" endPos="42.2885672559" name="Eichhahnweg Pos. 11" friendlyPos="true" />
+    <busStop id="45112" lane="-55846848#0_0" startPos="0.0" endPos="30.0" name="Welfenplatz Pos. 12" friendlyPos="true" />
+    <busStop id="45113" lane="24936966_0" startPos="1.84408898245" endPos="31.8440889825" name="Welfenplatz Pos. 13" friendlyPos="true" />
+    <busStop id="2612" lane="-611101996#0_0" startPos="75.1766335834" endPos="105.176633583" name="Am Hafen Pos. 12" friendlyPos="true" />
+    <busStop id="2611" lane="-611101996#0_0" startPos="82.519143754" endPos="112.519143754" name="Am Hafen Pos. 11" friendlyPos="true" />
+    <busStop id="42812" lane="-30426838#3_0" startPos="93.9687845574" endPos="123.968784557" name="Varrentrappstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="37411" lane="-27127973#2_0" startPos="413.012245881" endPos="443.012245881" name="Sch?ppenstedter Turm Pos. 11" friendlyPos="true" />
+    <busStop id="37412" lane="32043134#0_0" startPos="53.2066456058" endPos="83.2066456058" name="Sch?ppenstedter Turm Pos. 12" friendlyPos="true" />
+    <busStop id="5111" lane="231661249#0_0" startPos="4.89782270957" endPos="34.8978227096" name="Maienstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="3512" lane="-610178983#0_0" startPos="63.3003853999" endPos="93.3003853999" name="Am Markt Pos. 12" friendlyPos="true" />
+    <busStop id="3511" lane="4526596#2_0" startPos="186.264781257" endPos="216.264781257" name="Am Markt Pos. 11" friendlyPos="true" />
+    <busStop id="5112" lane="106531540#0_0" startPos="4.25065549077" endPos="34.2506554908" name="Maienstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="38312" lane="-511268001#6_0" startPos="6.67245969595" endPos="36.672459696" name="Siegfriedstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="38313" lane="6074641#0_0" startPos="18.8281406615" endPos="48.8281406615" name="Siegfriedstra?e Pos. 13" friendlyPos="true" />
+    <busStop id="38311" lane="221477557#0_0" startPos="0.0" endPos="30.0" name="Siegfriedstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="37111" lane="511308710#0_0" startPos="171.978756075" endPos="201.978756075" name="Benzstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="33212" lane="30425847#3_0" startPos="8.24886645445" endPos="38.2488664545" name="Pockelsstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="32612" lane="624354913#0_0" startPos="45.8370399963" endPos="75.8370399963" name="Paxmannstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="30411" lane="5989176#2_0" startPos="27.6933808844" endPos="57.6933808844" name="Neuruppinstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="30412" lane="5989176#2_0" startPos="11.636112012" endPos="41.636112012" name="Neuruppinstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="29711" lane="191916910#2_0" startPos="38.0364338527" endPos="68.0364338527" name="Moorh?ttenweg Pos. 11" friendlyPos="true" />
+    <busStop id="18512" lane="24377268#3_0" startPos="92.6047518879" endPos="122.604751888" name="Heideh?he Pos. 12" friendlyPos="true" />
+    <busStop id="13112" lane="610203798_0" startPos="49.9003969754" endPos="79.9003969754" name="Eutschenwinkel Pos. 12" friendlyPos="true" />
+    <busStop id="13111" lane="-107426023_0" startPos="14.0570748548" endPos="44.0570748548" name="Eutschenwinkel Pos. 11" friendlyPos="true" />
+    <busStop id="18511" lane="23040706#4_0" startPos="2.19488200291" endPos="32.1948820029" name="Heideh?he Pos. 11" friendlyPos="true" />
+    <busStop id="61412" lane="23685356#6_0" startPos="0.0" endPos="30.0" name="Buchfinkweg Pos. 12" friendlyPos="true" />
+    <busStop id="61411" lane="23685356#6_0" startPos="0.0" endPos="30.0" name="Buchfinkweg Pos. 11" friendlyPos="true" />
+    <busStop id="37312" lane="47291035#0_0" startPos="5.22126724605" endPos="35.221267246" name="Schmalbachstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="5812" lane="207083565#0_0" startPos="0.0" endPos="30.0" name="Korfesstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="40112" lane="-30642178#1_0" startPos="197.85424862" endPos="227.85424862" name="Steinkamp Pos. 12" friendlyPos="true" />
+    <busStop id="40111" lane="30642178#0_0" startPos="103.370434556" endPos="133.370434556" name="Steinkamp Pos. 11" friendlyPos="true" />
+    <busStop id="16212" lane="127240643#2_0" startPos="0.0" endPos="30.0" name="Holzhof (Volkswagen Halle) Pos. 12" friendlyPos="true" />
+    <busStop id="16211" lane="59393474#4_0" startPos="8.92040060236" endPos="38.9204006024" name="Holzhof (Volkswagen Halle) Pos. 11" friendlyPos="true" />
+    <busStop id="17611" lane="-500532442_0" startPos="218.932617027" endPos="248.932617027" name="Flugunfalluntersuchungsstelle Pos. 11" friendlyPos="true" />
+    <busStop id="17612" lane="238389805#12_0" startPos="0.0" endPos="30.0" name="Flugunfalluntersuchungsstelle Pos. 12" friendlyPos="true" />
+    <busStop id="4611" lane="317191948_0" startPos="87.5975856918" endPos="117.597585692" name="Am Wassertor (Volkswagen Halle) Pos. 11" friendlyPos="true" />
+    <busStop id="17821" lane="372159169_0" startPos="22.0633375529" endPos="52.0633375529" name="Hauptbahnhof Pos. 21" friendlyPos="true" />
+    <busStop id="57711" lane="-30425068#2_0" startPos="0.0" endPos="30.0" name="Schreinerweg Pos. 11" friendlyPos="true" />
+    <busStop id="57712" lane="30425068#2_0" startPos="21.872044319" endPos="51.872044319" name="Schreinerweg Pos. 12" friendlyPos="true" />
+    <busStop id="43012" lane="-4839258#1_0" startPos="0.0" endPos="30.0" name="Westfalenplatz Pos. 12" friendlyPos="true" />
+    <busStop id="43011" lane="-4839258#1_0" startPos="0.0" endPos="30.0" name="Westfalenplatz Pos. 11" friendlyPos="true" />
+    <busStop id="25714" lane="314690803#0_0" startPos="0.0" endPos="30.0" name="Kreuzteich Pos. 14" friendlyPos="true" />
+    <busStop id="25711" lane="-398891520_0" startPos="25.0273462545" endPos="55.0273462545" name="Kreuzteich Pos. 11" friendlyPos="true" />
+    <busStop id="25712" lane="-398891520_0" startPos="0.0" endPos="30.0" name="Kreuzteich Pos. 12" friendlyPos="true" />
+    <busStop id="25713" lane="-314690803#2_0" startPos="0.0" endPos="30.0" name="Kreuzteich Pos. 13" friendlyPos="true" />
+    <busStop id="4311" lane="171201109_0" startPos="20.9857597862" endPos="50.9857597862" name="Am Remenhof Pos. 11" friendlyPos="true" />
+    <busStop id="4312" lane="-171201109_0" startPos="69.785433349" endPos="99.785433349" name="Am Remenhof Pos. 12" friendlyPos="true" />
+    <busStop id="9111" lane="4764512#0_0" startPos="205.392823839" endPos="235.392823839" name="Christian-Pommer-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="9112" lane="-4764512#8_0" startPos="371.438378957" endPos="401.438378957" name="Christian-Pommer-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="512" lane="511308724#0_0" startPos="169.396401488" endPos="199.396401488" name="Adam-Opel-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="62012" lane="122024415_0" startPos="25.122008541" endPos="55.122008541" name="Militschstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="62011" lane="-122024415_0" startPos="228.668873739" endPos="258.668873739" name="Militschstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="26711" lane="-610196760#1_0" startPos="0.86464672561" endPos="30.8646467256" name="Lehmweg Pos. 11" friendlyPos="true" />
+    <busStop id="4914" lane="48861560#0_0" startPos="14.1331281092" endPos="44.1331281092" name="Amalienplatz/Wei?es Ross Pos. 14" friendlyPos="true" />
+    <busStop id="26712" lane="-610196760#1_0" startPos="0.0" endPos="30.0" name="Lehmweg Pos. 12" friendlyPos="true" />
+    <busStop id="4912" lane="7975424#0_0" startPos="38.3534923465" endPos="68.3534923465" name="Amalienplatz/Wei?es Ross Pos. 12" friendlyPos="true" />
+    <busStop id="4913" lane="299910129#0_0" startPos="0.82310402004" endPos="30.82310402" name="Amalienplatz/Wei?es Ross Pos. 13" friendlyPos="true" />
+    <busStop id="4911" lane="83723985#0_0" startPos="8.87646649231" endPos="38.8764664923" name="Amalienplatz/Wei?es Ross Pos. 11" friendlyPos="true" />
+    <busStop id="11712" lane="505164560#0_0" startPos="0.0" endPos="30.0" name="Zum Zoll Pos. 12" friendlyPos="true" />
+    <busStop id="11711" lane="-505164561_0" startPos="0.0" endPos="30.0" name="Zum Zoll Pos. 11" friendlyPos="true" />
+    <busStop id="2712" lane="538998009#0_0" startPos="12.5921586198" endPos="42.5921586198" name="Julius-K?hn-Institut Pos. 12" friendlyPos="true" />
+    <busStop id="2711" lane="-538998009#4_0" startPos="18.6489629528" endPos="48.6489629528" name="Julius-K?hn-Institut Pos. 11" friendlyPos="true" />
+    <busStop id="3412" lane="23272948_0" startPos="0.0" endPos="30.0" name="Am Magnitor Pos. 12" friendlyPos="true" />
+    <busStop id="3411" lane="23272948_0" startPos="5.80167289987" endPos="35.8016728999" name="Am Magnitor Pos. 11" friendlyPos="true" />
+    <busStop id="23612" lane="181614091#0_0" startPos="1.88328149429" endPos="31.8832814943" name="Weizenbleek Pos. 12" friendlyPos="true" />
+    <busStop id="39812" lane="4526596#0_0" startPos="179.319246268" endPos="209.319246268" name="Sch?nebergstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="8012" lane="59393481#0_0" startPos="22.5032920236" endPos="52.5032920236" name="Johannes-Selenka-Platz Pos. 12" friendlyPos="true" />
+    <busStop id="8011" lane="217194754#0_0" startPos="0.406573176142" endPos="30.4065731761" name="Johannes-Selenka-Platz Pos. 11" friendlyPos="true" />
+    <busStop id="39811" lane="4526596#0_0" startPos="173.093568727" endPos="203.093568727" name="Sch?nebergstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="18211" lane="31000149_0" startPos="0.0" endPos="30.0" name="Heesfeld Pos. 11" friendlyPos="true" />
+    <busStop id="17912" lane="334152813#3_0" startPos="23.1401411562" endPos="53.1401411562" name="Hauptfriedhof Pos. 12" friendlyPos="true" />
+    <busStop id="29611" lane="27031985#7_0" startPos="0.0" endPos="30.0" name="M?wenweg Pos. 11" friendlyPos="true" />
+    <busStop id="31512" lane="307200571_0" startPos="0.294217208122" endPos="30.2942172081" name="Hintern Br?dern Pos. 12" friendlyPos="true" />
+    <busStop id="29612" lane="-27031985#6_0" startPos="14.486519775" endPos="44.486519775" name="M?wenweg Pos. 12" friendlyPos="true" />
+    <busStop id="2011" lane="4839225#0_0" startPos="0.0" endPos="30.0" name="Am B?lten Pos. 11" friendlyPos="true" />
+    <busStop id="2012" lane="511268005_0" startPos="0.0" endPos="30.0" name="Am B?lten Pos. 12" friendlyPos="true" />
+    <busStop id="44112" lane="-625070025#1_0" startPos="0.0" endPos="30.0" name="Waller Weg Pos. 12" friendlyPos="true" />
+    <busStop id="44111" lane="-625070025#1_0" startPos="11.8307238825" endPos="41.8307238825" name="Waller Weg Pos. 11" friendlyPos="true" />
+    <busStop id="17711" lane="-361120213#5_0" startPos="368.822475339" endPos="398.822475339" name="Hauptbahnhof S?d Pos. 11" friendlyPos="true" />
+    <busStop id="36412" lane="499546685_0" startPos="0.0" endPos="30.0" name="Klinikum Salzdahlumer Str. Pos. 12" friendlyPos="true" />
+    <busStop id="18212" lane="31000149_0" startPos="0.0" endPos="30.0" name="Heesfeld Pos. 12" friendlyPos="true" />
+    <busStop id="10112" lane="28385144#0_0" startPos="650.421838109" endPos="680.421838109" name="Dedekindstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="36411" lane="-323957163_0" startPos="132.696106156" endPos="162.696106156" name="Klinikum Salzdahlumer Str. Pos. 11" friendlyPos="true" />
+    <busStop id="10111" lane="-223096653#3_0" startPos="250.081765634" endPos="280.081765634" name="Dedekindstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="15212" lane="-25290640_0" startPos="55.6628170146" endPos="85.6628170146" name="Goslarsche Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="15211" lane="106531547#0_0" startPos="12.076279866" endPos="42.076279866" name="Goslarsche Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="42111" lane="106531541#0_0" startPos="47.9345689394" endPos="77.9345689394" name="Tuckermannstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="42112" lane="-106531541#3_0" startPos="140.445517359" endPos="170.445517359" name="Tuckermannstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="36112" lane="-380290359#1_0" startPos="419.147388315" endPos="449.147388315" name="Saarplatz Pos. 12" friendlyPos="true" />
+    <busStop id="19411" lane="-317365380#1_0" startPos="12.6699317019" endPos="42.6699317019" name="Hochstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="19412" lane="659392075_0" startPos="0.0" endPos="30.0" name="Hochstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="36111" lane="380290359#0_0" startPos="0.0" endPos="30.0" name="Saarplatz Pos. 11" friendlyPos="true" />
+    <busStop id="36114" lane="-121228319#4_0" startPos="0.0" endPos="30.0" name="Saarplatz Pos. 14" friendlyPos="true" />
+    <busStop id="32311" lane="-5640229#6_0" startPos="18.1415359212" endPos="48.1415359212" name="Pappelallee Pos. 11" friendlyPos="true" />
+    <busStop id="32312" lane="5640229#3_0" startPos="99.8517500991" endPos="129.851750099" name="Pappelallee Pos. 12" friendlyPos="true" />
+    <busStop id="9011" lane="319192876#3_0" startPos="261.387766051" endPos="291.387766051" name="Klinikum Celler Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="9012" lane="374169546#0_0" startPos="133.682826285" endPos="163.682826285" name="Klinikum Celler Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="7912" lane="-600204868_0" startPos="8.04001901165" endPos="38.0400190117" name="Katholischer Friedhof Pos. 12" friendlyPos="true" />
+    <busStop id="62611" lane="8430611#0_0" startPos="50.143684725" endPos="80.143684725" name="Raabestra?e Pos. 11" friendlyPos="true" />
+    <busStop id="62612" lane="-8430611#1_0" startPos="35.3891394495" endPos="65.3891394495" name="Raabestra?e Pos. 12" friendlyPos="true" />
+    <busStop id="35111" lane="89805251#0_0" startPos="224.940006118" endPos="254.940006118" name="Rh?nweg Pos. 11" friendlyPos="true" />
+    <busStop id="5312" lane="191883896#0_0" startPos="0.0" endPos="30.0" name="Daimlerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="5311" lane="511308690_0" startPos="30.2996527656" endPos="60.2996527656" name="Daimlerstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="13612" lane="-334902538_0" startPos="466.260920206" endPos="496.260920206" name="Friedrich-Seele-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="25611" lane="-610211148#1_0" startPos="9.58475579518" endPos="39.5847557952" name="Kremsweg Pos. 11" friendlyPos="true" />
+    <busStop id="25612" lane="26185379#0_0" startPos="0.0" endPos="30.0" name="Kremsweg Pos. 12" friendlyPos="true" />
+    <chargingStation id="7" chargeDelay="2" chargeInTransit="1" power="200000" efficiency="0.95" endPos="84.0114795899" lane="32353233#0_0" startPos="54.0114795899" friendlyPos="true" />
+    <busStop id="21112" lane="-334902539#1_0" startPos="65.4400691062" endPos="95.4400691062" name="Im Seumel Pos. 12" friendlyPos="true" />
+    <busStop id="21111" lane="334902539#0_0" startPos="0.0" endPos="30.0" name="Im Seumel Pos. 11" friendlyPos="true" />
+    <busStop id="13011" lane="23329778#2_0" startPos="165.358959555" endPos="195.358959555" name="Europaplatz Pos. 11" friendlyPos="true" />
+    <busStop id="64111" lane="8588233#2_0" startPos="74.9254319222" endPos="104.925431922" name="Ziegelwiese Pos. 11" friendlyPos="true" />
+    <busStop id="40211" lane="-23201670#0_0" startPos="31.3271599038" endPos="61.3271599038" name="Steintor Pos. 11" friendlyPos="true" />
+    <busStop id="40212" lane="5059203_0" startPos="1.51905853117" endPos="31.5190585312" name="Steintor Pos. 12" friendlyPos="true" />
+    <busStop id="64112" lane="-8588233#3_0" startPos="0.0" endPos="30.0" name="Ziegelwiese Pos. 12" friendlyPos="true" />
+    <busStop id="39412" lane="-171756596_0" startPos="7.52401033289" endPos="37.5240103329" name="Staatstheater Pos. 12" friendlyPos="true" />
+    <busStop id="39411" lane="171756596_0" startPos="5.68244600061" endPos="35.6824460006" name="Staatstheater Pos. 11" friendlyPos="true" />
+    <busStop id="28411" lane="334902539#2_0" startPos="208.884011261" endPos="238.884011261" name="Marienberger Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="28412" lane="-334902539#9_0" startPos="68.846225701" endPos="98.846225701" name="Marienberger Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="32812" lane="24857829#0_0" startPos="8.72410265993" endPos="38.7241026599" name="Petristra?e Pos. 12" friendlyPos="true" />
+    <busStop id="16712" lane="-30766035_0" startPos="4.15024047885" endPos="34.1502404789" name="Hahnenkleestra?e Pos. 12" friendlyPos="true" />
+    <busStop id="16711" lane="313800998_0" startPos="0.0" endPos="30.0" name="Hahnenkleestra?e Pos. 11" friendlyPos="true" />
+    <busStop id="5911" lane="5059000#0_0" startPos="4.23184715575" endPos="34.2318471557" name="Bahnhof Gliesmarode Pos. 11" friendlyPos="true" />
+    <busStop id="27312" lane="-171266171#0_0" startPos="0.0" endPos="30.0" name="Zollkamp Pos. 12" friendlyPos="true" />
+    <busStop id="27311" lane="313800996_0" startPos="17.9986164353" endPos="47.9986164353" name="Zollkamp Pos. 11" friendlyPos="true" />
+    <busStop id="511" lane="511308724#0_0" startPos="226.346993171" endPos="256.346993171" name="Adam-Opel-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="57211" lane="25644376#0_0" startPos="12.8660815202" endPos="42.8660815202" name="Gewerbegebiet Bastholz Ost Pos. 11" friendlyPos="true" />
+    <busStop id="57212" lane="-25644376#1_0" startPos="61.0324200865" endPos="91.0324200865" name="Gewerbegebiet Bastholz Ost Pos. 12" friendlyPos="true" />
+    <busStop id="37211" lane="33199416#4_0" startPos="92.6990780463" endPos="122.699078046" name="Schlesierweg Pos. 11" friendlyPos="true" />
+    <busStop id="34511" lane="266103100#0_0" startPos="14.4004202571" endPos="44.4004202571" name="Reitlingstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="34512" lane="335369962_0" startPos="8.11298634393" endPos="38.1129863439" name="Reitlingstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="30011" lane="5021504_0" startPos="27.7617991556" endPos="57.7617991556" name="M?nzstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="18112" lane="35572821#1_0" startPos="0.0" endPos="30.0" name="Havelstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="41911" lane="266107853#1_0" startPos="0.0" endPos="30.0" name="Triftstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="41912" lane="-40040222_0" startPos="145.316054312" endPos="175.316054312" name="Triftstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="18111" lane="-549105303#4_0" startPos="30.9426322075" endPos="60.9426322075" name="Havelstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="8112" lane="-68789816#2_0" startPos="105.844155088" endPos="135.844155088" name="Westbahnhof Pos. 12" friendlyPos="true" />
+    <busStop id="39912" lane="30773325#1_0" startPos="15.8740413691" endPos="45.8740413691" name="Donnerbleek Pos. 12" friendlyPos="true" />
+    <busStop id="39911" lane="-30773325#0_0" startPos="8.12321085686" endPos="38.1232108569" name="Donnerbleek Pos. 11" friendlyPos="true" />
+    <busStop id="8111" lane="-68789816#2_0" startPos="75.3651221368" endPos="105.365122137" name="Westbahnhof Pos. 11" friendlyPos="true" />
+    <busStop id="60011" lane="-254286676#2_0" startPos="4.04986663388" endPos="34.0498666339" name="Vincent-van-Gogh-Ring Pos. 11" friendlyPos="true" />
+    <busStop id="60012" lane="254286676#0_0" startPos="183.917454342" endPos="213.917454342" name="Vincent-van-Gogh-Ring Pos. 12" friendlyPos="true" />
+    <busStop id="7711" lane="-611114548#2_0" startPos="182.244757106" endPos="212.244757106" name="Breitenhop Pos. 11" friendlyPos="true" />
+    <busStop id="7712" lane="625075014#1_0" startPos="0.0" endPos="30.0" name="Breitenhop Pos. 12" friendlyPos="true" />
+    <busStop id="11011" lane="173278277#0_0" startPos="672.241604544" endPos="702.241604544" name="Dorflage Pos. 11" friendlyPos="true" />
+    <busStop id="11012" lane="173278276#2_0" startPos="12.7904871311" endPos="42.7904871311" name="Dorflage Pos. 12" friendlyPos="true" />
+    <busStop id="23011" lane="24786912#0_0" startPos="579.999986753" endPos="609.999986753" name="Kanalbr?cke Pos. 11" friendlyPos="true" />
+    <busStop id="23012" lane="24786912#0_0" startPos="582.379099844" endPos="612.379099844" name="Kanalbr?cke Pos. 12" friendlyPos="true" />
+    <busStop id="8611" lane="-221477561_0" startPos="30.9482477129" endPos="60.9482477129" name="Burgundenplatz Pos. 11" friendlyPos="true" />
+    <busStop id="8612" lane="-221477561_0" startPos="0.0" endPos="30.0" name="Burgundenplatz Pos. 12" friendlyPos="true" />
+    <busStop id="2111" lane="4764512#9_0" startPos="0.0" endPos="30.0" name="Pillmannstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="2112" lane="4764512#0_0" startPos="533.143563043" endPos="563.143563043" name="Pillmannstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="35112" lane="-334902541#2_0" startPos="314.209141624" endPos="344.209141624" name="Rh?nweg Pos. 12" friendlyPos="true" />
+    <busStop id="28315" lane="42128193#1_0" startPos="51.1523057726" endPos="81.1523057726" name="Madamenweg Pos. 15" friendlyPos="true" />
+    <busStop id="28314" lane="626854754#0_0" startPos="7.6699200847" endPos="37.6699200847" name="Madamenweg Pos. 14" friendlyPos="true" />
+    <busStop id="28312" lane="-8078963#7_0" startPos="126.107861174" endPos="156.107861174" name="Madamenweg Pos. 12" friendlyPos="true" />
+    <busStop id="1911" lane="-108915817_0" startPos="499.044066814" endPos="529.044066814" name="Am Bruchkamp Pos. 11" friendlyPos="true" />
+    <busStop id="1912" lane="108915817_0" startPos="219.699299221" endPos="249.699299221" name="Am Bruchkamp Pos. 12" friendlyPos="true" />
+    <busStop id="28311" lane="8074215#0_0" startPos="3.21345730453" endPos="33.2134573045" name="Madamenweg Pos. 11" friendlyPos="true" />
+    <busStop id="36012" lane="-8074310#3_0" startPos="0.0" endPos="30.0" name="Saarbr?ckener Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="36011" lane="611094375#0_0" startPos="0.0" endPos="30.0" name="Saarbr?ckener Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="7212" lane="-296479157#3_0" startPos="0.0" endPos="30.0" name="Bockshornweg Pos. 12" friendlyPos="true" />
+    <busStop id="5712" lane="5059308#0_0" startPos="440.109184324" endPos="470.109184324" name="Arndtstra?e (Einwohnermeldeamt) Pos. 12" friendlyPos="true" />
+    <busStop id="5711" lane="5059308#0_0" startPos="532.794109465" endPos="562.794109465" name="Arndtstra?e (Einwohnermeldeamt) Pos. 11" friendlyPos="true" />
+    <busStop id="6212" lane="119225907#0_0" startPos="20.2977467309" endPos="50.2977467309" name="Bechtsb?tteler Weg Pos. 12" friendlyPos="true" />
+    <busStop id="6211" lane="119225907#0_0" startPos="7.96686789803" endPos="37.966867898" name="Bechtsb?tteler Weg Pos. 11" friendlyPos="true" />
+    <busStop id="64811" lane="23685562#7_0" startPos="0.0" endPos="30.0" name="Broitzemer Steinberg Pos. 11" friendlyPos="true" />
+    <busStop id="64812" lane="23685562#7_0" startPos="0.0" endPos="30.0" name="Broitzemer Steinberg Pos. 12" friendlyPos="true" />
+    <busStop id="22114" lane="23208748#0_0" startPos="10.2890798549" endPos="40.2890798549" name="John-F.-Kennedy-Platz Pos. 14" friendlyPos="true" />
+    <busStop id="22112" lane="32055654_0" startPos="0.0" endPos="30.0" name="John-F.-Kennedy-Platz Pos. 12" friendlyPos="true" />
+    <busStop id="22111" lane="24020907#0_0" startPos="24.5728442106" endPos="54.5728442106" name="John-F.-Kennedy-Platz Pos. 11" friendlyPos="true" />
+    <busStop id="6811" lane="70545096#2_0" startPos="59.9465493595" endPos="89.9465493595" name="Biberweg Pos. 11" friendlyPos="true" />
+    <busStop id="25311" lane="220427475_0" startPos="329.708975579" endPos="359.708975579" name="Efeuweg Pos. 11" friendlyPos="true" />
+    <busStop id="25312" lane="220427475_0" startPos="411.551199431" endPos="441.551199431" name="Efeuweg Pos. 12" friendlyPos="true" />
+    <busStop id="6812" lane="-70545096#5_0" startPos="76.5983225128" endPos="106.598322513" name="Biberweg Pos. 12" friendlyPos="true" />
+    <busStop id="33612" lane="493783055_0" startPos="46.3783377633" endPos="76.3783377633" name="Prinz-Albrecht-Park Pos. 12" friendlyPos="true" />
+    <busStop id="33613" lane="23258241_0" startPos="64.7481188975" endPos="94.7481188975" name="Prinz-Albrecht-Park Pos. 13" friendlyPos="true" />
+    <busStop id="33611" lane="445787491#0_0" startPos="0.0" endPos="30.0" name="Prinz-Albrecht-Park Pos. 11" friendlyPos="true" />
+    <busStop id="5212" lane="8074215#14_0" startPos="325.204225476" endPos="355.204225476" name="An der Horst Pos. 12" friendlyPos="true" />
+    <busStop id="5211" lane="-246580705#0_0" startPos="0.0" endPos="30.0" name="An der Horst Pos. 11" friendlyPos="true" />
+    <busStop id="62711" lane="-8074215#10_0" startPos="200.02152327" endPos="230.02152327" name="Pfingststra?e Pos. 11" friendlyPos="true" />
+    <busStop id="62712" lane="8074215#8_0" startPos="21.7977247237" endPos="51.7977247237" name="Pfingststra?e Pos. 12" friendlyPos="true" />
+    <busStop id="12612" lane="508833480#0_0" startPos="20.7184910257" endPos="50.7184910257" name="Essener Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="12611" lane="-508833480#1_0" startPos="14.9592406282" endPos="44.9592406282" name="Essener Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="13711" lane="18962450#0_0" startPos="2.25540060234" endPos="32.2554006023" name="Friedrich-Wilhelm-Platz Pos. 11" friendlyPos="true" />
+    <busStop id="13712" lane="32055586#0_0" startPos="41.897581957" endPos="71.897581957" name="Friedrich-Wilhelm-Platz Pos. 12" friendlyPos="true" />
+    <busStop id="8911" lane="-4764512#10_0" startPos="0.0" endPos="30.0" name="Carl-Giesecke-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="18711" lane="25076294_0" startPos="0.0" endPos="30.0" name="Heinrich-B?ssing-Ring Pos. 11" friendlyPos="true" />
+    <busStop id="18712" lane="393079302#0_0" startPos="370.011361382" endPos="400.011361382" name="Heinrich-B?ssing-Ring Pos. 12" friendlyPos="true" />
+    <busStop id="28511" lane="622456655#0_0" startPos="104.719823898" endPos="134.719823898" name="Marienstift Pos. 11" friendlyPos="true" />
+    <busStop id="28512" lane="-375217310#3_0" startPos="60.4488521893" endPos="90.4488521893" name="Marienstift Pos. 12" friendlyPos="true" />
+    <busStop id="35412" lane="5640212#14_0" startPos="0.0" endPos="30.0" name="Rodelandweg Pos. 12" friendlyPos="true" />
+    <busStop id="27812" lane="4747687#4_0" startPos="318.825860084" endPos="348.825860084" name="Ligusterweg Pos. 12" friendlyPos="true" />
+    <busStop id="39512" lane="499157750#0_0" startPos="0.0" endPos="30.0" name="Stadion (Schwarzer Berg) Pos. 12" friendlyPos="true" />
+    <busStop id="11411" lane="-125502241#1_0" startPos="11.3534561387" endPos="41.3534561387" name="Stresemannstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="11412" lane="125502241#0_0" startPos="13.0584191267" endPos="43.0584191267" name="Stresemannstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="57812" lane="-610196760#7_0" startPos="0.0" endPos="30.0" name="Zur Wabe Pos. 12" friendlyPos="true" />
+    <busStop id="4711" lane="10522135#2_0" startPos="0.0" endPos="30.0" name="Aussigstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="4712" lane="-10522135#1_0" startPos="11.3024123053" endPos="41.3024123053" name="Aussigstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="57811" lane="-610196760#7_0" startPos="0.0" endPos="30.0" name="Zur Wabe Pos. 11" friendlyPos="true" />
+    <busStop id="16114" lane="376743573#0_0" startPos="80.5830049949" endPos="110.583004995" name="G?ldenstra?e Pos. 14" friendlyPos="true" />
+    <busStop id="16115" lane="167920428#3_0" startPos="94.2200255406" endPos="124.220025541" name="G?ldenstra?e Pos. 15" friendlyPos="true" />
+    <busStop id="27211" lane="23295226#2_0" startPos="0.0" endPos="30.0" name="Leonhardplatz (Stadthalle) Pos. 11" friendlyPos="true" />
+    <busStop id="16110" lane="8618349#0_0" startPos="22.281454489" endPos="52.281454489" name="G?ldenstra?e Pos. 10" friendlyPos="true" />
+    <busStop id="16111" lane="320814805#0_0" startPos="68.4012848619" endPos="98.4012848619" name="G?ldenstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="16112" lane="-320399277#2_0" startPos="0.0" endPos="30.0" name="G?ldenstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="27214" lane="29136146#0_0" startPos="14.7183284804" endPos="44.7183284804" name="Leonhardplatz (Stadthalle) Pos. 14" friendlyPos="true" />
+    <busStop id="68612" lane="-10609773#1_0" startPos="72.0796596124" endPos="102.079659612" name="Engelhardstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="68611" lane="10609773#0_0" startPos="60.2965636254" endPos="90.2965636254" name="Engelhardstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="34912" lane="61734682#0_0" startPos="199.882836475" endPos="229.882836475" name="Richard-Strau?-Weg Pos. 12" friendlyPos="true" />
+    <busStop id="3711" lane="70545098#1_0" startPos="0.0" endPos="30.0" name="Am M?hlengraben Pos. 11" friendlyPos="true" />
+    <busStop id="3712" lane="-70545098#2_0" startPos="7.50689318504" endPos="37.506893185" name="Am M?hlengraben Pos. 12" friendlyPos="true" />
+    <busStop id="31112" lane="511268003#1_0" startPos="0.244349518122" endPos="30.2443495181" name="Nordstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="31111" lane="206498903#2_0" startPos="0.0" endPos="30.0" name="Nordstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="34411" lane="-253468162#1_0" startPos="0.0" endPos="30.0" name="Rautheimer Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="34412" lane="34609530_0" startPos="0.0" endPos="30.0" name="Rautheimer Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="41811" lane="-10061776#1_0" startPos="211.965087842" endPos="241.965087842" name="Trierstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="18012" lane="25076207#9_0" startPos="114.806233112" endPos="144.806233112" name="Willy-Brandt-Platz Pos. 12" friendlyPos="true" />
+    <busStop id="18011" lane="30420838#0_0" startPos="0.0" endPos="30.0" name="Willy-Brandt-Platz Pos. 11" friendlyPos="true" />
+    <busStop id="41812" lane="10061776#0_0" startPos="0.0" endPos="30.0" name="Trierstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="19811" lane="-10522152#3_0" startPos="82.5692307959" endPos="112.569230796" name="Julius-Konegen-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="19812" lane="10522152#0_0" startPos="273.62790401" endPos="303.62790401" name="Julius-Konegen-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="38112" lane="-80632790_0" startPos="0.0" endPos="30.0" name="Senefelderstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="11111" lane="-173759898#2_0" startPos="94.960160997" endPos="124.960160997" name="Dreisch Pos. 11" friendlyPos="true" />
+    <busStop id="11112" lane="173759898#1_0" startPos="0.0" endPos="30.0" name="Dreisch Pos. 12" friendlyPos="true" />
+    <busStop id="7811" lane="-30773148#5_0" startPos="0.0" endPos="30.0" name="Brockenblick Pos. 11" friendlyPos="true" />
+    <busStop id="37112" lane="511308710#0_0" startPos="157.835856953" endPos="187.835856953" name="Benzstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="29112" lane="655716537#0_0" startPos="15.7732235262" endPos="45.7732235262" name="Messegel?nde Nordeingang Pos. 12" friendlyPos="true" />
+    <busStop id="29111" lane="314533287#0_0" startPos="37.726529318" endPos="67.726529318" name="Messegel?nde Nordeingang Pos. 11" friendlyPos="true" />
+    <busStop id="29114" lane="29374280#0_0" startPos="0.0" endPos="30.0" name="Messegel?nde Nordeingang Pos. 14" friendlyPos="true" />
+    <busStop id="25211" lane="-71079508#3_0" startPos="0.0461549398733" endPos="30.0461549399" name="Steinriedendamm Pos. 11" friendlyPos="true" />
+    <busStop id="25213" lane="-116064030#1_0" startPos="0.0" endPos="30.0" name="Steinriedendamm Pos. 13" friendlyPos="true" />
+    <busStop id="25212" lane="625219026#0_0" startPos="12.6671010215" endPos="42.6671010215" name="Steinriedendamm Pos. 12" friendlyPos="true" />
+    <busStop id="44212" lane="184125909_0" startPos="287.066494603" endPos="317.066494603" name="Wartheweg Pos. 12" friendlyPos="true" />
+    <busStop id="61611" lane="55823887#4_0" startPos="154.559399187" endPos="184.559399187" name="Boltenberg Pos. 11" friendlyPos="true" />
+    <busStop id="61612" lane="-55823887#5_0" startPos="63.348598576" endPos="93.348598576" name="Boltenberg Pos. 12" friendlyPos="true" />
+    <busStop id="38411" lane="190405266#0_0" startPos="159.420081879" endPos="189.420081879" name="Friedrich-Wilhelm-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="13311" lane="385335116#0_0" startPos="5.15223287116" endPos="35.1522328712" name="Fabrikstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="27713" lane="-173277151#5_0" startPos="54.2352371495" endPos="84.2352371495" name="Liegnitzstra?e Pos. 13" friendlyPos="true" />
+    <busStop id="13312" lane="385335102#0_0" startPos="3.24504041428" endPos="33.2450404143" name="Fabrikstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="6312" lane="512158813#0_0" startPos="0.0" endPos="30.0" name="Beethovenstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="25812" lane="246580705#15_0" startPos="681.001724837" endPos="711.001724837" name="Kr?ppelberg Pos. 12" friendlyPos="true" />
+    <busStop id="25811" lane="246580705#15_0" startPos="685.911947609" endPos="715.911947609" name="Kr?ppelberg Pos. 11" friendlyPos="true" />
+    <busStop id="6311" lane="512158815#0_0" startPos="5.57340791268" endPos="35.5734079127" name="Beethovenstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="412" lane="61302715#0_0" startPos="31.1971275134" endPos="61.1971275134" name="Ackerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="413" lane="578374647#0_0" startPos="198.979434436" endPos="228.979434436" name="Ackerstra?e Pos. 13" friendlyPos="true" />
+    <busStop id="33712" lane="321325383#0_0" startPos="12.267377303" endPos="42.267377303" name="Querumer Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="33711" lane="125502221_0" startPos="1.12678556266" endPos="31.1267855627" name="Querumer Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="35211" lane="220433669_0" startPos="493.39876933" endPos="523.39876933" name="Richmondweg Pos. 11" friendlyPos="true" />
+    <busStop id="35212" lane="591178581_0" startPos="0.0" endPos="30.0" name="Richmondweg Pos. 12" friendlyPos="true" />
+    <busStop id="38511" lane="-313809967#1_0" startPos="0.0" endPos="30.0" name="Siekgraben Pos. 11" friendlyPos="true" />
+    <busStop id="38512" lane="313809968#0_0" startPos="9.37020071268" endPos="39.3702007127" name="Siekgraben Pos. 12" friendlyPos="true" />
+    <busStop id="4211" lane="325528935#0_0" startPos="101.957819054" endPos="131.957819054" name="Am Queckenberg Pos. 11" friendlyPos="true" />
+    <busStop id="9911" lane="222114077#1_0" startPos="266.46411366" endPos="296.46411366" name="Dammwiese Pos. 11" friendlyPos="true" />
+    <busStop id="9912" lane="-222114077#5_0" startPos="0.0" endPos="30.0" name="Dammwiese Pos. 12" friendlyPos="true" />
+    <busStop id="33011" lane="-24727641#4_0" startPos="15.3370388796" endPos="45.3370388796" name="Pfarrgasse Pos. 11" friendlyPos="true" />
+    <busStop id="33012" lane="-24727641#4_0" startPos="10.9030907959" endPos="40.9030907959" name="Pfarrgasse Pos. 12" friendlyPos="true" />
+    <busStop id="8511" lane="33289080#0_0" startPos="46.8847945176" endPos="76.8847945176" name="B?rgerpark Pos. 11" friendlyPos="true" />
+    <busStop id="41312" lane="505402280_0" startPos="327.993165799" endPos="357.993165799" name="Thiedebacher Weg Pos. 12" friendlyPos="true" />
+    <chargingStation id="3" chargeDelay="2" chargeInTransit="1" power="200000" efficiency="0.95" endPos="44.1331281092" lane="48861560#0_0" startPos="14.1331281092" friendlyPos="true" />
+    <busStop id="41311" lane="-578545347_0" startPos="2.11829586377" endPos="32.1182958638" name="Thiedebacher Weg Pos. 11" friendlyPos="true" />
+    <busStop id="12312" lane="624354914#2_0" startPos="21.9053951514" endPos="51.9053951514" name="Erfurtplatz Pos. 12" friendlyPos="true" />
+    <busStop id="12311" lane="81362183#4_0" startPos="5.98740486773" endPos="35.9874048677" name="Erfurtplatz Pos. 11" friendlyPos="true" />
+    <busStop id="44211" lane="-30427558_0" startPos="14.6024582623" endPos="44.6024582623" name="Wartheweg Pos. 11" friendlyPos="true" />
+    <busStop id="32811" lane="24857827#1_0" startPos="46.3468898309" endPos="76.3468898309" name="Petristra?e Pos. 11" friendlyPos="true" />
+    <busStop id="19212" lane="10522141#0-AddedOffRampEdge_0" startPos="23.2374548642" endPos="53.2374548642" name="Hildesheimer Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="56212" lane="611113394#0_0" startPos="66.076543675" endPos="96.076543675" name="Aschenkamp Pos. 12" friendlyPos="true" />
+    <busStop id="56211" lane="611113394#0_0" startPos="66.076543675" endPos="96.076543675" name="Aschenkamp Pos. 11" friendlyPos="true" />
+    <busStop id="19211" lane="122164793_0" startPos="0.470326403778" endPos="30.4703264038" name="Hildesheimer Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="54711" lane="27031985#7_0" startPos="252.650069044" endPos="282.650069044" name="Falkenhorst Pos. 11" friendlyPos="true" />
+    <busStop id="54712" lane="-27031985#7_0" startPos="15.3887377255" endPos="45.3887377255" name="Falkenhorst Pos. 12" friendlyPos="true" />
+    <busStop id="35513" lane="7975423_0" startPos="0.0" endPos="30.0" name="Rudolfplatz Pos. 13" friendlyPos="true" />
+    <busStop id="23414" lane="321714431#0_0" startPos="12.3548807275" endPos="42.3548807275" name="Kastanienallee Pos. 14" friendlyPos="true" />
+    <busStop id="35511" lane="4365024#0_0" startPos="0.0" endPos="30.0" name="Rudolfplatz Pos. 11" friendlyPos="true" />
+    <busStop id="35510" lane="375722891#0_0" startPos="15.2443276604" endPos="45.2443276604" name="Rudolfplatz Pos. 10" friendlyPos="true" />
+    <busStop id="23411" lane="-321714436#3_0" startPos="0.0" endPos="30.0" name="Kastanienallee Pos. 11" friendlyPos="true" />
+    <busStop id="34911" lane="33274940_0" startPos="0.0" endPos="30.0" name="Richard-Strau?-Weg Pos. 11" friendlyPos="true" />
+    <busStop id="23413" lane="321714432#0_0" startPos="8.38241504017" endPos="38.3824150402" name="Kastanienallee Pos. 13" friendlyPos="true" />
+    <busStop id="23412" lane="321714437#0_0" startPos="0.0" endPos="30.0" name="Kastanienallee Pos. 12" friendlyPos="true" />
+    <busStop id="3311" lane="35577458#0_0" startPos="0.0" endPos="30.0" name="Am Lehmanger Pos. 11" friendlyPos="true" />
+    <busStop id="3310" lane="23620035#10_0" startPos="244.169585407" endPos="274.169585407" name="Am Lehmanger Pos. 10" friendlyPos="true" />
+    <busStop id="3312" lane="35577458#0_0" startPos="0.0" endPos="30.0" name="Am Lehmanger Pos. 12" friendlyPos="true" />
+    <busStop id="3315" lane="325528566#2_0" startPos="64.8608975654" endPos="94.8608975654" name="Am Lehmanger Pos. 15" friendlyPos="true" />
+    <busStop id="57912" lane="-246580791#2_0" startPos="200.912253406" endPos="230.912253406" name="Hebbelstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="57911" lane="173274761#0_0" startPos="0.0" endPos="30.0" name="Hebbelstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="21512" lane="-106565788#2_0" startPos="0.0" endPos="30.0" name="Neunkirchener Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="40912" lane="246580705#5_0" startPos="282.682203593" endPos="312.682203593" name="Strombeckstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="40911" lane="-246580705#12_0" startPos="0.0" endPos="30.0" name="Strombeckstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="62211" lane="10318959#0_0" startPos="0.0" endPos="30.0" name="St?ckheimer Markt Pos. 11" friendlyPos="true" />
+    <busStop id="11511" lane="5005718_0" startPos="0.0" endPos="30.0" name="Eckenerstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="62212" lane="-313809961_0" startPos="0.0" endPos="30.0" name="St?ckheimer Markt Pos. 12" friendlyPos="true" />
+    <busStop id="11512" lane="5005718_0" startPos="0.0" endPos="30.0" name="Eckenerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="16012" lane="-60749771#2_0" startPos="166.112215273" endPos="196.112215273" name="Gr?ner J?ger Pos. 12" friendlyPos="true" />
+    <busStop id="8813" lane="346600388#0_1" startPos="20.1654154984" endPos="50.1654154984" name="Campestra?e Pos. 13" friendlyPos="true" />
+    <busStop id="8812" lane="206893436#2_0" startPos="18.244598516" endPos="48.244598516" name="Campestra?e Pos. 12" friendlyPos="true" />
+    <busStop id="35515" lane="624411668#0_0" startPos="0.0" endPos="30.0" name="Rudolfplatz Pos. 15" friendlyPos="true" />
+    <busStop id="30712" lane="-33878474#5_0" startPos="0.0" endPos="30.0" name="Nietzschestra?e Pos. 12" friendlyPos="true" />
+    <busStop id="30711" lane="-33878474#5_0" startPos="1.98435060459" endPos="31.9843506046" name="Nietzschestra?e Pos. 11" friendlyPos="true" />
+    <busStop id="29012" lane="216936515#8_0" startPos="0.0" endPos="30.0" name="Messeweg Pos. 12" friendlyPos="true" />
+    <busStop id="29011" lane="-216936515#8_0" startPos="0.0" endPos="30.0" name="Messeweg Pos. 11" friendlyPos="true" />
+    <busStop id="28011" lane="-223096653#12_0" startPos="38.0162865989" endPos="68.0162865989" name="Hans-Geitel-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="28012" lane="223096653#10_0" startPos="5.37747276756" endPos="35.3774727676" name="Hans-Geitel-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="38012" lane="-8093325#3_0" startPos="0.0" endPos="30.0" name="Seikenkamp Pos. 12" friendlyPos="true" />
+    <busStop id="43912" lane="-28809230#4_0" startPos="445.849237871" endPos="475.849237871" name="von Pawelsches Holz Pos. 12" friendlyPos="true" />
+    <busStop id="43911" lane="29436942#1_0" startPos="401.040373088" endPos="431.040373088" name="von Pawelsches Holz Pos. 11" friendlyPos="true" />
+    <busStop id="10912" lane="325528581#0_0" startPos="114.999086605" endPos="144.999086605" name="Donauknoten Pos. 12" friendlyPos="true" />
+    <busStop id="10911" lane="26329506#0_0" startPos="4.95289759235" endPos="34.9528975924" name="Donauknoten Pos. 11" friendlyPos="true" />
+    <busStop id="10816" lane="-91917616_0" startPos="94.7063301343" endPos="124.706330134" name="Dieselstra?e Pos. 16" friendlyPos="true" />
+    <busStop id="33615" lane="-61567473#3_0" startPos="0.0" endPos="30.0" name="Prinz-Albrecht-Park Pos. 15" friendlyPos="true" />
+    <busStop id="17112" lane="29136063#0_0" startPos="47.5108190541" endPos="77.5108190541" name="Hans-Sommer-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="17111" lane="512158816#0_0" startPos="66.74565213" endPos="96.74565213" name="Hans-Sommer-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="72611" lane="-61513717#0_0" startPos="0.0" endPos="30.0" name="In den Spring?ckern Pos. 11" friendlyPos="true" />
+    <busStop id="72612" lane="61513717#1_0" startPos="0.0" endPos="30.0" name="In den Spring?ckern Pos. 12" friendlyPos="true" />
+    <busStop id="15011" lane="-610203713#0_0" startPos="64.8836239637" endPos="94.8836239637" name="Glogaustra?e Pos. 11" friendlyPos="true" />
+    <busStop id="15012" lane="323999318#1_0" startPos="0.0" endPos="30.0" name="Glogaustra?e Pos. 12" friendlyPos="true" />
+    <busStop id="36311" lane="5210623#0_0" startPos="22.1502266284" endPos="52.1502266284" name="Staatl.Untersuchungs?mter Pos. 11" friendlyPos="true" />
+    <busStop id="36312" lane="-5210623#2_0" startPos="120.004405177" endPos="150.004405177" name="Staatl.Untersuchungs?mter Pos. 12" friendlyPos="true" />
+    <busStop id="32212" lane="37983000_0" startPos="41.0228092444" endPos="71.0228092444" name="Packhof Pos. 12" friendlyPos="true" />
+    <busStop id="21511" lane="-106565788#2_0" startPos="0.0" endPos="30.0" name="Neunkirchener Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="129211" lane="-278491962#30_0" startPos="615.502682186" endPos="645.502682186" name="Walle,Gewerbegebiet Waller See (West) Po" friendlyPos="true" />
+    <busStop id="129212" lane="-278491962#30_0" startPos="624.294191011" endPos="654.294191011" name="Walle,Gewerbegebiet Waller See (West) Po" friendlyPos="true" />
+    <busStop id="1511" lane="-625229902_0" startPos="0.0" endPos="30.0" name="Altstadtmarkt Pos. 11" friendlyPos="true" />
+    <busStop id="2511" lane="611101972_0" startPos="8.12924991741" endPos="38.1292499174" name="Am Grasplatz Pos. 11" friendlyPos="true" />
+    <busStop id="2512" lane="-33199328_0" startPos="0.0" endPos="30.0" name="Am Grasplatz Pos. 12" friendlyPos="true" />
+    <busStop id="1512" lane="8108069_0" startPos="0.0" endPos="30.0" name="Altstadtmarkt Pos. 12" friendlyPos="true" />
+    <busStop id="42811" lane="277665454#1_0" startPos="0.0" endPos="30.0" name="Varrentrappstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="9614" lane="30622616_0" startPos="0.0" endPos="30.0" name="D.L.R. Pos. 14" friendlyPos="true" />
+    <busStop id="9612" lane="-4764258_0" startPos="0.0" endPos="30.0" name="D.L.R. Pos. 12" friendlyPos="true" />
+    <busStop id="9613" lane="30622616_0" startPos="0.0" endPos="30.0" name="D.L.R. Pos. 13" friendlyPos="true" />
+    <busStop id="5113" lane="-103495995#2_0" startPos="10.7634253605" endPos="40.7634253605" name="Maienstra?e Pos. 13" friendlyPos="true" />
+    <busStop id="9611" lane="-4764258_0" startPos="0.0" endPos="30.0" name="D.L.R. Pos. 11" friendlyPos="true" />
+    <busStop id="134411" lane="-278491962#30_0" startPos="103.163895863" endPos="133.163895863" name="Walle, Gewerbegebiet Waller See (Ost) Po" friendlyPos="true" />
+    <busStop id="14012" lane="-610299118#2_0" startPos="17.611714667" endPos="47.611714667" name="Freyastra?e Pos. 12" friendlyPos="true" />
+    <busStop id="14011" lane="610299118#0_0" startPos="27.0636634413" endPos="57.0636634413" name="Freyastra?e Pos. 11" friendlyPos="true" />
+    <busStop id="134412" lane="-278491962#30_0" startPos="103.163895863" endPos="133.163895863" name="Walle, Gewerbegebiet Waller See (Ost) Po" friendlyPos="true" />
+    <busStop id="22812" lane="223096653#0_0" startPos="241.861750429" endPos="271.861750429" name="Julius-Elster-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="22811" lane="-223096653#9_0" startPos="153.373676032" endPos="183.373676032" name="Julius-Elster-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="33111" lane="29436942#1_0" startPos="0.0" endPos="30.0" name="Pfleidererstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="33112" lane="-29436942#0_0" startPos="0.815204893554" endPos="30.8152048936" name="Pfleidererstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="1811" lane="-4729000#2_0" startPos="29.8672494383" endPos="59.8672494383" name="Am Berge Pos. 11" friendlyPos="true" />
+    <busStop id="1812" lane="-4729000#2_0" startPos="29.8672494383" endPos="59.8672494383" name="Am Berge Pos. 12" friendlyPos="true" />
+    <busStop id="6411" lane="319192876#0_0" startPos="176.349549362" endPos="206.349549362" name="Bei dem Gerichte Pos. 11" friendlyPos="true" />
+    <busStop id="6412" lane="10522108#2_0" startPos="18.6741794852" endPos="48.6741794852" name="Bei dem Gerichte Pos. 12" friendlyPos="true" />
+    <busStop id="12212" lane="127240643#4_0" startPos="392.855473862" endPos="422.855473862" name="Ekbertstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="12211" lane="314533287#0_0" startPos="351.617589727" endPos="381.617589727" name="Ekbertstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="35812" lane="85272780#2_0" startPos="0.0" endPos="30.0" name="Hansestra?e Ost Pos. 12" friendlyPos="true" />
+    <busStop id="61311" lane="73058979#0_0" startPos="0.0" endPos="30.0" name="Am Spieltore Pos. 11" friendlyPos="true" />
+    <busStop id="61312" lane="73058979#0_0" startPos="0.0" endPos="30.0" name="Am Spieltore Pos. 12" friendlyPos="true" />
+    <busStop id="35811" lane="120991989_0" startPos="0.0" endPos="30.0" name="Hansestra?e Ost Pos. 11" friendlyPos="true" />
+    <busStop id="55212" lane="-381603795#1_0" startPos="0.0" endPos="30.0" name="An den G?rtnerh?fen Pos. 12" friendlyPos="true" />
+    <busStop id="55211" lane="-381603795#1_0" startPos="0.0" endPos="30.0" name="An den G?rtnerh?fen Pos. 11" friendlyPos="true" />
+    <busStop id="34811" lane="-626854746#4_0" startPos="1165.50684717" endPos="1195.50684717" name="Reuchlinstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="34812" lane="246580705#15_0" startPos="30.968262299" endPos="60.968262299" name="Reuchlinstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="22513" lane="30424681#0_0" startPos="3.65460524157" endPos="33.6546052416" name="Jasperallee Pos. 13" friendlyPos="true" />
+    <busStop id="22512" lane="30429265#0_0" startPos="7.83658842485" endPos="37.8365884249" name="Jasperallee Pos. 12" friendlyPos="true" />
+    <busStop id="22511" lane="30425927#0_0" startPos="0.0" endPos="30.0" name="Jasperallee Pos. 11" friendlyPos="true" />
+    <busStop id="22514" lane="23207367#0_0" startPos="2.6915117354" endPos="32.6915117354" name="Jasperallee Pos. 14" friendlyPos="true" />
+    <busStop id="56411" lane="25644376#2_0" startPos="592.696135088" endPos="622.696135088" name="In den Waashainen Pos. 11" friendlyPos="true" />
+    <busStop id="21412" lane="8035087#0_0" startPos="6.59306538237" endPos="36.5930653824" name="Duisburger Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="21411" lane="8035088_0" startPos="0.0" endPos="30.0" name="Duisburger Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="56412" lane="625219035#0_0" startPos="25.5872092684" endPos="55.5872092684" name="In den Waashainen Pos. 12" friendlyPos="true" />
+    <busStop id="4012" lane="30253923_0" startPos="7.48346635596" endPos="37.483466356" name="Am Platz Pos. 12" friendlyPos="true" />
+    <busStop id="4011" lane="30253923_0" startPos="3.60087417932" endPos="33.6008741793" name="Am Platz Pos. 11" friendlyPos="true" />
+    <busStop id="8912" lane="23170152#0_0" startPos="452.199042794" endPos="482.199042794" name="Carl-Giesecke-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="36212" lane="504401512_0" startPos="12.9277226453" endPos="42.9277226453" name="Sachsendamm Pos. 12" friendlyPos="true" />
+    <busStop id="28111" lane="10231578#3_0" startPos="0.0" endPos="30.0" name="Luisenstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="28113" lane="23329778#0_0" startPos="0.0" endPos="30.0" name="Luisenstra?e Pos. 13" friendlyPos="true" />
+    <busStop id="36215" lane="122024414#0_0" startPos="16.7676935829" endPos="46.7676935829" name="Sachsendamm Pos. 15" friendlyPos="true" />
+    <busStop id="61211" lane="55823887#1_0" startPos="0.0" endPos="30.0" name="Kreuztor Pos. 11" friendlyPos="true" />
+    <busStop id="61212" lane="-55823887#2_0" startPos="65.6764569999" endPos="95.6764569999" name="Kreuztor Pos. 12" friendlyPos="true" />
+    <busStop id="17712" lane="361120213#0_0" startPos="0.0" endPos="30.0" name="Hauptbahnhof S?d Pos. 12" friendlyPos="true" />
+    <busStop id="7112" lane="-30622683#1_0" startPos="131.082506094" endPos="161.082506094" name="Spechtweg Pos. 12" friendlyPos="true" />
+    <busStop id="7111" lane="-329721714#3_0" startPos="0.0" endPos="30.0" name="Spechtweg Pos. 11" friendlyPos="true" />
+    <busStop id="26112" lane="-27031985#1_0" startPos="664.816410582" endPos="694.816410582" name="L?genkamp Pos. 12" friendlyPos="true" />
+    <busStop id="27411" lane="69631016#0_0" startPos="27.1023832849" endPos="57.1023832849" name="Lichtenberger Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="35512" lane="7975431#0_0" startPos="90.2283049734" endPos="120.228304973" name="Rudolfplatz Pos. 12" friendlyPos="true" />
+    <busStop id="27412" lane="549105303#0_0" startPos="0.0" endPos="30.0" name="Lichtenberger Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="10811" lane="625238453_0" startPos="16.4474747463" endPos="46.4474747463" name="Dieselstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="19312" lane="223036375#2_0" startPos="0.0" endPos="30.0" name="Hinter den Hainen Pos. 12" friendlyPos="true" />
+    <busStop id="19311" lane="-223036375#2_0" startPos="0.0" endPos="30.0" name="Hinter den Hainen Pos. 11" friendlyPos="true" />
+    <busStop id="67511" lane="151627454_0" startPos="0.0" endPos="30.0" name="Hermann-Blenk-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="17212" lane="23170152#0_0" startPos="177.821285324" endPos="207.821285324" name="Hansestra?e West Pos. 12" friendlyPos="true" />
+    <busStop id="21912" lane="35572821#3_0" startPos="246.601980684" endPos="276.601980684" name="Isarstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="21911" lane="-35572821#7_0" startPos="8.96636957912" endPos="38.9663695791" name="Isarstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="58312" lane="381603795#8_0" startPos="119.654094375" endPos="149.654094375" name="Neckarstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="59011" lane="-32020609#1_0" startPos="0.0" endPos="30.0" name="Luftstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="59012" lane="32020609#2_0" startPos="4.71659246142" endPos="34.7165924614" name="Luftstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="13411" lane="-611114548#2_0" startPos="0.0" endPos="30.0" name="Feuerbrunnen Pos. 11" friendlyPos="true" />
+    <busStop id="41712" lane="586130367_0" startPos="0.0" endPos="30.0" name="Tostmannplatz Pos. 12" friendlyPos="true" />
+    <busStop id="13414" lane="-610165278_0" startPos="0.0" endPos="30.0" name="Feuerbrunnen Pos. 14" friendlyPos="true" />
+    <busStop id="42312" lane="23622210#2_0" startPos="0.0" endPos="30.0" name="Turmstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="25512" lane="-61302701#0_0" startPos="39.6726939527" endPos="69.6726939527" name="Helmstedter Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="15114" lane="80725614#6_0" startPos="0.0" endPos="30.0" name="G?rlitzstra?e Pos. 14" friendlyPos="true" />
+    <busStop id="15111" lane="-610203713#4_0" startPos="0.0" endPos="30.0" name="G?rlitzstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="42311" lane="23622210#2_0" startPos="0.0" endPos="30.0" name="Turmstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="6013" lane="625219035#0_0" startPos="453.77545169" endPos="483.77545169" name="Bastholzsiedlung Pos. 13" friendlyPos="true" />
+    <busStop id="6014" lane="25644376#2_0" startPos="197.944470328" endPos="227.944470328" name="Bastholzsiedlung Pos. 14" friendlyPos="true" />
+    <busStop id="34312" lane="486738431#5_0" startPos="0.0" endPos="30.0" name="Neuer Kamp Pos. 12" friendlyPos="true" />
+    <busStop id="30614" lane="-221477562#2_0" startPos="0.0" endPos="30.0" name="Nibelungenplatz Pos. 14" friendlyPos="true" />
+    <busStop id="31211" lane="-60151069#2_0" startPos="0.0" endPos="30.0" name="Nu?bergstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="31212" lane="60151069#3_0" startPos="3.38391655517" endPos="33.3839165552" name="Nu?bergstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="62912" lane="512159603_0" startPos="44.8075813023" endPos="74.8075813023" name="Am Oberstiege Pos. 12" friendlyPos="true" />
+    <busStop id="62911" lane="23952720#1_0" startPos="0.0" endPos="30.0" name="Am Oberstiege Pos. 11" friendlyPos="true" />
+    <busStop id="30911" lane="359426034_0" startPos="107.659886813" endPos="137.659886813" name="Schuntersiedlung Pos. 11" friendlyPos="true" />
+    <busStop id="30912" lane="-359426035#1_0" startPos="38.7317708653" endPos="68.7317708653" name="Schuntersiedlung Pos. 12" friendlyPos="true" />
+    <busStop id="21211" lane="-511175452_0" startPos="0.0" endPos="30.0" name="Im Steinkampe Pos. 11" friendlyPos="true" />
+    <busStop id="13912" lane="-367772443#2_0" startPos="120.353476875" endPos="150.353476875" name="Hermannstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="13911" lane="10522156#6_0" startPos="65.9890204236" endPos="95.9890204236" name="Hermannstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="21212" lane="511175451_0" startPos="0.0" endPos="30.0" name="Im Steinkampe Pos. 12" friendlyPos="true" />
+    <busStop id="17412" lane="61567479#0_0" startPos="0.508702189571" endPos="30.5087021896" name="Hartgerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="22912" lane="31722496#4_0" startPos="4.04950502306" endPos="34.0495050231" name="K?lberwiese Pos. 12" friendlyPos="true" />
+    <busStop id="22911" lane="231661249#6_0" startPos="4.02780424465" endPos="34.0278042447" name="K?lberwiese Pos. 11" friendlyPos="true" />
+    <busStop id="17411" lane="-61567479#2_0" startPos="31.3299715652" endPos="61.3299715652" name="Hartgerstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="14512" lane="589710885_0" startPos="70.7409073586" endPos="100.740907359" name="Geiteldestra?e Pos. 12" friendlyPos="true" />
+    <busStop id="14511" lane="-624356727_0" startPos="111.087252683" endPos="141.087252683" name="Geiteldestra?e Pos. 11" friendlyPos="true" />
+    <busStop id="4412" lane="4747687#43_0" startPos="0.0" endPos="30.0" name="Schlehenhang Pos. 12" friendlyPos="true" />
+    <busStop id="34311" lane="-486738431#5_0" startPos="2.80040667583" endPos="32.8004066758" name="Neuer Kamp Pos. 11" friendlyPos="true" />
+    <busStop id="911" lane="8093325#0_0" startPos="7.60493072053" endPos="37.6049307205" name="Alte Dorfstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="912" lane="-8093325#3_0" startPos="248.555286131" endPos="278.555286131" name="Alte Dorfstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="31311" lane="-24342703#3_0" startPos="514.507085592" endPos="544.507085592" name="Nu?berg Pos. 11" friendlyPos="true" />
+    <busStop id="31312" lane="24342703#0_0" startPos="79.6586640239" endPos="109.658664024" name="Nu?berg Pos. 12" friendlyPos="true" />
+    <busStop id="21012" lane="5640227#0_0" startPos="136.556728844" endPos="166.556728844" name="Im Gro?en Moore Pos. 12" friendlyPos="true" />
+    <busStop id="11212" lane="80817384#3_0" startPos="223.530576294" endPos="253.530576294" name="Dresdenstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="11211" lane="-80817384#9_0" startPos="7.1215472931" endPos="37.1215472931" name="Dresdenstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="21011" lane="5640227#0_0" startPos="150.745164535" endPos="180.745164535" name="Im Gro?en Moore Pos. 11" friendlyPos="true" />
+    <busStop id="36113" lane="-121228319#4_0" startPos="28.6246104931" endPos="58.6246104931" name="Saarplatz Pos. 13" friendlyPos="true" />
+    <busStop id="23312" lane="178631879#3_0" startPos="0.0" endPos="30.0" name="Kasernenstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="23311" lane="23095961#5_0" startPos="0.0" endPos="30.0" name="Kasernenstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="35514" lane="7975439#0_0" startPos="38.4964954685" endPos="68.4964954685" name="Rudolfplatz Pos. 14" friendlyPos="true" />
+    <busStop id="41711" lane="586130364#0_0" startPos="13.4332203151" endPos="43.4332203151" name="Tostmannplatz Pos. 11" friendlyPos="true" />
+    <busStop id="684011" lane="113049480#0_0" startPos="0.0" endPos="30.0" name="Steinecke Pos. 11" friendlyPos="true" />
+    <busStop id="32413" lane="220427475_0" startPos="26.4108796001" endPos="56.4108796001" name="Pappelbergsiedlung Pos. 13" friendlyPos="true" />
+    <busStop id="32412" lane="173273214#0_0" startPos="0.0" endPos="30.0" name="Pappelbergsiedlung Pos. 12" friendlyPos="true" />
+    <busStop id="32411" lane="173273213#4_0" startPos="0.0" endPos="30.0" name="Pappelbergsiedlung Pos. 11" friendlyPos="true" />
+    <busStop id="54311" lane="-164062914_0" startPos="457.229713481" endPos="487.229713481" name="Sandgrubenweg Pos. 11" friendlyPos="true" />
+    <busStop id="54312" lane="-164062914_0" startPos="451.240325824" endPos="481.240325824" name="Sandgrubenweg Pos. 12" friendlyPos="true" />
+    <busStop id="35411" lane="-5640212#12_0" startPos="0.0" endPos="30.0" name="Rodelandweg Pos. 11" friendlyPos="true" />
+    <busStop id="19612" lane="-24447335#1_0" startPos="0.0" endPos="30.0" name="Westerbergstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="19611" lane="506825533#0_0" startPos="24.7201504014" endPos="54.7201504014" name="Westerbergstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="46911" lane="-323951971#6_0" startPos="171.262373341" endPos="201.262373341" name="Schefflerstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="29311" lane="-115813516#0_0" startPos="0.0" endPos="30.0" name="Michelfelderplatz Pos. 11" friendlyPos="true" />
+    <busStop id="29312" lane="115813516#1_0" startPos="59.082234812" endPos="89.082234812" name="Michelfelderplatz Pos. 12" friendlyPos="true" />
+    <busStop id="46912" lane="223146753_0" startPos="59.7783860402" endPos="89.7783860402" name="Schefflerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="3211" lane="4743786#0_0" startPos="320.600786966" endPos="350.600786966" name="Am Klosterkamp Pos. 11" friendlyPos="true" />
+    <busStop id="3212" lane="-334902538_0" startPos="48.8144104666" endPos="78.8144104666" name="Am Klosterkamp Pos. 12" friendlyPos="true" />
+    <busStop id="18912" lane="385335114#2_0" startPos="32.1546630162" endPos="62.1546630162" name="Helenenstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="18911" lane="626854757#0_0" startPos="5.94480064835" endPos="35.9448006484" name="Helenenstra?e Pos. 11" friendlyPos="true" />
+    <chargingStation id="6" chargeDelay="2" chargeInTransit="1" power="200000" efficiency="0.95" endPos="93.2208786793" lane="60838072#0_3" startPos="63.2208786793" friendlyPos="true" />
+    <busStop id="17812" lane="32353233#0_0" startPos="41.5576208897" endPos="71.5576208897" name="Hauptbahnhof Pos. 12" friendlyPos="true" />
+    <busStop id="41612" lane="26185379#0_0" startPos="344.595656727" endPos="374.595656727" name="Timmerlahstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="41611" lane="-26185379#4_0" startPos="68.1912804244" endPos="98.1912804244" name="Timmerlahstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="17811" lane="372159169_0" startPos="22.0633375529" endPos="52.0633375529" name="Hauptbahnhof Pos. 11" friendlyPos="true" />
+    <busStop id="59111" lane="-291287872_0" startPos="3.99918162329" endPos="33.9991816233" name="In den Rosen?ckern Pos. 11" friendlyPos="true" />
+    <busStop id="13512" lane="141462574#0_0" startPos="13.3559585826" endPos="43.3559585826" name="Flughafen Pos. 12" friendlyPos="true" />
+    <busStop id="13511" lane="141462574#0_0" startPos="9.06111844048" endPos="39.0611184405" name="Flughafen Pos. 11" friendlyPos="true" />
+    <busStop id="59112" lane="32020609#4_0" startPos="132.105134139" endPos="162.105134139" name="In den Rosen?ckern Pos. 12" friendlyPos="true" />
+    <busStop id="31812" lane="62089686#0_0" startPos="0.0" endPos="30.0" name="Maschplatz Pos. 12" friendlyPos="true" />
+    <busStop id="31811" lane="299910129#7_0" startPos="58.5925100838" endPos="88.5925100838" name="Maschplatz Pos. 11" friendlyPos="true" />
+    <busStop id="6111" lane="-30429077#1_0" startPos="50.8227969437" endPos="80.8227969437" name="Bebelhof Pos. 11" friendlyPos="true" />
+    <busStop id="6112" lane="499546680_0" startPos="101.430787146" endPos="131.430787146" name="Bebelhof Pos. 12" friendlyPos="true" />
+    <busStop id="34215" lane="27220209#0_0" startPos="0.0" endPos="30.0" name="Rathaus Pos. 15" friendlyPos="true" />
+    <busStop id="34213" lane="27220201#0_0" startPos="119.379326895" endPos="149.379326895" name="Rathaus Pos. 13" friendlyPos="true" />
+    <busStop id="34212" lane="-5148300_0" startPos="0.0" endPos="30.0" name="Rathaus Pos. 12" friendlyPos="true" />
+    <busStop id="34211" lane="314841164#0_0" startPos="0.0" endPos="30.0" name="Rathaus Pos. 11" friendlyPos="true" />
+    <busStop id="45411" lane="-82457818#2_0" startPos="164.763409871" endPos="194.763409871" name="Wendener Weg Pos. 11" friendlyPos="true" />
+    <busStop id="27213" lane="5058977#1_0" startPos="26.5763145234" endPos="56.5763145234" name="Leonhardplatz (Stadthalle) Pos. 13" friendlyPos="true" />
+    <busStop id="45412" lane="173759898#3_0" startPos="94.45395137" endPos="124.45395137" name="Wendener Weg Pos. 12" friendlyPos="true" />
+    <busStop id="27212" lane="293576921#0_0" startPos="33.5859230668" endPos="63.5859230668" name="Leonhardplatz (Stadthalle) Pos. 12" friendlyPos="true" />
+    <busStop id="4512" lane="119225907#6_0" startPos="0.0" endPos="30.0" name="Am Steinring Pos. 12" friendlyPos="true" />
+    <busStop id="7911" lane="-600204866#1_0" startPos="65.0891435042" endPos="95.0891435042" name="Katholischer Friedhof Pos. 11" friendlyPos="true" />
+    <busStop id="4511" lane="-119225907#6_0" startPos="61.9101948677" endPos="91.9101948677" name="Am Steinring Pos. 11" friendlyPos="true" />
+    <busStop id="32611" lane="-28386157#0_0" startPos="38.7398034103" endPos="68.7398034103" name="Paxmannstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="26111" lane="618965539#5_0" startPos="48.6887538486" endPos="78.6887538486" name="L?genkamp Pos. 11" friendlyPos="true" />
+    <chargingStation id="5" chargeDelay="2" chargeInTransit="1" power="200000" efficiency="0.95" endPos="37.6992790499" lane="32352649#0_0" startPos="7.69927904986" friendlyPos="true" />
+    <busStop id="17211" lane="-23170152#3_0" startPos="322.06432301" endPos="352.06432301" name="Hansestra?e West Pos. 11" friendlyPos="true" />
+    <busStop id="21811" lane="296479157#0_0" startPos="0.0" endPos="30.0" name="Zum Wiesengrund Pos. 11" friendlyPos="true" />
+    <busStop id="20811" lane="-625219023#1_0" startPos="0.0" endPos="30.0" name="Boeselagerstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="20812" lane="329721713_0" startPos="0.0" endPos="30.0" name="Boeselagerstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="33211" lane="525452881#0_0" startPos="8.70458752239" endPos="38.7045875224" name="Pockelsstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="22611" lane="173273213#0_0" startPos="0.0" endPos="30.0" name="J.-Fraunhofer-Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="22612" lane="216936515#0_0" startPos="20.8336156937" endPos="50.8336156937" name="J.-Fraunhofer-Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="16113" lane="320399274#1_0" startPos="84.6513711156" endPos="114.651371116" name="G?ldenstra?e Pos. 13" friendlyPos="true" />
+    <busStop id="63411" lane="-8074215#13_0" startPos="140.348250614" endPos="170.348250614" name="Weinbergstra?e Pos. 11" friendlyPos="true" />
+    <busStop id="8412" lane="577566275#2_0" startPos="6.62110197041" endPos="36.6211019704" name="B?ltenweg Pos. 12" friendlyPos="true" />
+    <busStop id="63412" lane="8074215#11_0" startPos="57.8876934101" endPos="87.8876934101" name="Weinbergstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="11312" lane="-27031985#8_0" startPos="14.4573256763" endPos="44.4573256763" name="Drosselweg Pos. 12" friendlyPos="true" />
+    <busStop id="11311" lane="-27031985#9_0" startPos="201.985095554" endPos="231.985095554" name="Drosselweg Pos. 11" friendlyPos="true" />
+    <busStop id="12413" lane="82457822_0" startPos="101.756362137" endPos="131.756362137" name="Ernst-B?hme-Stra?e Pos. 13" friendlyPos="true" />
+    <busStop id="16911" lane="573738885#1_0" startPos="0.0" endPos="30.0" name="Hamburger Stra?e Pos. 11" friendlyPos="true" />
+    <busStop id="16912" lane="6144590#1_0" startPos="9.86067524639" endPos="39.8606752464" name="Hamburger Stra?e Pos. 12" friendlyPos="true" />
+    <busStop id="9515" lane="32755712#0_0" startPos="41.6011640614" endPos="71.6011640614" name="Cyriaksring Pos. 15" friendlyPos="true" />
+    <busStop id="9516" lane="32905529#0_0" startPos="13.7018788019" endPos="43.7018788019" name="Cyriaksring Pos. 16" friendlyPos="true" />
+    <busStop id="9512" lane="385335099#0_0" startPos="12.0794598386" endPos="42.0794598386" name="Cyriaksring Pos. 12" friendlyPos="true" />
+    <busStop id="28612" lane="394076960#0_0" startPos="0.0" endPos="30.0" name="Maschstra?e Pos. 12" friendlyPos="true" />
+    <busStop id="28611" lane="375727027#1_0" startPos="77.961096245" endPos="107.961096245" name="Maschstra?e Pos. 11" friendlyPos="true" />
+</additional>

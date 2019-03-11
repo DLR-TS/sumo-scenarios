@@ -1,0 +1,107 @@
+import_config_file:../config_all
+kill_timeout:600
+binary:$TEXTTEST_HOME/scenariorunner.py
+interpreter:$PYTHON
+test_data_ignore:.svn
+
+copy_test_path:sumo.sumo.cfg
+copy_test_path_merge:data
+copy_test_path:scenariodefs.py
+copy_test_path:classes.txt
+copy_test_path:osm_bbox.osm.xml
+
+[collate_file]
+vehroutes:vehroutes.xml
+vehroutes2:data/vehroutes.xml
+net:data/*.net.xml
+net2:data/acosta_peds.net.xml
+tls:data/*tls.add.xml
+tls*:data/tls*.add.xml
+sumolog:data/sumo_log.txt
+stats:data/stats.txt
+plain_nodes:plain.nod.xml
+plain_edges:plain.edg.xml
+plain_connections:plain.con.xml
+tls_state:data/tls_state.xml
+tls_switch:data/tls_switch.xml
+tls_state_switch:data/tls_state_switch.xml
+e1:data/e1_output.xml
+fcd:data/fcd_output.xml
+stops:data/stops.xml
+log:log.txt
+navteq_pois:data/navteq.poi.xml
+osm_pois:data/osm.poi.xml
+kataster_pois:data/kataster.poi.xml
+visum_pois:data/visum.poi.xml
+trips:data/generated.trips.xml
+busses:data/busses.rou.xml
+busStops:data/busstops.add.xml
+activitygenBusses:data/activitygenBusses.xml
+routes:data/utralab.rou.xml
+vehicles:data/utralab_veh.add.xml
+vtypes:data/vtypes.rou.xml
+genroutes:data/genroutes.rou.xml
+ptlines:data/osm_ptlines.xml
+ptstops:data/osm_stops.add.xml
+ptroutes:data/osm_pt.rou.xml
+
+[run_dependent_text]
+output:\r{REPLACE \n}
+output:\\{REPLACE /}
+output:[0-9\.]+ms{REPLACE (TIME)}
+output:^Performance:{->}^Vehicles:
+output:^using.*bin/sumo
+output:^function .* finished after .* seconds
+output:^function .* called at .*
+output:Begin time: 
+output:End time: 
+output:Duration:
+output:ended (duration:
+output:my step duration
+output:Parsing types from '.*sumo/data/typemap/{REPLACE Parsing types from 'sumo/data/typemap/}
+output:Written configuration to '.*/{REPLACE Written configuration to FILE}
+output:Parsing nodes from osm-file '.*/{REPLACE Parsing nodes from osm-file}
+output:Parsing edges from osm-file '.*/{REPLACE Parsing edges from osm-file}
+output:Parsing relations from osm-file '.*/{REPLACE Parsing relations from osm-file}
+output:Parsing network projection from '.*/{REPLACE Parsing network prjection from FILE}
+output:Building scenario in '.*/{REPLACE Building scenario in DIR}
+output:Could not connect to TraCI
+output: Retrying in
+output:[^ ]*netconvert(.exe)?{REPLACE netconvert}
+output:[^ ]*projects/malaga/data{REPLACE projects/malaga/data}
+log:[0-9\.]+ms{REPLACE (TIME)}
+log:[0-9\.]+s{REPLACE (TIME)}
+tls_state:<!--{[->]}-->
+tls_switch:<!--{[->]}-->
+tls_state_switch:<!--{[->]}-->
+e1:<!--{[->]}-->
+fcd:<!--{[->]}-->
+stops:<!--{[->]}-->
+vehroutes:<!--{[->]}-->
+vehroutes2:<!--{[->]}-->
+net:<!--{[->]}-->
+net2:<!--{[->]}-->
+sumolog:[0-9\.]+ms{REPLACE (TIME)}
+sumolog:^Performance:{->}^Vehicles:
+stats:#precise
+navteq_pois:<!--{[->]}-->
+osm_pois:<!--{[->]}-->
+kataster_pois:<!--{[->]}-->
+visum_pois:<!--{[->]}-->
+busses:<!--{[->]}-->
+busStops:<!--{[->]}-->
+routes:<!--{[->]}-->
+vehicles:<!--{[->]}-->
+genroutes:<!--{[->]}-->
+trips:<!--{[->]}-->
+ptlines:<!--{[->]}-->
+ptstops:<!--{[->]}-->
+ptroutes:<!--{[->]}-->
+
+[floating_point_tolerance]
+output:0.0101
+net:0.0101
+net2:0.0101
+e1:0.0101
+genroutes:0.0101
+busStops:0.0101

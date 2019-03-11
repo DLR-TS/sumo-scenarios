@@ -1,0 +1,46 @@
+Step 0: preparing OSM
+
+TAPAS Bounding Box
+52.172016, 10.404437  (lower left, old AIM scenario)
+52.465148, 10.738811(upper bound, end of A39)
+52.304234, 10.848116 (right bound, Uhry)
+52.339809, 10.348378 (left bound, Zweidorfer Holz)
+
+S,W,N,E (osmGet.py)
+52.172016,10.348378,52.465148,10.848116
+
+
+osmconvert BS_TAPAS.osm.xml -o=BS_TAPAS.o5m
+osmfilter --verbose BS_TAPAS.o5m --keep-ways="highway=primary =primary_link =secondary =secondary_link =trunk =trunk_link =motorway =motorway_link" --keep-nodes= --keep-relations= --out-o5m > BS_TAPAS_main_roads.o5m
+osmconvert BS_TAPAS_main_roads.o5m -o=BS_TAPAS_main_roads.osm.xml
+
+
+Step 1: TAPAS
+
+tapas/bs_miv.netccfg 
+
+./t2s.py --tapas-trips tapas-trips-in/braunschweig_trips_2015y_10m_29d_11h_47m_07s_427ms.csv --net-file scenario_workdir/braunschweig_osm/net.net.xml --iteration-dir scenario_workdir/braunschweig_osm/iteration000/ --bidi-taz-file scenario_workdir/braunschweig_osm/bidi.taz.xml
+
+time ./t2s.py --tapas-trips tapas-trips-in/braunschweig_trips_2015y_10m_29d_11h_47m_07s_427ms.csv --net-file scenario_workdir/braunschweig_osm/net.net.xml --iteration-dir scenario_workdir/braunschweig_osm/iteration000/ --bidi-taz-file scenario_workdir/braunschweig_osm/bidi.taz.xml --no-rectify --default-vtype car --max-radius 5000
+
+
+Step 2: cutRoutes
+
+time /scr1/sumo/tools/route/cutRoutes.py --orig-net ../bs_miv.net.xml
+--speed-factor 0.7 --min-length 2 --trips-output bs_miv_detail3.trips.xml
+../bs_miv_detail3.net.xml
+/scr2/sip-svn-trunk/projects/tapas/scenario_workdir/braunschweig_osm/iteration000/oneshot/saved_result/vehroutes_oneshot_meso.rou.xml
+
+convert to geo-trips:
+duarouter -c trips2geo.duacfg
+
+
+Step 3: prepare detail simulation
+
+netconvert -c bs_miv_detail.netccfg
+duarouter -c fromgeo.duacfg
+
+
+Step 4: run detail simulation
+
+sumo -c oneshot.sumocfg

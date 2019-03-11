@@ -1,0 +1,7 @@
+# Generate network from OSM data
+small adjustment to netconvert config file, because some service roads were needed to model the bus stops for example at Hauptbahnhof
+(after conversion, service roads need to be opened for busses)
+
+build_vdv.sh
+
+Then, everything "should" work just fine

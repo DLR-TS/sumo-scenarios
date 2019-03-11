@@ -1,0 +1,10 @@
+# Scenarios which are "ok"
+use
+
+# Scenarios which are deprecated or need to be reworked
+deprecated
+
+# Tests for (cf-)models
+models
+
+Alexandra_multimodal_trip_chain_from_GPS

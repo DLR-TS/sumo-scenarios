@@ -1,0 +1,37 @@
+
+
+
+
+Braunschweig Detail / Tram-Netz
+52.193273,10.462365,52.332196,10.601086
+
+tapas-bounding box
+51.712636,10.022699,52.776861,11.066644
+
+Braunschweig Detail / VDV-Stops
+52.1464,10.3188,52.4082,10.7614
+
+
+
+Trip-import:
+- cutRoutes requires matching edges (hence a smaller network that is cut from a
+  bigger network) 
+  -> bs_miv_detail3.net.xml
+- we then convert the trips to geotrips (--write-trips.geo)
+- these trips can be applied to the detail network (bs_miv_detail.net.xml) which
+  is a fresh build from the osm file. The only requirement is that the new net
+  overlaps all edge shapes from the cut network.
+
+
+time /scr1/sumo/tools/route/cutRoutes.py --orig-net ../bs_miv.net.xml --speed-factor 0.7 --min-length 2 --trips-output bs_miv_detail3.trips.xml ../bs_miv_detail3.net.xml /scr2/sip-svn-trunk/projects/tapas/scenario_workdir/braunschweig_osm/iteration000/oneshot/saved_result/vehroutes_oneshot_meso.rou.xml > cutRoutes.log4
+
+
+
+todo:
+
+- departSpeed="max"
+- departLane="best"
+- #5117
+- #5087
+- #5089
+- #5161

@@ -1,0 +1,18 @@
+<routes>
+    <vType id="99" vClass="bus" personCapacity="0" guiShape="bus" color="255,204,153" />
+    <vType id="13" vClass="tram" personCapacity="147" guiShape="rail/railcar" color="255,204,153" />
+    <vType id="12" vClass="tram" personCapacity="182" guiShape="rail/railcar" color="255,204,153" />
+    <vType id="14" vClass="tram" personCapacity="135" guiShape="rail/railcar" color="255,204,153" />
+    <vType id="17" vClass="tram" personCapacity="249" guiShape="rail/railcar" color="255,204,153" />
+    <vType id="16" vClass="tram" personCapacity="173" guiShape="rail/railcar" color="255,204,153" />
+    <vType id="18" vClass="tram" personCapacity="211" guiShape="rail/railcar" color="255,204,153" />
+    <vType id="1" vClass="bus" personCapacity="94" guiShape="bus" color="255,204,153" />
+    <vType id="2" vClass="bus" personCapacity="144" guiShape="bus/flexible" color="255,204,153" />
+    <vType id="4" vClass="bus" personCapacity="94" guiShape="bus" color="255,204,153" />
+    <vType id="9" vClass="bus" personCapacity="0" guiShape="bus" color="255,204,153" />
+    <vType id="8" vClass="bus" width="2.55" personCapacity="0" guiShape="bus" color="204,255,204" >
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+    </vType>
+
+</routes>

@@ -1,0 +1,120 @@
+<connections version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+
+    <!-- motorway extra connection (to avoid counter-lc-deadlock) -->
+    <connection from="277671149" fromLane="0" to="25036019" toLane="0" />
+    <connection from="277671149" fromLane="1" to="25036019" toLane="0" />
+    <connection from="277671149" fromLane="1" to="26563778" toLane="0" />
+
+    <connection from="30998180" fromLane="0" to="23048938" toLane="0" />
+    <connection from="30998180" fromLane="1" to="23048938" toLane="0" />
+    <connection from="30998180" fromLane="1" to="5668902" toLane="0" />
+
+    <connection from="24043421" fromLane="0" to="20455466" toLane="0" />
+    <connection from="24043421" fromLane="1" to="20455466" toLane="0" />
+    <connection from="24043421" fromLane="1" to="125164486#0" toLane="0" />
+
+    <!-- bad junction (add connections to avoid counter-lc-deadlock) -->
+    <connection from="296271622#1" fromLane="0" to="8074184#0" toLane="0" />
+    <connection from="296271622#1" fromLane="1" to="8074184#0" toLane="1" />
+    <connection from="296271622#1" fromLane="1" to="30424216#0" toLane="0" />
+    <connection from="296271622#1" fromLane="2" to="30424216#0" toLane="1" />
+
+    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="0" />
+    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="1" />
+
+    <connection from="296271622#0" fromLane="0" to="296271622#1" toLane="0" />
+    <connection from="296271622#0" fromLane="1" to="296271622#1" toLane="1" />
+    <connection from="296271622#0" fromLane="2" to="296271622#1" toLane="2" />
+
+
+    <!-- A391_AS_Lehndorf -->
+    <delete from="122164828#0" to="296271622#0"/>
+    <delete from="122164787#1" to="30998233"/>
+    <delete from="122164787#1" to="122164820"/>
+    <delete from="122164823#0" to="122164820"/>
+    <delete from="30424059#2" to="122164820"/>
+    <delete from="122164828#0" to="30998233"/>
+    <delete from="122164823#0" to="30998233"/>
+
+    <!-- A391_AS_Weststadt -->
+    <delete from="24271242#0" to="32755914"/>
+    <delete from="24271244#0" to="325528578"/>
+
+    <!-- Europaplatz -->
+    <delete from="30426519#0" to="127240631#0"/>
+    <delete from="61996467#0" to="4743778#0"/>
+
+    <!-- Forschungskreuzung -->
+    <connection from="166445405#0" fromLane="0" to="512158816#0" toLane="0" />
+    <connection from="166445405#0" fromLane="1" to="512158816#0" toLane="1" />
+    <connection from="166445405#0" fromLane="2" to="525452872" toLane="0" />
+    <connection from="166445405#0" fromLane="3" to="447787390#0" toLane="0" />
+    <connection from="166445405#0" fromLane="4" to="447787390#0" toLane="1" />
+
+    <connection from="314915850#0" fromLane="0" to="29136063#0" toLane="0" />
+    <connection from="314915850#0" fromLane="1" to="29136063#0" toLane="1" />
+    <connection from="314915850#0" fromLane="2" to="512158816#0" toLane="0" />
+    <connection from="314915850#0" fromLane="3" to="512158816#0" toLane="1" />
+    <connection from="314915850#0" fromLane="4" to="525452872" toLane="0" />
+
+    <!-- HBF (Berliner Platz -->
+    <connection from="32352639#0" fromLane="0" to="28113494#0" toLane="0" />
+    <connection from="32352639#0" fromLane="0" to="28217280#0" toLane="0" />
+    <connection from="32352639#0" fromLane="1" to="28217280#0" toLane="1" />
+    <connection from="32352639#0" fromLane="2" to="7849629" toLane="0" />
+    <connection from="32352639#0" fromLane="3" to="7849629" toLane="1" />
+    <connection from="32352639#0" fromLane="3" to="7849629" toLane="2" />
+
+    <connection from="221632396#0" fromLane="0" to="28217278#1" toLane="0" />
+    <connection from="221632396#0" fromLane="1" to="28217278#1" toLane="1" />
+    <connection from="221632396#0" fromLane="2" to="28217278#1" toLane="2" />
+    <connection from="221632396#0" fromLane="3" to="31286924#0" toLane="0" />
+    <connection from="221632396#0" fromLane="3" to="31286924#0" toLane="1" />
+    <connection from="221632396#0" fromLane="3" to="31286924#0" toLane="2" />
+
+    <!-- A392_AS_Hamburger -->
+    <connection from="431412124" fromLane="0" to="299910664#0" toLane="1" />
+    <connection from="431412124" fromLane="1" to="299910664#0" toLane="2" />
+    <connection from="431412124" fromLane="2" to="26691822#0" toLane="0" />
+    <connection from="431412124" fromLane="3" to="26691822#0" toLane="1" />
+
+
+    <!-- KennedyPlatz - South -->
+    <connection from="25076286#0" fromLane="0" to="24020907#0" toLane="0" />
+    <connection from="25076286#0" fromLane="1" to="24020907#0" toLane="1" />
+    <connection from="25076286#0" fromLane="2" to="32352622#0" toLane="0" />
+    <connection from="25076286#0" fromLane="3" to="32352622#0" toLane="1" />
+    <connection from="25076286#0" fromLane="4" to="32352622#0" toLane="2" />
+
+    <connection from="23208750#0" fromLane="0" to="25290525" toLane="0" />
+    <connection from="23208750#0" fromLane="1" to="25290525" toLane="1" />
+
+    <connection from="311580921#0" fromLane="0" to="25290525" toLane="0" />
+    <connection from="311580921#0" fromLane="1" to="25076286#0" toLane="0" />
+    <connection from="311580921#0" fromLane="1" to="25076286#0" toLane="1" />
+    <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="2" />
+    <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="3" />
+    <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="4" />
+
+    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="0" />
+    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="1" />
+    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="2" />
+    <connection from="319188813#3" fromLane="1" to="25076286#0" toLane="3" />
+    <connection from="319188813#3" fromLane="1" to="25076286#0" toLane="4" />
+    <!--
+    -->
+
+    <!-- Neustadtringt / Celler str. -->
+    <connection from="374169553#0" fromLane="0" to="48861560#0" toLane="0" />
+    <connection from="374169553#0" fromLane="1" to="83723985#0" toLane="0" />
+    <connection from="374169553#0" fromLane="2" to="83723985#0" toLane="1" />
+    <connection from="374169553#0" fromLane="3" to="299910129#0" toLane="0" />
+    <connection from="374169553#0" fromLane="3" to="299910129#0" toLane="1" />
+    <connection from="7975425#0" fromLane="0" to="299910129#0" toLane="0" />
+    <connection from="7975425#0" fromLane="1" to="7975424#0" toLane="0" />
+    <connection from="7975425#0" fromLane="2" to="7975424#0" toLane="1" />
+    <connection from="7975425#0" fromLane="3" to="48861560#0" toLane="0" />
+    <connection from="7975425#0" fromLane="3" to="48861560#0" toLane="1" />
+
+    
+</connections>
