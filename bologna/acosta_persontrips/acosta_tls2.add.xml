@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+    <tlLogic id="220" type="static" programID="utopia-mod" offset="0">
+        <phase duration="40" state="rrrggGGrGGGrGGGrGrGrGrG"/>
+        <phase duration="5"  state="rrrggGGrGGGrGGrrGrrrrrr"/>
+        <phase duration="3"  state="rrrggGGrGGGryyrrrrrrrrr"/>
+        <phase duration="3"  state="rrryyyyrGGGrrrrrrrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrGGGrrrrrrrrrrrr"/>
+        <phase duration="5"  state="gggrrrrrGGGrrrrGGGGrGrG"/>
+        <phase duration="5"  state="gggrrrrrGGGrrrrrrrrrrrr"/>
+        <phase duration="3"  state="GGGrrrrryyyrrrrrrrrrrrr"/>
+        <phase duration="2"  state="GGGrrrrrrrrGrrrrrrrrrrr"/>
+        <phase duration="12" state="gggrrrrgrrrGrrrGGGGGrGG"/>
+        <phase duration="5"  state="gggrrrrgrrrGrrrrrrrrrrr"/>
+        <phase duration="3"  state="yyyrrrryrrryrrrrrrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="219" type="static" programID="utopia-mod" offset="0">
+        <phase duration="25" state="grrrrrrrrrrgGGGGrrGrG"/>
+        <phase duration="5"  state="grrrrrrrrrrgGGGGrrrrr"/>
+        <phase duration="3"  state="yrrrrrrrrrrGGGGyrrrrr"/>
+        <phase duration="3"  state="rrrrrrrrrrrGGGGrrrrrr"/>
+        <phase duration="4"  state="rrrgGGrrrrrgGGGrGrGrr"/>
+        <phase duration="5"  state="rrrgGGrrrrrgGGGrrrrrr"/>
+        <phase duration="3"  state="rrrGGGgrrrryyyyrrrrrr"/>
+        <phase duration="7"  state="rrrgGGgrrrrrrrrrGrGGr"/>
+        <phase duration="5"  state="rrrgGGgrrrrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrryyyyrrrrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="7"  state="gGGrrrrgGrrrrrrrrGrGr"/>
+        <phase duration="5"  state="gGGrrrrgGrrrrrrrrrrrr"/>
+        <phase duration="3"  state="yyyrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrrgGggrrrrrrGrGr"/>
+        <phase duration="5"  state="rrrrrrrgGggrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrryyyyrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+</add>
+

@@ -1,5 +1,0 @@
-home_operating_system:posix
-kill_timeout:432000
-
-batch_result_repository:$SCENARIO_BATCH_RESULT
-historical_report_location:$SCENARIO_REPORT

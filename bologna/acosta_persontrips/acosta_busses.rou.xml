@@ -1,0 +1,144 @@
+<routes>
+    <route id="130" edges="121 m2 54">
+        <stop busStop="busStop#37" until="0"/>
+        <stop busStop="busStop#38" until="120"/>
+        <stop busStop="busStop#40" until="240"/>
+    </route>
+    <route id="13" edges="55 55b 125 114">
+        <stop busStop="busStop#35" until="0"/>
+        <stop busStop="busStop#36" until="120"/>
+    </route>
+    <route id="14" edges="78[0] 56a 56b 77bc 77cd 53cd 53[0] 78[1][1] 189[0] 189[1][0]+20000 189[1][1] 188 87[0] 20001+87[1][0] 87[1][1] m90 89[0] 20002+89[1][0] 89[1][1] 91 186 109[0] 109[1][0]+20003 109[1][1] 116 46 134 134b">
+        <stop busStop="busStop#31" until="0"/>
+        <stop busStop="busStop#32" until="120"/>
+        <stop busStop="busStop#33" until="240"/>
+        <stop busStop="busStop#34" until="360"/>
+        <stop busStop="busStop#21" until="480"/>
+    </route>
+    <route id="810" edges="121 m2 54">
+        <stop busStop="busStop#37" until="0"/>
+        <stop busStop="busStop#38" until="120"/>
+        <stop busStop="busStop#40" until="240"/>
+    </route>
+    <route id="81" edges="55 55b 125 114">
+        <stop busStop="busStop#35" until="0"/>
+        <stop busStop="busStop#39" until="120"/>
+    </route>
+    <route id="860" edges="121 m2 54">
+        <stop busStop="busStop#37" until="0"/>
+        <stop busStop="busStop#38" until="120"/>
+        <stop busStop="busStop#40" until="240"/>
+    </route>
+    <route id="910" edges="121 m2 54">
+        <stop busStop="busStop#37" until="0"/>
+        <stop busStop="busStop#38" until="120"/>
+        <stop busStop="busStop#40" until="240"/>
+    </route>
+    <route id="91" edges="55 55b 125 114">
+        <stop busStop="busStop#35" until="0"/>
+        <stop busStop="busStop#39" until="120"/>
+    </route>
+    <route id="86" edges="55 55b 125 114">
+        <stop busStop="busStop#35" until="0"/>
+        <stop busStop="busStop#39" until="120"/>
+    </route>
+    <route id="140" edges="133 31 115 110 185 92 90 m91 88 187 190 77[0] 53[1][0] 53[1][1][0] 77[1][0] 77[1][1]">
+        <stop busStop="busStop#22" until="0"/>
+        <stop busStop="busStop#9" until="120"/>
+        <stop busStop="busStop#6" until="240"/>
+        <stop busStop="busStop#3" until="360"/>
+        <stop busStop="busStop#2" until="480"/>
+    </route>
+    <route id="190" edges="121 m2 54">
+        <stop busStop="busStop#37" until="0"/>
+        <stop busStop="busStop#38" until="120"/>
+        <stop busStop="busStop#40" until="240"/>
+    </route>
+    <route id="87" edges="55 55b 125 114">
+        <stop busStop="busStop#35" until="0"/>
+        <stop busStop="busStop#39" until="120"/>
+    </route>
+    <route id="19" edges="55 55b 125 114">
+        <stop busStop="busStop#35" until="0"/>
+        <stop busStop="busStop#36" until="120"/>
+    </route>
+    <route id="21" edges="78[0] 56a 56b 77bc 77cd 53cd 53[0] 78[1][1] 189[0] 189[1][0]+20000 189[1][1] 188 87[0] 20001+87[1][0] 87[1][1] m90 89[0] 20002+89[1][0] 89[1][1] 91 186 109[0] 109[1][0]+20003 109[1][1] 116 46 134 134b">
+        <stop busStop="busStop#31" until="0"/>
+        <stop busStop="busStop#32" until="120"/>
+        <stop busStop="busStop#33" until="240"/>
+        <stop busStop="busStop#34" until="360"/>
+        <stop busStop="busStop#21" until="480"/>
+    </route>
+    <flow id="bus_14" begin="0" end="3600" period="240" departLane="best" line="14" type="bus" route="14"/>
+    <flow id="bus_130" begin="0" end="3600" period="300" departLane="best" line="130" type="bus" route="130"/>
+    <flow id="bus_13" begin="0" end="3600" period="300" departLane="best" line="13" type="bus" route="13"/>
+    <flow id="bus_140" begin="120" end="3600" period="240" departLane="best" line="140" type="bus" route="140"/>
+    <flow id="bus_190" begin="120" end="3600" period="300" departLane="best" line="190" type="bus" route="190"/>
+    <flow id="bus_19" begin="180" end="3600" period="300" departLane="best" line="19" type="bus" route="19"/>
+    <flow id="bus_910" begin="0" end="3600" period="500" departLane="best" line="910" type="bus" route="910"/>
+    <flow id="bus_91" begin="0" end="3600" period="500" departLane="best" line="91" type="bus" route="91"/>
+    <route id="210" edges="133 31 115 110 185 92 90 m91 88 187 190 77[0] 53[1][0] 53[1][1][0] 77[1][0] 77[1][1]">
+        <stop busStop="busStop#22" until="0"/>
+        <stop busStop="busStop#9" until="120"/>
+        <stop busStop="busStop#6" until="240"/>
+        <stop busStop="busStop#3" until="360"/>
+        <stop busStop="busStop#2" until="480"/>
+    </route>
+    <route id="32" edges="210 43[0] 43[1] 201 201c 204a[0] 204b[0] 204[1][0] 204[1][1]">
+        <stop busStop="busStop#27" until="0"/>
+        <stop busStop="busStop#28" until="120"/>
+    </route>
+    <route id="33" edges="203[0] 203[1] 203[1]b 202 34 113 209">
+        <stop busStop="busStop#23" until="0"/>
+        <stop busStop="busStop#24" until="120"/>
+        <stop busStop="busStop#25" until="240"/>
+        <stop busStop="busStop#26" until="360"/>
+    </route>
+    <route id="38" edges="131 65 57[0] 57[1] 62 159 42 39 35 38 15 24 22 59 53cd 53[0] 53[1][0] 79 68 11 86">
+        <stop busStop="busStop#20" until="0"/>
+        <stop busStop="busStop#19" until="120"/>
+        <stop busStop="busStop#16" until="240"/>
+        <stop busStop="busStop#14" until="360"/>
+        <stop busStop="busStop#12" until="480"/>
+        <stop busStop="busStop#10" until="600"/>
+    </route>
+    <route id="39" edges="85 67 80 127 77[1][0] 77ab 77bc 21a 21b 103 16 37 36 40 41 160 61 58[0] 58[1] 200 60">
+        <stop busStop="busStop#30" until="0"/>
+        <stop busStop="busStop#11" until="120"/>
+        <stop busStop="busStop#13" until="240"/>
+        <stop busStop="busStop#15" until="360"/>
+        <stop busStop="busStop#17" until="480"/>
+        <stop busStop="busStop#18" until="600"/>
+    </route>
+    <route id="870" edges="121 m2 54">
+        <stop busStop="busStop#37" until="0"/>
+        <stop busStop="busStop#38" until="120"/>
+        <stop busStop="busStop#40" until="240"/>
+    </route>
+    <flow id="bus_21" begin="180" end="3600" period="540" departLane="best" line="21" type="bus" route="21"/>
+    <route id="89" edges="78[0] 56a 56b 77bc 77cd 53cd 53[0] 78[1][1] 189[0] 189[1][0]+20000 189[1][1] 188 87[0] 20001+87[1][0] 87[1][1] m90 89[0] 20002+89[1][0] 89[1][1] 91 186 109[0] 109[1][0]+20003 109[1][1] 116 46 134 134b">
+        <stop busStop="busStop#31" until="0"/>
+        <stop busStop="busStop#32" until="120"/>
+        <stop busStop="busStop#21" until="240"/>
+    </route>
+    <route id="890" edges="133 31 115 110 185 92 90 m91 88 187 190 77[0] 53[1][0] 53[1][1][0] 77[1][0] 77[1][1]">
+        <stop busStop="busStop#22" until="0"/>
+        <stop busStop="busStop#9" until="120"/>
+        <stop busStop="busStop#6" until="240"/>
+        <stop busStop="busStop#3" until="360"/>
+        <stop busStop="busStop#2" until="480"/>
+    </route>
+    <flow id="bus_32" begin="600" end="3600" period="600" departLane="best" line="32" type="bus" route="32"/>
+    <flow id="bus_33" begin="600" end="3600" period="600" departLane="best" line="33" type="bus" route="33"/>
+    <flow id="bus_810" begin="0" end="3600" period="1200" departLane="best" line="810" type="bus" route="810"/>
+    <flow id="bus_81" begin="0" end="3600" period="1200" departLane="best" line="81" type="bus" route="81"/>
+    <flow id="bus_860" begin="0" end="3600" period="1200" departLane="best" line="860" type="bus" route="860"/>
+    <flow id="bus_86" begin="60" end="3600" period="1200" departLane="best" line="86" type="bus" route="86"/>
+    <flow id="bus_210" begin="600" end="3600" period="720" departLane="best" line="210" type="bus" route="210"/>
+    <flow id="bus_87" begin="120" end="3600" period="1200" departLane="best" line="87" type="bus" route="87"/>
+    <flow id="bus_89" begin="720" end="3600" period="900" departLane="best" line="89" type="bus" route="89"/>
+    <flow id="bus_890" begin="780" end="3600" period="900" departLane="best" line="890" type="bus" route="890"/>
+    <flow id="bus_38" begin="600" end="3600" period="1200" departLane="best" line="38" type="bus" route="38"/>
+    <flow id="bus_39" begin="600" end="3600" period="1200" departLane="best" line="39" type="bus" route="39"/>
+    <flow id="bus_870" begin="600" end="3600" period="1200" departLane="best" line="870" type="bus" route="870"/>
+</routes>

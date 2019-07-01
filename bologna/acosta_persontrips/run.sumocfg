@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="acosta_peds.net.xml"/>
+        <route-files value="acosta.rou.xml,persontrips.rou.xml"/>
+        <additional-files value="acosta_vtypes.add.xml,acosta_bus_stops.add.xml,acosta_tls2.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfos.xml"/>
+        <stop-output value="stops.xml"/>
+    </output>
+
+    <report>
+        <log value="sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="settings.gui.xml"/>
+    </gui_only>
+
+</configuration>

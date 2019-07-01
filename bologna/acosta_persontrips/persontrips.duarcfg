@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="acosta_peds.net.xml"/>
+        <additional-files value="acosta_bus_stops.add.xml,acosta_vtypes.add.xml,acosta_busses.rou.xml"/>
+        <route-files value="persontrips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="persontrips.rou.xml"/>
+        <vtype-output value="NUL"/>
+    </output>
+
+</configuration>

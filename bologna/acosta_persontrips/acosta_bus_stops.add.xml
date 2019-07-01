@@ -1,0 +1,37 @@
+<add>
+    <busStop friendlyPos="true" id="busStop#2" lane="190_1" startPos="175.018" endPos="195.018" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#3" lane="187_1" startPos="19.682" endPos="39.682" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#6" lane="90_1" startPos="28.099" endPos="48.748" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#9" lane="115_1" startPos="127.192" endPos="147.192" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#10" lane="22_1" startPos="56" endPos="76" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#11" lane="103_1" startPos="41.16" endPos="61.16" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#12" lane="15_1" startPos="20.5" endPos="40.5" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#13" lane="37_1" startPos="36.243" endPos="56.243" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#14" lane="42_1" startPos="7.461" endPos="27.461" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#15" lane="160_1" startPos="26.763" endPos="46.763" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#16" lane="62_1" startPos="175.913" endPos="195.913" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#17" lane="61_1" startPos="90.077" endPos="110.077" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#18" lane="58[1]_1" startPos="40" endPos="60" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#19" lane="57[0]_1" startPos="142" endPos="162" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#20" lane="65_1" startPos="36.324" endPos="56.324" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#21" lane="134b_1" startPos="10.053" endPos="30.053" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#22" lane="133_1" startPos="103.418" endPos="123.418" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#23" lane="203[1]_1" startPos="150" endPos="170" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#24" lane="202_1" startPos="146.275" endPos="166.276" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#25" lane="209_1" startPos="45.522" endPos="65.522" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#26" lane="209_1" startPos="233.851" endPos="253.851" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#27" lane="210_1" startPos="213.588" endPos="233.588" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#28" lane="201_1" startPos="38.164" endPos="58.164" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#29" lane="79_1" startPos="109.125" endPos="130.483" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#30" lane="67_1" startPos="56.029" endPos="77.975" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#31" lane="189[1][0]+20000_1" startPos="10.895" endPos="22.895" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#32" lane="20001+87[1][0]_1" startPos="6.353" endPos="21.353" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#33" lane="20002+89[1][0]_1" startPos="0.1" endPos="26.983" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#34" lane="109[1][0]+20003_1" startPos="0.1" endPos="30.331" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#35" lane="55_1" startPos="224.432" endPos="256.174" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#36" lane="114_1" startPos="158.413" endPos="198.413" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#37" lane="121_1" startPos="242.644" endPos="283.622" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#38" lane="121_1" startPos="495.462" endPos="533.11" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#39" lane="114_1" startPos="496.947" endPos="536.637" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#40" lane="54_1" startPos="40.093" endPos="71.646" lines="--"/>
+</add>
