@@ -1,0 +1,1315 @@
+<edges version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgediff_file.xsd">
+    <edge id="296271622#1" numLanes="3"/>
+
+    <edge id="47007890" numLanes="2"/>
+
+    <edge id="23209055#0" numLanes="1"/>
+    <edge id="23209055#1" numLanes="1"/>
+    <edge id="23209055#2" numLanes="1"/>
+
+    <edge id="316682910#0" numLanes="1" allow="tram"/>
+    <edge id="316682910#1" numLanes="1" allow="tram"/>
+    
+    <!-- Edges with "none" speed -->
+    <edge id="140329971" speed="36.11"/>
+    <edge id="154370921" speed="36.11"/>
+    <edge id="198090195" speed="36.11"/>
+    <edge id="22943881" speed="36.11"/>
+    <edge id="22943884" speed="36.11"/>
+    <edge id="25036073" speed="36.11"/>
+    <edge id="254495540" speed="36.11"/>
+    <edge id="254495542" speed="36.11"/>
+    <edge id="254536069" speed="36.11"/>
+    <edge id="254536071" speed="36.11"/>
+    <edge id="254630072" speed="36.11"/>
+    <edge id="264644460" speed="36.11"/>
+    <edge id="277671155" speed="36.11"/>
+    <edge id="30339308" speed="36.11"/>
+    <edge id="309607719" speed="36.11"/>
+    <edge id="318894710" speed="36.11"/>
+    <edge id="318894711" speed="36.11"/>
+    <edge id="318894713" speed="36.11"/>
+    <edge id="318894714" speed="36.11"/>
+    <edge id="318894717" speed="36.11"/>
+    <edge id="318894721" speed="36.11"/>
+    <edge id="318894722" speed="36.11"/>
+    <edge id="32352717" speed="36.11"/>
+    <edge id="332861859" speed="36.11"/>
+    <edge id="332861865" speed="36.11"/>
+    <edge id="332861867" speed="36.11"/>
+    <edge id="332861869" speed="36.11"/>
+    <edge id="332861870" speed="36.11"/>
+    <edge id="332861873" speed="36.11"/>
+    <edge id="332861878" speed="36.11"/>
+    <edge id="4306043" speed="36.11"/>
+    <edge id="4314911" speed="36.11"/>
+    <edge id="4519928" speed="36.11"/>
+    <edge id="494296576" speed="36.11"/>
+    <edge id="494296577" speed="36.11"/>
+    
+    <!-- BS-Süd Clover Intersection Off-Ramp(NE)-->
+    <edge id="125164486#1" numLanes="2"/>
+    
+    <!-- Thiedestraße & Am Westerberge-->
+    <edge id="313800995" shape=""/>
+    <edge id="-313800995" shape=""/>
+    
+    <!-- Ottmerstraße --> 
+    <edge id="-380570395" numLanes="2"/>
+    <edge id="-590189519#0" numLanes="2"/>
+    <edge id="-590189519#1" numLanes="2"/>
+    <edge id="-590189519#2" numLanes="2"/>
+    <edge id="380570395" numLanes="2"/>
+    <edge id="590189519#0" numLanes="2"/>
+    <edge id="590189519#1" numLanes="2"/>
+    <edge id="590189519#2" numLanes="2"/>    
+    
+    <!-- Donaustraße & Helene-Künne-Allee --> 
+    <edge id="35577458#2" numLanes="2"/>
+    <edge id="35577458#1" numLanes="2"/>
+    <edge id="23576763#2" numLanes="1"/>
+    <edge id="23576763#1" numLanes="1"/>
+    <edge id="23576763#0" numLanes="1"/>
+    <edge id="325528572#0" numLanes="1"/>
+    <edge id="325528572#1" numLanes="1"/>
+    <edge id="325528572#2" numLanes="1"/>
+    <edge id="325528566#0" numLanes="3"/>
+    <edge id="35577460#1" numLanes="2"/>
+    <edge id="35577460#0" numLanes="2"/>
+    
+    <!-- Berlinerstr. & Petzvalstraße --> 
+    <edge id="-9723607#3" numLanes="2"/>
+    <edge id="-9723607#4" numLanes="2"/>    
+    
+    <!-- A391_AS_Lehndorf -->
+    <edge id="30424059#0" numLanes="3"/>
+    <edge id="30424059#1" numLanes="3"/>
+    <edge id="10522191#0" shape=""/>
+    <edge id="122164787#1" numLanes="3"/>
+    <edge id="122164787#0" numLanes="4"/>
+    <edge id="10522141#3" numLanes="4"/>
+    <edge id="30424059#2" shape="10.491705,52.272230 10.492009,52.272240"/>
+    <edge id="122164787#1" shape="10.493253,52.272314 10.492986,52.272338"/>
+    <edge id="122164804#2" shape="10.492241,52.272496 10.492207,52.272481"/>
+    
+    <!-- Sachsendamm -->
+    <edge id="22943891#3" numLanes="2"/>
+    <edge id="22943891#1" numLanes="2"/>
+    
+    <!-- Kruckweg -->
+    <edge id="-315171893#0" numLanes="2"/>
+    <edge id="-315171893#1" numLanes="2"/>
+    
+    <!-- Marienstift -->
+    <edge id="428966186#0" numLanes="1"/>
+    <edge id="428966186#1" numLanes="1"/>
+    <edge id="428966186#2" numLanes="1"/>
+    <edge id="428966186#3" numLanes="1"/>
+    <edge id="428966186#4" numLanes="1"/>
+    <edge id="428966186#5" numLanes="1"/>
+    <edge id="-428966186#1" numLanes="2"/>
+    <edge id="-428966186#2" numLanes="2"/>
+    <edge id="584032570" numLanes="1"/>
+    <delete id="-24342362"/>
+    
+    <!-- A39 & B1 -->
+    <delete id="-24598011"/>
+    <delete id="24598011"/>
+    <delete id="24598013"/>
+    <delete id="264644472"/>
+    <delete id="30780609"/>
+    <delete id="663285772"/>
+    <delete id="663285773"/>
+    <delete id="8080942"/>
+    
+    <!-- Hamburger Straße -->
+    <edge id="292107965#1" numLanes="3"/>
+    <edge id="292107965#0" numLanes="3"/>
+    <edge id="37390119" numLanes="3"/>
+    <edge id="292107968#0" numLanes="5"/>
+    <edge id="292107968#1" numLanes="5"/>
+    <edge id="292107968#2" numLanes="5"/>
+    <edge id="573738887#0" numLanes="5"/>
+    
+    <!-- Hallestraße & Sachsendamm--> 
+    <edge id="-80817384#0" numLanes="2"/>
+    <edge id="5199738#4" numLanes="2"/>
+    <edge id="5199738#3" numLanes="2"/>
+    <edge id="-80817384#1" numLanes="2"/>
+    
+    <!-- Kreuz Ölper  -->
+    <edge id="113861083" numLanes="2"/>
+    <edge id="29427545" numLanes="2"/>
+        
+    <!-- A392 & Celler str. -->
+    <edge id="-28955882" priority="12"/>
+    <edge id="10743323" priority="12"/>
+    
+    <!-- Gifhorner & Hansestraße  -->
+    <edge id="-511315730" numLanes="2"/>
+    
+    <!-- Hagenmarkt & Bohlweg -->
+    <edge id="-510544114" numLanes="2"/>
+    <edge id="-75435984" numLanes="2"/>
+    <edge id="56816450#0" numLanes="3"/>
+    <edge id="56816450#1" numLanes="3"/>
+    <edge id="56816450#2" numLanes="3"/>
+    <edge id="56816450#3" numLanes="3"/>
+    <edge id="54684974" numLanes="3"/>
+    
+    <!-- A391 & Hansestraße  -->
+    <edge id="26563899" numLanes="3"/>
+    <edge id="-26563899" numLanes="1"/>
+    <edge id="134637609" numLanes="1"/>
+    
+    <!-- Donausrt. Isarstr.  -->
+    <edge id="24241785" numLanes="2"/>
+        
+    <!-- Hans-Jürgen-Straße & Celler Heerstraße--> 
+    <edge id="-509331935" numLanes="2"/>
+    
+    <!-- A39 & Salzdaluhmer  -->
+    <edge id="323957163" numLanes="4"/>
+    <edge id="5059192" numLanes="3"/>
+    <edge id="-5059192" numLanes="3"/>
+    <edge id="-323957163" numLanes="2"/>
+    
+    <!-- Salzdaluhmer & Ackerstr. -->
+    <edge id="-323956197" numLanes="3"/>
+    <edge id="323956197" numLanes="2"/>
+    <edge id="-393236410" numLanes="2"/>
+    <edge id="393236410" numLanes="2"/>
+    <edge id="393236412" numLanes="2"/>
+    <edge id="-393236412" numLanes="2"/>
+    <edge id="-393236413" numLanes="2"/>
+    <edge id="393236413" numLanes="2"/>
+    
+    <!-- Messeweg -->
+    <edge id="325068516" numLanes="2"/>
+    <edge id="-28217897" numLanes="2"/>
+    <edge id="325068515" numLanes="2"/>
+    <edge id="4515443#0" numLanes="2"/>
+    <edge id="4515443#1" numLanes="2"/>
+    <edge id="4515443#2" numLanes="2"/>
+    
+    <!-- Sudetenstr. & Cellerstr. -->
+    <edge id="70545096#4" numLanes="2"/>
+    <edge id="70545096#5" numLanes="2"/>
+    <edge id="6244362" numLanes="3"/>
+    <edge id="61890740" numLanes="3"/>
+    <edge id="277665454#0" numLanes="3"/>
+    <edge id="277665454#1" numLanes="3"/>
+    <edge id="277665454#2" numLanes="3"/>
+    <edge id="277665454#3" numLanes="3"/>
+    <edge id="277665454#4" numLanes="3"/>
+    <edge id="30426842" numLanes="2"/>
+    <edge id="635617943#0" numLanes="3"/>
+    <edge id="635617943#1" numLanes="3"/>
+    <edge id="277665457" numLanes="2"/>
+    <edge id="61890329" numLanes="2"/>
+    
+    <!-- Am Bockelsberg & Wendebrueck -->
+    <edge id="-4789462" numLanes="2"/>
+    <edge id="214776522#0" numLanes="2"/>
+    <edge id="214776522#1" numLanes="2"/>
+    <edge id="214776521" numLanes="3"/>
+    <edge id="-101113173" numLanes="2"/>
+    
+    <!-- A391 & L625 -->
+    <edge id="27293667" numLanes="2"/>
+    <edge id="5005721" numLanes="2" speed="13.89"/>
+    <edge id="28194117#0" speed="13.89"/>
+    <edge id="28194117#1" speed="13.89"/>
+    <edge id="214776523#0" speed="13.89"/>
+    <edge id="-27293668#0" speed="13.89"/>
+    <edge id="-27293668#0" speed="13.89"/>
+    <edge id="-214776523#1" speed="13.89"/>
+    <edge id="-214776523#0" speed="13.89"/>
+    <edge id="-28194117#1" speed="13.89"/>
+    <edge id="-5005721" speed="13.89"/>
+    
+    <!-- Schloss -->
+    <edge id="27220216" numLanes="3"/>
+    
+    <!-- Münzstr. & Friedrich-W-Str -->
+    <delete id="25116462#1"/>
+    <delete id="320044358#0"/>
+    <delete id="320044358#1"/>
+    
+    <!-- Campestr -->
+    <edge id="25076156" allow="emergency authority bus"/>
+    
+    <!-- Leonhardplatz -->
+    <edge id="625058946" allow="emergency authority bus"/>
+    <edge id="293576921#0" allow="emergency authority bus tram"/>
+    <edge id="293576921#1" allow="emergency authority bus tram"/>
+    
+    <!-- Varrentrappstraße & Cellerstr. -->
+    <edge id="10517312#6" numLanes="2"/>
+    
+    <!-- Frankfurterstr & Adenauer -->
+    <edge id="122119632#0" numLanes="1"/>
+    <edge id="122119632#1" numLanes="1"/>
+    <edge id="122119632#2" numLanes="1"/>
+    <edge id="122119632#3" numLanes="1"/>
+    <edge id="122119632#4" numLanes="1"/>
+    <edge id="122119632#5" numLanes="1"/>
+    <edge id="122119632#6" numLanes="1"/>
+    
+    <!-- KennedyPlatz -->    
+    <edge id="32352621#0" shape="10.527260,52.258042 10.527354,52.257951 10.527424,52.257899 10.527486,52.257868 10.527557,52.257847 10.527624,52.257836 10.527649,52.257834 10.527676,52.257834"/>
+    <!-- tram edge is not used by any line, ambiguous direction leads to platform dependent behavior -->
+    <delete id="309119313#1"/>
+    
+    <edge id="315425129#0" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" allow="bus"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="315425129#1" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" allow="bus"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="315425129#2" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" allow="bus"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="315425129#3" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" allow="bus"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="315425129#4" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" allow="bus"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="32055654" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="171266144#0" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="171266144#1" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="171266144#2" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="171266144#3" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="171266144#4" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="171266144#5" >
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    
+    <!-- Helmstedter & Hauptgüterbahnhof -->
+    <edge id="-334366321#1" numLanes="2"/>
+    
+    <!-- Wassertor & Bruchtorwall -->
+    <edge id="577024338" numLanes="3"/>
+    
+    <!-- Messeweg -->
+    <edge id="325068516" numLanes="2"/>
+    
+    <!-- Moorhüttenweg -->
+    <edge id="-8093298#1" numLanes="2"/>
+    <edge id="-8093298#0" numLanes="2"/>
+    <edge id="-207590290#0" numLanes="2"/>
+    <edge id="-207590290#1" numLanes="2"/>
+    
+    <!-- Ernst-Böhme-Straße & Hafenstr -->
+    <delete id="299068702#0"/>
+    <delete id="299068702#1"/>
+    <edge id="22988925#0" numLanes="3"/>
+    <edge id="22988925#1" numLanes="3"/>
+    <edge id="82457822" numLanes="3"/>
+    
+    <!-- Gliesmaroder Straße -->
+    <edge id="-206391414#0" speed="8.33"/>
+    <edge id="-206391414#1" speed="8.33"/>
+    <edge id="-206391414#2" speed="8.33"/>
+    <edge id="-206498907#0" speed="8.33"/>
+    <edge id="-206498907#1" speed="8.33"/>
+    <edge id="-206498907#2" speed="8.33"/>
+    <edge id="-33049407#2" speed="8.33"/>
+    <edge id="-33049407#4" speed="8.33"/>
+    <edge id="-33049407#5" speed="8.33"/>
+    <edge id="-501199064#0" speed="8.33"/>
+    <edge id="-5059316#2" speed="8.33"/>
+    <edge id="-56816465#0" speed="8.33"/>
+    <edge id="-56816465#2" speed="8.33"/>
+    <edge id="-56816465#3" speed="8.33"/>
+    <edge id="-59507511#0" speed="8.33"/>
+    <edge id="-59507511#1" speed="8.33"/>
+    <edge id="-59507511#2" speed="8.33"/>
+    <edge id="206391414#0" speed="8.33"/>
+    <edge id="206391414#1" speed="8.33"/>
+    <edge id="206391414#2" speed="8.33"/>
+    <edge id="206498907#0" speed="8.33"/>
+    <edge id="206498907#1" speed="8.33"/>
+    <edge id="206498907#2" speed="8.33"/>
+    <edge id="33049407#2" speed="8.33"/>
+    <edge id="33049407#4" speed="8.33"/>
+    <edge id="33049407#5" speed="8.33"/>
+    <edge id="501199064#0" speed="8.33"/>
+    <edge id="5059316#2" speed="8.33"/>
+    <edge id="56816465#0" speed="8.33"/>
+    <edge id="56816465#3" speed="8.33"/>
+    <edge id="59507511#0" speed="8.33"/>
+    <edge id="59507511#1" speed="8.33"/>
+    <edge id="59507511#2" speed="8.33"/>
+    <edge id="-501199064#1" speed="8.33"/>
+    <edge id="501199064#1" speed="8.33"/>
+    <edge id="-501199064#2" speed="8.33"/>
+    <edge id="501199064#2" speed="8.33"/>
+    <edge id="5059316#0" speed="8.33"/>
+    <edge id="-5059316#0" speed="8.33"/>
+    <edge id="-5059316#1" speed="8.33"/>
+    <edge id="5059316#1" speed="8.33"/>
+    <edge id="-33049407#1" speed="8.33"/>
+    <edge id="33049407#1" speed="8.33"/>
+    <edge id="33049407#0" speed="8.33"/>
+    <edge id="-33049407#0" speed="8.33"/>
+    
+    <!-- Wendenmaschstraße & Am Wendenwehr -->
+    <edge id="7823656#0" speed="8.33"/>
+    <edge id="7823656#1" speed="8.33"/>
+    <edge id="573318268#0" speed="8.33"/>
+
+    <!-- A36 & Mascharoder Weg -->
+    <edge id="133328142" speed="13.89"/>
+    <edge id="133328144#0" speed="13.89"/>
+    <edge id="133328144#1" speed="13.89"/>
+    <edge id="133762687" speed="13.89"/>
+    <edge id="133762688#0" speed="13.89"/>
+    <edge id="165991996#0" speed="13.89"/>
+    <edge id="165991996#1" speed="13.89"/>
+    <edge id="24273875" speed="13.89"/>
+    <edge id="294074604" speed="13.89"/>
+    <edge id="31289655#0" speed="13.89"/>
+    <edge id="31289655#1" speed="13.89"/>
+    <edge id="133328143" speed="22.22"/>
+    
+
+    <edge id="320858407" shape="10.491015,52.272184 10.491318,52.272190"/>
+
+    <edge id="625058945" numLanes="1" allow="emergency authority bus tram"/>
+    <edge id="23295224#1" numLanes="1"/>
+    <edge id="23295226#0" numLanes="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23295226#1" numLanes="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23295226#2" numLanes="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23295226#3" numLanes="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="293576921#5" numLanes="1"/>
+    <edge id="332907827#0" numLanes="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907827#1" numLanes="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    
+    <edge id="-108915782#0" numLanes="1"/>
+    <edge id="-108915782#1" numLanes="1"/>
+    <edge id="-108915782#2" numLanes="1"/>
+    <edge id="-108915782#3" numLanes="1"/>
+    <edge id="-33199416#0" numLanes="1"/>
+    <edge id="-33199416#1" numLanes="1"/>
+    <edge id="-33199416#2" numLanes="1"/>
+    <edge id="-33199416#3" numLanes="1"/>
+    <edge id="-33199416#4" numLanes="1"/>
+    <edge id="-47007889" numLanes="1"/>
+    <edge id="108915782#0" numLanes="1"/>
+    <edge id="108915782#1" numLanes="1"/>
+    <edge id="108915782#2" numLanes="1"/>
+    <edge id="108915782#3" numLanes="1"/>
+    <edge id="33199416#0" numLanes="1"/>
+    <edge id="33199416#1" numLanes="1"/>
+    <edge id="33199416#2" numLanes="1"/>
+    <edge id="33199416#3" numLanes="1"/>
+    <edge id="33199416#4" numLanes="1"/>
+    
+    <edge id="18361868" speed="11.11"/>
+    <edge id="18361876" speed="11.11"/>
+    <edge id="23048938" speed="11.11"/>
+    
+    <!-- Hildesheimer Str. -->
+    <edge id="263432785#1" numLanes="2"/>
+    <edge id="263432785#2" numLanes="2"/>
+    <edge id="263432785#3" numLanes="2"/>
+    <edge id="263432785#4" numLanes="2"/>
+    <edge id="263432785#5" numLanes="2"/>
+    <edge id="263432785#6" numLanes="2"/>
+    <edge id="263432785#7" numLanes="2"/>
+    
+    <!-- Neustadtring -->
+    <edge id="33364787" numLanes="2"/>
+    <edge id="37389514#0" numLanes="2"/>
+    <edge id="37389514#1" numLanes="2"/>
+    <edge id="37389514#2" numLanes="2"/>
+    <edge id="37389514#3" numLanes="2"/>
+    <edge id="37389514#4" numLanes="2"/>
+    <edge id="37389514#5" numLanes="2"/>
+    <edge id="385626113" numLanes="2"/>
+    <edge id="40104423" numLanes="2"/>
+    <edge id="462507193" numLanes="2"/>
+    <edge id="62089686#0" numLanes="2"/>
+    <edge id="62089686#1" numLanes="2"/>
+    <edge id="62089686#2" numLanes="2"/>
+    <edge id="62089686#3" numLanes="2"/>
+    <edge id="7975422" numLanes="2"/>
+    
+    <!-- Rudolfplatz -->
+    <edge id="4365024#0" numLanes="2"/>
+    <edge id="4365024#1" numLanes="2"/>
+    <edge id="4365024#2" numLanes="2"/>
+    <edge id="4365024#3" numLanes="2"/>
+    <edge id="4365024#4" numLanes="2"/>
+    <edge id="292081334">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="31722495#0">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="31722495#1">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="31722495#2">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="31722495#3">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="7975423">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="30128601#0">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="30128601#1">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="4365024#0">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="4365024#1">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="4365024#2">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="4365024#3">
+        <lane index="0" allow="bus"/>
+    </edge>
+    <edge id="4365024#4">
+        <lane index="0" allow="bus"/>
+    </edge>
+    
+    <!-- Merge Tram line 3 and Cars lane -->
+    <delete id="308954431#0"/>
+    <delete id="308954431#1"/>
+    <delete id="308954431#2"/>
+    <delete id="308954431#3"/>
+    <delete id="308954431#4"/>
+    <delete id="308954431#5"/>
+    <delete id="308954431#6"/>
+    <delete id="308954431#7"/>
+    <delete id="308954431#8"/>
+    <delete id="308954431#9"/>
+    <delete id="308954432#10"/>
+    <delete id="308954432#11"/>
+    <delete id="308954432#12"/>
+    <delete id="308954432#13"/>
+    <delete id="308954432#14"/>
+    <delete id="308954432#15"/>
+    <delete id="308954432#16"/>
+    <delete id="308954432#2"/>
+    <delete id="308954432#3"/>
+    <delete id="308954432#4"/>
+    <delete id="308954432#5"/>
+    <delete id="308954432#6"/>
+    <delete id="308954432#7"/>
+    <delete id="308954432#8"/>
+    <delete id="308954432#9"/>
+    <delete id="310432387#10"/>
+    <delete id="310432387#11"/>
+    <delete id="310432387#12"/>
+    <delete id="310432387#13"/>
+    <delete id="310432387#14"/>
+    <delete id="310432387#15"/>
+    <delete id="310432387#16"/>
+    <delete id="310432387#17"/>
+    <delete id="310432387#18"/>
+    <delete id="310432387#19"/>
+    <delete id="310432387#20"/>
+    <delete id="310432387#21"/>
+    <delete id="310432387#22"/>
+    <delete id="310432387#23"/>
+    <delete id="310432387#24"/>
+    <delete id="310432387#25"/>
+    <delete id="325737559#0"/>
+    <delete id="325737559#1"/>
+    <delete id="325737559#10"/>
+    <delete id="325737559#11"/>
+    <delete id="325737559#12"/>
+    <delete id="325737559#13"/>
+    <delete id="325737559#14"/>
+    <delete id="325737559#16"/>
+    <delete id="325737559#17"/>
+    <delete id="325737559#18"/>
+    <delete id="325737559#19"/>
+    <delete id="325737559#2"/>
+    <delete id="325737559#20"/>
+    <delete id="325737559#22"/>
+    <delete id="325737559#21"/>
+    <delete id="325737559#3"/>
+    <delete id="325737559#4"/>
+    <delete id="325737559#5"/>
+    <delete id="325737559#6"/>
+    <delete id="325737559#7"/>
+    <delete id="325737559#8"/>
+    <delete id="325737559#9"/>
+    <delete id="325737561"/>
+    <delete id="325737562"/>
+    <edge id="-206391414#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-206391414#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-206391414#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-206498907#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-206498907#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-206498907#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-24358063#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-24396489#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-24396489#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-25290651">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-30348115#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-30348115#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-30348115#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-320041056#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-320041056#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-33049407#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-33049407#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-33049407#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-33049407#4">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-33049407#5">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#4">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#5">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#6">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#7">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-4364829#8">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-501199064#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-501199064#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-501199064#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-505849257">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-505849258">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-505849259#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-505849259#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-505849259#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-5059316#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-5059316#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-5059316#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-56816465#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-56816465#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-56816465#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-56816465#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-59507511#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-97554509">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653146#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653146#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653146#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653146#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653146#4">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653146#5">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653150#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="115653150#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391415">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="147688823#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="147688823#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="147688823#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="191875414#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391414#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391414#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391414#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391417#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391417#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206391417#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206498907#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206498907#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="206498907#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="23251939#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="24358063#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="24396489#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="24396489#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="25290651">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="30348115#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="30348115#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="30348115#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="320041056#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="320041056#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="33049407#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="33049407#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="33049407#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="33049407#4">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="33049407#5">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#4">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#5">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#6">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#7">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="4364829#8">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="501199064#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="501199064#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="501199064#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="505849257">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="505849258">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="505849259#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="505849259#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="505849259#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="5059316#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="5059316#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="5059316#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="5096577#7">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="510544114">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="56140088#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="56140088#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="56816465#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="56816465#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="56816465#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="56816465#3">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="59507511#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="75435984">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="97554509">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    
+    <edge id="525452872" numLanes="2"/>
+    <edge id="166445407#2" numLanes="5"/>
+    <edge id="166445407#1" numLanes="5"/>
+    <edge id="166445407#0" numLanes="5"/>
+    
+    <!-- Merge Tram lines 4&5 and Cars lane -->
+    <edge id="563616437#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="563616437#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="291757757#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="393081313#8" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="393081313#9" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="561503393#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="561503393#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23272948" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23274377#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23274377#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23274377#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23298006" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23374966#7" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-23374966#8" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-27143339" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-332907826" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-332907828#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-332907828#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-332907828#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-332907828#3" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-332907828#4" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23272948" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23274377#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23274377#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23274377#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23298006" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="27143339" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907826" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907828#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907828#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907828#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907828#3" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="332907828#4" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="333477152" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="36827562" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="5137919#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="5137919#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="5137919#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="5137919#3" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-375217310#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-375217310#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-375217310#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-375217310#3" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-563616438#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-563616438#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-563616438#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-622456655#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="-622456655#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="155738436#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="155738436#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="155738436#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="375217306" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="375217310#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="375217310#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="375217310#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="375217310#3" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="428966186#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="563616437#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="563616437#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="23040911#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="563616438#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="563616438#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="563616438#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="578374653#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="578374653#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="578374653#2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="578374653#3" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="578374653#4" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="622456655#0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="622456655#1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <edge id="625058945" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    <delete id="-329360456#0"/>
+    <delete id="238986161#10"/>
+    <delete id="238986161#11"/>
+    <delete id="291757758#10"/>
+    <delete id="291757758#11"/>
+    <delete id="291757758#12"/>
+    <delete id="291757758#13"/>
+    <delete id="291757758#14"/>
+    <delete id="291757758#15"/>
+    <delete id="291757758#16"/>
+    <delete id="291757758#17"/>
+    <delete id="291757758#18"/>
+    <delete id="291757758#2"/>
+    <delete id="291757758#3"/>
+    <delete id="291757758#4"/>
+    <delete id="291757758#5"/>
+    <delete id="291757758#6"/>
+    <delete id="291757758#7"/>
+    <delete id="291757758#8"/>
+    <delete id="291757758#9"/>
+    <delete id="310569080#0"/>
+    <delete id="310569080#1"/>
+    <delete id="310569080#10"/>
+    <delete id="310569080#11"/>
+    <delete id="310569080#12"/>
+    <delete id="310569080#2"/>
+    <delete id="310569080#3"/>
+    <delete id="310569080#4"/>
+    <delete id="310569080#5"/>
+    <delete id="310569080#6"/>
+    <delete id="310569080#7"/>
+    <delete id="310569080#8"/>
+    <delete id="310569080#9"/>
+    <delete id="329360456#0"/>
+    <delete id="393081301"/>
+    <delete id="393081303"/>
+    <delete id="393081314#0"/>
+    <delete id="393081314#1"/>
+    <delete id="393081314#2"/>
+    <delete id="393081314#3"/>
+    <delete id="393081314#4"/>
+    <delete id="393081314#5"/>
+    <delete id="502047174#0"/>
+    <delete id="502047174#1"/>
+    <delete id="502047174#2"/>
+    <delete id="561255723#0"/>
+    <delete id="561255723#1"/>
+    <delete id="561255723#2"/>
+    <delete id="561255723#3"/>
+    <delete id="561255723#4"/>
+    <delete id="561255726#1"/>
+    <delete id="561255726#2"/>
+    <delete id="561255726#3"/>
+    <delete id="577024332#0"/>
+    <delete id="577024332#1"/>
+    <delete id="600220249#0"/>
+    <delete id="600220249#1"/>
+    <delete id="600220249#2"/>
+    <delete id="600220249#3"/>
+    <delete id="600220249#4"/>
+    <delete id="206614452#13"/>
+    <delete id="206614452#14"/>
+    <delete id="206614452#15"/>
+    <delete id="23295223#0"/>
+    <delete id="23295223#1"/>
+    <delete id="238993483"/>
+    <delete id="238993486#0"/>
+    <delete id="238993486#1"/>
+    <delete id="238993487#3"/>
+    <delete id="238993487#4"/>
+    <delete id="291757757#0"/>
+    <delete id="291757757#1"/>
+    <delete id="291757757#2"/>
+    <delete id="291757757#3"/>
+    <delete id="291757757#4"/>
+    <delete id="291757757#5"/>
+    <delete id="291757757#6"/>
+    <delete id="291757757#7"/>
+    <delete id="291757757#8"/>
+    <delete id="291757757#9"/>
+    <delete id="291757760#0"/>
+    <delete id="291757760#1"/>
+    <delete id="291757760#2"/>
+    <delete id="291757760#3"/>
+    <delete id="291757760#4"/>
+    <delete id="291757760#5"/>
+    <delete id="291757760#6"/>
+    <delete id="291757760#7"/>
+    <delete id="291757760#8"/>
+    <delete id="291757762#2"/>
+    <delete id="291757763#0"/>
+    <delete id="291757763#1"/>
+    <delete id="291757763#2"/>
+    <delete id="291757763#3"/>
+    <delete id="291757766#0"/>
+    <delete id="291757766#1"/>
+    <delete id="301155021"/>
+    <delete id="309839195"/>
+    <delete id="309839196#0"/>
+    <delete id="393081313#0"/>
+    <delete id="393081313#1"/>
+    <delete id="393081313#2"/>
+    <delete id="393081313#3"/>
+    <delete id="393081313#4"/>
+    <delete id="393081313#6"/>
+    <delete id="393081313#7"/>
+    <delete id="393081313#8"/>
+    <delete id="393081313#9"/>
+    <delete id="502047174#2"/>
+    <delete id="502047174#3"/>
+    <delete id="561255726#0"/>
+    <delete id="561255726#1"/>
+    <delete id="561503393#0"/>
+    <delete id="561503393#1"/>
+    <delete id="561503393#2"/>
+    <delete id="561503393#3"/>
+    <delete id="561503393#4"/>
+    <delete id="561503393#5"/>
+    <delete id="624709342"/>
+    <delete id="624709344"/>
+    <delete id="625058947"/>
+    <edge id="334152810#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="375217305#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="375217305#3">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="375217305#4">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="375217305#5">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="382044611#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="382044611#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="382044611#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="382044612">
+        <lane index="2" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="375217303">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="578374647#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="578374647#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="578374647#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-54683173">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-334152810#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="-334152810#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152813#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152813#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="25258740#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="25258740#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="25258740#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="495906623#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="495906623#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="495906628">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152813#7">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152813#8">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152813#9">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152812#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152812#1">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152812#2">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152812#3">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="334152810#0">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="54683173">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="226674627">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="226674628#0">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="226674628#1">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="226674628#2">
+        <lane index="0" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    
+    <edge id="611585790" numLanes="1"/>
+    <edge id="5170415#1" numLanes="1"/>
+    <edge id="334152816#1" allow="emergency authority bus tram"/>
+    <edge id="334152817#0" allow="emergency authority bus tram"/>
+    <edge id="563320574#0" allow="emergency authority bus tram"/>
+    <edge id="563320575#0" allow="emergency authority bus tram"/>
+    <edge id="563320574#1" allow="emergency authority bus tram"/>
+    <edge id="563320575#1" allow="emergency authority bus tram"/>
+    <edge id="334152817#1" allow="emergency authority bus tram"/>
+    <edge id="334152816#2" allow="emergency authority bus tram"/>
+    <edge id="334152816#3" allow="emergency authority bus tram"/>
+    <edge id="334152817#1" allow="emergency authority bus tram"/>
+    <edge id="334152816#0" allow="emergency authority bus tram"/>
+    
+    <edge id="-624680815" numLanes="3"/>
+    <edge id="-313800998" numLanes="3"/>
+    <edge id="-30773146" numLanes="2"/>
+    
+    <edge id="120235211" speed="16.66"/>
+    <edge id="254630074" speed="16.66"/>
+    <edge id="254630073" speed="16.66"/>
+    <edge id="81634408" speed="16.66"/>
+    <edge id="120263928" speed="16.66"/>
+    <edge id="26938738" speed="16.66"/>
+    
+    <delete id="113780419#0"/>
+    <delete id="-113780419#0"/>
+    <delete id="113780419#1"/>
+    <delete id="113780419#3"/>
+    
+    <!-- Güldenstraße & Celler Str. -->    
+    <edge id="376743572#1" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" allow="bus"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="4" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="376743572#2" >
+        <lane index="0" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" allow="bus"/>
+        <lane index="3" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="4" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    
+    <edge id="30424335#0" numLanes="3">
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="30424335#1" numLanes="3">
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    <edge id="30424335#2" numLanes="3">
+        <lane index="0" allow="bus"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
+        <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
+    </edge>
+    
+</edges>

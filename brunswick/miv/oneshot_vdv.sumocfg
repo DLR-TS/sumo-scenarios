@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Jan 29 14:48:25 2019 by Eclipse SUMO GUI Version v1_0_1+0645-93703db
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="miv.net.xml"/>
+        <route-files value="miv.trips.xml,../vdv/transit.rou.xml"/>
+        <additional-files value="vtypes.xml,../vdv/stops.add.xml,../vdv/transitVTypes.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="vehroutes_vdv.xml"/>
+        <vehroute-output.last-route value="true"/>
+        <vehroute-output.sorted value="true"/>
+        <vehroute-output.intended-depart value="true"/>
+
+        <tripinfo-output value="tripinfos_vdv.xml"/>
+        <summary-output value="summary_vdv.xml"/>
+    </output>
+
+    <time>
+        <begin value="1:3:30:0"/>
+    </time>
+
+    <routing>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.adaptation-interval value="10"/>
+        <device.rerouting.adaptation-steps value="36"/>
+        <device.rerouting.threads value="8"/>
+        <device.rerouting.synchronize value="true"/>
+    </routing>
+
+    <human-readable-time value="true"/>
+    <routing-algorithm value="astar"/>
+    <duration-log.statistics value="true"/>
+    <no-step-log value="true"/>
+    <log value="oneshot_vdv.log"/>
+    <tls.actuated.show-detectors value="true"/>
+    <ignore-route-errors value="true"/> <!-- #5203 -->
+    <junction-taz value="true"/>
+
+</configuration>

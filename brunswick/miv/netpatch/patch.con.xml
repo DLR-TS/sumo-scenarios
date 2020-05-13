@@ -1,0 +1,761 @@
+<connections version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+
+    <!-- motorway extra connection (to avoid counter-lc-deadlock) -->
+    <connection from="277671149" fromLane="0" to="25036019" toLane="0"/>
+    <connection from="277671149" fromLane="1" to="25036019" toLane="0"/>
+    <connection from="277671149" fromLane="1" to="26563778" toLane="0"/>
+
+    <connection from="30998180" fromLane="0" to="23048938" toLane="0"/>
+    <connection from="30998180" fromLane="1" to="23048938" toLane="0"/>
+    <connection from="30998180" fromLane="1" to="5668902" toLane="0"/>
+
+    <connection from="24043421" fromLane="0" to="20455466" toLane="0"/>
+    <connection from="24043421" fromLane="1" to="20455466" toLane="0"/>
+    <connection from="24043421" fromLane="1" to="125164486#0" toLane="0"/>
+
+    <!-- bad junction (add connections to avoid counter-lc-deadlock) -->
+    <connection from="296271622#1" fromLane="0" to="8074184#0" toLane="0"/>
+    <connection from="296271622#1" fromLane="1" to="8074184#0" toLane="1"/>
+    <connection from="296271622#1" fromLane="1" to="30424216#0" toLane="0"/>
+    <connection from="296271622#1" fromLane="2" to="30424216#0" toLane="1"/>
+
+    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="0"/>
+    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="1"/>
+
+    <!-- A391_AS_Lehndorf -->
+    <connection from="122164823#0" fromLane="0" to="296271622#1" toLane="0"/>
+    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="1"/>
+    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="2"/>
+    <connection from="122164787#1" fromLane="0" to="296271622#1" toLane="0"/>
+    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="1"/>
+    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="2"/>
+    <connection from="122164787#1" fromLane="2" to="83094952#0" toLane="0"/>    
+    <connection from="30424059#0" fromLane="0" to="30424059#1" toLane="0"/>
+    <connection from="30424059#0" fromLane="1" to="30424059#1" toLane="1"/>
+    <connection from="30424059#0" fromLane="2" to="30424059#1" toLane="2"/>
+    <connection from="30424059#0" fromLane="2" to="122164769#0" toLane="1"/>
+    <connection from="30424059#0" fromLane="2" to="122164769#0" toLane="0"/>
+    <connection from="320858419" fromLane="0" to="30424059#0" toLane="0"/>
+    <connection from="320858419" fromLane="0" to="30424059#0" toLane="1"/>
+    <connection from="320858419" fromLane="1" to="30424059#0" toLane="2"/>
+    <connection from="8074181#0" fromLane="0" to="30424059#0" toLane="0"/>
+    <connection from="8074181#0" fromLane="1" to="30424059#0" toLane="1"/>
+    <connection from="8074181#0" fromLane="1" to="30424059#0" toLane="2"/>
+    
+    <connection from="8074184#0" fromLane="0" to="23048926#0" toLane="0"/>
+    <connection from="8074184#0" fromLane="0" to="320858416" toLane="0"/>
+    
+    <!-- A391_AS_Weststadt -->
+    <delete from="24271242#0" to="32755914"/>
+    <delete from="24271242#0" to="24271247#0"/>
+    <delete from="24271244#0" to="325528578"/>
+    <delete from="24271244#0" to="4526773#0"/>
+    <delete from="325528576" to="4526773#0"/>
+    <delete from="32905536" to="24271247#0"/>
+    <connection from="24271242#0" fromLane="0" to="4526773#0" toLane="0"/>
+    <connection from="24271242#0" fromLane="0" to="325528578" toLane="1"/>
+    <connection from="24271244#0" fromLane="0" to="32755914" toLane="0"/>
+    <connection from="24271244#0" fromLane="1" to="32755914" toLane="1"/>
+    <connection from="24271244#0" fromLane="1" to="24271247#0" toLane="0"/>
+    <connection from="122164789#0" fromLane="0" to="320858412" toLane="0"/>
+    <connection from="122164789#0" fromLane="1" to="320858412" toLane="0"/>
+    
+
+    <!-- Forschungskreuzung -->
+    <connection from="166445405#0" fromLane="0" to="512158816#0" toLane="0"/>
+    <connection from="166445405#0" fromLane="1" to="512158816#0" toLane="1"/>
+    <connection from="166445405#0" fromLane="2" to="525452872" toLane="0"/>
+    <connection from="166445405#0" fromLane="3" to="447787390#0" toLane="0"/>
+    <connection from="166445405#0" fromLane="4" to="447787390#0" toLane="1"/>
+    <connection from="166445405#0" fromLane="4" to="29136063#0" toLane="2"/>
+
+    <connection from="314915850#0" fromLane="0" to="29136063#0" toLane="0"/>
+    <connection from="314915850#0" fromLane="1" to="29136063#0" toLane="1"/>
+    <connection from="314915850#0" fromLane="2" to="512158816#0" toLane="0"/>
+    <connection from="314915850#0" fromLane="3" to="512158816#0" toLane="1"/>
+    <connection from="314915850#0" fromLane="4" to="525452872" toLane="0"/>
+    <connection from="314915850#0" fromLane="4" to="447787390#0" toLane="1"/>
+   
+    <connection from="166445407#0" fromLane="0" to="525452872" toLane="0"/>
+    <connection from="166445407#0" fromLane="1" to="447787390#0" toLane="0"/>
+    <connection from="166445407#0" fromLane="2" to="447787390#0" toLane="1"/>
+    <connection from="166445407#0" fromLane="3" to="29136063#0" toLane="1"/>
+    <connection from="166445407#0" fromLane="4" to="29136063#0" toLane="2"/>
+    <connection from="166445407#0" fromLane="4" to="512158816#0" toLane="1"/>
+    
+    <!-- HBF (Berliner Platz -->
+    <connection from="32352639#0" fromLane="0" to="28113494#0" toLane="0"/>
+    <connection from="32352639#0" fromLane="0" to="28217280#0" toLane="0"/>
+    <connection from="32352639#0" fromLane="1" to="28217280#0" toLane="1"/>
+    <connection from="32352639#0" fromLane="2" to="7849629" toLane="0"/>
+    <connection from="32352639#0" fromLane="3" to="7849629" toLane="1"/>
+    <connection from="32352639#0" fromLane="3" to="7849629" toLane="2"/>
+
+    <connection from="221632396#0" fromLane="0" to="28217278#1" toLane="0"/>
+    <connection from="221632396#0" fromLane="1" to="28217278#1" toLane="1"/>
+    <connection from="221632396#0" fromLane="2" to="28217278#1" toLane="2"/>
+    <connection from="221632396#0" fromLane="3" to="31286924#0" toLane="0"/>
+    <connection from="221632396#0" fromLane="3" to="31286924#0" toLane="1"/>
+    <connection from="221632396#0" fromLane="3" to="31286924#0" toLane="2"/>
+    
+    <connection from="24032967#0" fromLane="0" to="319187466" toLane="0"/>
+    <connection from="24032967#0" fromLane="1" to="319187466" toLane="1"/>
+    <connection from="24032967#0" fromLane="1" to="319187466" toLane="2"/>
+
+    <!-- A392_AS_Hamburger -->
+    <connection from="431412124" fromLane="0" to="299910664#0" toLane="1"/>
+    <connection from="431412124" fromLane="1" to="299910664#0" toLane="2"/>
+    <connection from="431412124" fromLane="2" to="26691822#0" toLane="0"/>
+    <connection from="431412124" fromLane="3" to="26691822#0" toLane="1"/>
+    <connection from="431412124" fromLane="3" to="125068044#1" toLane="1"/>
+    <delete from="299911661" to="26691822#0"/>
+
+
+    <!-- KennedyPlatz -->    
+    <connection from="315425129#0" fromLane="0" to="23208748#0" toLane="0"/>
+    <connection from="315425129#0" fromLane="1" to="23208748#0" toLane="1" allow="bus"/>
+    <connection from="315425129#0" fromLane="1" to="32055654" toLane="0" allow="bus"/>
+    <connection from="315425129#0" fromLane="2" to="32055654" toLane="1"/>
+    <connection from="315425129#0" fromLane="3" to="32055654" toLane="2"/>
+    <connection from="315425129#0" fromLane="3" to="32055654" toLane="3"/>
+    
+    <connection from="319188807" fromLane="0" to="25290438" toLane="0"/>
+    <connection from="319188807" fromLane="0" to="25290438" toLane="1"/>
+    <connection from="319188807" fromLane="1" to="25290438" toLane="2"/>
+    <connection from="319188807" fromLane="2" to="25290438" toLane="3"/>
+
+    <connection from="315422095#1" fromLane="0" to="5059167#0" toLane="0"/>
+    <connection from="315422095#1" fromLane="1" to="24020888#2" toLane="0"/>
+    <connection from="315422095#1" fromLane="2" to="24020888#2" toLane="1"/>
+    <connection from="315422095#1" fromLane="3" to="24020888#2" toLane="2"/>
+
+    <connection from="32055654" fromLane="0" to="5059167#0" toLane="0"/>
+    <connection from="32055654" fromLane="1" to="5059167#0" toLane="0"/>
+    <connection from="32055654" fromLane="2" to="5059167#0" toLane="1"/>
+    <connection from="32055654" fromLane="3" to="24020888#2" toLane="3"/>
+    
+    <connection from="25076286#0" fromLane="0" to="24020907#0" toLane="0"/>
+    <connection from="25076286#0" fromLane="1" to="24020907#0" toLane="1"/>
+    <connection from="25076286#0" fromLane="2" to="32352622#0" toLane="0"/>
+    <connection from="25076286#0" fromLane="3" to="32352622#0" toLane="1"/>
+    <connection from="25076286#0" fromLane="3" to="32352622#0" toLane="2"/>
+    <connection from="25076286#0" fromLane="4" to="32352622#0" toLane="3"/>
+
+    <connection from="23208750#0" fromLane="0" to="25290525" toLane="0"/>
+    <connection from="23208750#0" fromLane="1" to="25290525" toLane="1"/>
+
+    <connection from="311580921#0" fromLane="0" to="25290525" toLane="0"/>
+    <connection from="311580921#0" fromLane="1" to="24437349#0" toLane="0"/>
+    <connection from="311580921#0" fromLane="1" to="25076286#0" toLane="0"/>
+    <connection from="311580921#0" fromLane="1" to="25076286#0" toLane="1"/>
+    <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="2"/>
+    <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="3"/>
+    <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="4"/>
+
+    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="1"/>
+    <connection from="319188813#3" fromLane="0" to="24437349#0" toLane="0"/>
+    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="2"/>
+    <connection from="319188813#3" fromLane="1" to="25076286#0" toLane="3"/>
+    
+    <connection from="-24437349#3" fromLane="0" to="25076286#0" toLane="1"/>
+    <connection from="-24437349#3" fromLane="0" to="24437349#0" toLane="0"/>
+
+    <connection from="32352621#0" fromLane="2" to="32352622#0" toLane="2"/>
+    <connection from="32352621#0" fromLane="2" to="32352622#0" toLane="1"/>
+    <connection from="32352621#0" fromLane="1" to="32352622#0" toLane="0"/>
+    <connection from="32352621#0" fromLane="1" to="24020907#0" toLane="1"/>
+    <connection from="32352621#0" fromLane="0" to="24020907#0" toLane="0"/>
+    
+    <connection from="32352622#0" fromLane="0" to="32352622#5" toLane="0"/>
+    <connection from="32352622#0" fromLane="1" to="32352622#5" toLane="1"/>
+    <connection from="32352622#0" fromLane="2" to="32352622#5" toLane="2"/>
+    <connection from="32352622#0" fromLane="3" to="32352622#5" toLane="3"/>
+    
+    <connection from="32352622#5" fromLane="0" to="23208748#0" toLane="0"/>
+    <connection from="32352622#5" fromLane="1" to="23208748#0" toLane="1"/>
+    <connection from="32352622#5" fromLane="2" to="32055654" toLane="1"/>
+    <connection from="32352622#5" fromLane="3" to="32055654" toLane="2"/>
+    <connection from="32352622#5" fromLane="3" to="32055654" toLane="3"/>
+    
+
+    <!-- Neustadtringt / Celler str. -->
+    <connection from="374169553#0" fromLane="0" to="48861560#0" toLane="0"/>
+    <connection from="374169553#0" fromLane="1" to="83723985#0" toLane="0"/>
+    <connection from="374169553#0" fromLane="2" to="83723985#0" toLane="1"/>
+    <connection from="374169553#0" fromLane="3" to="299910129#0" toLane="0"/>
+    <connection from="374169553#0" fromLane="3" to="299910129#0" toLane="1"/>
+    <connection from="7975425#0" fromLane="0" to="299910129#0" toLane="0"/>
+    <connection from="7975425#0" fromLane="0" to="7975424#0" toLane="0"/>
+    <connection from="7975425#0" fromLane="1" to="7975424#0" toLane="1"/>
+    <connection from="7975425#0" fromLane="2" to="48861560#0" toLane="0"/>
+    <connection from="7975425#0" fromLane="3" to="48861560#0" toLane="1"/>
+    <connection from="7975425#0" fromLane="3" to="83723985#0" toLane="1"/>
+    
+    <!-- Rudolfplatz -->
+    <connection from="292081334" fromLane="0" to="624411668#0" toLane="0" />
+    <connection from="292081334" fromLane="1" to="624411668#0" toLane="0" />
+    <connection from="292081334" fromLane="2" to="624411668#0" toLane="1" />
+    <connection from="292081334" fromLane="3" to="7975436#0" toLane="0" />
+    <connection from="292081334" fromLane="4" to="7975436#0" toLane="1" />   
+    <connection from="31722493#0" fromLane="0" to="25624802#0" toLane="0"/>
+    <connection from="31722493#0" fromLane="1" to="25624802#0" toLane="1"/>
+    <connection from="31722493#0" fromLane="2" to="25624801" toLane="0"/>
+    <connection from="31722493#0" fromLane="3" to="25624801" toLane="1"/>
+    <connection from="31722493#0" fromLane="3" to="25624801" toLane="2"/>
+    <connection from="231661249#6" fromLane="0" to="7975434#0" toLane="0"/>
+    <connection from="231661249#6" fromLane="0" to="31722495#0" toLane="0"/>
+    <connection from="231661249#6" fromLane="0" to="31722495#0" toLane="1"/>
+    <connection from="231661249#6" fromLane="0" to="31722495#0" toLane="2"/>
+    <connection from="231661249#6" fromLane="1" to="31722495#0" toLane="3"/>
+    <connection from="231661249#6" fromLane="1" to="31722495#0" toLane="4"/>
+    
+    <!--
+    -->
+    
+    <!-- BS-Süd Clover Intersection Off-Ramp(NW) -->
+    <connection from="4743824" fromLane="0" to="4727541" toLane="0"/>
+    <connection from="4743824" fromLane="1" to="4727541" toLane="0"/>
+    <connection from="4743824" fromLane="1" to="23919226" toLane="0"/>
+    <connection from="4743824" fromLane="2" to="23919226" toLane="1"/>
+    
+    <!-- Richmondweg -->
+    <connection from="320709895" fromLane="0" to="5196537#0" toLane="0"/>
+    <connection from="320709895" fromLane="1" to="591178581" toLane="0"/>
+    <connection from="320709895" fromLane="2" to="591178581" toLane="1"/>
+    
+    
+    <!-- A39 Off-Ramp & Rautheimer St-->
+    <connection from="-28748877" fromLane="0" to="10868214#0" toLane="0"/>
+    <connection from="-28748877" fromLane="1" to="-263546728" toLane="0"/>
+    <connection from="-28748877" fromLane="1" to="28748877" toLane="1"/>
+    <connection from="263546728" fromLane="0" to="28748877" toLane="0"/>
+    <connection from="263546728" fromLane="1" to="10868214#0" toLane="0"/>
+    <connection from="263546728" fromLane="1" to="-263546728" toLane="0"/>
+    <connection from="309461383#0" fromLane="1" to="28748877" toLane="1"/>
+    <connection from="309461383#0" fromLane="0" to="-263546728" toLane="0"/>
+    
+    <!-- Thiedestraße & Berkenbuschstraße -->
+    <connection from="171266169#0" fromLane="0" to="25860880#0" toLane="0"/> 
+    <connection from="171266169#0" fromLane="1" to="28192201#0" toLane="0"/>
+    <connection from="171266169#0" fromLane="1" to="-171266169#2" toLane="0"/>
+    
+    <!-- Güldenstraße & Celler Str. -->
+    <connection from="320399276" fromLane="0" to="515351950#0" toLane="0"/>
+    <connection from="320399276" fromLane="0" to="30424335#0" toLane="0"/>
+    <connection from="320399276" fromLane="0" to="30424335#0" toLane="1"/>
+    <connection from="320399276" fromLane="1" to="30424335#0" toLane="2"/>
+    <connection from="320399276" fromLane="2" to="320399275#0" toLane="0"/>
+    <connection from="320399276" fromLane="3" to="320399275#0" toLane="1"/>
+    <connection from="376743572#1" fromLane="0" to="31414016#0" toLane="0"/>
+    <connection from="376743572#1" fromLane="1" to="31414016#0" toLane="1"/>
+    <connection from="376743572#1" fromLane="2" to="30424335#0" toLane="0"/>
+    <connection from="376743572#1" fromLane="3" to="30424335#0" toLane="1"/>
+    <connection from="376743572#1" fromLane="4" to="30424335#0" toLane="2"/>
+    <connection from="60922609#0" fromLane="0" to="320399275#0" toLane="0"/>
+    <connection from="60922609#0" fromLane="1" to="320399275#0" toLane="1"/>
+    <connection from="60922609#0" fromLane="2" to="31414016#0" toLane="0"/>
+    <connection from="60922609#0" fromLane="3" to="31414016#0" toLane="1"/>
+    
+    <connection from="376743573#0" fromLane="0" to="376743572#0" toLane="0"/>
+    <connection from="376743573#0" fromLane="0" to="376743572#0" toLane="1"/>
+    <connection from="376743573#0" fromLane="0" to="376743572#0" toLane="2"/>
+    <connection from="376743573#0" fromLane="1" to="376743572#0" toLane="3"/>
+    <connection from="376743573#0" fromLane="1" to="376743572#0" toLane="4"/>
+    
+    <connection from="30424335#0" fromLane="0" to="60922614#0" toLane="0"/>
+    <connection from="30424335#0" fromLane="1" to="60922614#0" toLane="0"/>
+    <connection from="30424335#0" fromLane="2" to="60922614#0" toLane="1"/>
+    
+    <!-- B4_Wolfenbuetteler -->
+    <connection from="316779261#0" fromLane="0" to="32353230#0" toLane="0"/>
+    <connection from="316779261#0" fromLane="1" to="32353230#0" toLane="1"/>
+    <connection from="316779261#0" fromLane="2" to="23208747#0" toLane="0"/>
+    <connection from="316779261#0" fromLane="3" to="23208747#0" toLane="1"/>
+    <connection from="316779261#0" fromLane="4" to="-384324387" toLane="0"/>
+    <connection from="316779261#0" fromLane="4" to="33289080#0" toLane="1"/>
+    <connection from="316779263#0" fromLane="2" to="33289080#0" toLane="1"/>
+    <connection from="316779263#0" fromLane="2" to="32353230#0" toLane="1"/>
+    <connection from="316779263#0" fromLane="1" to="33289080#0" toLane="0"/>
+    <connection from="316779263#0" fromLane="1" to="-384324387" toLane="0"/>
+    <connection from="316779263#0" fromLane="0" to="23208747#0" toLane="0"/>
+    
+    
+    <!-- Frankfurter str. & Theodor-Heuss-Str -->
+    <delete from="181314848#0" to="155708581#0"/>
+    <connection from="311549884#0" fromLane="0" to="385335110#0" toLane="0"/>
+    <connection from="311549884#0" fromLane="1" to="4743791#0" toLane="0"/>
+    <connection from="311549884#0" fromLane="2" to="4743791#0" toLane="1"/>
+    <connection from="311549884#0" fromLane="3" to="155708581#0" toLane="1"/>
+    <connection from="311549884#0" fromLane="3" to="30433822#0" toLane="0"/>
+
+    <!-- B1 & Rautheimer St-->
+    <connection from="362641684#0" fromLane="0" to="362641685#0" toLane="0"/>
+    <connection from="362641684#0" fromLane="1" to="277703980#0" toLane="1"/>
+    <connection from="362641684#0" fromLane="1" to="362641686#0" toLane="0"/>
+    <connection from="266106260#0" fromLane="1" to="362641685#0" toLane="0"/>
+    <connection from="266106260#0" fromLane="1" to="141393965#0" toLane="0"/>
+    <connection from="266106260#0" fromLane="1" to="362641686#0" toLane="0"/>
+    <connection from="266106260#0" fromLane="0" to="277703980#0" toLane="0"/>    
+    
+    <connection from="34126875#0" fromLane="0" to="-490103296" toLane="0"/>
+    <connection from="24044421" fromLane="1" to="24044474#0" toLane="0"/>
+    <connection from="24044421" fromLane="0" to="266106267#1" toLane="0"/>
+    
+    <!-- Marienstift -->
+    <connection from="584032570" fromLane="0" to="-428966186#2" toLane="0"/>
+    <connection from="584032570" fromLane="0" to="-428966186#2" toLane="1"/>
+    <connection from="-29223994#1" fromLane="0" to="-428966186#2" toLane="0"/>
+    <connection from="-29223994#1" fromLane="0" to="-428966186#2" toLane="1"/>
+    
+    <!-- Off-Ramp BS-Stöckheim -->
+    <connection from="254536069" fromLane="0" to="10999703" toLane="0"/>
+    <connection from="254536069" fromLane="1" to="10999703" toLane="0"/>
+    <connection from="254536069" fromLane="1" to="254536071" toLane="0"/>
+    <connection from="254536069" fromLane="2" to="254536071" toLane="1"/>
+    <connection from="332861870" fromLane="0" to="10999704" toLane="0"/>
+    <connection from="332861870" fromLane="1" to="10999704" toLane="0"/>
+    <connection from="332861870" fromLane="1" to="332861869" toLane="0"/>
+    <connection from="332861870" fromLane="2" to="332861869" toLane="1"/>
+    
+    <!-- Hamburger Straße -->
+    <connection from="306488582" fromLane="0" to="318774678#1" toLane="0" />
+    <connection from="306488582" fromLane="1" to="318774678#1" toLane="1" />
+    <connection from="306488582" fromLane="2" to="6144590#1" toLane="0" />
+    <connection from="306488582" fromLane="3" to="6144590#1" toLane="1" />
+    <connection from="306488582" fromLane="4" to="5139388#0" toLane="0" />
+    <connection from="306488582" fromLane="4" to="573738885#1" toLane="2" />
+    <connection from="318774677#0" fromLane="0" to="6144590#1" toLane="0" />
+    <connection from="318774677#0" fromLane="0" to="5139388#0" toLane="0" />
+    <connection from="318774677#0" fromLane="1" to="573738885#1" toLane="0" />
+    <connection from="318774677#0" fromLane="2" to="573738885#1" toLane="1" />
+    <connection from="318774677#0" fromLane="3" to="573738885#1" toLane="2" />
+    <connection from="318774686" fromLane="0" to="5139388#0" toLane="0" />
+    <connection from="318774686" fromLane="1" to="573738885#1" toLane="1" />
+    <connection from="318774686" fromLane="2" to="573738885#1" toLane="2" />
+    <connection from="318774686" fromLane="3" to="318774678#1" toLane="0" />
+    <connection from="318774686" fromLane="4" to="318774678#1" toLane="1" />
+    <connection from="318774686" fromLane="4" to="6144590#1" toLane="1" />
+    
+    <!-- Rebenring & Mühlenpfordtstraße -->
+    <connection from="292107968#0" fromLane="0" to="306488581" toLane="0" />
+    <connection from="292107968#0" fromLane="1" to="306488581" toLane="1" />
+    <connection from="292107968#0" fromLane="2" to="306488581" toLane="2" />
+    <connection from="292107968#0" fromLane="3" to="37390117#0" toLane="0" />
+    <connection from="292107968#0" fromLane="4" to="37390117#0" toLane="1" />
+    <connection from="292107968#0" fromLane="4" to="37390119" toLane="2" />
+    <connection from="318774679#0" fromLane="0" to="37390117#0" toLane="0" />
+    <connection from="318774679#0" fromLane="1" to="37390117#0" toLane="1" />
+    <connection from="318774679#0" fromLane="2" to="37390119" toLane="0" />
+    <connection from="318774679#0" fromLane="3" to="37390119" toLane="1" />
+    <connection from="318774679#0" fromLane="4" to="37390119" toLane="2" />
+    <connection from="318774679#0" fromLane="4" to="306488581" toLane="2" />
+    <connection from="42137289#0" fromLane="0" to="37390119" toLane="0" />
+    <connection from="42137289#0" fromLane="1" to="37390119" toLane="1" />
+    <connection from="42137289#0" fromLane="2" to="306488581" toLane="1" />
+    <connection from="42137289#0" fromLane="3" to="306488581" toLane="2" />
+    <connection from="42137289#0" fromLane="3" to="37390117#0" toLane="1" />
+    
+    <!-- Hans-Jürgen-Straße & Celler Heerstraße--> 
+    <connection from="-509331935" fromLane="0" to="33199328" toLane="0"/>
+    <connection from="-509331935" fromLane="1" to="-7990946#2" toLane="0"/>
+    <connection from="-509331935" fromLane="1" to="-509331932" toLane="0"/>
+    <connection from="-509331935" fromLane="1" to="509331935" toLane="0"/>
+    
+    <connection from="509331932" fromLane="0" to="509331935" toLane="0"/>
+    <connection from="509331932" fromLane="1" to="33199328" toLane="0"/>
+    <connection from="509331932" fromLane="1" to="-509331932" toLane="0"/>   
+    
+    <!-- Thiedestraße & Am Westerberge -->
+    <connection from="-24447335#1" fromLane="0" to="-313800995" toLane="0"/>
+    <connection from="-24447335#1" fromLane="1" to="-334165355#1" toLane="0"/>
+    <connection from="-24447335#1" fromLane="1" to="24167028#0" toLane="0"/>
+    <connection from="-24447335#1" fromLane="1" to="506825533#0" toLane="0"/>
+    
+    <!-- Sachsendamm -->
+    <connection from="133762688#3" fromLane="1" to="504401512" toLane="1"/>
+    <connection from="133762688#3" fromLane="1" to="22943891#1" toLane="1"/>
+    <connection from="133762688#3" fromLane="0" to="504401514#1" toLane="0"/>
+    <connection from="504401515#0" fromLane="0" to="22943891#1" toLane="0"/>
+    <connection from="504401515#0" fromLane="1" to="504401514#1" toLane="0"/>
+    <connection from="504401515#0" fromLane="2" to="504401514#1" toLane="1"/>
+    <connection from="504401515#0" fromLane="2" to="504401512" toLane="1"/>
+    <connection from="122024412#0" fromLane="0" to="17270726#0" toLane="0"/>
+    <connection from="122024412#0" fromLane="1" to="24029843" toLane="0"/>
+    <connection from="122024412#0" fromLane="1" to="122024414#0" toLane="0"/>  
+    
+    <!-- Hallestraße & Sachsendamm  -->
+    <connection from="5199738#3" fromLane="1" to="24032969#0" toLane="0"/>
+    <connection from="5199738#3" fromLane="1" to="80817384#0" toLane="0"/>
+    <connection from="5199738#3" fromLane="1" to="-5199738#4" toLane="0"/>
+    <connection from="5199738#3" fromLane="0" to="81362183#0" toLane="0"/>
+    <connection from="5199987#4" fromLane="1" to="-5199738#4" toLane="0"/> 
+    <connection from="5199987#4" fromLane="1" to="24032969#0" toLane="0"/>
+    <connection from="5199987#4" fromLane="1" to="81362183#0" toLane="1"/> 
+    <connection from="5199987#4" fromLane="0" to="80817384#0" toLane="0"/>
+    
+    <!-- A391 & Hansestraße  -->
+    <connection from="13991978#0" fromLane="0" to="299911660" toLane="0"/>
+    <connection from="13991978#0" fromLane="1" to="191883899" toLane="1"/>
+    <connection from="13991978#0" fromLane="1" to="85274653#0" toLane="0"/>
+    <connection from="511308643" fromLane="0" to="299911660" toLane="0"/>
+    <connection from="511308643" fromLane="1" to="299911660" toLane="1"/>
+    <connection from="511308643" fromLane="2" to="191883899" toLane="1"/>
+    
+    <connection from="134637607#0" fromLane="1" to="120991989" toLane="1"/>
+    <connection from="134637607#0" fromLane="0" to="85272780#2" toLane="0"/>
+    <connection from="134637607#0" fromLane="1" to="85272780#2" toLane="1"/>
+    <connection from="85272783#0" fromLane="0" to="85272780#2" toLane="0"/>
+    <connection from="85272783#0" fromLane="1" to="120991989" toLane="0"/>
+    <connection from="85272783#0" fromLane="2" to="120991989" toLane="1"/>
+    <connection from="85272783#0" fromLane="2" to="85272782#0" toLane="0"/>
+    
+    <connection from="191883899" fromLane="0" to="511308690" toLane="0"/>
+    <connection from="191883899" fromLane="0" to="511308690" toLane="1"/>
+    <connection from="191883899" fromLane="1" to="511308690" toLane="2"/>
+    
+    <connection from="511308690" fromLane="0" to="-166445403#1" toLane="0"/>
+    <connection from="511308690" fromLane="0" to="191883896#0" toLane="0"/>
+    <connection from="511308690" fromLane="1" to="191883896#0" toLane="1"/>
+    <connection from="511308690" fromLane="2" to="511308646" toLane="1"/>
+    
+    <!-- Gifhorner & Hansestraße  -->
+    <connection from="511175448#0" fromLane="0" to="4747813#0" toLane="0"/>
+    <connection from="511175448#0" fromLane="1" to="511175445#0" toLane="0"/>
+    <connection from="511175448#0" fromLane="2" to="511175445#0" toLane="1"/>
+    <connection from="511175448#0" fromLane="2" to="-204717311#1" toLane="0"/>
+    <connection from="511175448#0" fromLane="2" to="-511315730" toLane="1"/>
+    <connection from="191883898#0" fromLane="0" to="511175445#0" toLane="0"/>
+    <connection from="191883898#0" fromLane="1" to="511175445#0" toLane="1"/>
+    <connection from="191883898#0" fromLane="2" to="-204717311#1" toLane="0"/>
+    <connection from="191883898#0" fromLane="2" to="-511315730" toLane="1"/>
+    <connection from="191883898#0" fromLane="2" to="4747813#0" toLane="1"/>
+    <connection from="30918489#0" fromLane="0" to="-204717311#1" toLane="0"/>
+    <connection from="30918489#0" fromLane="0" to="-511315730" toLane="0"/>
+    <connection from="30918489#0" fromLane="1" to="4747813#0" toLane="0"/>
+    <connection from="30918489#0" fromLane="2" to="4747813#0" toLane="1"/>
+    <connection from="30918489#0" fromLane="2" to="511175445#0" toLane="1"/>
+    
+    <!-- Hagenmarkt & Bohlweg -->
+    <connection from="230410128#0" fromLane="0" to="7823657#0" toLane="0"/>
+    <connection from="230410128#0" fromLane="1" to="37975912#4" toLane="0"/>
+    <connection from="230410128#0" fromLane="2" to="37975912#4" toLane="1"/>
+    <connection from="230410128#0" fromLane="3" to="5096577#4" toLane="1"/>
+    <connection from="308954431#10" fromLane="0" to="301916360#0" toLane="0"/>
+    <connection from="56816450#0" fromLane="0" to="7823657#0" toLane="0"/>
+    <connection from="56816450#0" fromLane="1" to="7823657#0" toLane="1"/>
+    <connection from="56816450#0" fromLane="2" to="37975912#4" toLane="1"/>
+    
+    <!-- Alte Waage  -->
+    <connection from="191875413#1" fromLane="0" to="32269752#1" toLane="0"/>
+    <connection from="191875413#1" fromLane="1" to="32269752#1" toLane="1"/>
+    <connection from="191875413#1" fromLane="2" to="32269755#2" toLane="0"/>
+    <connection from="191875413#1" fromLane="3" to="32269755#2" toLane="1"/>
+    <connection from="191875413#1" fromLane="3" to="379981960#0" toLane="2"/>
+    
+    <connection from="28177559" fromLane="0" to="8078943#0" toLane="0"/>
+    <connection from="28177559" fromLane="0" to="32269755#2" toLane="0"/>
+    <connection from="28177559" fromLane="1" to="32269755#2" toLane="1"/>
+    <connection from="28177559" fromLane="2" to="379981960#0" toLane="1"/>
+    <connection from="28177559" fromLane="3" to="379981960#0" toLane="0"/>
+    <connection from="28177559" fromLane="3" to="32269752#1" toLane="1"/>
+    
+    <!-- Am Bockelsberg & Wendebrueck -->
+    <connection from="-101113173" fromLane="1" to="-214776522#1" toLane="0"/>
+    <connection from="-101113173" fromLane="1" to="101113173" toLane="0"/>
+    <connection from="-101113173" fromLane="0" to="-191883911#1" toLane="0"/>
+    <connection from="-101113173" fromLane="0" to="4789462" toLane="0"/>
+    <connection from="-214776520" fromLane="0" to="191883914#0" toLane="0"/>
+    <connection from="-214776520" fromLane="1" to="-4789462" toLane="0"/>
+    <connection from="-214776520" fromLane="2" to="-4789462" toLane="1"/>
+    <connection from="-214776520" fromLane="2" to="214776520" toLane="0"/>      
+    <connection from="4789462" fromLane="0" to="214776520" toLane="0"/>
+    <connection from="101113173" fromLane="0" to="214776526" toLane="0"/>
+    <connection from="-214776522#1" fromLane="0" to="-214776521" toLane="0"/>
+    
+    <!-- Schloss -->
+    <connection from="317365377#0" fromLane="0" to="29976721#0" toLane="0"/>
+    <connection from="317365377#0" fromLane="1" to="27220216" toLane="1"/>
+    <connection from="317365377#0" fromLane="2" to="27220216" toLane="2"/>
+    <connection from="317365377#0" fromLane="2" to="32758225#1" toLane="1"/>
+    <connection from="315422093#0" fromLane="0" to="32758225#1" toLane="0"/>
+    <connection from="315422093#0" fromLane="1" to="29976721#0" toLane="0"/>
+    <connection from="315422093#0" fromLane="2" to="29976721#0" toLane="1"/>
+    <connection from="315422093#0" fromLane="2" to="27220216" toLane="2"/>
+    <connection from="309839196#11" fromLane="0" to="37976661#0" toLane="0"/>
+    <connection from="309839196#11" fromLane="0" to="6148678#0" toLane="0"/>
+    <connection from="301916360#0" fromLane="0" to="6148678#0" toLane="0"/>
+    <connection from="301916360#0" fromLane="0" to="309839194#0" toLane="0"/>
+    <connection from="308956942" fromLane="0" to="37976661#0" toLane="0"/>
+    <connection from="308956942" fromLane="0" to="309839194#0" toLane="0"/>
+    
+    <!-- Schloss 2-->
+    <!--
+    <connection from="308958254#0" fromLane="0" to="308956942" toLane="0"/>
+    <connection from="308958254#0" fromLane="0" to="308958252#0" toLane="0"/>
+    -->
+    <connection from="317682099#0" fromLane="0" to="308956942" toLane="0"/>
+    <connection from="317682099#0" fromLane="0" to="308958253#0" toLane="0"/>
+    
+    <!-- Sudetenstr. & Cellerstr. -->
+    <connection from="10522146" fromLane="0" to="319192876#0" toLane="0" />
+    <connection from="10522146" fromLane="1" to="277671152" toLane="1" />
+    <connection from="10522146" fromLane="2" to="277671155" toLane="2" />
+    <connection from="10522146" fromLane="2" to="319192894#0" toLane="1" />
+    <connection from="277665454#4" fromLane="0" to="277671155" toLane="0" />
+    <connection from="277665454#4" fromLane="1" to="319192894#0" toLane="1" />
+    <connection from="277665454#4" fromLane="2" to="319192876#0" toLane="1" />
+    <connection from="277665454#4" fromLane="2" to="277671152" toLane="1" />
+    <connection from="318894718" fromLane="0" to="319192894#0" toLane="0" />
+    <connection from="318894718" fromLane="1" to="319192876#0" toLane="0" />
+    <connection from="318894718" fromLane="2" to="319192876#0" toLane="1" />
+    <connection from="318894718" fromLane="3" to="277671152" toLane="1" />
+    <connection from="318894718" fromLane="3" to="277671155" toLane="2" />
+    <connection from="319192888" fromLane="0" to="277671152" toLane="0" />
+    <connection from="319192888" fromLane="1" to="277671155" toLane="1" />
+    <connection from="319192888" fromLane="2" to="277671155" toLane="2" />
+    <connection from="319192888" fromLane="3" to="319192894#0" toLane="1" />
+    <connection from="319192888" fromLane="3" to="319192876#0" toLane="1" />
+    
+    <!-- Campestr -->
+    <connection from="32353722" fromLane="0" to="-38685533#8" toLane="0"/>
+    <connection from="32353722" fromLane="0" to="32353723#1" toLane="0"/>
+    <connection from="32353722" fromLane="1" to="32353723#1" toLane="1"/>
+    <connection from="32353722" fromLane="2" to="380570394#0" toLane="0"/>
+    <connection from="32353722" fromLane="3" to="380570394#0" toLane="1"/>
+    <connection from="32353722" fromLane="3" to="206893436#2" toLane="1"/>
+    <connection from="590189516#0" fromLane="0" to="206893436#2" toLane="0"/>
+    <connection from="590189516#0" fromLane="1" to="-38685533#8" toLane="0"/>
+    <connection from="590189516#0" fromLane="1" to="32353723#1" toLane="1"/>
+    <connection from="590189516#0" fromLane="1" to="380570394#0" toLane="1"/>
+    <connection from="346600388#0" fromLane="0" to="6148695#2" toLane="0"/>
+    <connection from="346600388#0" fromLane="0" to="32353723#1" toLane="1"/>
+    <connection from="316934737#0" fromLane="0" to="206893436#2" toLane="0" />
+    <connection from="316934737#0" fromLane="1" to="206893436#2" toLane="1" />
+    <connection from="316934737#0" fromLane="2" to="32353723#1" toLane="1" />
+    <connection from="316934737#0" fromLane="2" to="-38685533#8" toLane="0" />
+   
+   <!-- Leonhardplatz -->
+    <connection from="625058945" fromLane="0" to="291757763#5" toLane="0"/>
+    <connection from="625058945" fromLane="0" to="563616437#0" toLane="0"/>
+    <connection from="625058945" fromLane="0" to="5058977#1" toLane="0"/>
+    <connection from="320364657#0" fromLane="0" to="23295226#2" toLane="0"/>
+    <connection from="320364657#0" fromLane="1" to="5058977#1" toLane="0"/>
+    <connection from="320364657#0" fromLane="2" to="5058977#1" toLane="1"/>
+    <connection from="320364657#0" fromLane="2" to="29136146#0" toLane="1"/>
+    <connection from="293576921#0" fromLane="0" to="23295226#2" toLane="0"/>
+    <connection from="293576921#0" fromLane="0" to="291757763#5" toLane="0"/>
+    <connection from="206614452#6" fromLane="0" to="23295226#2" toLane="0"/>
+    <connection from="206614452#6" fromLane="0" to="563616437#0" toLane="0"/>
+    
+    <!-- Pappelbergsiedlung -->
+    <connection from="28112672#0" fromLane="0" to="-173273213#5" toLane="0" />
+    <connection from="28112672#0" fromLane="0" to="-610178993" toLane="0" />
+    <connection from="28112672#0" fromLane="1" to="220427477#1" toLane="0" />
+    <connection from="28112672#0" fromLane="1" to="-5239199" toLane="0" />
+    <connection from="5239199" fromLane="0" to="-173273213#5" toLane="0" />
+    <connection from="5239199" fromLane="1" to="-610178993" toLane="0" />
+    <connection from="5239199" fromLane="1" to="-5239199" toLane="0" />
+    
+    <!-- Varrentrappstraße & Cellerstr. -->
+    <connection from="10517312#6" fromLane="0" to="635617943#0" toLane="0" />
+    <connection from="10517312#6" fromLane="1" to="277665454#4" toLane="2" />
+    <connection from="10517312#6" fromLane="1" to="-10517312#6" toLane="0" />
+    <connection from="277665454#1" fromLane="0" to="277665454#4" toLane="0" />
+    <connection from="277665454#1" fromLane="1" to="277665454#4" toLane="1" />
+    <connection from="277665454#1" fromLane="2" to="-10517312#6" toLane="0" />
+    <connection from="277665454#1" fromLane="2" to="30426838#1" toLane="0" />
+    <connection from="277665454#1" fromLane="2" to="635617943#0" toLane="2" />
+    
+    <!-- Kallenwall & Europapl. -->
+    <connection from="319389905" fromLane="0" to="306497787#0" toLane="0" />
+    <connection from="319389905" fromLane="1" to="306497787#0" toLane="1" />
+    <connection from="319389905" fromLane="2" to="306497781" toLane="0" />
+    <connection from="319389905" fromLane="2" to="306497780" toLane="1" />
+    <connection from="30426426#0" fromLane="0" to="306497786" toLane="0" />
+    <connection from="30426426#0" fromLane="1" to="306497786" toLane="1" />
+    <connection from="30426426#0" fromLane="2" to="306497780" toLane="0" />
+    <connection from="30426426#0" fromLane="3" to="306497780" toLane="1" />
+    
+    <!-- Europaplatz -->
+    <connection from="23118706" fromLane="0" to="559570920#0" toLane="0" />
+    <connection from="23118706" fromLane="0" to="4743778#0" toLane="0" />
+    <connection from="23118706" fromLane="1" to="4743778#0" toLane="1" />
+    <connection from="23118706" fromLane="2" to="127240631#0" toLane="0" />
+    <connection from="23118706" fromLane="3" to="127240631#0" toLane="1" />
+    <connection from="23118706" fromLane="3" to="319389905" toLane="2" />
+
+    <!-- Frankfurterstr & Adenauer -->
+    <connection from="24021037" fromLane="0" to="316789358" toLane="0" />
+    <connection from="24021037" fromLane="1" to="318772425#1" toLane="0" />
+    <connection from="23329778#2" fromLane="0" to="122119605#3" toLane="0" />
+    <connection from="23329778#2" fromLane="0" to="316789358" toLane="0" />
+    <connection from="23329778#2" fromLane="1" to="316789358" toLane="1" />
+    
+    <!-- Willy-Brandt-Platz -->    
+    <connection from="564399031#0" fromLane="0" to="30420829#1" toLane="0"/>
+    <connection from="564399031#0" fromLane="1" to="30420829#1" toLane="1"/>
+    <connection from="564399031#0" fromLane="2" to="380570393#0" toLane="0"/>
+    <connection from="564399031#0" fromLane="3" to="380570393#0" toLane="1"/>
+    <connection from="564399031#0" fromLane="3" to="30420838#0" toLane="1"/>
+    <connection from="564399031#0" fromLane="3" to="380570397#0" toLane="0"/>
+
+    <!-- Wassertor & Bruchtorwall -->
+    <connection from="577024306#0" fromLane="0" to="578374647#0" toLane="0" />
+    <connection from="577024306#0" fromLane="1" to="578374647#0" toLane="1" />
+    <connection from="577024306#0" fromLane="2" to="155738436#1" toLane="0" />
+    <connection from="577024306#0" fromLane="2" to="656577834" toLane="0" />
+    <connection from="226674628#0" fromLane="0" to="155738436#1" toLane="0" />
+    <connection from="226674628#0" fromLane="1" to="656577834" toLane="0" />
+    <connection from="226674628#0" fromLane="2" to="656577834" toLane="1" />
+    <connection from="226674628#0" fromLane="2" to="578374647#0" toLane="1" />
+    
+    <!-- Gesundheitsamt -->
+    <connection from="499157757#0" fromLane="0" to="31451331#0" toLane="0" />
+    <connection from="499157757#0" fromLane="0" to="508534063" toLane="0" />
+    <connection from="499157757#0" fromLane="0" to="30913401#0" toLane="0" />
+    <connection from="499157757#0" fromLane="1" to="30913401#0" toLane="1" />
+    
+    <!-- Hangenring -->
+    <connection from="147688816#1" fromLane="0" to="608604363#0" toLane="0" />
+    <connection from="147688816#1" fromLane="0" to="147688814" toLane="0" />
+    <connection from="147688816#1" fromLane="1" to="147688814" toLane="1" />
+    <connection from="147688816#1" fromLane="1" to="147688814" toLane="2" />
+    
+    <!-- A391 & A2 -->
+    <connection from="23911029" fromLane="0" to="18361876" toLane="0"/>
+    <connection from="23911029" fromLane="1" to="18361876" toLane="0"/>
+    <connection from="23911029" fromLane="1" to="23911030#0" toLane="0"/>
+
+    <connection from="196269094" fromLane="0" to="18361875" toLane="0"/>
+    <connection from="196269094" fromLane="1" to="18361875" toLane="0"/>
+    <connection from="196269094" fromLane="1" to="30997945" toLane="0"/>
+
+    <connection from="23911027" fromLane="0" to="18361879" toLane="0"/>
+    <connection from="23911027" fromLane="1" to="18361879" toLane="0"/>
+    <connection from="23911027" fromLane="1" to="30996897" toLane="0"/>
+
+    <connection from="196269095" fromLane="0" to="18361868" toLane="0"/>
+    <connection from="196269095" fromLane="1" to="18361868" toLane="0"/>
+    <connection from="196269095" fromLane="1" to="196269099" toLane="0"/>
+    
+    <!-- Staatstheater -->
+    <connection from="405363051#0" fromLane="0" to="442870980" toLane="0"/>
+    <connection from="405363051#0" fromLane="1" to="442870980" toLane="0"/>
+    
+    <!-- Helmstedter & Altewiekring -->
+    <connection from="29136146#0" fromLane="0" to="-495264675#2" toLane="0"/>
+    <connection from="29136146#0" fromLane="0" to="84488280#0" toLane="0"/>
+    <connection from="29136146#0" fromLane="1" to="84488280#0" toLane="1"/>
+    <connection from="495264675#0" fromLane="0" to="84488280#0" toLane="0"/>
+    <connection from="495264675#0" fromLane="0" to="-495264675#2" toLane="0"/>
+    <connection from="-8110777#2" fromLane="0" to="355730462#0" toLane="0"/>
+    <connection from="-8110777#2" fromLane="0" to="8110777#0" toLane="0"/>
+    <connection from="321714432#3" fromLane="0" to="355730462#0" toLane="0"/>
+    <connection from="321714432#3" fromLane="0" to="8110777#0" toLane="0"/>
+    <connection from="321714432#3" fromLane="1" to="355730462#0" toLane="1"/>
+    
+    <!-- Merge Tram line 3 and Cars lane -->
+    <!--
+    <connection from="310432387#5" fromLane="0" to="-501199064#2" toLane="0"/>
+    <connection from="501199064#0" fromLane="0" to="23209132#1" toLane="0"/>
+    <connection from="501199064#0" fromLane="0" to="-26147813#3" toLane="0"/>
+    <connection from="501199064#0" fromLane="1" to="24847823#1" toLane="0"/>
+    <connection from="501199064#0" fromLane="1" to="325737559#24" toLane="0"/>
+    <connection from="-30348115#2" fromLane="1" to="308954431#10" toLane="0"/>
+    <connection from="-30348115#2" fromLane="0" to="5137815#1" toLane="0"/>
+    <connection from="-30348115#2" fromLane="0" to="-510544114" toLane="0"/>
+    <connection from="-30348115#2" fromLane="1" to="-510544114" toLane="1"/>
+    <connection from="-30348115#2" fromLane="1" to="30348115#0" toLane="0"/>
+    
+    <connection from="-24847823#3" fromLane="0" to="-501199064#2" toLane="0"/>
+    <connection from="-24847823#3" fromLane="1" to="23209132#1" toLane="0"/>
+    <connection from="-24847823#3" fromLane="1" to="-26147813#3" toLane="0"/>
+    <connection from="-24847823#3" fromLane="1" to="24847823#1" toLane="0"/>
+    -->
+    
+    <!-- A39 & Salzdaluhmer -->
+    <connection from="309297581#0" fromLane="0" to="-323957163" toLane="0"/>
+    <connection from="309297581#0" fromLane="1" to="24032972#0" toLane="1"/>
+    <connection from="309297581#0" fromLane="1" to="5059192" toLane="1"/>
+    <connection from="309297581#0" fromLane="2" to="5059192" toLane="2"/>
+    <connection from="323957163" fromLane="0" to="24032972#0" toLane="0"/>
+    <connection from="323957163" fromLane="1" to="5059192" toLane="0"/>
+    <connection from="323957163" fromLane="2" to="5059192" toLane="1"/>
+    <connection from="323957163" fromLane="3" to="5059192" toLane="2"/>
+    <connection from="323957163" fromLane="3" to="-323957163" toLane="1"/>
+    <connection from="495519448" fromLane="0" to="223146753" toLane="0"/>
+    <connection from="495519448" fromLane="1" to="20455439#0" toLane="0"/>
+    <connection from="495519448" fromLane="1" to="20455439#0" toLane="1"/>
+    <connection from="495519448" fromLane="1" to="-24043884" toLane="1"/>
+    <connection from="-223146753" fromLane="0" to="20455439#0" toLane="0"/>
+    <connection from="-223146753" fromLane="1" to="20455439#0" toLane="1"/>
+    <connection from="-223146753" fromLane="2" to="-24043884" toLane="1"/>
+    <connection from="-223146753" fromLane="2" to="-24043884" toLane="0"/>
+    <connection from="-223146753" fromLane="2" to="-24043884" toLane="0"/>
+    <connection from="-223146753" fromLane="3" to="-24043884" toLane="2"/>
+    <connection from="-223146753" fromLane="3" to="223146753" toLane="0"/>
+    
+    <connection from="325528560#0" fromLane="0" to="24241786" toLane="0"/>
+    <connection from="325528560#0" fromLane="0" to="24241786" toLane="1"/>
+    <connection from="325528560#0" fromLane="1" to="24241786" toLane="2"/>
+    
+    <!-- B248 & Abtstraße -->
+    <connection from="501199066#0" fromLane="0" to="-501199049#2" toLane="0"/>
+    <connection from="501199066#0" fromLane="1" to="5059000#0" toLane="0"/>
+    <connection from="501199066#0" fromLane="2" to="5059000#0" toLane="1"/>
+    <connection from="501199066#0" fromLane="3" to="8032498#0" toLane="0"/>
+    <connection from="501199066#0" fromLane="3" to="4543873#0" toLane="0"/>
+    <connection from="501199049#0" fromLane="0" to="5059000#0" toLane="0"/>
+    <connection from="501199049#0" fromLane="1" to="8032498#0" toLane="0"/>
+    <connection from="501199049#0" fromLane="1" to="4543873#0" toLane="1"/>
+    <connection from="501199049#0" fromLane="1" to="-501199049#2" toLane="0"/>
+    
+    <!-- Am Magnitor -->
+    <connection from="332896119#1" fromLane="0" to="5170415#1" toLane="0"/>
+    <connection from="332896119#1" fromLane="0" to="5137919#0" toLane="0"/>
+    <connection from="332896119#1" fromLane="0" to="317365381#0" toLane="0"/>
+    
+    <!-- Merge Tram lines 4&5 and Cars lane -->
+    <!--
+    <connection from="-332907828#1" to="5137920#1" fromLane="0" toLane="0"/>
+    <connection from="-332907828#1" to="309839196#1" fromLane="0" toLane="0"/>
+    <connection from="-332907828#1" to="5170274#1" fromLane="0" toLane="0"/>
+    <connection from="-332907828#1" to="23272948" fromLane="0" toLane="0"/>
+    -->
+    
+    <!-- Hahnenkleestraße -->
+    <connection from="-624680815" fromLane="0" to="21852998#0" toLane="0"/>
+    <connection from="-624680815" fromLane="1" to="-313800999" toLane="0"/>
+    <connection from="-624680815" fromLane="2" to="22634112#0" toLane="0"/>
+    <connection from="-624680815" fromLane="2" to="313800998" toLane="0"/>
+    <connection from="-22634112#7" fromLane="0" to="-21852999#1" toLane="0"/>
+    <connection from="-22634112#7" fromLane="0" to="313800998" toLane="0"/>
+    <connection from="-22634112#7" fromLane="0" to="-313800999" toLane="0"/>
+    <connection from="-22634112#7" fromLane="0" to="22634112#0" toLane="0"/>
+    <connection from="21852999#0" fromLane="0" to="-313800999" toLane="0"/>
+    <connection from="21852999#0" fromLane="0" to="22634112#0" toLane="0"/>
+    <connection from="21852999#0" fromLane="0" to="313800998" toLane="0"/>
+    <connection from="21852999#0" fromLane="0" to="-21852999#1" toLane="0"/>
+    <connection from="313800999" fromLane="1" to="-21852999#1" toLane="0"/>
+    <connection from="313800999" fromLane="1" to="-313800999" toLane="0"/>
+    <connection from="313800999" fromLane="0" to="22634112#0" toLane="0"/>
+    <connection from="313800999" fromLane="0" to="313800998" toLane="0"/>
+    
+    <!-- -->
+    <connection from="-7866802#3" fromLane="0" to="393079302#0" toLane="0"/>
+    <connection from="-7866802#3" fromLane="1" to="-323956195#2" toLane="0"/>
+    <connection from="-7866802#3" fromLane="2" to="-323956195#2" toLane="1"/>
+    <connection from="-7866802#3" fromLane="2" to="7866802#0" toLane="0"/>
+    
+    <connection from="319617687#0" fromLane="0" to="54684974" toLane="0"/>
+    <connection from="319617687#0" fromLane="0" to="54684974" toLane="1"/>
+    
+    <!-- Querumer Straße -->
+    <connection from="125502221" fromLane="0" to="508832160" toLane="0"/>
+    <connection from="125502221" fromLane="0" to="30425762#1" toLane="0"/>
+    <connection from="125502221" fromLane="1" to="30425762#1" toLane="1"/>
+    <connection from="125502221" fromLane="2" to="144845149#0" toLane="0"/>
+    <connection from="125502221" fromLane="3" to="144845149#0" toLane="1"/>
+    <connection from="125502221" fromLane="3" to="321325383#0" toLane="1"/>
+    
+</connections>

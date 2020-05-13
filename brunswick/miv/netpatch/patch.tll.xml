@@ -1,0 +1,220 @@
+<tll>
+    <!--
+    <tlLogic id="A391_AS_Weststadt" type="actuated" programID="0" offset="0">
+        <phase duration="9"  state="GGGGrrrrggGrrGGrrrrGGGGGrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyrrrryyGrrGGrrrryyyyyrrrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrrrrrGrrGGrrrrrrrrrrGGGGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrryrryyrrrrrrrrrryyyyrrrrr"/>
+        <phase duration="10" state="rrrrGGGGGGrGGggrrrrrrrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyyyGGrGGyyrrrrrrrrrrrrrryyyyy"/>
+        <phase duration="10" state="rrrrrrrrGGrGGrrrGGGrrrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyryyrrryyyrrrrrrrrrrrrrrr"/>
+        <phase duration="10" state="rrrrrrrrrrrrrrrGrrrrrrrrGrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrryrrrrrrrryrrrrrrrrr"/>
+    </tlLogic>
+    -->
+
+    <!--
+    <tlLogic id="A391_AS_Weststadt2" type="actuated" programID="0" offset="0">
+        <phase duration="42" state="GGGrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyrrr"/>
+        <phase duration="42" state="rrrGGG" minDur="5" maxDur="25"/>
+        <phase duration="3"  state="rrryyy"/>
+    </tlLogic>
+    -->
+
+    <tlLogic id="HBF" type="actuated" programID="0" offset="0">
+        <!--                        01234567890123456789012345678901234 -->
+        <phase duration="15" state="rrrrrrGGGGGGGGGGrrrrrrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrGGGGyyyyyyrrrrrrrrrrrrryyyyy"/>
+        <phase duration="15" state="rrrrrrGGGGrrrrrrGGGrrrGGGGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryyGGrrrrrryyyrrryyyyyyrrrrrr"/>
+        <phase duration="15" state="GGrrrGrrGGGGGrrrrrrrrGrrrrrrGGGGrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyrrryrryyyyyrrrrrrrryrrrrrryyyyrr"/>
+        <phase duration="15" state="rGGGGrrrrrrrrrrrGGGrrrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="ryyyyrrrrrrrrrrryyyrrrrrrrrrryyyyG"/>
+        <phase duration="15" state="rrrrrrGGGGGrrrrrrrrGGrGGGrrrrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrGGGGGrrrrrrrryyryyyrrrrrrrrG"/>
+    </tlLogic>
+
+    <!-- A39 Off-Ramp & Rautheimer St -->
+    <tlLogic id="96566278" programID="0" >
+        <phase duration="38" maxDur="50" minDur="5" state="GggrrGGg"/>
+        <phase duration="3" state="yggrryyy"/>
+        <phase duration="6" maxDur="50" minDur="5" state="GGGrrrrr"/>
+        <phase duration="3" state="yyyrrrrr"/>
+        <phase duration="37" maxDur="50" minDur="5" state="rrrGGrrr"/>
+        <phase duration="3" state="rrryyrrr"/>
+    </tlLogic>
+    
+    <!-- Lessingplatz (right turns phase) -->
+    <tlLogic id="Lessingplatz" type="actuated" programID="0" offset="0">
+        <phase duration="42" state="GGrGGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyryyr"/>
+        <phase duration="42" state="rrGrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rryrry"/>
+    </tlLogic>
+    
+    <!-- B1 & Rautheimer St-->
+    <tlLogic id="Rautheimer_B1" type="actuated" programID="0" offset="0">
+        <phase duration="27" state="rrrGGGgrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrryyyyrrrr"/>
+        <phase duration="27" state="rrrrrrrGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrryyyy"/>
+        <phase duration="27" state="GGgrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyrrrrrrrr"/>
+    </tlLogic>
+    
+    <!-- A391_AS_Weststadt -->
+    <tlLogic id="A391_AS_Weststadt" type="actuated" programID="0" offset="0">
+        <phase duration="10"  state="GGGGrrrGggGrrGGrrrGGGGrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyGrrrGyyyrryyrrryyyyrrrrrrrr"/>
+        <phase duration="10" state="rrrGGGGGGGrGGggrrrrrrrrrrrGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrGyyyGyyryyyyrrrrrrrrrrryyyy"/>
+        <phase duration="9" state="rrrGrrrGGGrrrGGrGGrrrrrgGGrrrr" maxDur="50"/>
+        <phase duration="3"  state="rrryrrryyyrrryyryyrrrrryyyrrrr"/>
+        <phase duration="10" state="rrrrrrrrrrrrrrrGrrrrrrGrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrryrrrrrryrrrrrrr"/>
+    </tlLogic>    
+    
+    <!-- Güldenstraße & Celler Str. -->
+    <tlLogic id="Gueldenstr" type="actuated" programID="0" offset="0">
+        <phase duration="30" state="rrGGGGrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rryyyyrrrrrrrryyyyy"/>
+        <phase duration="21" state="GGrrrrGGrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyrrrryyrrrrrrrrrrr"/>
+        <phase duration="30" state="rrrrrrrrGGGGGGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyyyyyrrrrr"/>
+    </tlLogic>
+    
+    <!-- Hagenmarkt & Bohlweg -->
+    <tlLogic id="Hagenmarkt_Bohlweg" type="actuated" programID="0" offset="0">
+        <phase duration="24" state="rGGrrrrrrrGGGGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rGGrrrrrrryyyyrrrr"/>
+        <phase duration="25" state="GGGrrrrrGGrrrrrGGg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yGGrrrrryyrrrrryyg"/>
+        <phase duration="6"  state="rGGrrrrrrrrrrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rGGrrrrryyrrrrryyg"/>
+        <phase duration="10" state="ryyrGGrrrrrrrrGrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyrrrrrrrryrrr"/>
+        <phase duration="10" state="rrrgrrGGrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrryrryyrrrrrrrrrr"/>
+    </tlLogic>
+    
+    <!-- Sudetenstr. & Cellerstr. -->
+    <tlLogic id="Cellerstr" type="actuated" programID="0" offset="0">
+        <phase duration="33" state="rrrrGGGggrrrrGGGgg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyyggrrrryyygg"/>
+        <phase duration="6"  state="rrrrrrrGGrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrryyrrrrrrryy"/>
+        <phase duration="33" state="GGggrrrrrGGggGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyggrrrrryyggyrrrr"/>
+        <phase duration="6"  state="rrGGrrrrrrrGGrrrrr"/>
+        <phase duration="3"  state="rryyrrrrrrryyrrrrr"/>
+    </tlLogic>
+    
+    <!-- A391 & Hansestraße West -->
+    <tlLogic id="A391_Hansestrasse" type="actuated" programID="0" offset="0">
+        <phase duration="36" state="gGGGggrrrGGGg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Gyyyggrrryyyg"/>
+        <phase duration="6"  state="GrrrGGrrrrrrG"/>
+        <phase duration="3"  state="grrryyrrrrrry"/>
+        <phase duration="36" state="GrrrrrGGgrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yrrrrryyyrrrr"/>
+        <!-- move the detector closer to the stop line -->
+        <param key="passing-time" value="2.2"/>
+    </tlLogic>
+
+    <!-- A391 & Hansestraße Ost -->
+    <tlLogic id="A391_Hansestrasse_Ost" type="actuated" programID="0" offset="0">
+        <phase duration="30" state="gGrrrrrGGGGrrrrr" minDur="7" maxDur="50"/>
+        <phase duration="3"  state="Gyrrrrryyyyrrrrr"/>
+        <phase duration="30" state="GrGGggrrrrrGGGrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Gryyggrrrrryyyrr"/>
+        <phase duration="6"  state="GrrrGGrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Grrryyrrrrrrrrrr"/>
+        <phase duration="12" state="yrrrrrGrrrrrrrGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryrrrrrrryy"/>
+    </tlLogic>
+    
+    <!-- Europapl. & Adenauer -->
+    <tlLogic id="Europaplatz" type="actuated" programID="0" offset="0">
+        <phase duration="12" state="ggGGrGGGrrGGGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyGGrGGyrryyyyyrrrrrr"/>
+        <phase duration="12" state="rrGGgGGrGGrrrrrGGGrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrGGyGGryyrrrrrGGGrrr"/>
+        <phase duration="12" state="rrGGrGGrrrrrrrrGGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrGGrGGrrrrrrrryyyyyy"/>
+    </tlLogic>
+
+    <!-- Kallenwall & Europapl. -->
+    <tlLogic id="EuropaplatzN" type="actuated" programID="0" offset="0">
+        <phase duration="15" state="GGrrGGGGrrrrGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyrryyyyrrrryrrrr"/>
+        <phase duration="15" state="rrGGrrrrGGGGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrGGrrrryyyyrrrrr"/>
+        <phase duration="15" state="rrGGrrrrrrrrrGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rryyrrrrrrrrryyyy"/>
+    </tlLogic>
+    
+    <!-- Frankfurterstr & Adenauer -->
+        <tlLogic id="Frankfurterstr" type="actuated" programID="0" offset="0">
+        <phase duration="18" state="GGGrrGGGGrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyrryyyyrr"/>
+        <phase duration="20" state="GGrrrrrrrGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyrrrrrrryy"/>
+        <phase duration="20" state="rrrGGGrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrryyyrrrrr"/>
+    </tlLogic>
+
+    <!-- KennedyPlatz -->    
+    <tlLogic id="KennedyPlatz" type="actuated" programID="0" offset="0">
+        <phase duration="15" state="GGGGGGrrrrrrrrrGGGGrrrrrrrrrrGGGGGrrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyyyrrrrrrrrryyyyrrrrrrrrrryyyyyrrrrrrrrrrrrrr"/>
+        <phase duration="15" state="rrrrrrGGGGGrrrrrrrrrrrrrGGGGGrrrrrGGGGGGGrrGGGGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryyyyyrrrrrrrrrrrrryyyyyrrrrryyyyyyyrryyyyr"/>
+        <phase duration="15" state="rrrrrrrrrrrGGGgrrrrgggGgrrrrGrrrrrGrrrrrrGGrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrryyyyrrrryyyyyrrrryrrrrryrrrrrryyrrrry"/>
+    </tlLogic>
+    
+    <tlLogic id="KennedyPlatz_S" type="actuated" programID="0" offset="0">
+        <phase duration="15" state="GrrGGGGGrrrrrrrrrGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yrryyyyyrrrrrrrrryy"/>
+        <phase duration="15" state="rrrrrrrrGGGGGGGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyyyyyyrrrr"/>
+        <phase duration="15" state="rGGrrrrrrrrrrrrGGrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="ryyrrrrrrrrrrrryyrr"/>
+    </tlLogic>
+    
+    <!-- A392 & Hamburger -->
+    <tlLogic id="A392_AS_Hamburger" type="actuated" programID="0" offset="0">
+        <phase duration="10" state="rrggGGggGGrGGGrrrGrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rrGGyyggyyryyyrrryrrr"/>
+        <phase duration="10" state="rrggrrGGrrGrrrGGGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rrggrrGGrryrrryyyrrrr"/>
+        <phase duration="10" state="GGggrrGGrrrrrrrrrrGGG" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="yyggrrggrrrrrrrrrryyy"/>
+    </tlLogic>
+    
+    <tlLogic id="Wenden" type="actuated" programID="0" offset="0">
+        <phase duration="29" state="rrGGggrrrGGGggrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rryygyrrryyygyrrr"/>
+        <phase duration="6"  state="rrrrGrrrrrrrGrrrr"/>
+        <phase duration="5"  state="rrrryrrrrrrryrrrr"/>
+        <phase duration="29" state="GGrrrrGggrrrrrGgg" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="yyrrrrygyrrrrrygy"/>
+        <phase duration="6"  state="rrrrrrrGrrrrrrrGr"/>
+        <phase duration="5"  state="rrrrrrryrrrrrrryr"/>
+    </tlLogic>
+    
+    <tlLogic id="A391_AS_Lehndorf_tl" type="actuated" programID="0" offset="0">
+        <phase duration="21" state="rrrrGGGrrrrrrGGr" minDur="5" maxDur="50"/>
+        <phase duration="4"  state="rrrryyyrrrrrryyr"/>
+        <phase duration="7"  state="rrrrrrrGrrrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="4"  state="rrrrrrryrrrrrrry"/>
+        <phase duration="23" state="rrrrrrrrGGGGGrrr" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="rrrrrrrryyyyyrrr"/>
+        <phase duration="21" state="GGGGrrrrrrrrrrrr" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="yyyyrrrrrrrrrrrr"/>
+    </tlLogic>
+</tll>
