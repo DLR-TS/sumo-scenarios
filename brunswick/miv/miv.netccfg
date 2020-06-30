@@ -33,6 +33,7 @@
         <keep-edges.by-vclass value="passenger,bus,tram"/>
         <remove-edges.by-type value="highway.track,highway.unsurfaced,highway.service"/>
         <keep-edges.input-file value="netpatch/extra_edges.txt"/>
+        <geometry.remove.keep-edges.input-file value="netpatch/keep_induction_loops.txt"/>
         <keep-edges.components value="1"/>
         <no-turnarounds.except-turnlane value="true"/>
         <edges.join-tram-dist value="1.6"/>

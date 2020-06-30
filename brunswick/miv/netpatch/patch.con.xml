@@ -152,10 +152,10 @@
     <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="3"/>
     <connection from="311580921#0" fromLane="2" to="25076286#0" toLane="4"/>
 
-    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="1"/>
-    <connection from="319188813#3" fromLane="0" to="24437349#0" toLane="0"/>
-    <connection from="319188813#3" fromLane="0" to="25076286#0" toLane="2"/>
-    <connection from="319188813#3" fromLane="1" to="25076286#0" toLane="3"/>
+    <connection from="25290487" fromLane="0" to="25076286#0" toLane="1"/>
+    <connection from="25290487" fromLane="0" to="24437349#0" toLane="0"/>
+    <connection from="25290487" fromLane="0" to="25076286#0" toLane="2"/>
+    <connection from="25290487" fromLane="1" to="25076286#0" toLane="3"/>
     
     <connection from="-24437349#3" fromLane="0" to="25076286#0" toLane="1"/>
     <connection from="-24437349#3" fromLane="0" to="24437349#0" toLane="0"/>
@@ -202,12 +202,12 @@
     <connection from="31722493#0" fromLane="2" to="25624801" toLane="0"/>
     <connection from="31722493#0" fromLane="3" to="25624801" toLane="1"/>
     <connection from="31722493#0" fromLane="3" to="25624801" toLane="2"/>
-    <connection from="231661249#6" fromLane="0" to="7975434#0" toLane="0"/>
-    <connection from="231661249#6" fromLane="0" to="31722495#0" toLane="0"/>
-    <connection from="231661249#6" fromLane="0" to="31722495#0" toLane="1"/>
-    <connection from="231661249#6" fromLane="0" to="31722495#0" toLane="2"/>
-    <connection from="231661249#6" fromLane="1" to="31722495#0" toLane="3"/>
-    <connection from="231661249#6" fromLane="1" to="31722495#0" toLane="4"/>
+    <connection from="231661249#8" fromLane="0" to="7975434#0" toLane="0"/>
+    <connection from="231661249#8" fromLane="0" to="31722495#0" toLane="0"/>
+    <connection from="231661249#8" fromLane="0" to="31722495#0" toLane="1"/>
+    <connection from="231661249#8" fromLane="0" to="31722495#0" toLane="2"/>
+    <connection from="231661249#8" fromLane="1" to="31722495#0" toLane="3"/>
+    <connection from="231661249#8" fromLane="1" to="31722495#0" toLane="4"/>
     
     <!--
     -->
@@ -256,11 +256,12 @@
     <connection from="60922609#0" fromLane="2" to="31414016#0" toLane="0"/>
     <connection from="60922609#0" fromLane="3" to="31414016#0" toLane="1"/>
     
-    <connection from="376743573#0" fromLane="0" to="376743572#0" toLane="0"/>
-    <connection from="376743573#0" fromLane="0" to="376743572#0" toLane="1"/>
-    <connection from="376743573#0" fromLane="0" to="376743572#0" toLane="2"/>
-    <connection from="376743573#0" fromLane="1" to="376743572#0" toLane="3"/>
-    <connection from="376743573#0" fromLane="1" to="376743572#0" toLane="4"/>
+    <connection from="376743573#5" fromLane="0" to="376743572#0" toLane="0"/>
+    <connection from="376743573#5" fromLane="0" to="376743572#0" toLane="1"/>
+    <connection from="376743573#5" fromLane="0" to="376743572#0" toLane="2"/>
+    <connection from="376743573#5" fromLane="1" to="376743572#0" toLane="3"/>
+    <connection from="376743573#5" fromLane="1" to="376743572#0" toLane="4"/>
+    <connection from="376743573#5" fromLane="0" to="-8107414#4" toLane="0"/>
     
     <connection from="30424335#0" fromLane="0" to="60922614#0" toLane="0"/>
     <connection from="30424335#0" fromLane="1" to="60922614#0" toLane="0"/>
@@ -343,17 +344,17 @@
     <connection from="292107968#0" fromLane="3" to="37390117#0" toLane="0" />
     <connection from="292107968#0" fromLane="4" to="37390117#0" toLane="1" />
     <connection from="292107968#0" fromLane="4" to="37390119" toLane="2" />
-    <connection from="318774679#0" fromLane="0" to="37390117#0" toLane="0" />
-    <connection from="318774679#0" fromLane="1" to="37390117#0" toLane="1" />
-    <connection from="318774679#0" fromLane="2" to="37390119" toLane="0" />
-    <connection from="318774679#0" fromLane="3" to="37390119" toLane="1" />
-    <connection from="318774679#0" fromLane="4" to="37390119" toLane="2" />
-    <connection from="318774679#0" fromLane="4" to="306488581" toLane="2" />
-    <connection from="42137289#0" fromLane="0" to="37390119" toLane="0" />
-    <connection from="42137289#0" fromLane="1" to="37390119" toLane="1" />
-    <connection from="42137289#0" fromLane="2" to="306488581" toLane="1" />
-    <connection from="42137289#0" fromLane="3" to="306488581" toLane="2" />
-    <connection from="42137289#0" fromLane="3" to="37390117#0" toLane="1" />
+    <connection from="318774679#1" fromLane="0" to="37390117#0" toLane="0" />
+    <connection from="318774679#1" fromLane="1" to="37390117#0" toLane="1" />
+    <connection from="318774679#1" fromLane="2" to="37390119" toLane="0" />
+    <connection from="318774679#1" fromLane="3" to="37390119" toLane="1" />
+    <connection from="318774679#1" fromLane="4" to="37390119" toLane="2" />
+    <connection from="318774679#1" fromLane="4" to="306488581" toLane="2" />
+    <connection from="503119835#0" fromLane="0" to="37390119" toLane="0" />
+    <connection from="503119835#0" fromLane="1" to="37390119" toLane="1" />
+    <connection from="503119835#0" fromLane="2" to="306488581" toLane="1" />
+    <connection from="503119835#0" fromLane="3" to="306488581" toLane="2" />
+    <connection from="503119835#0" fromLane="3" to="37390117#0" toLane="1" />
     
     <!-- Hans-Jürgen-Straße & Celler Heerstraße--> 
     <connection from="-509331935" fromLane="0" to="33199328" toLane="0"/>
@@ -650,9 +651,9 @@
     <connection from="495264675#0" fromLane="0" to="-495264675#2" toLane="0"/>
     <connection from="-8110777#2" fromLane="0" to="355730462#0" toLane="0"/>
     <connection from="-8110777#2" fromLane="0" to="8110777#0" toLane="0"/>
-    <connection from="321714432#3" fromLane="0" to="355730462#0" toLane="0"/>
-    <connection from="321714432#3" fromLane="0" to="8110777#0" toLane="0"/>
-    <connection from="321714432#3" fromLane="1" to="355730462#0" toLane="1"/>
+    <connection from="321714432#5" fromLane="0" to="355730462#0" toLane="0"/>
+    <connection from="321714432#5" fromLane="0" to="8110777#0" toLane="0"/>
+    <connection from="321714432#5" fromLane="1" to="355730462#0" toLane="1"/>
     
     <!-- Merge Tram line 3 and Cars lane -->
     <!--
@@ -694,10 +695,6 @@
     <connection from="-223146753" fromLane="2" to="-24043884" toLane="0"/>
     <connection from="-223146753" fromLane="3" to="-24043884" toLane="2"/>
     <connection from="-223146753" fromLane="3" to="223146753" toLane="0"/>
-    
-    <connection from="325528560#0" fromLane="0" to="24241786" toLane="0"/>
-    <connection from="325528560#0" fromLane="0" to="24241786" toLane="1"/>
-    <connection from="325528560#0" fromLane="1" to="24241786" toLane="2"/>
     
     <!-- B248 & Abtstraße -->
     <connection from="501199066#0" fromLane="0" to="-501199049#2" toLane="0"/>
