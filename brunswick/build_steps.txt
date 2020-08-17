@@ -9,6 +9,10 @@ TAPAS Bounding Box
 S,W,N,E (osmGet.py)
 52.172016,10.348378,52.465148,10.848116
 
+Hannover Extension
+52.255214, 9.615018 (Bredenbeck)
+52.628248, 10.082714 (Celle)
+osmGet: 9.615018,52.255214,10.082714,52.628248
 
 osmconvert BS_TAPAS.osm.xml -o=BS_TAPAS.o5m
 osmfilter --verbose BS_TAPAS.o5m --keep-ways="highway=primary =primary_link =secondary =secondary_link =trunk =trunk_link =motorway =motorway_link" --keep-nodes= --keep-relations= --out-o5m > BS_TAPAS_main_roads.o5m
