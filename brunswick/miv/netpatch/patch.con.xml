@@ -478,10 +478,12 @@
     <connection from="317365377#0" fromLane="1" to="27220216" toLane="1"/>
     <connection from="317365377#0" fromLane="2" to="27220216" toLane="2"/>
     <connection from="317365377#0" fromLane="2" to="32758225#1" toLane="1"/>
+    <!-- disabled to fix build, MB 2020-10-14
     <connection from="315422093#0" fromLane="0" to="32758225#1" toLane="0"/>
     <connection from="315422093#0" fromLane="1" to="29976721#0" toLane="0"/>
     <connection from="315422093#0" fromLane="2" to="29976721#0" toLane="1"/>
     <connection from="315422093#0" fromLane="2" to="27220216" toLane="2"/>
+    -->
     <connection from="309839196#11" fromLane="0" to="37976661#0" toLane="0"/>
     <connection from="309839196#11" fromLane="0" to="6148678#0" toLane="0"/>
     <connection from="301916360#0" fromLane="0" to="6148678#0" toLane="0"/>
