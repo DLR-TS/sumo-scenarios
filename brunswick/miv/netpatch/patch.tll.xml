@@ -46,7 +46,7 @@
         <phase duration="37" maxDur="50" minDur="5" state="rrrGGrrr"/>
         <phase duration="3" state="rrryyrrr"/>
     </tlLogic>
-    
+
     <!-- Lessingplatz (right turns phase) -->
     <tlLogic id="Lessingplatz" type="actuated" programID="0" offset="0">
         <phase duration="42" state="GGrGGr" minDur="5" maxDur="50"/>
@@ -54,7 +54,7 @@
         <phase duration="42" state="rrGrrG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rryrry"/>
     </tlLogic>
-    
+
     <!-- B1 & Rautheimer St-->
     <tlLogic id="Rautheimer_B1" type="actuated" programID="0" offset="0">
         <phase duration="27" state="rrrGGGgrrrr" minDur="5" maxDur="50"/>
@@ -64,7 +64,7 @@
         <phase duration="27" state="GGgrrrrrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yyyrrrrrrrr"/>
     </tlLogic>
-    
+
     <!-- A391_AS_Weststadt -->
     <tlLogic id="A391_AS_Weststadt" type="actuated" programID="0" offset="0">
         <phase duration="10"  state="GGGGrrrGggGrrGGrrrGGGGrrrrrrrr" minDur="5" maxDur="50"/>
@@ -75,8 +75,8 @@
         <phase duration="3"  state="rrryrrryyyrrryyryyrrrrryyyrrrr"/>
         <phase duration="10" state="rrrrrrrrrrrrrrrGrrrrrrGrrrrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrryrrrrrryrrrrrrr"/>
-    </tlLogic>    
-    
+    </tlLogic>
+
     <!-- Güldenstraße & Celler Str. -->
     <tlLogic id="Gueldenstr" type="actuated" programID="0" offset="0">
         <phase duration="30" state="rrGGGGrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
@@ -86,7 +86,7 @@
         <phase duration="30" state="rrrrrrrrGGGGGGrrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrrrrrryyyyyyrrrrr"/>
     </tlLogic>
-    
+
     <!-- Hagenmarkt & Bohlweg -->
     <tlLogic id="Hagenmarkt_Bohlweg" type="actuated" programID="0" offset="0">
         <phase duration="24" state="rGGrrrrrrrGGGGrrrr" minDur="5" maxDur="50"/>
@@ -100,19 +100,21 @@
         <phase duration="10" state="rrrgrrGGrrrrrrrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrryrryyrrrrrrrrrr"/>
     </tlLogic>
-    
+
     <!-- Sudetenstr. & Cellerstr. -->
     <tlLogic id="Cellerstr" type="actuated" programID="0" offset="0">
         <phase duration="33" state="rrrrGGGggrrrrGGGgg" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrryyyggrrrryyygg"/>
+        <phase duration="3"  state="rrrrrrrggrrrrrrrgg"/>
         <phase duration="6"  state="rrrrrrrGGrrrrrrrGG"/>
         <phase duration="3"  state="rrrrrrryyrrrrrrryy"/>
         <phase duration="33" state="GGggrrrrrGGggGrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yyggrrrrryyggyrrrr"/>
+        <phase duration="3"  state="rrggrrrrrrrggrrrrr"/>
         <phase duration="6"  state="rrGGrrrrrrrGGrrrrr"/>
         <phase duration="3"  state="rryyrrrrrrryyrrrrr"/>
     </tlLogic>
-    
+
     <!-- A391 & Hansestraße West -->
     <tlLogic id="A391_Hansestrasse" type="actuated" programID="0" offset="0">
         <phase duration="36" state="gGGGggrrrGGGg" minDur="5" maxDur="50"/>
@@ -136,7 +138,7 @@
         <phase duration="12" state="yrrrrrGrrrrrrrGG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrrrryrrrrrrryy"/>
     </tlLogic>
-    
+
     <!-- Europapl. & Adenauer -->
     <tlLogic id="Europaplatz" type="actuated" programID="0" offset="0">
         <phase duration="12" state="ggGGrGGGrrGGGGGrrrrrr" minDur="5" maxDur="50"/>
@@ -156,7 +158,7 @@
         <phase duration="15" state="rrGGrrrrrrrrrGGGG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rryyrrrrrrrrryyyy"/>
     </tlLogic>
-    
+
     <!-- Frankfurterstr & Adenauer -->
         <tlLogic id="Frankfurterstr" type="actuated" programID="0" offset="0">
         <phase duration="18" state="GGGrrGGGGrr" minDur="5" maxDur="50"/>
