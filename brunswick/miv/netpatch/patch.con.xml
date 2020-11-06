@@ -67,7 +67,7 @@
     <connection from="166445405#0" fromLane="2" to="525452872" toLane="0"/>
     <connection from="166445405#0" fromLane="3" to="447787390#0" toLane="0"/>
     <connection from="166445405#0" fromLane="4" to="447787390#0" toLane="1"/>
-    <connection from="166445405#0" fromLane="4" to="29136063#0" toLane="2"/>
+    <connection from="166445405#0" fromLane="4" to="29136063#0" toLane="1"/>
 
     <connection from="314915850#0" fromLane="0" to="29136063#0" toLane="0"/>
     <connection from="314915850#0" fromLane="1" to="29136063#0" toLane="1"/>
@@ -75,14 +75,20 @@
     <connection from="314915850#0" fromLane="3" to="512158816#0" toLane="1"/>
     <connection from="314915850#0" fromLane="4" to="525452872" toLane="0"/>
     <connection from="314915850#0" fromLane="4" to="447787390#0" toLane="1"/>
-   
+
     <connection from="166445407#0" fromLane="0" to="525452872" toLane="0"/>
     <connection from="166445407#0" fromLane="1" to="447787390#0" toLane="0"/>
     <connection from="166445407#0" fromLane="2" to="447787390#0" toLane="1"/>
-    <connection from="166445407#0" fromLane="3" to="29136063#0" toLane="1"/>
-    <connection from="166445407#0" fromLane="4" to="29136063#0" toLane="2"/>
+    <connection from="166445407#0" fromLane="3" to="29136063#0" toLane="0"/>
+    <connection from="166445407#0" fromLane="4" to="29136063#0" toLane="1"/>
     <connection from="166445407#0" fromLane="4" to="512158816#0" toLane="1"/>
-    
+
+    <connection from="318881710#0" fromLane="0" to="29136063#0" toLane="0"/>
+    <connection from="318881710#0" fromLane="0" to="447787390#0" toLane="0"/>
+    <connection from="318881710#0" fromLane="1" to="29136063#0" toLane="1"/>
+    <connection from="318881710#0" fromLane="2" to="512158816#0" toLane="1"/>
+    <connection from="318881710#0" fromLane="2" to="525452872" toLane="1"/>
+
     <!-- HBF (Berliner Platz -->
     <connection from="32352639#0" fromLane="0" to="28113494#0" toLane="0"/>
     <connection from="32352639#0" fromLane="0" to="28217280#0" toLane="0"/>

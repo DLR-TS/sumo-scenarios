@@ -1311,5 +1311,11 @@
         <lane index="1" disallow="tram rail_urban rail rail_electric ship"/>
         <lane index="2" disallow="tram rail_urban rail rail_electric ship"/>
     </edge>
-    
+
+    <!-- Forschungskreuzung -->
+    <edge id="29136063#0" numLanes="2"/>
+    <edge id="29136063#1" numLanes="2"/>
+    <edge id="29136063#2" numLanes="2"/>
+    <edge id="525452874" numLanes="2"/>
+
 </edges>
