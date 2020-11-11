@@ -49,10 +49,10 @@
 
     <!-- Lessingplatz (right turns phase) -->
     <tlLogic id="Lessingplatz" type="actuated" programID="0" offset="0">
-        <phase duration="42" state="GGrGGr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyryyr"/>
-        <phase duration="42" state="rrGrrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rryrry"/>
+        <phase duration="42" state="GGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyr"/>
+        <phase duration="42" state="rrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rry"/>
     </tlLogic>
 
     <!-- B1 & Rautheimer St-->
@@ -94,7 +94,7 @@
         <phase duration="25" state="GGGrrrrrGGrrrrrGGg" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yGGrrrrryyrrrrryyg"/>
         <phase duration="6"  state="rGGrrrrrrrrrrrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rGGrrrrryyrrrrryyg"/>
+        <phase duration="3"  state="rGGrrrrryyrrrrryyy"/>
         <phase duration="10" state="ryyrGGrrrrrrrrGrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrryyrrrrrrrryrrr"/>
         <phase duration="10" state="rrrgrrGGrrrrrrrrrr" minDur="5" maxDur="50"/>
@@ -117,26 +117,26 @@
 
     <!-- A391 & Hansestraße West -->
     <tlLogic id="A391_Hansestrasse" type="actuated" programID="0" offset="0">
-        <phase duration="36" state="gGGGggrrrGGGg" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="Gyyyggrrryyyg"/>
-        <phase duration="6"  state="GrrrGGrrrrrrG"/>
-        <phase duration="3"  state="grrryyrrrrrry"/>
-        <phase duration="36" state="GrrrrrGGgrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yrrrrryyyrrrr"/>
+        <phase duration="36" state="gGGGggrrrGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Gyyyggrrryyy"/>
+        <phase duration="6"  state="GrrrGGrrrrrr"/>
+        <phase duration="3"  state="grrryyrrrrrr"/>
+        <phase duration="36" state="GrrrrrGGgrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yrrrrryyyrrr"/>
         <!-- move the detector closer to the stop line -->
         <param key="passing-time" value="2.2"/>
     </tlLogic>
 
     <!-- A391 & Hansestraße Ost -->
     <tlLogic id="A391_Hansestrasse_Ost" type="actuated" programID="0" offset="0">
-        <phase duration="30" state="gGrrrrrGGGGrrrrr" minDur="7" maxDur="50"/>
-        <phase duration="3"  state="Gyrrrrryyyyrrrrr"/>
-        <phase duration="30" state="GrGGggrrrrrGGGrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="Gryyggrrrrryyyrr"/>
-        <phase duration="6"  state="GrrrGGrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="Grrryyrrrrrrrrrr"/>
-        <phase duration="12" state="yrrrrrGrrrrrrrGG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrryrrrrrrryy"/>
+        <phase duration="30" state="gGrrrrrGGGGrrrr" minDur="7" maxDur="50"/>
+        <phase duration="3"  state="Gyrrrrryyyyrrrr"/>
+        <phase duration="30" state="GrGGggrrrrrGGGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Gryyggrrrrryyyr"/>
+        <phase duration="6"  state="GrrrGGrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="Grrryyrrrrrrrrr"/>
+        <phase duration="12" state="yrrrrrGrrrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryrrrrrrry"/>
     </tlLogic>
 
     <!-- Europapl. & Adenauer -->
@@ -199,14 +199,14 @@
     </tlLogic>
     
     <tlLogic id="Wenden" type="actuated" programID="0" offset="0">
-        <phase duration="29" state="rrGGggrrrGGGggrrr" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="rryygyrrryyygyrrr"/>
-        <phase duration="6"  state="rrrrGrrrrrrrGrrrr"/>
-        <phase duration="5"  state="rrrryrrrrrrryrrrr"/>
-        <phase duration="29" state="GGrrrrGggrrrrrGgg" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="yyrrrrygyrrrrrygy"/>
-        <phase duration="6"  state="rrrrrrrGrrrrrrrGr"/>
-        <phase duration="5"  state="rrrrrrryrrrrrrryr"/>
+        <phase duration="29" state="rrGGggrrrGGgggrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rryygyrrryyygyrr"/>
+        <phase duration="6"  state="rrrrGrrrrrrrGrrr"/>
+        <phase duration="5"  state="rrrryrrrrrrryrrr"/>
+        <phase duration="29" state="GGrrrrGGgrrrrrgg" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="yyrrrrygyrrrrryg"/>
+        <phase duration="6"  state="rrrrrrrGrrrrrrrG"/>
+        <phase duration="5"  state="rrrrrrryrrrrrrry"/>
     </tlLogic>
     
     <tlLogic id="A391_AS_Lehndorf_tl" type="actuated" programID="0" offset="0">
