@@ -288,7 +288,9 @@
     
     
     <!-- Frankfurter str. & Theodor-Heuss-Str -->
-    <delete from="181314848#0" to="155708581#0"/>
+    <connection from="181314848#0" fromLane="0" to="385335110#0" toLane="0"/>
+    <connection from="181314848#0" fromLane="1" to="4743791#0" toLane="1"/>
+
     <connection from="311549884#0" fromLane="0" to="385335110#0" toLane="0"/>
     <connection from="311549884#0" fromLane="1" to="4743791#0" toLane="0"/>
     <connection from="311549884#0" fromLane="2" to="4743791#0" toLane="1"/>
@@ -599,6 +601,12 @@
     <connection from="23329778#2" fromLane="0" to="122119605#3" toLane="0" />
     <connection from="23329778#2" fromLane="0" to="316789358" toLane="0" />
     <connection from="23329778#2" fromLane="1" to="316789358" toLane="1" />
+
+    <!-- Frankfurterstr & Fabrikstrasse -->
+    <connection from="385335116#0" fromLane="0" to="-314533278#3" toLane="0" />
+    <connection from="385335116#0" fromLane="1" to="385043745#0" toLane="0" />
+    <connection from="385335116#0" fromLane="2" to="385043745#0" toLane="1" />
+    <connection from="385335116#0" fromLane="2" to="23621699#1" toLane="0" />
     
     <!-- Willy-Brandt-Platz -->    
     <connection from="564399031#0" fromLane="0" to="30420829#1" toLane="0"/>
