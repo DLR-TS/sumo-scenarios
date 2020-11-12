@@ -89,16 +89,14 @@
 
     <!-- Hagenmarkt & Bohlweg -->
     <tlLogic id="Hagenmarkt_Bohlweg" type="actuated" programID="0" offset="0">
-        <phase duration="24" state="rGGrrrrrrrGGGGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="30" state="rGGrrrrrrrGGGGrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rGGrrrrrrryyyyrrrr"/>
-        <phase duration="25" state="GGGrrrrrGGrrrrrGGg" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yGGrrrrryyrrrrryyg"/>
-        <phase duration="6"  state="rGGrrrrrrrrrrrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rGGrrrrryyrrrrryyy"/>
-        <phase duration="10" state="ryyrGGrrrrrrrrGrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrryyrrrrrrrryrrr"/>
-        <phase duration="10" state="rrrgrrGGrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrryrryyrrrrrrrrrr"/>
+        <phase duration="30" state="GgGrrrrGGrrrrrrGGg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="ygGrrrryyrrrrrryyg"/>
+        <phase duration="8"  state="rGGrrrrrrrGrrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rGGrrrrrrryrrrrrry"/>
+        <phase duration="10" state="rGGgGGgrrgrrrrGrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rGGyyyyrryrrrryrrr"/>
     </tlLogic>
 
     <!-- Sudetenstr. & Cellerstr. -->
