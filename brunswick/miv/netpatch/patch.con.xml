@@ -771,4 +771,28 @@
     <connection from="125502221" fromLane="3" to="144845149#0" toLane="1"/>
     <connection from="125502221" fromLane="3" to="321325383#0" toLane="1"/>
     
+    <!-- Hansestr. Ernst-Boehme-Str.-->
+    <connection from="23031879#0" fromLane="0" to="307704875#0" toLane="0"/>
+    <connection from="23031879#0" fromLane="0" to="28672096#0" toLane="1"/>
+    <connection from="23031879#0" fromLane="1" to="511308724#0" toLane="1"/>
+
+
+    <!-- Luisenstr. Cammannstr.-->
+    <delete from="518086682#2" to="-9887592#3"/>
+
+
+    <!-- Helmstedter Straße Ackerstraße -->
+    <connection from="564399027" fromLane="0" to="-599936773" toLane="0"/>
+    <connection from="564399027" fromLane="0" to="382044611#0" toLane="0"/>
+    <connection from="564399027" fromLane="1" to="382044611#0" toLane="1"/>
+
+    <connection from="25258740#4" fromLane="0" to="61302715#0" toLane="0"/>
+    <connection from="25258740#4" fromLane="1" to="61302715#0" toLane="1"/>
+    <connection from="25258740#4" fromLane="1" to="563320575#0" toLane="0"/>
+    <delete from="25258740#4" fromLane="2" to="563320575#0" toLane="0"/>
+    <connection from="25258740#2" fromLane="2" to="-599936773" toLane="0"/>
+    <connection from="25258740#2" fromLane="2" to="382044611#0" toLane="1"/>
+
+
+
 </connections>

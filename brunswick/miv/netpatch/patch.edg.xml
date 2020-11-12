@@ -1198,7 +1198,14 @@
     <edge id="25258740#1">
         <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
     </edge>
-    <edge id="25258740#2">
+    <!-- Helmstedter Straße -->
+    <edge id="25258740#2" numLanes="3">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="25258740#3" numLanes="3">
+        <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
+    </edge>
+    <edge id="25258740#4" numLanes="3">
         <lane index="1" allow="tram private emergency authority army vip pedestrian passenger hov taxi bus coach delivery truck trailer motorcycle moped bicycle evehicle rail_fast custom1 custom2"/>
     </edge>
     <edge id="495906623#0">
@@ -1322,5 +1329,9 @@
     <edge id="35047528#1" numLanes="2"/>
     <edge id="35047528#2" numLanes="2"/>
     <edge id="35047528#3" numLanes="2"/>
+
+    <!-- Theodor-Heuss-Straße -->
+    <edge id="127240643#17" numLanes="3"/>
+    <edge id="127240643#18" numLanes="3"/>
 
 </edges>
