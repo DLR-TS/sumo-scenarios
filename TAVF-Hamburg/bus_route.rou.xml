@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Jul  2 08:31:33 2020 by Eclipse SUMO duarouter Version v1_6_0+1075-b57cda1248
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\TAVF-HH\network.net.xml"/>
+        <additional-files value="busStops.add.xml"/>
+        <route-files value="bus_route.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="bus_route2.rou.xml"/>
+        <vtype-output value="dummyVType.xml"/>
+        <alternatives-output value="bus_route2.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <repair value="true"/>
+    </processing>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="BUS" vClass="bus" color="blue"/>
+    <vType id="MetroBUS" vClass="bus" color="cyan"/>
+    <vehicle id="routeFlow_bus109H.0" type="BUS" depart="0.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.0" type="BUS" depart="0.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus111H.0" type="BUS" depart="0.00">
+        <route edges="gneE116 143575041 45188125#0 22697609 554706397#0 554706397#1 22697740#0 22697740#1 22697740#2 22697740#4 22697740#5 22697740#6 142944224#0 142944224#1 142944224#3 23925231 24732668 25478404 gneE152"/>
+        <stop busStop="busStop_Baumwall_ElphiWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus111Z.0" type="BUS" depart="0.00">
+        <route edges="-gneE154 297888720#1 59471461 74547371 234561088 606439149 23925229 23925230 606439147#2 606439147#5 606439145 606439141#0 22697739#0 38839094 38839094.18 22697608#1 22697608#1.49 22697608#1.111 47338631#0 -gneE116"/>
+        <stop busStop="busStop_Baumwall_ElphiOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112H.0" type="BUS" depart="0.00">
+        <route edges="gneE116 591566053 591566053.5 -188690101 -647842954#2 -647842954#1 -647842954#0 -40229433#1 -40229433#0 40229434#0 40229434#1 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 44523398#1 -142954639#8 -142954639#7 -142954639#6 -142954639#5 -142954639#4 -142954639#3 -142954639#2 -142954639#1 -142954639#0 457986149 4926297#0 139083719#1 139083719#2 139083719#3 139083719#4 234423652#0 234423652#1 538341584#0 51214742#0"/>
+        <stop busStop="busStop_LandungsbrückenSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_EisArenaHamburgSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112Z.0" type="BUS" depart="0.00">
+        <route edges="538341579#0 606141108 606141103#0 647842951 606141102 139083720 139083720.280 252843136#2 142954639#0 142954639#1 142954639#2 142954639#3 142954639#4 142954639#5 142954639#6 142954639#7 142954639#8 143065626 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 43664479#0 43664479#1 40229433#0 40229433#1 647842954#0 647842954#1 647842954#2 188690101 299265211#0 -gneE116"/>
+        <stop busStop="busStop_EisArenaHamburgNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichteNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_LandungsbrückenNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17H.0" type="BUS" depart="0.00">
+        <route edges="566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 28180143 24498951#0 24498951#1 -678902911#1 -678902911#0 -678902926#1 -678902926#0 -678902914#0 -678902918 -20439110#5 -20439110#3 -20439110#1 -20439110#0 6243477#0 6243477#1 6243477#1.53 186239191#1 51215083#1 51215083#1.35 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17Z.0" type="BUS" depart="0.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE15 gneE15.62 gneE12 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 -4275522#9 -4275522#8 -4275522#7 -4275522#6 -4275522#5 -4275522#4 -4275522#3 -4275522#2 -4275522#1 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Ha.0" type="MetroBUS" depart="0.00">
+        <route edges="24288798#0 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hb.0" type="MetroBUS" depart="0.00">
+        <route edges="551319347#5 44135328#0"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hc.0" type="MetroBUS" depart="0.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Za.0" type="MetroBUS" depart="0.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zb.0" type="MetroBUS" depart="0.00">
+        <route edges="-44135328#0 -551319347#5"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zc.0" type="MetroBUS" depart="0.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Ha.0" type="MetroBUS" depart="0.00">
+        <route edges="139056863#1 139056863#3 252843151#0 252843151#1 252843151#2 252843151#3 252843151#4 252843151#5 428959012 252843139 252843138#0 252843138#1 252843138#2 252843138#4 252843138#5 252843138#6 252843138#7 252843138#8 252843138#9 252843138#10 252843138#11 252843138#12 252843138#14 252843138#15 4919237#0 4919237#1 4919237#2 252843129 252843129.38 370073257 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_HamburgMesseEingangOst" duration="60.00" parking="1"/>
+        <stop busStop="busStop_HamburgMesseEingangMitte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Hb.0" type="MetroBUS" depart="0.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Za.0" type="MetroBUS" depart="0.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Zb.0" type="MetroBUS" depart="0.00">
+        <route edges="gneE94 457986148#0 139083725 139083727#0 139083727#1 139083727#2 370073260#0 370073260#1 370073258#0 24400729#1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Zc.0" type="MetroBUS" depart="0.00">
+        <route edges="gneE87 252843127#0 139056863#1"/>
+        <stop busStop="busStop_HamburgMesseEingangOst" duration="20.00"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37H.0" type="MetroBUS" depart="0.00">
+        <route edges="-gneE114 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37Z.0" type="MetroBUS" depart="0.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 gneE114"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.0" type="BUS" depart="0.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.0" type="BUS" depart="0.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.0" type="BUS" depart="0.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.0" type="BUS" depart="0.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4H.0" type="BUS" depart="0.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4Z.0" type="BUS" depart="0.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.0" type="BUS" depart="0.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.0" type="BUS" depart="0.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.1" type="BUS" depart="225.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.1" type="BUS" depart="225.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.1" type="BUS" depart="300.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.1" type="BUS" depart="300.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.1" type="BUS" depart="300.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.1" type="BUS" depart="300.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.1" type="BUS" depart="360.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.1" type="BUS" depart="360.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.2" type="BUS" depart="450.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.2" type="BUS" depart="450.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17H.1" type="BUS" depart="600.00">
+        <route edges="566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 28180143 24498951#0 24498951#1 -678902911#1 -678902911#0 -678902926#1 -678902926#0 -678902914#0 -678902918 -20439110#5 -20439110#3 -20439110#1 -20439110#0 6243477#0 6243477#1 6243477#1.53 186239191#1 51215083#1 51215083#1.35 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17Z.1" type="BUS" depart="600.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE15 gneE15.62 gneE12 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0 gneE153"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37H.1" type="MetroBUS" depart="600.00">
+        <route edges="-gneE114 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37Z.1" type="MetroBUS" depart="600.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 gneE114"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.2" type="BUS" depart="600.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.2" type="BUS" depart="600.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.2" type="BUS" depart="600.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.2" type="BUS" depart="600.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4H.1" type="BUS" depart="600.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4Z.1" type="BUS" depart="600.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.3" type="BUS" depart="675.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.3" type="BUS" depart="675.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.2" type="BUS" depart="720.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.2" type="BUS" depart="720.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112H.1" type="BUS" depart="900.00">
+        <route edges="gneE116 591566053 591566053.5 -188690101 -647842954#2 -647842954#1 -647842954#0 -40229433#1 -40229433#0 40229434#0 40229434#1 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 44523398#1 -142954639#8 -142954639#7 -142954639#6 -142954639#5 -142954639#4 -142954639#3 -142954639#2 -142954639#1 -142954639#0 457986149 4926297#0 139083719#1 139083719#2 139083719#3 139083719#4 234423652#0 234423652#1 538341584#0 51214742#0"/>
+        <stop busStop="busStop_LandungsbrückenSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_EisArenaHamburgSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112Z.1" type="BUS" depart="900.00">
+        <route edges="538341579#0 606141108 606141103#0 647842951 606141102 139083720 139083720.280 252843136#2 142954639#0 142954639#1 142954639#2 142954639#3 142954639#4 142954639#5 142954639#6 142954639#7 142954639#8 143065626 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 43664479#0 43664479#1 40229433#0 40229433#1 647842954#0 647842954#1 647842954#2 188690101 299265211#0 -gneE116"/>
+        <stop busStop="busStop_EisArenaHamburgNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichteNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_LandungsbrückenNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Ha.1" type="MetroBUS" depart="900.00">
+        <route edges="24288798#0 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hb.1" type="MetroBUS" depart="900.00">
+        <route edges="551319347#5 44135328#0"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hc.1" type="BUS" depart="900.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Za.1" type="MetroBUS" depart="900.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zb.1" type="MetroBUS" depart="900.00">
+        <route edges="-44135328#0 -551319347#5"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zc.1" type="BUS" depart="900.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.3" type="BUS" depart="900.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.3" type="BUS" depart="900.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.3" type="BUS" depart="900.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.3" type="BUS" depart="900.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.4" type="BUS" depart="900.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.4" type="BUS" depart="900.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.3" type="BUS" depart="1080.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.3" type="BUS" depart="1080.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.5" type="BUS" depart="1125.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.5" type="BUS" depart="1125.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus111H.1" type="BUS" depart="1200.00">
+        <route edges="gneE116 143575041 45188125#0 22697609 554706397#0 554706397#1 22697740#0 22697740#1 22697740#2 22697740#4 22697740#5 22697740#6 142944224#0 142944224#1 142944224#3 23925231 24732668 25478404 gneE152"/>
+        <stop busStop="busStop_Baumwall_ElphiWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus111Z.1" type="BUS" depart="1200.00">
+        <route edges="-gneE154 297888720#1 59471461 74547371 234561088 606439149 23925229 23925230 606439147#2 606439147#5 606439145 606439141#0 22697739#0 38839094 38839094.18 22697608#1 22697608#1.49 22697608#1.111 47338631#0 -gneE116"/>
+        <stop busStop="busStop_Baumwall_ElphiOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17H.2" type="BUS" depart="1200.00">
+        <route edges="566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 28180143 24498951#0 24498951#1 -678902911#1 -678902911#0 -678902926#1 -678902926#0 -678902914#0 -678902918 -20439110#5 -20439110#3 -20439110#1 -20439110#0 6243477#0 6243477#1 6243477#1.53 186239191#1 51215083#1 51215083#1.35 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17Z.2" type="BUS" depart="1200.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE15 gneE15.62 gneE12 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0 gneE153"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Ha.1" type="MetroBUS" depart="1200.00">
+        <route edges="139056863#1 139056863#3 252843151#0 252843151#1 252843151#2 252843151#3 252843151#4 252843151#5 428959012 252843139 252843138#0 252843138#1 252843138#2 252843138#4 252843138#5 252843138#6 252843138#7 252843138#8 252843138#9 252843138#10 252843138#11 252843138#12 252843138#14 252843138#15 4919237#0 4919237#1 4919237#2 252843129 252843129.38 370073257 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_HamburgMesseEingangOst" duration="60.00" parking="1"/>
+        <stop busStop="busStop_HamburgMesseEingangMitte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Hb.1" type="MetroBUS" depart="1200.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Za.1" type="MetroBUS" depart="1200.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Zb.1" type="MetroBUS" depart="1200.00">
+        <route edges="gneE94 457986148#0 139083725 139083727#0 139083727#1 139083727#2 370073260#0 370073260#1 370073258#0 24400729#1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Zc.1" type="BUS" depart="1200.00">
+        <route edges="gneE87 252843127#0 139056863#1"/>
+        <stop busStop="busStop_HamburgMesseEingangOst" duration="20.00"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37H.2" type="MetroBUS" depart="1200.00">
+        <route edges="-gneE114 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37Z.2" type="MetroBUS" depart="1200.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 gneE114"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.4" type="BUS" depart="1200.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.4" type="BUS" depart="1200.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.4" type="BUS" depart="1200.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.4" type="BUS" depart="1200.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4H.2" type="BUS" depart="1200.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4Z.2" type="BUS" depart="1200.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.6" type="BUS" depart="1350.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.6" type="BUS" depart="1350.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.4" type="BUS" depart="1440.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.4" type="BUS" depart="1440.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.5" type="BUS" depart="1500.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.5" type="BUS" depart="1500.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.5" type="BUS" depart="1500.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.5" type="BUS" depart="1500.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.7" type="BUS" depart="1575.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.7" type="BUS" depart="1575.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.5" type="BUS" depart="1800.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.5" type="BUS" depart="1800.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112H.2" type="BUS" depart="1800.00">
+        <route edges="gneE116 591566053 591566053.5 -188690101 -647842954#2 -647842954#1 -647842954#0 -40229433#1 -40229433#0 40229434#0 40229434#1 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 44523398#1 -142954639#8 -142954639#7 -142954639#6 -142954639#5 -142954639#4 -142954639#3 -142954639#2 -142954639#1 -142954639#0 457986149 4926297#0 139083719#1 139083719#2 139083719#3 139083719#4 234423652#0 234423652#1 538341584#0 51214742#0"/>
+        <stop busStop="busStop_LandungsbrückenSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_EisArenaHamburgSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112Z.2" type="BUS" depart="1800.00">
+        <route edges="538341579#0 606141108 606141103#0 647842951 606141102 139083720 139083720.280 252843136#2 142954639#0 142954639#1 142954639#2 142954639#3 142954639#4 142954639#5 142954639#6 142954639#7 142954639#8 143065626 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 43664479#0 43664479#1 40229433#0 40229433#1 647842954#0 647842954#1 647842954#2 188690101 299265211#0 -gneE116"/>
+        <stop busStop="busStop_EisArenaHamburgNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichteNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_LandungsbrückenNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17H.3" type="BUS" depart="1800.00">
+        <route edges="566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 28180143 24498951#0 24498951#1 -678902911#1 -678902911#0 -678902926#1 -678902926#0 -678902914#0 -678902918 -20439110#5 -20439110#3 -20439110#1 -20439110#0 6243477#0 6243477#1 6243477#1.53 186239191#1 51215083#1 51215083#1.35 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17Z.3" type="BUS" depart="1800.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE15 gneE15.62 gneE12 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0 gneE153"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Ha.2" type="MetroBUS" depart="1800.00">
+        <route edges="24288798#0 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hb.2" type="MetroBUS" depart="1800.00">
+        <route edges="551319347#5 44135328#0"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hc.2" type="MetroBUS" depart="1800.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Za.2" type="MetroBUS" depart="1800.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zb.2" type="MetroBUS" depart="1800.00">
+        <route edges="-44135328#0 -551319347#5"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zc.2" type="MetroBUS" depart="1800.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37H.3" type="MetroBUS" depart="1800.00">
+        <route edges="-gneE114 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37Z.3" type="MetroBUS" depart="1800.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 gneE114"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.6" type="BUS" depart="1800.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.6" type="BUS" depart="1800.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.6" type="BUS" depart="1800.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.6" type="BUS" depart="1800.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4H.3" type="BUS" depart="1800.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4Z.3" type="BUS" depart="1800.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.8" type="BUS" depart="1800.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.8" type="BUS" depart="1800.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.9" type="BUS" depart="2025.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.9" type="BUS" depart="2025.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.7" type="BUS" depart="2100.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.7" type="BUS" depart="2100.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.7" type="BUS" depart="2100.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.7" type="BUS" depart="2100.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.6" type="BUS" depart="2160.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.6" type="BUS" depart="2160.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.10" type="BUS" depart="2250.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.10" type="BUS" depart="2250.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus111H.2" type="BUS" depart="2400.00">
+        <route edges="gneE116 143575041 45188125#0 22697609 554706397#0 554706397#1 22697740#0 22697740#1 22697740#2 22697740#4 22697740#5 22697740#6 142944224#0 142944224#1 142944224#3 23925231 24732668 25478404 gneE152"/>
+        <stop busStop="busStop_Baumwall_ElphiWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus111Z.2" type="BUS" depart="2400.00">
+        <route edges="-gneE154 297888720#1 59471461 74547371 234561088 606439149 23925229 23925230 606439147#2 606439147#5 606439145 606439141#0 22697739#0 38839094 38839094.18 22697608#1 22697608#1.49 22697608#1.111 47338631#0 -gneE116"/>
+        <stop busStop="busStop_Baumwall_ElphiOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17H.4" type="BUS" depart="2400.00">
+        <route edges="566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 28180143 24498951#0 24498951#1 -678902911#1 -678902911#0 -678902926#1 -678902926#0 -678902914#0 -678902918 -20439110#5 -20439110#3 -20439110#1 -20439110#0 6243477#0 6243477#1 6243477#1.53 186239191#1 51215083#1 51215083#1.35 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17Z.4" type="BUS" depart="2400.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE15 gneE15.62 gneE12 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0 gneE153"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Ha.2" type="MetroBUS" depart="2400.00">
+        <route edges="139056863#1 139056863#3 252843151#0 252843151#1 252843151#2 252843151#3 252843151#4 252843151#5 428959012 252843139 252843138#0 252843138#1 252843138#2 252843138#4 252843138#5 252843138#6 252843138#7 252843138#8 252843138#9 252843138#10 252843138#11 252843138#12 252843138#14 252843138#15 4919237#0 4919237#1 4919237#2 252843129 252843129.38 370073257 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_HamburgMesseEingangOst" duration="60.00" parking="1"/>
+        <stop busStop="busStop_HamburgMesseEingangMitte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Hb.2" type="MetroBUS" depart="2400.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Za.2" type="MetroBUS" depart="2400.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Zb.2" type="MetroBUS" depart="2400.00">
+        <route edges="gneE94 457986148#0 139083725 139083727#0 139083727#1 139083727#2 370073260#0 370073260#1 370073258#0 24400729#1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus35Zc.2" type="MetroBUS" depart="2400.00">
+        <route edges="gneE87 252843127#0 139056863#1"/>
+        <stop busStop="busStop_HamburgMesseEingangOst" duration="20.00"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37H.4" type="MetroBUS" depart="2400.00">
+        <route edges="-gneE114 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37Z.4" type="MetroBUS" depart="2400.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 gneE114"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.8" type="BUS" depart="2400.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.8" type="BUS" depart="2400.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.8" type="BUS" depart="2400.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.8" type="BUS" depart="2400.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4H.4" type="BUS" depart="2400.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4Z.4" type="BUS" depart="2400.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.11" type="BUS" depart="2475.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.11" type="BUS" depart="2475.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.7" type="BUS" depart="2520.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.7" type="BUS" depart="2520.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112H.3" type="BUS" depart="2700.00">
+        <route edges="gneE116 591566053 591566053.5 -188690101 -647842954#2 -647842954#1 -647842954#0 -40229433#1 -40229433#0 40229434#0 40229434#1 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 44523398#1 -142954639#8 -142954639#7 -142954639#6 -142954639#5 -142954639#4 -142954639#3 -142954639#2 -142954639#1 -142954639#0 457986149 4926297#0 139083719#1 139083719#2 139083719#3 139083719#4 234423652#0 234423652#1 538341584#0 51214742#0"/>
+        <stop busStop="busStop_LandungsbrückenSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichte" duration="60.00" parking="1"/>
+        <stop busStop="busStop_EisArenaHamburgSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus112Z.3" type="BUS" depart="2700.00">
+        <route edges="538341579#0 606141108 606141103#0 647842951 606141102 139083720 139083720.280 252843136#2 142954639#0 142954639#1 142954639#2 142954639#3 142954639#4 142954639#5 142954639#6 142954639#7 142954639#8 143065626 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 43664479#0 43664479#1 40229433#0 40229433#1 647842954#0 647842954#1 647842954#2 188690101 299265211#0 -gneE116"/>
+        <stop busStop="busStop_EisArenaHamburgNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MuseumfuerHamburgischeGeschichteNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_LandungsbrückenNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Ha.3" type="MetroBUS" depart="2700.00">
+        <route edges="24288798#0 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hb.3" type="MetroBUS" depart="2700.00">
+        <route edges="551319347#5 44135328#0"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Hc.3" type="MetroBUS" depart="2700.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Za.3" type="MetroBUS" depart="2700.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zb.3" type="MetroBUS" depart="2700.00">
+        <route edges="-44135328#0 -551319347#5"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus34Zc.3" type="MetroBUS" depart="2700.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.9" type="BUS" depart="2700.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.9" type="BUS" depart="2700.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.9" type="BUS" depart="2700.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.9" type="BUS" depart="2700.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.12" type="BUS" depart="2700.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.12" type="BUS" depart="2700.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.8" type="BUS" depart="2880.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.8" type="BUS" depart="2880.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.13" type="BUS" depart="2925.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.13" type="BUS" depart="2925.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17H.5" type="BUS" depart="3000.00">
+        <route edges="566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 28180143 24498951#0 24498951#1 -678902911#1 -678902911#0 -678902926#1 -678902926#0 -678902914#0 -678902918 -20439110#5 -20439110#3 -20439110#1 -20439110#0 6243477#0 6243477#1 6243477#1.53 186239191#1 51215083#1 51215083#1.35 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus17Z.5" type="BUS" depart="3000.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE15 gneE15.62 gneE12 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 -4275522#9 -4275522#8 -4275522#7 -4275522#6 -4275522#5 -4275522#4 -4275522#3 -4275522#2 -4275522#1 143065613#1 43664476#1 43664476#2 43664476#3 43664476#4 20439110#0 20439110#1 20439110#3 20439110#5 20439110#5.92 678902918 678902914#0 678902926#0 678902926#1 678902911#0 678902911#1 41517860 542952981 20438105#0 20438105#1 415667202 566711289 566711284 566711302 566711298#0"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37H.5" type="MetroBUS" depart="3000.00">
+        <route edges="-gneE114 gneE13 gneE13.48 22790157 4275525 512394703#0 512394703#1 512394704 44578241#0 44578241#1 44578241#2 44578241#3 44578241#4 44523403#1 44523403#2 43145232 22729789 22729790#0 22729790#1 22729790#2 43145233#1 142944367 142944405 43145234 142944402 142944409 164239562#0 164239562#1 596083278 gneE26 gneE21"/>
+        <stop busStop="busStop_UStPauliWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_MichaeliskircheWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus37Z.5" type="MetroBUS" depart="3000.00">
+        <route edges="22815726 37071273#0 37071273#2 37071273#3 37071273#4 43118561#0 43118561#1 164239554 164239555#0 164239555#1 158325325 158325327#0 172289065#1 172289065#2 596230215#0 596230215#1 20439102#0 20439102#1.25 20439102#2 20439102#4 37336182 39977142 39977142.22 gneE14 -gneE13 -gneE13.39 gneE114"/>
+        <stop busStop="busStop_MichaeliskircheOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStPauliOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.10" type="BUS" depart="3000.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.10" type="BUS" depart="3000.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.10" type="BUS" depart="3000.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.10" type="BUS" depart="3000.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4H.5" type="BUS" depart="3000.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus4Z.5" type="BUS" depart="3000.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.14" type="BUS" depart="3150.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.14" type="BUS" depart="3150.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109H.9" type="BUS" depart="3240.00">
+        <route edges="156559295#0 156559295#1 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus109Z.9" type="BUS" depart="3240.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 51981485#1"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Ha.11" type="BUS" depart="3300.00">
+        <route edges="gneE4 415667202 566711289 566711284 566711302 566711298#0 gneE153 142954620 gneE156 566711303#1 566711303#4 53666954 53666954.27 53666954.27.22 142954644#1 142954644#2 142954644#3 370073261#0 370073261#1 370073262 142954643 76034972 252843886#0"/>
+        <stop busStop="busStop_UFeldstraßeWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzWO" duration="60.00" parking="1"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Hb.11" type="BUS" depart="3300.00">
+        <route edges="23489827#1 252993342#0 252993342#1 142677530#1 142677531 22964540 22791193#0 22791193#1 22791193#2 22791193#3 22791193#3.21 142944343#1 142677520 591198226 gneE21"/>
+        <stop busStop="busStop_AxelSpringerPlatzWO" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Za.11" type="BUS" depart="3300.00">
+        <route edges="22815726 43118542 -142677520 -142944343#1 45741812#1 45741812#2 45741811 45741813#0 45741817#0 45741817#1 252993339#0 gneE127"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus3Zb.11" type="BUS" depart="3300.00">
+        <route edges="gneE94 457986148#0 gneE5 gneE7 gneE8 gneE9 gneE10 gneE11 370073259 -566711303#4 -566711303#1 gneE157 -142954620 566711300 591207082#1 655030378#1 566711304#1 566711283 377610931#0 377610931#1 566711286 40196165#0 40196165#1 gneE3"/>
+        <stop busStop="busStop_JohannesBrahmsPlatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_SievekingplatzOW" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UFeldstraßeOW" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5H.15" type="BUS" depart="3375.00">
+        <route edges="391787295#2 39088985#0 39088985#0.48 39097668 26621012#0 26621012#2 401531644 45854492#0 45854492#1 521070807 220109544 22127007#0 381750337"/>
+        <stop busStop="busStop_Universität/Staatsbibliothek" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorNS" duration="60.00" parking="1"/>
+        <stop busStop="busStop_UStephansplatzNS" duration="60.00" parking="1"/>
+    </vehicle>
+    <vehicle id="routeFlow_bus5Z.15" type="BUS" depart="3375.00">
+        <route edges="551319351#0 251871702 31050642 521070806 521070805 45854495 220109543 401531649 gneE53 gneE50 -39088985#0 -391787295#2"/>
+        <stop busStop="busStop_UStephansplatzSN" duration="60.00" parking="1"/>
+        <stop busStop="busStop_DammtorSN" duration="60.00" parking="1"/>
+    </vehicle>
+</routes>

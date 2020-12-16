@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	vehicle types
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- basic vehicles -->
+	<vType id="PKW" vClass="passenger" color="yellow" speedFactor="normc(1.1,0.1,0.8,1.4)" lcCooperative="0.8" lcAssertive="1.2" minGap="2.0" tau="1.0" sigma="0.5"/>
+	<vType id="LKW" vClass="truck" color="orange" guiShape="truck" speedFactor="normc(1.1,0.1,0.8,1.4)" lcCooperative="0.8" lcAssertive="1.2" minGap="2.0" tau="1.0" sigma="0.5"/>
+	
+	<!-- automatic vehicles-->
+	<vType id="PKW_special" vClass="passenger" color="green" speedFactor="norm(1,0)" lcCooperative="1.0" lcAssertive="1.0" minGap="2.5" tau="1.0" sigma="0"/>
+	<vType id="LKW_special" vClass="truck" color="magenta" guiShape="truck" speedFactor="norm(1,0)" lcCooperative="1.0" lcAssertive="1.0" minGap="2.5" tau="1.0" sigma="0"/>
+</routes>
+

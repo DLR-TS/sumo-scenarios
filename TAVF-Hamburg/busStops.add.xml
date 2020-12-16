@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/01/20 15:59:15 by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\TAVF-HH\network.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\TAVF-HH\network.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\TAVF-HH\busStops.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-6112730487" lane="-521056835_1" startPos="32.69" endPos="47.69" name="Heinrich-Hertz-Turm" friendlyPos="1" lines="603"/>
+    <busStop id="5840624562" lane="457986149_1" startPos="11.86" endPos="11.96" name="Johannes-Brahms-Platz" friendlyPos="1" lines="607 36 688 112"/>
+    <busStop id="busStop_AxelSpringerPlatzOW" lane="gneE127_0" startPos="10.05" endPos="30.08"/>
+    <busStop id="busStop_AxelSpringerPlatzWO" lane="23489827#1_0" startPos="10.24" endPos="30.24"/>
+    <busStop id="busStop_Baumwall_ElphiOW" lane="606439147#2_0" startPos="6.68" endPos="16.68"/>
+    <busStop id="busStop_Baumwall_ElphiWO" lane="23925231_0" startPos="0.00" endPos="19.87" friendlyPos="1"/>
+    <busStop id="busStop_DammtorNS" lane="26621012#2_4" startPos="6.30" endPos="16.30"/>
+    <busStop id="busStop_DammtorSN" lane="gneE53_0" startPos="31.58" endPos="41.58"/>
+    <busStop id="busStop_EisArenaHamburgNS" lane="142954639#1_0" startPos="94.63" endPos="104.63"/>
+    <busStop id="busStop_EisArenaHamburgSN" lane="-142954639#1_0" startPos="12.59" endPos="22.59"/>
+    <busStop id="busStop_HamburgMesseEingangMitte" lane="252843139_0" startPos="22.52" endPos="32.52"/>
+    <busStop id="busStop_HamburgMesseEingangOst" lane="139056863#1_0" startPos="4.28" endPos="14.28"/>
+    <busStop id="busStop_JohannesBrahmsPlatzOW" lane="gneE94_0" startPos="11.69" endPos="21.69"/>
+    <busStop id="busStop_JohannesBrahmsPlatzWO" lane="252843886#0_0" startPos="-0.00" endPos="29.46" friendlyPos="1"/>
+    <busStop id="busStop_LandungsbrückenNS" lane="299265211#0_0" startPos="42.97" endPos="52.97"/>
+    <busStop id="busStop_LandungsbrückenSN" lane="591566053.5_0" startPos="31.18" endPos="41.18"/>
+    <busStop id="busStop_MichaeliskircheOW" lane="596230215#0_0" startPos="55.36" endPos="65.36"/>
+    <busStop id="busStop_MichaeliskircheWO" lane="44523403#1_0" startPos="20.35" endPos="30.35"/>
+    <busStop id="busStop_MuseumfuerHamburgischeGeschichte" lane="-142954639#8_0" startPos="0.00" endPos="14.59"/>
+    <busStop id="busStop_MuseumfuerHamburgischeGeschichteNS" lane="142954639#8_0" startPos="0.00" endPos="14.47"/>
+    <busStop id="busStop_SievekingplatzOW" lane="gneE8_0" startPos="38.23" endPos="48.23"/>
+    <busStop id="busStop_SievekingplatzWO" lane="370073262_0" startPos="14.87" endPos="24.87"/>
+    <busStop id="busStop_UFeldstraßeOW" lane="566711300_0" startPos="15.22" endPos="25.22"/>
+    <busStop id="busStop_UFeldstraßeWO" lane="gneE153_0" startPos="0.00" endPos="14.67"/>
+    <busStop id="busStop_UStPauliOW" lane="-gneE13_0" startPos="23.89" endPos="33.89"/>
+    <busStop id="busStop_UStPauliWO" lane="gneE13.48_0" startPos="15.94" endPos="25.94"/>
+    <busStop id="busStop_UStephansplatzNS" lane="381750337_2" startPos="16.10" endPos="26.10"/>
+    <busStop id="busStop_UStephansplatzSN" lane="551319351#0_2" startPos="29.64" endPos="39.64"/>
+    <busStop id="busStop_Universität/Staatsbibliothek" lane="391787295#2_2" startPos="348.77" endPos="386.20" friendlyPos="1"/>
+</additional>

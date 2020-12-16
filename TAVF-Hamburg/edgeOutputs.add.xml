@@ -1,0 +1,12 @@
+<additional>
+    <!-- Traffic data (5 minutes) -->
+    <edgeData id="edgeTraffic" freq="300" begin="300" end="3900" file="edgeTrafficData.all.output.xml"/>
+    <edgeData id="edgeTrafficBus" freq="300" begin="300" end="3900" vTypes="BUS MetroBUS" file="edgeTrafficData.bus.output.xml"/>
+    <edgeData id="edgeTrafficNormal" freq="300" begin="300" end="3900" vTypes="PKW LKW" file="edgeTrafficData.normal.output.xml"/>
+    <edgeData id="edgeTrafficSpecial" freq="300" begin="300" end="3900" vTypes="PKW_special LKW_special" file="edgeTrafficData.special.output.xml"/>
+    <!-- Emissions data (5 minutes) -->
+    <edgeData id="edgeEmissionsData" type="emissions" freq="300" begin="300" end="3900" file="edgeEmissionsData.all.output.xml"/>
+    <edgeData id="edgeEmissionsDataBus" type="emissions" freq="300" begin="300" end="3900" vTypes="BUS MetroBUS" file="edgeEmissionsData.bus.output.xml"/>
+    <edgeData id="edgeEmissionsDataNormal" type="emissions" freq="300" begin="300" end="3900" vTypes="PKW LKW" file="edgeEmissionsData.normal.output.xml"/>
+    <edgeData id="edgeEmissionsDataSpecial" type="emissions" freq="300" begin="300" end="3900" vTypes="PKW_special LKW_special" file="edgeEmissionsData.special.output.xml"/>
+</additional>
