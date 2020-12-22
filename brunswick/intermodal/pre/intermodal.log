@@ -1,0 +1,1510 @@
+Parsing types from 'intermodal.typ.xml' ... done.
+Parsing nodes from osm-file '../osm/BS_detail.osm.xml' ... 
+Found and substituted 14 osm nodes.
+done.
+Parsing edges from osm-file '../osm/BS_detail.osm.xml' ... 
+Warning: Ignoring track count 2 for edge '25290481'.
+Warning: Ignoring track count 2 for edge '42821103'.
+Warning: Ignoring track count 2 for edge '309119321'.
+Warning: Ignoring track count 2 for edge '310143560'.
+done.
+Removing duplicate edges ... done.
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.secondary' (first occurence for edge '4304991').
+Warning: Discarding unknown compound 'cycleway.opposite_track' in type 'cycleway.opposite_track|highway.residential' (first occurence for edge '4365024').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.secondary' (first occurence for edge '4515443').
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.tertiary' (first occurence for edge '4526596').
+Warning: Discarding unknown compound 'cycleway.opposite' in type 'cycleway.opposite|highway.residential' (first occurence for edge '4743289').
+Warning: Discarding unusable type 'waterway.river' (first occurence for edge '5005723').
+Warning: Ambiguous railway kilometrage direction for way '5783203' (assuming forward)
+Warning: Discarding unusable type 'railway.disused|usage.industrial' (first occurence for edge '5951013').
+Warning: Discarding unusable type 'railway.dismantled|usage.industrial' (first occurence for edge '6010457').
+Warning: Discarding unusable type 'waterway.canal' (first occurence for edge '6122888').
+Warning: Ambiguous railway kilometrage direction for way '6273099' (assuming forward)
+Warning: Discarding unusable type 'railway.abandoned' (first occurence for edge '7850872').
+Warning: Ambiguous railway kilometrage direction for way '30240918' (assuming forward)
+Warning: Ambiguous railway kilometrage direction for way '31238492' (assuming forward)
+Warning: Ambiguous railway kilometrage direction for way '42348001' (assuming forward)
+Warning: Value of railway:position is not numeric ('3,8') in node '4211152267'.
+Warning: Value of railway:position is not numeric ('4,2') in node '4211152266'.
+Warning: Value of railway:position is not numeric ('4,4') in node '4211152265'.
+Warning: Value of railway:position is not numeric ('4,6') in node '4211152264'.
+Warning: Value of railway:position is not numeric ('4,8') in node '4211152262'.
+Warning: Inconsistent railway kilometrage direction for way '174198541': 57000.00 56800.00 7000.00 56600.00 56500.00 56400.00s (skipping)
+Warning: Inconsistent railway kilometrage direction for way '174198545': 7000.00 7000.00 7100.00 7200.00s (skipping)
+Adding new type 'highway.service|railway.tram' (first occurence for edge '316682910').
+Adding new type 'highway.tertiary|railway.tram' (first occurence for edge '346600388').
+Warning: Removing pt stop:1010548300 on non existing edge: 91012895#0
+Warning: Removing pt stop:1780723613 on non existing edge: 222336041#2
+Warning: Removing pt stop:2299687606 on non existing edge: 71962469#1
+Warning: Removing pt stop:2313104483 on non existing edge: 222336041#0
+Warning: Removing pt stop:249292730 on non existing edge: 23093673#0
+Warning: Removing pt stop:2497349363 on non existing edge: 32128713#3
+Warning: Removing pt stop:250749715 on non existing edge: 53650436#0
+Warning: Removing pt stop:252500116 on non existing edge: 240824509
+Warning: Removing pt stop:269321675 on non existing edge: 24787043
+Warning: Removing pt stop:270527016 on non existing edge: 43950162
+Warning: Removing pt stop:272856305 on non existing edge: 122119622#1
+Warning: Removing pt stop:272856917 on non existing edge: 43328051#2
+Warning: Removing pt stop:282832479 on non existing edge: 30567403#0
+Warning: Removing pt stop:3147139642 on non existing edge: 171266166
+Warning: Removing pt stop:3160041333 on non existing edge: 222431770#0
+Warning: Removing pt stop:322003594 on non existing edge: 29281109#0
+Warning: Removing pt stop:322003595 on non existing edge: 29281109#7
+Warning: Removing pt stop:337790032 on non existing edge: 30568293#4
+Warning: Removing pt stop:338088811 on non existing edge: 171266167#0
+Warning: Removing pt stop:338890125 on non existing edge: 9721162#1
+Warning: Removing pt stop:338892053 on non existing edge: 30642231#1
+Warning: Removing pt stop:4034562610 on non existing edge: 27004278
+Warning: Removing pt stop:4081020662 on non existing edge: 267726626
+Warning: Removing pt stop:4081020663 on non existing edge: 267726632#1
+Warning: Removing pt stop:4081020664 on non existing edge: 267726629#1
+Warning: Removing pt stop:4081020665 on non existing edge: 267726634#1
+Warning: Removing pt stop:4418714699 on non existing edge: 288487800#2
+Warning: Removing pt stop:445831936 on non existing edge: 37959093
+Warning: Removing pt stop:4472819362 on non existing edge: 73893184#2
+Warning: Removing pt stop:4472819363 on non existing edge: 80632789#1
+Warning: Removing pt stop:4488763279 on non existing edge: 61733866#0
+Warning: Removing pt stop:4539421794 on non existing edge: 23187673#1
+Warning: Removing pt stop:4635230831 on non existing edge: 314842169#3
+Warning: Removing pt stop:51519513 on non existing edge: 73893184#2
+Warning: Removing pt stop:5428806609 on non existing edge: 563320575#1
+Warning: Removing pt stop:5428806610 on non existing edge: 563320574#0
+Warning: Removing pt stop:5708039346 on non existing edge: 334152816#1
+Warning: Removing pt stop:59706413 on non existing edge: 61733866#0
+Warning: Removing pt stop:655312126 on non existing edge: 51353826#2
+Warning: Removing pt stop:747307846 on non existing edge: 43950162
+Warning: Removing pt stop:765824928 on non existing edge: 334152817#0
+Warning: Removing pt stop:940492375 on non existing edge: 25076294
+Parsing relations from osm-file '../osm/BS_detail.osm.xml' ... 
+Warning: No way found for reference '324274536' in relation '19784'
+Warning: No way found for reference '294918950' in relation '19784'
+Warning: No way found for reference '252980064' in relation '19784'
+Warning: No way found for reference '294918952' in relation '19784'
+Warning: No way found for reference '294918951' in relation '19784'
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 66869 are ignored
+Warning: Platform '30589849' in relation: '71190' is given as polygon, which currently is not supported.
+Warning: Platform '30589865' in relation: '71190' is given as polygon, which currently is not supported.
+Warning: Platform '30589849' in relation: '71190' is given as polygon, which currently is not supported.
+Warning: Platform '30589865' in relation: '71190' is given as polygon, which currently is not supported.
+Warning: Platform '30589849' in relation: '71190' is given as polygon, which currently is not supported.
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 71751 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 75660 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 75711 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 76902 are ignored
+Warning: from-edge '32903755' of restriction relation could not be determined
+Warning: Ignoring restriction relation '109263'.
+Warning: from-edge '33199419' of restriction relation could not be determined
+Warning: Ignoring restriction relation '113972'.
+Warning: Ignoring restriction relation '192465' with unknown from-way.
+Warning: from-edge '23186983' of restriction relation could not be determined
+Warning: Ignoring restriction relation '932685'.
+Warning: from-edge '83094948' of restriction relation could not be determined
+Warning: Ignoring restriction relation '1245621'.
+Warning: Ignoring restriction relation '1271848' with unknown via.
+Warning: Ignoring restriction relation '1325763' with unknown to-way.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '2217248'.
+Warning: to-edge '32903754' of restriction relation could not be determined
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '2433386' with unknown from-way.
+Warning: Ignoring restriction relation '2433387' with unknown to-way.
+Warning: Ignoring restriction relation '2587274' with unknown via.
+Warning: from-edge '30429589' of restriction relation could not be determined
+Warning: PT line in relation 2721805 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 2914009 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 3016480 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 3144678 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 3145327 with no stops ignored. Probably OSM file is incomplete.
+Warning: to-edge '332680824' of restriction relation could not be determined
+Warning: to-edge '257810801' of restriction relation could not be determined
+Warning: to-edge '314246987' of restriction relation could not be determined
+Warning: to-edge '228598054' of restriction relation could not be determined
+Warning: Ignoring restriction relation '7996018' with unknown type.
+Warning: Ambiguous way reference '61567473' in restriction relation
+Warning: Ignoring restriction relation '9218611' with unknown from-way.
+done.
+ Removed 576 traffic lights before loading plain-XML
+Parsing nodes from 'netpatch_pre/patch.nod.xml' ... done.
+Parsing edges from 'netpatch_pre/patch.edg.xml' ... done.
+Parsing connections from 'netpatch_pre/patch.con.xml' ... done.
+Parsing traffic lights from 'netpatch_pre/patch.tll.xml' ... done.
+ Import done:
+   45517 nodes loaded.
+   34 types loaded.
+   61692 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=32 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops ... done (10ms).
+Finding largest components ... done (260ms).
+Processing public transport stops ... 
+Warning: Could not find corresponding edge or compatible lane for pt stop '4023562534' (Danziger Straße). Thus, it will be removed!
+Warning: Could not find corresponding edge or compatible lane for pt stop '4023570307' (Angerburgstraße). Thus, it will be removed!
+Warning: Could not find corresponding edge or compatible lane for pt stop '4023570308' (Troppaustraße). Thus, it will be removed!
+Warning: Could not find corresponding edge or compatible lane for pt stop '4488834926' (Angerburgstraße). Thus, it will be removed!
+Warning: Could not find corresponding edge or compatible lane for pt stop '4488834927' (Troppaustraße). Thus, it will be removed!
+Warning: Could not find corresponding edge or compatible lane for pt stop '4488834928' (Danziger Straße). Thus, it will be removed!
+done (41ms).
+Revising public transport stops based on pt lines ... 
+Warning: Incomplete route for ptline '102308' (Bus 420: Braunschweig Rathhaus => Wolfenbüttel Bahnhof)
+Warning: Incomplete route for ptline '102308' (Bus 420: Braunschweig Rathhaus => Wolfenbüttel Bahnhof)
+Warning: Cannot assign stop '968279951' on edge '261948041' to pt line '104095'. Ignoring!
+Warning: PT stop: 4420481310 has been moved to edge: -171756596
+Warning: PT stop: 583283132 has been moved to edge: -5148300
+Warning: Incomplete route for ptline '1085700' (ICE 12: Berlin Ostbahnhof => Interlaken Ost)
+Warning: Incomplete route for ptline '1132154' (Bus 431: Helmstedter Straße => Hauptbahnhof)
+Warning: Incomplete route for ptline '1132154' (Bus 431: Helmstedter Straße => Hauptbahnhof)
+Warning: Incomplete route for ptline '1132154' (Bus 431: Helmstedter Straße => Hauptbahnhof)
+Warning: Incomplete route for ptline '1132154' (Bus 431: Helmstedter Straße => Hauptbahnhof)
+Warning: Incomplete route for ptline '1132154' (Bus 431: Helmstedter Straße => Hauptbahnhof)
+Warning: Incomplete route for ptline '1132154' (Bus 431: Helmstedter Straße => Hauptbahnhof)
+Warning: PT stop: 4440386519 has been moved to edge: -223036375#2
+Warning: PT stop: 3399002576 has been moved to edge: -610203691
+Warning: PT stop: 602516922 has been moved to edge: -621507752#0
+Warning: PT stop: 391277033 has been moved to edge: -61513717#0
+Warning: PT stop: 4034551600 has been moved to edge: -80632790
+Warning: PT stop: 4034523833 has been moved to edge: -80725614#6
+Warning: PT stop: 940719879 has been moved to edge: -173277151#4
+Warning: Could not assign stop '338088811' to pt line '1132154' (closest edge '221632395', distance 249.91). Ignoring!
+Warning: Incomplete route for ptline '1177046' (Bus 417: Moorhüttenweg => Berggarten)
+Warning: PT stop: 308796201 has been moved to edge: -171201109
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '1177046'. Ignoring!
+Warning: PT stop: 76782846 has been moved to edge: -30642178#0
+Warning: PT stop: 911932512 has been moved to edge: -8588233#3
+Warning: PT stop: 4023605534 has been moved to edge: -4526596#3
+Warning: PT stop: 4526097384 has been moved to edge: -4526596#0
+Warning: Incomplete route for ptline '1346455' (Bus 452: Helmstedter Straße => Gardessen)
+Warning: Incomplete route for ptline '1346455' (Bus 452: Helmstedter Straße => Gardessen)
+Warning: Incomplete route for ptline '1346455' (Bus 452: Helmstedter Straße => Gardessen)
+Warning: Incomplete route for ptline '1346455' (Bus 452: Helmstedter Straße => Gardessen)
+Warning: Incomplete route for ptline '1346455' (Bus 452: Helmstedter Straße => Gardessen)
+Warning: Incomplete route for ptline '1346455' (Bus 452: Helmstedter Straße => Gardessen)
+Warning: PT stop: 2497349356 has been moved to edge: -600204868
+Warning: Could not re-assign PT stop: 2497349142 probably broken osm file
+Warning: Incomplete route for ptline '1518915' (Bus 422: Lehndorf => Bebelhof)
+Warning: PT stop: 2688872995 has been moved to edge: -121228319#2
+Warning: PT stop: 4420413261 has been moved to edge: -10061776#3
+Warning: PT stop: 4420413262 has been moved to edge: -10061776#0
+Warning: PT stop: 82684762 has been moved to edge: -10522152#1
+Warning: PT stop: 4071760550 has been moved to edge: -103495995#0
+Warning: PT stop: 270105899 has been moved to edge: -8108069
+Warning: PT stop: 4007177209 has been moved to edge: -5184855#2
+Warning: PT stop: 268979134 has been moved to edge: -5184855#3
+Warning: PT stop: 268979537 has been moved to edge: -60151069#2
+Warning: PT stop: 1225455135 has been moved to edge: -361120213#1
+Warning: PT stop: 4421874221 has been moved to edge: -361120214#2
+Warning: PT stop: 310387602 has been moved to edge: -30429077#0
+Warning: Cannot assign stop '1844871131' on edge '321714432' to pt line '1518915'. Ignoring!
+Warning: Cannot assign stop '5819900308' on edge '61567479' to pt line '1518915'. Ignoring!
+Warning: Cannot assign stop '6071616362' on edge '561255723' to pt line '1518915'. Ignoring!
+Warning: Incomplete route for ptline '18306' (Bus 419: Hauptbahnhof => Hauptbahnhof)
+Warning: Incomplete route for ptline '18306' (Bus 419: Hauptbahnhof => Hauptbahnhof)
+Warning: Incomplete route for ptline '18306' (Bus 419: Hauptbahnhof => Hauptbahnhof)
+Warning: Incomplete route for ptline '1862609' (Bus 450: Vechelde => Braunschweig Rathaus)
+Warning: PT stop: 26581489 has been moved to edge: -291287872
+Warning: PT stop: 4319427728 has been moved to edge: -32020609#1
+Warning: Incomplete route for ptline '1967175' (Bus 424: Rühme => Bevenrode => Essenrode)
+Warning: PT stop: 310417058 has been moved to edge: -173298393
+Warning: PT stop: 2310890309 has been moved to edge: -5640229#5
+Warning: PT stop: 333325805 has been moved to edge: -5640227#3
+Warning: PT stop: 4407748151 has been moved to edge: -625075013
+Warning: PT stop: 1588405819 has been moved to edge: -23952720#0
+Warning: PT stop: 5825229827 has been moved to edge: -10298419#0
+Warning: Incomplete route for ptline '2277611' (Bus 603: Braunschweig => SZ-Bad)
+Warning: Incomplete route for ptline '2277611' (Bus 603: Braunschweig => SZ-Bad)
+Warning: Incomplete route for ptline '2277611' (Bus 603: Braunschweig => SZ-Bad)
+Warning: Incomplete route for ptline '2277611' (Bus 603: Braunschweig => SZ-Bad)
+Warning: PT stop: 4513474935 has been moved to edge: -171266171#1
+Warning: PT stop: 4513474936 has been moved to edge: -313800998
+Warning: PT stop: 4513474938 has been moved to edge: -28192197#1
+Warning: PT stop: 4566735544 has been moved to edge: -197922718#2
+Warning: PT stop: 5806630065 has been moved to edge: -30992159
+Warning: PT stop: 456065534 has been moved to edge: -171266114#9
+Warning: PT stop: 1584200207 has been moved to edge: -613758769
+Warning: Incomplete route for ptline '2277612' (Bus 603: SZ-Bad => Braunschweig)
+Warning: Incomplete route for ptline '2277612' (Bus 603: SZ-Bad => Braunschweig)
+Warning: Incomplete route for ptline '2277612' (Bus 603: SZ-Bad => Braunschweig)
+Warning: PT stop: 456065534 has been moved to edge: 171266114#9
+Warning: PT stop: 5806630065 has been moved to edge: 30992159
+Warning: Incomplete route for ptline '2532417' (RB 40: Burg => Braunschweig)
+Warning: Incomplete route for ptline '2532417' (RB 40: Burg => Braunschweig)
+Warning: Could not re-assign PT stop: 333678624 probably broken osm file
+Warning: Incomplete route for ptline '2572291' (Bus 437: Moorhüttenweg => Im Dorfe via Klein Schöppenstedt)
+Warning: Incomplete route for ptline '2572291' (Bus 437: Moorhüttenweg => Im Dorfe via Klein Schöppenstedt)
+Warning: Incomplete route for ptline '2572291' (Bus 437: Moorhüttenweg => Im Dorfe via Klein Schöppenstedt)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '2572291'. Ignoring!
+Warning: PT stop: 76782846 has been moved to edge: 30642178#0
+Warning: PT stop: 4408174828 has been moved to edge: 30642178#0
+Warning: Incomplete route for ptline '2639593
+Warning: Could not assign stop '250749715' to pt line '2639593' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: Incomplete route for ptline '2657421' (Linie 112)
+Warning: Could not assign stop '250749715' to pt line '2657421' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: Incomplete route for ptline '2657480' (Bus 601: SZ-Lebenstedt => Braunschweig)
+Warning: Incomplete route for ptline '2657481' (Bus 601: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '2657481' (Bus 601: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '2657699' (Bus 631: Salzgitter-Bad => Braunschweig)
+Warning: Incomplete route for ptline '2657699' (Bus 631: Salzgitter-Bad => Braunschweig)
+Warning: Incomplete route for ptline '2657699' (Bus 631: Salzgitter-Bad => Braunschweig)
+Warning: Incomplete route for ptline '2658026' (Bus 631: Braunschweig => SZ-Bad)
+Warning: Incomplete route for ptline '2658026' (Bus 631: Braunschweig => SZ-Bad)
+Warning: Incomplete route for ptline '2658026' (Bus 631: Braunschweig => SZ-Bad)
+Warning: Incomplete route for ptline '2658026' (Bus 631: Braunschweig => SZ-Bad)
+Warning: PT stop: 2303819179 has been moved to edge: -108915782#1
+Warning: Cannot assign stop '1845907223' on edge '67500111' to pt line '2660202'. Ignoring!
+Warning: PT stop: 2304877718 has been moved to edge: -33199328
+Warning: PT stop: 4566735546 has been moved to edge: -171266114#9
+Warning: Incomplete route for ptline '2770412' (Tram 2: Heidberg => Siegfriedviertel (über Leisewitzstraße))
+Warning: Cannot assign stop '50844245' on edge '329223750' to pt line '2770412'. Ignoring!
+Warning: Cannot assign stop '50844245' on edge '329223750' to pt line '2770413'. Ignoring!
+Warning: Incomplete route for ptline '2808900' (Tram 5: Broitzem => Hauptbahnhof)
+Warning: Cannot assign stop '59708243' on edge '208927316' to pt line '2808900'. Ignoring!
+Warning: Incomplete route for ptline '2837734' (RE60: Rheine => Braunschweig)
+Warning: Incomplete route for ptline '2915007' (Bus 427: Volkmarode => Weddel => Essehof via IGS Volkmarode)
+Warning: Incomplete route for ptline '2915007' (Bus 427: Volkmarode => Weddel => Essehof via IGS Volkmarode)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '2915007'. Ignoring!
+Warning: PT stop: 76782846 has been moved to edge: -30642178#0
+Warning: PT stop: 4408174828 has been moved to edge: -30642178#0
+Warning: Incomplete route for ptline '2915008' (Bus 437: Neuer Weg => Moorhüttenweg via Ostdeutsche Straße)
+Warning: PT stop: 60950121 has been moved to edge: -8093325#3
+Warning: Incomplete route for ptline '2928267' (Bus 416: Völkenrode => Kralenriede)
+Warning: PT stop: 2304877721 has been moved to edge: -108915817
+Warning: Incomplete route for ptline '2928268' (Bus 416: Kralenriede => Völkenrode)
+Warning: PT stop: 634589681 has been moved to edge: -359426035#0
+Warning: PT stop: 1097297023 has been moved to edge: -511268001#3
+Warning: PT stop: 335753779 has been moved to edge: -171756596
+Warning: PT stop: 2304877707 has been moved to edge: -30426838#2
+Warning: PT stop: 2304877709 has been moved to edge: -70545096#3
+Warning: PT stop: 2304877712 has been moved to edge: -70545098#1
+Warning: PT stop: 2304877714 has been moved to edge: -296479157#2
+Warning: Cannot assign stop '1845907223' on edge '67500111' to pt line '2928268'. Ignoring!
+Warning: PT stop: 2304877721 has been moved to edge: 108915817
+Warning: Incomplete route for ptline '2928355' (Bus 416: Kralenriede => Völkenrode (via Niebelungenplatz))
+Warning: Cannot assign stop '1845907223' on edge '67500111' to pt line '2928355'. Ignoring!
+Warning: Incomplete route for ptline '2928360' (Bus 416: Völkenrode => Kralenriede (via Niebelungenplatz))
+Warning: PT stop: 2304877721 has been moved to edge: -108915817
+Warning: PT stop: 1477715706 has been moved to edge: -238389805#4
+Warning: PT stop: 1477715697 has been moved to edge: -238389805#13
+Warning: PT stop: 632920367 has been moved to edge: -151627458#0
+Warning: PT stop: 2305379490 has been moved to edge: -25644376#5
+Warning: PT stop: 634647643 has been moved to edge: -25644376#0
+Warning: Incomplete route for ptline '2928805' (Bus 436: Hauptbahnhof => Flughafen)
+Warning: PT stop: 634589702 has been moved to edge: -115813516#0
+Warning: PT stop: 2303921564 has been moved to edge: -116064030#0
+Warning: PT stop: 247364948 has been moved to edge: -329721714#2
+Warning: PT stop: 3366495664 has been moved to edge: -184012407#1
+Warning: PT stop: 2305379493 has been moved to edge: -165804406#3
+Warning: PT stop: 893873415 has been moved to edge: -625219034
+Warning: PT stop: 91556872 has been moved to edge: -4764258
+Warning: Cannot assign stop '30429993' on edge '221508970' to pt line '2928805'. Ignoring!
+Warning: PT stop: 636017649 has been moved to edge: 32757660#2
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Incomplete route for ptline '2930766' (Flixbus 164: Wolfenbüttel => Hamburg)
+Warning: Could not assign stop '940494842' to pt line '2930766' (closest edge '605871450#4', distance 2697.22). Ignoring!
+Warning: Incomplete route for ptline '2948482' (Bus 464: Rühme => Stadion)
+Warning: Incomplete route for ptline '2948482' (Bus 464: Rühme => Stadion)
+Warning: Incomplete route for ptline '2948482' (Bus 464: Rühme => Stadion)
+Warning: Incomplete route for ptline '2948482' (Bus 464: Rühme => Stadion)
+Warning: Incomplete route for ptline '2948482' (Bus 464: Rühme => Stadion)
+Warning: Incomplete route for ptline '2948482' (Bus 464: Rühme => Stadion)
+Warning: PT stop: 2768840762 has been moved to edge: -321638052#2
+Warning: PT stop: 893873415 has been moved to edge: 625219034
+Warning: PT stop: 2314028892 has been moved to edge: -221477559#3
+Warning: Could not assign stop '1010548300' to pt line '2948482' (closest edge '115021286#2', distance 117.15). Ignoring!
+Warning: Incomplete route for ptline '2948483' (Bus 464: Stadion => Rühme)
+Warning: Incomplete route for ptline '2948483' (Bus 464: Stadion => Rühme)
+Warning: Incomplete route for ptline '2948483' (Bus 464: Stadion => Rühme)
+Warning: Incomplete route for ptline '2948483' (Bus 464: Stadion => Rühme)
+Warning: Incomplete route for ptline '2948483' (Bus 464: Stadion => Rühme)
+Warning: Incomplete route for ptline '2948483' (Bus 464: Stadion => Rühme)
+Warning: PT stop: 30323542 has been moved to edge: -31451330#0
+Warning: PT stop: 30324012 has been moved to edge: -296480788#5
+Warning: PT stop: 30323970 has been moved to edge: -4752566
+Warning: PT stop: 4513627890 has been moved to edge: -165804406#0
+Warning: PT stop: 1644625945 has been moved to edge: -500532441
+Warning: PT stop: 4526203179 has been moved to edge: -30253920#1
+Warning: PT stop: 2310869837 has been moved to edge: -222114077#6
+Warning: PT stop: 333697507 has been moved to edge: -4729000#1
+Warning: Incomplete route for ptline '3004644' (RE60: Braunschweig => Rheine)
+Warning: Incomplete route for ptline '3004644' (RE60: Braunschweig => Rheine)
+Warning: Could not re-assign PT stop: 2444575725 probably broken osm file
+Warning: Incomplete route for ptline '3067629' (Bus 560: Wipshausen => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '31272' (Tram 4: Helmstedter Str. => Radeklint)
+Warning: Incomplete route for ptline '31275' (Tram 3: Weststadt => Volkmarode)
+Warning: Cannot assign stop '51468635' on edge '317682100' to pt line '31366'. Ignoring!
+Warning: Cannot assign stop '57860355' on edge '310291535' to pt line '31478'. Ignoring!
+Warning: Incomplete route for ptline '3247692' (RE70: Braunschweig => Bielefeld)
+Warning: Incomplete route for ptline '3247692' (RE70: Braunschweig => Bielefeld)
+Warning: Could not re-assign PT stop: 2444575725 probably broken osm file
+Warning: Incomplete route for ptline '3249632' (Bus 452: Helmstedter Straße => Bornum)
+Warning: PT stop: 2497349356 has been moved to edge: 600204868
+Warning: PT stop: 2497349152 has been moved to edge: -32043134#1
+Warning: PT stop: 2497349356 has been moved to edge: -600204868
+Warning: Incomplete route for ptline '3399103' (RE70: Bielefeld => Braunschweig)
+Warning: Incomplete route for ptline '349308' (Bus 429: Hauptbahnhof => Hauptbahnhof)
+Warning: Incomplete route for ptline '380269' (IC 56: Leipzig => Norddeich)
+Warning: Cannot assign stop '251043373' on edge '292614141' to pt line '3887930'. Ignoring!
+Warning: Incomplete route for ptline '4223565' (RB46: Braunschweig => Herzberg)
+Warning: Incomplete route for ptline '4223566' (RB46: Herzberg => Braunschweig)
+Warning: Incomplete route for ptline '4223566' (RB46: Herzberg => Braunschweig)
+Warning: Could not re-assign PT stop: 333164383 probably broken osm file
+Warning: Incomplete route for ptline '4233670' (RB 43: Braunschweig => Goslar)
+Warning: Could not re-assign PT stop: 333163293 probably broken osm file
+Warning: Incomplete route for ptline '4233671' (RB 43: Goslar => Braunschweig)
+Warning: Incomplete route for ptline '4233671' (RB 43: Goslar => Braunschweig)
+Warning: Incomplete route for ptline '4233672' (RB44:Braunschweig=>Salzgitter-Lebenstedt)
+Warning: Incomplete route for ptline '4233672' (RB44:Braunschweig=>Salzgitter-Lebenstedt)
+Warning: Incomplete route for ptline '4233672' (RB44:Braunschweig=>Salzgitter-Lebenstedt)
+Warning: Incomplete route for ptline '4233673' (RB44:Salzgitter-Lebenstedt=>Braunschweig)
+Warning: Incomplete route for ptline '4233673' (RB44:Salzgitter-Lebenstedt=>Braunschweig)
+Warning: Could not re-assign PT stop: 3905332675 probably broken osm file
+Warning: Incomplete route for ptline '4233674' (RB 45: Braunschweig => Schöppenstedt)
+Warning: Incomplete route for ptline '4233674' (RB 45: Braunschweig => Schöppenstedt)
+Warning: Incomplete route for ptline '4233674' (RB 45: Braunschweig => Schöppenstedt)
+Warning: Incomplete route for ptline '4233675' (RB 45: Schöppenstedt => Braunschweig)
+Warning: Could not re-assign PT stop: 333163897 probably broken osm file
+Warning: Cannot assign stop '333129829' on edge '314921093' to pt line '4233677'. Ignoring!
+Warning: Incomplete route for ptline '4238488' (RB 42: Braunschweig => Bad Harzburg)
+Warning: Could not re-assign PT stop: 333163293 probably broken osm file
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Incomplete route for ptline '4238489' (RB 47: Uelzen => Braunschweig)
+Warning: Cannot revise pt stop localization for pt line: 4238489, which has no route edges. Ignoring!
+Warning: Incomplete route for ptline '4238490' (RE 50: Wolfsburg => Hildesheim)
+Warning: Incomplete route for ptline '4274867' (Bus 602 Braunschweig - SZ-Thiede - Braunschweig)
+Warning: Incomplete route for ptline '4274867' (Bus 602 Braunschweig - SZ-Thiede - Braunschweig)
+Warning: Incomplete route for ptline '4274867' (Bus 602 Braunschweig - SZ-Thiede - Braunschweig)
+Warning: Cannot assign stop '51468635' on edge '317682100' to pt line '4599998'. Ignoring!
+Warning: Cannot assign stop '54142977' on edge '206616707' to pt line '4599999'. Ignoring!
+Warning: PT stop: 97028245 has been moved to edge: -119225907#6
+Warning: PT stop: 2397098350 has been moved to edge: -119225907#1
+Warning: PT stop: 4393542161 has been moved to edge: -30253923
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: Incomplete route for ptline '4617961' (Bus 464: Rühme => Volkmarode)
+Warning: PT stop: 2303921564 has been moved to edge: 116064030#0
+Warning: Incomplete route for ptline '4673568' (Bus 411: Lamme => Südstadt)
+Warning: Incomplete route for ptline '4673568' (Bus 411: Lamme => Südstadt)
+Warning: Incomplete route for ptline '4673569' (Bus 411: Lamme => Mascherode)
+Warning: Incomplete route for ptline '4673569' (Bus 411: Lamme => Mascherode)
+Warning: Incomplete route for ptline '4673570' (Bus 411: Südstadt => Lamme)
+Warning: PT stop: 3399003195 has been moved to edge: -5210623#0
+Warning: PT stop: 763361137 has been moved to edge: -647345116#1
+Warning: PT stop: 498064725 has been moved to edge: -380290359#0
+Warning: PT stop: 498064781 has been moved to edge: -8074310#3
+Warning: PT stop: 256587880 has been moved to edge: -28809230#0
+Warning: PT stop: 763374282 has been moved to edge: -29436942#0
+Warning: Incomplete route for ptline '4673571' (Bus 411: Mascherode => Lamme)
+Warning: Cannot assign stop '602516922' on edge '621507752' to pt line '4673571'. Ignoring!
+Warning: Incomplete route for ptline '558248' (Bus 433: Völkenrode => Hondelage)
+Warning: Incomplete route for ptline '558248' (Bus 433: Völkenrode => Hondelage)
+Warning: PT stop: 5825229826 has been moved to edge: -19527865#2
+Warning: PT stop: 5825229827 has been moved to edge: 10298419#0
+Warning: PT stop: 636017649 has been moved to edge: -32757660#2
+Warning: PT stop: 2303921564 has been moved to edge: -116064030#0
+Warning: Cannot assign stop '30429993' on edge '221508970' to pt line '6081733'. Ignoring!
+Warning: PT stop: 636017649 has been moved to edge: 32757660#2
+Warning: Incomplete route for ptline '6086282' (Bus 420: Wolfenbüttel Bahnhof => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6086282' (Bus 420: Wolfenbüttel Bahnhof => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6181528' (IC 56: Cottbus => Norddeich)
+Warning: Incomplete route for ptline '6333310' (IC 55: Magdeburg => Köln => Oberstdorf)
+Warning: Incomplete route for ptline '6428561' (Bus 480: Groß Schwülper => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6561973' (Bus 445: BS Weststadt => Vallstedt)
+Warning: Cannot assign stop '324320825' on edge '424731204' to pt line '6561973'. Ignoring!
+Warning: Cannot assign stop '324320816' on edge '424722179' to pt line '6561973'. Ignoring!
+Warning: PT stop: 4061367490 has been moved to edge: -26185379#4
+Warning: Cannot assign stop '324320817' on edge '424722181' to pt line '6561974'. Ignoring!
+Warning: PT stop: 1648254584 has been moved to edge: -610211148#0
+Warning: PT stop: 4385252046 has been moved to edge: -35572821#7
+Warning: PT stop: 4061430932 has been moved to edge: -549105303#4
+Warning: PT stop: 1564712764 has been moved to edge: -198206390
+Warning: Incomplete route for ptline '6573308' (Bus 484: Groß Schwülper => Rühme)
+Warning: Incomplete route for ptline '6573308' (Bus 484: Groß Schwülper => Rühme)
+Warning: PT stop: 269321181 has been moved to edge: -4764512#9
+Warning: PT stop: 269321182 has been moved to edge: -4764512#2
+Warning: PT stop: 335812038 has been moved to edge: -626854743#8
+Warning: PT stop: 4451836156 has been moved to edge: -626854743#0
+Warning: PT stop: 249292782 has been moved to edge: -246580705#13
+Warning: PT stop: 4405184054 has been moved to edge: -246580705#0
+Warning: PT stop: 1021653968 has been moved to edge: -8074215#12
+Warning: PT stop: 1021653972 has been moved to edge: -8074215#8
+Warning: PT stop: 492080041 has been moved to edge: -8074215#3
+Warning: PT stop: 335753779 has been moved to edge: 171756596
+Warning: PT stop: 297805411 has been moved to edge: -5059203
+Warning: PT stop: 310746916 has been moved to edge: -317365380#0
+Warning: PT stop: 5639403648 has been moved to edge: -321714436#0
+Warning: PT stop: 268978452 has been moved to edge: -61567479#1
+Warning: PT stop: 4451922001 has been moved to edge: -24342703#1
+Warning: PT stop: 1755865452 has been moved to edge: -125502241#1
+Warning: PT stop: 4007492308 has been moved to edge: -398891520
+Warning: PT stop: 4451922003 has been moved to edge: -610184077
+Warning: Incomplete route for ptline '6592717' (Bus 418: Riddagshausen => Lamme)
+Warning: PT stop: 335811224 has been moved to edge: -320399277#0
+Warning: PT stop: 822623518 has been moved to edge: -106531547#1
+Warning: PT stop: 335811606 has been moved to edge: -8078963#3
+Warning: PT stop: 249292782 has been moved to edge: 246580705#13
+Warning: Incomplete route for ptline '6615477' (Bus 422: Bebelhof => Lehndorf)
+Warning: PT stop: 2381056723 has been moved to edge: -106531541#0
+Warning: PT stop: 1484563060 has been moved to edge: -367772443#1
+Warning: PT stop: 4420461453 has been moved to edge: -10522135#0
+Warning: PT stop: 2688872995 has been moved to edge: 121228319#2
+Warning: PT stop: 241780520 has been moved to edge: -106565788#1
+Warning: PT stop: 4080374351 has been moved to edge: -106565788#1
+Warning: Cannot assign stop '268978452' on edge '61567479' to pt line '6615477'. Ignoring!
+Warning: Cannot assign stop '6071616357' on edge '502047174' to pt line '6615477'. Ignoring!
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Incomplete route for ptline '6681788' (Bus 431: Hauptbahnhof => Helmstedter Straße)
+Warning: Could not assign stop '3147139642' to pt line '6681788' (closest edge '332766532', distance 232.45). Ignoring!
+Warning: PT stop: 4440360641 has been moved to edge: -323951971#6
+Warning: PT stop: 3399003194 has been moved to edge: -323951971#1
+Warning: PT stop: 3399002578 has been moved to edge: -28247320#1
+Warning: PT stop: 3899925406 has been moved to edge: -80817384#8
+Warning: PT stop: 4472819359 has been moved to edge: -122024415
+Warning: PT stop: 4472819361 has been moved to edge: -610203713#0
+Warning: PT stop: 3198432386 has been moved to edge: -313809967#1
+Warning: Cannot assign stop '867187858' on edge '419181777' to pt line '6681788'. Ignoring!
+Warning: PT stop: 4034431359 has been moved to edge: -33878474#4
+Warning: PT stop: 4472847504 has been moved to edge: -24570897#0
+Warning: PT stop: 4440386517 has been moved to edge: -24936966
+Warning: PT stop: 867154825 has been moved to edge: -30425068#3
+Warning: PT stop: 4034366335 has been moved to edge: -610196760#7
+Warning: PT stop: 4472847506 has been moved to edge: -610196760#1
+Warning: PT stop: 4472847507 has been moved to edge: -624354912
+Warning: PT stop: 284983748 has been moved to edge: -55823887#4
+Warning: PT stop: 4472877551 has been moved to edge: -55823887#1
+Warning: PT stop: 4034345684 has been moved to edge: -266107857#0
+Warning: Incomplete route for ptline '66869' (Bus 461: Hauptbahnhof => PTB)
+Warning: Incomplete route for ptline '66869' (Bus 461: Hauptbahnhof => PTB)
+Warning: Incomplete route for ptline '6714526' (Bus 433: Hondelage => Völkenrode)
+Warning: Incomplete route for ptline '6714526' (Bus 433: Hondelage => Völkenrode)
+Warning: Incomplete route for ptline '6714526' (Bus 433: Hondelage => Völkenrode)
+Warning: Incomplete route for ptline '6714526' (Bus 433: Hondelage => Völkenrode)
+Warning: Could not re-assign PT stop: 4488834928 probably broken osm file
+Warning: Incomplete route for ptline '6715040' (Bus 412: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6715040' (Bus 412: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6715040' (Bus 412: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6715040' (Bus 412: Welfenplatz => Helmstedter Straße)
+Warning: PT stop: 4440386517 has been moved to edge: 24936966
+Warning: Cannot assign stop '4034402895' on edge '453727351' to pt line '6715040'. Ignoring!
+Warning: Incomplete route for ptline '6726648' (Bus 413: Bevenrode => Leiferde)
+Warning: Incomplete route for ptline '6726648' (Bus 413: Bevenrode => Leiferde)
+Warning: PT stop: 960393365 has been moved to edge: -165484801#2
+Warning: PT stop: 3420284345 has been moved to edge: -4743786#6
+Warning: PT stop: 3420284346 has been moved to edge: -4743786#0
+Warning: PT stop: 3420284352 has been moved to edge: -334902539#8
+Warning: PT stop: 4513474933 has been moved to edge: -334902539#0
+Warning: PT stop: 121935026 has been moved to edge: -334902541#0
+Warning: PT stop: 4034628889 has been moved to edge: -24447335#0
+Warning: PT stop: 4579762027 has been moved to edge: -8430611#1
+Warning: PT stop: 5513376679 has been moved to edge: -10609773#0
+Warning: Incomplete route for ptline '6726649' (Bus 413: Leiferde => Bevenrode)
+Warning: Incomplete route for ptline '6726649' (Bus 413: Leiferde => Bevenrode)
+Warning: Incomplete route for ptline '6726649' (Bus 413: Leiferde => Bevenrode)
+Warning: PT stop: 295999192 has been moved to edge: -578545347
+Warning: PT stop: 5513376679 has been moved to edge: 10609773#0
+Warning: PT stop: 4488763281 has been moved to edge: -610178992#4
+Warning: PT stop: 826132604 has been moved to edge: -220427475
+Warning: PT stop: 316092500 has been moved to edge: -68776961
+Warning: PT stop: 3366694452 has been moved to edge: -23952837#0
+Warning: PT stop: 2186938185 has been moved to edge: -505164563
+Warning: PT stop: 4488763283 has been moved to edge: -30425410#4
+Warning: PT stop: 4023499702 has been moved to edge: -7974804
+Warning: Cannot assign stop '4183452885' on edge '26379359' to pt line '6726649'. Ignoring!
+Warning: PT stop: 1245041071 has been moved to edge: -5005718
+Warning: PT stop: 1234277570 has been moved to edge: -30622616
+Warning: Incomplete route for ptline '6726650' (Bus 413: Leiferde => Querumer Forst)
+Warning: Incomplete route for ptline '6726650' (Bus 413: Leiferde => Querumer Forst)
+Warning: Incomplete route for ptline '6726650' (Bus 413: Leiferde => Querumer Forst)
+Warning: PT stop: 4579762027 has been moved to edge: 8430611#1
+Warning: PT stop: 4034596673 has been moved to edge: 8430611#1
+Warning: PT stop: 4023499702 has been moved to edge: -625238456
+Warning: Cannot assign stop '4183452885' on edge '26379359' to pt line '6726650'. Ignoring!
+Warning: Incomplete route for ptline '6726651' (Bus 413: Querumer Forst => Leiferde)
+Warning: Incomplete route for ptline '6726651' (Bus 413: Querumer Forst => Leiferde)
+Warning: PT stop: 4579762027 has been moved to edge: -8430611#1
+Warning: PT stop: 4034596673 has been moved to edge: -8430611#1
+Warning: PT stop: 5513376679 has been moved to edge: -10609773#0
+Warning: Incomplete route for ptline '6726652' (Bus 413: Querumer Forst => Rüningen)
+Warning: PT stop: 4513474936 has been moved to edge: -624680815
+Warning: Incomplete route for ptline '6726653' (Bus 413: Dieselstraße => Querumer Forst)
+Warning: Cannot assign stop '4183452885' on edge '26379359' to pt line '6726653'. Ignoring!
+Warning: Incomplete route for ptline '6745384' (Bus 417: Berggarten => Moorhüttenweg)
+Warning: Could not re-assign PT stop: 4488834928 probably broken osm file
+Warning: Incomplete route for ptline '6745946' (Bus 464: Stadion => Tostmannplatz)
+Warning: Incomplete route for ptline '6745946' (Bus 464: Stadion => Tostmannplatz)
+Warning: Incomplete route for ptline '6746197' (Bus 461: PTB => Hauptbahnhof)
+Warning: PT stop: 4539379540 has been moved to edge: -625070017
+Warning: PT stop: 4539379539 has been moved to edge: -31000150
+Warning: PT stop: 4103274675 has been moved to edge: -7016592#1
+Warning: PT stop: 4103260847 has been moved to edge: -82457818#0
+Warning: PT stop: 4103249696 has been moved to edge: -173759898#0
+Warning: PT stop: 4103243803 has been moved to edge: -657618384
+Warning: PT stop: 4103164756 has been moved to edge: -508536571
+Warning: Incomplete route for ptline '6768239' (Bus 414: Stadion (Schwarzer Berg) => Ernst-Böhme Straße)
+Warning: Incomplete route for ptline '6768240' (Bus 414: Stadion (Schwarzer Berg) => Heideblick)
+Warning: Incomplete route for ptline '6768240' (Bus 414: Stadion (Schwarzer Berg) => Heideblick)
+Warning: PT stop: 4539421793 has been moved to edge: -611113394#1
+Warning: Incomplete route for ptline '6768241' (Bus 414: Stadion (Schwarzer Berg) => Waller Weg)
+Warning: Incomplete route for ptline '6768241' (Bus 414: Stadion (Schwarzer Berg) => Waller Weg)
+Warning: Incomplete route for ptline '6768729' (Bus 434: Heideblick => Krugplatz)
+Warning: Could not assign stop '250749715' to pt line '6768729' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: PT stop: 4539687877 has been moved to edge: -10944687#4
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: Incomplete route for ptline '6789990' (Bus 482: Braunschweiger Verkehrs-GmbH => Hauptbahnhof)
+Warning: PT stop: 1755789362 has been moved to edge: -563300533
+Warning: Could not assign stop '3147139642' to pt line '6789990' (closest edge '28217281#2', distance 236.22). Ignoring!
+Warning: Could not re-assign PT stop: 3147139642 probably broken osm file
+Warning: Incomplete route for ptline '6789991' (Bus 482: Hauptbahnhof => Braunschweiger Verkehrs-GmbH)
+Warning: Incomplete route for ptline '6789991' (Bus 482: Hauptbahnhof => Braunschweiger Verkehrs-GmbH)
+Warning: PT stop: 309931010 has been moved to edge: -380057604#0
+Warning: Incomplete route for ptline '6812889' (Bus 620: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '6812889' (Bus 620: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '6812889' (Bus 620: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '6812889' (Bus 620: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '6812889' (Bus 620: Braunschweig => SZ-Lebenstedt)
+Warning: Incomplete route for ptline '6812890' (Bus 620: SZ-Lebenstedt => Braunschweig)
+Warning: Incomplete route for ptline '6812890' (Bus 620: SZ-Lebenstedt => Braunschweig)
+Warning: Incomplete route for ptline '6812890' (Bus 620: SZ-Lebenstedt => Braunschweig)
+Warning: Incomplete route for ptline '6812890' (Bus 620: SZ-Lebenstedt => Braunschweig)
+Warning: Incomplete route for ptline '6829866' (Bus 443: Donauknoten => Querum)
+Warning: Incomplete route for ptline '6829866' (Bus 443: Donauknoten => Querum)
+Warning: Cannot assign stop '324320825' on edge '424731204' to pt line '6829866'. Ignoring!
+Warning: PT stop: 4071540298 has been moved to edge: -381603795#13
+Warning: PT stop: 4578182181 has been moved to edge: -381603795#11
+Warning: PT stop: 433962472 has been moved to edge: -381603795#1
+Warning: PT stop: 433962481 has been moved to edge: -173274761#1
+Warning: PT stop: 4526137179 has been moved to edge: -4839258#1
+Warning: Incomplete route for ptline '6829867' (Bus 443: Querum => Donauknoten)
+Warning: PT stop: 4578182184 has been moved to edge: -68789816#2
+Warning: PT stop: 826166083 has been moved to edge: -173274762#2
+Warning: Incomplete route for ptline '6831287' (Bus 455: BS Weststadt => Timmerlah)
+Warning: Cannot assign stop '324320825' on edge '424731204' to pt line '6831287'. Ignoring!
+Warning: Cannot assign stop '324320816' on edge '424722179' to pt line '6831287'. Ignoring!
+Warning: Cannot assign stop '324320817' on edge '424722181' to pt line '6831621'. Ignoring!
+Warning: Incomplete route for ptline '6832029' (Bus 465: Turmstraße => Hahnenkleestraße)
+Warning: Incomplete route for ptline '6832029' (Bus 465: Turmstraße => Hahnenkleestraße)
+Warning: PT stop: 4579721593 has been moved to edge: -30773325#0
+Warning: Incomplete route for ptline '6832030' (Bus 465: Rüningen => Broitzem)
+Warning: Cannot assign stop '4513474936' on edge '624680815' to pt line '6832030'. Ignoring!
+Warning: PT stop: 288741851 has been moved to edge: -171266170
+Warning: PT stop: 4579762020 has been moved to edge: -589710885
+Warning: PT stop: 4579762018 has been moved to edge: -24727641#3
+Warning: PT stop: 4579762016 has been moved to edge: -24727641#1
+Warning: Incomplete route for ptline '6832054' (Bus 485: Broitzem => Rüningen)
+Warning: Cannot assign stop '5755657215' on edge '624680820' to pt line '6832054'. Ignoring!
+Warning: Incomplete route for ptline '6832055' (Bus 485: Rüningen => Broitzem)
+Warning: PT stop: 288741851 has been moved to edge: 171266170
+Warning: PT stop: 4034596670 has been moved to edge: 384632933
+Warning: PT stop: 4579812305 has been moved to edge: -23622352#3
+Warning: Incomplete route for ptline '6861965' (Bus 455: BS Weststadt => Geitelde)
+Warning: Incomplete route for ptline '6861965' (Bus 455: BS Weststadt => Geitelde)
+Warning: Cannot assign stop '324320825' on edge '424731204' to pt line '6861965'. Ignoring!
+Warning: Cannot assign stop '324320816' on edge '424722179' to pt line '6861965'. Ignoring!
+Warning: Incomplete route for ptline '6861966' (Bus 455: Geitelde => BS Weststadt via Georg-Althaus-Straße)
+Warning: Incomplete route for ptline '6862087' (Bus 481: Leiferde => Stöckheim)
+Warning: Incomplete route for ptline '6862087' (Bus 481: Leiferde => Stöckheim)
+Warning: Incomplete route for ptline '6862087' (Bus 481: Leiferde => Stöckheim)
+Warning: PT stop: 295999161 has been moved to edge: -10496711
+Warning: Incomplete route for ptline '6862088' (Bus 481: Stöckheim => Leiferde)
+Warning: Cannot assign stop '4597637188' on edge '160472660' to pt line '6862088'. Ignoring!
+Warning: PT stop: 4597637186 has been moved to edge: -526258220#0
+Warning: PT stop: 288741851 has been moved to edge: -171266170
+Warning: PT stop: 4034596670 has been moved to edge: -384632933
+Warning: Incomplete route for ptline '6862962' (Bus 411: Kanzlerfeld => Südstadt)
+Warning: Incomplete route for ptline '6862962' (Bus 411: Kanzlerfeld => Südstadt)
+Warning: Incomplete route for ptline '6862963' (Bus 411: Südstadt => Kanzlerfeld)
+Warning: Incomplete route for ptline '6915025' (Bus 730: Braunschweig => Evessen)
+Warning: Incomplete route for ptline '6915025' (Bus 730: Braunschweig => Evessen)
+Warning: Incomplete route for ptline '6915025' (Bus 730: Braunschweig => Evessen)
+Warning: Incomplete route for ptline '6915025' (Bus 730: Braunschweig => Evessen)
+Warning: Incomplete route for ptline '6915026' (Bus 730: Braunschweig => Neuerkerode)
+Warning: Incomplete route for ptline '6915026' (Bus 730: Braunschweig => Neuerkerode)
+Warning: Incomplete route for ptline '6915026' (Bus 730: Braunschweig => Neuerkerode)
+Warning: Incomplete route for ptline '6915026' (Bus 730: Braunschweig => Neuerkerode)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: Incomplete route for ptline '6915027' (Bus 730: Evessen => Braunschweig)
+Warning: PT stop: 4635264727 has been moved to edge: -54683173
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6915028' (Bus 730: Neuerkerode => Braunschweig)
+Warning: Incomplete route for ptline '6952628' (Bus 412: Hans Geitel Straße => Welfenplatz)
+Warning: Incomplete route for ptline '6952628' (Bus 412: Hans Geitel Straße => Welfenplatz)
+Warning: Cannot revise pt stop localization for incomplete pt line: 6952628. Ignoring!
+Warning: Could not assign stop '701362839' to pt line '6952628' (closest edge '-164062914', distance 584.39). Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6952628. Ignoring!
+Warning: Could not assign stop '311796286' to pt line '6952628' (closest edge '-164062914', distance 350.28). Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6952628. Ignoring!
+Warning: PT stop: 4504233661 has been moved to edge: -28385144#2
+Warning: Incomplete route for ptline '6952629' (Bus 412: Welfenplatz => Paxmannstraße)
+Warning: Incomplete route for ptline '6952629' (Bus 412: Welfenplatz => Paxmannstraße)
+Warning: Incomplete route for ptline '6952629' (Bus 412: Welfenplatz => Paxmannstraße)
+Warning: Incomplete route for ptline '6952629' (Bus 412: Welfenplatz => Paxmannstraße)
+Warning: Cannot assign stop '4034402895' on edge '453727351' to pt line '6952629'. Ignoring!
+Warning: Incomplete route for ptline '6952991' (Bus 412: Braunschweiger Verkehrs-GmbH => Welfenplatz)
+Warning: Incomplete route for ptline '6952991' (Bus 412: Braunschweiger Verkehrs-GmbH => Welfenplatz)
+Warning: Incomplete route for ptline '6952991' (Bus 412: Braunschweiger Verkehrs-GmbH => Welfenplatz)
+Warning: Incomplete route for ptline '6952991' (Bus 412: Braunschweiger Verkehrs-GmbH => Welfenplatz)
+Warning: Incomplete route for ptline '6952991' (Bus 412: Braunschweiger Verkehrs-GmbH => Welfenplatz)
+Warning: Incomplete route for ptline '6952991' (Bus 412: Braunschweiger Verkehrs-GmbH => Welfenplatz)
+Warning: PT stop: 4472847507 has been moved to edge: 624354912
+Warning: PT stop: 311807078 has been moved to edge: 624354912
+Warning: PT stop: 701299513 has been moved to edge: -55833388#2
+Warning: PT stop: 4034419957 has been moved to edge: -253468162#1
+Warning: PT stop: 4504233658 has been moved to edge: -223096653#11
+Warning: PT stop: 4034419955 has been moved to edge: -223096653#4
+Warning: PT stop: 4034419954 has been moved to edge: -223096653#0
+Warning: Incomplete route for ptline '6952992' (Bus 412: Paxmannstraße => Rathaus)
+Warning: Incomplete route for ptline '6952992' (Bus 412: Paxmannstraße => Rathaus)
+Warning: Incomplete route for ptline '6952992' (Bus 412: Paxmannstraße => Rathaus)
+Warning: Incomplete route for ptline '6952992' (Bus 412: Paxmannstraße => Rathaus)
+Warning: Incomplete route for ptline '6952992' (Bus 412: Paxmannstraße => Rathaus)
+Warning: PT stop: 5653296848 has been moved to edge: -23272948
+Warning: PT stop: 701362839 has been moved to edge: 223096653#11
+Warning: PT stop: 4504233658 has been moved to edge: 223096653#11
+Warning: PT stop: 311796291 has been moved to edge: 253468162#1
+Warning: PT stop: 4034419957 has been moved to edge: 253468162#1
+Warning: PT stop: 311796286 has been moved to edge: 223096653#5
+Warning: PT stop: 4034419955 has been moved to edge: 223096653#4
+Warning: PT stop: 701362833@6952991 has been moved to edge: 223096653#0
+Warning: PT stop: 4034419954 has been moved to edge: 223096653#0
+Warning: PT stop: 4034402896 has been moved to edge: 28385144#2
+Warning: PT stop: 4504233661 has been moved to edge: 28385144#2
+Warning: PT stop: 4504246616 has been moved to edge: -23040706#4
+Warning: PT stop: 701379796 has been moved to edge: -23040706#4
+Warning: Incomplete route for ptline '6952993' (Bus 412: Rathaus => Paxmannstraße)
+Warning: Incomplete route for ptline '6952993' (Bus 412: Rathaus => Paxmannstraße)
+Warning: Incomplete route for ptline '6952993' (Bus 412: Rathaus => Paxmannstraße)
+Warning: Incomplete route for ptline '6952993' (Bus 412: Rathaus => Paxmannstraße)
+Warning: Incomplete route for ptline '6952993' (Bus 412: Rathaus => Paxmannstraße)
+Warning: Incomplete route for ptline '6952993' (Bus 412: Rathaus => Paxmannstraße)
+Warning: Cannot assign stop '4504233656' on edge '34609530' to pt line '6952993'. Ignoring!
+Warning: PT stop: 4034419956 has been moved to edge: -223096653#11
+Warning: PT stop: 701362836 has been moved to edge: -223096653#11
+Warning: PT stop: 4504233659 has been moved to edge: -223096653#3
+Warning: PT stop: 311796283 has been moved to edge: -223096653#3
+Warning: PT stop: 4034419953 has been moved to edge: -164062914
+Warning: PT stop: 701362829 has been moved to edge: -164062914
+Warning: PT stop: 266699110 has been moved to edge: -28385144#3
+Warning: Cannot assign stop '4034402895' on edge '453727351' to pt line '6952993'. Ignoring!
+Warning: PT stop: 311796194 has been moved to edge: -24377268#4
+Warning: PT stop: 4034401492 has been moved to edge: -24377268#4
+Warning: PT stop: 4472847507 has been moved to edge: -624354912
+Warning: PT stop: 311807078 has been moved to edge: -624354912
+Warning: Incomplete route for ptline '6952994' (Bus 412: Rautheimer Straße => Helmstedter Straße)
+Warning: Incomplete route for ptline '6952994' (Bus 412: Rautheimer Straße => Helmstedter Straße)
+Warning: Incomplete route for ptline '6953210' (Bus 413: Leiferde => Essener Straße)
+Warning: Incomplete route for ptline '6953210' (Bus 413: Leiferde => Essener Straße)
+Warning: Incomplete route for ptline '6953210' (Bus 413: Leiferde => Essener Straße)
+Warning: PT stop: 5513376679 has been moved to edge: 10609773#0
+Warning: PT stop: 316092500 has been moved to edge: -625238458
+Warning: PT stop: 4526260510 has been moved to edge: -543975007
+Warning: Cannot assign stop '4183452885' on edge '26379359' to pt line '6953211'. Ignoring!
+Warning: Incomplete route for ptline '6953325' (Bus 414: Stadion (Schwarzer Berg) => Am Hafen)
+Warning: Incomplete route for ptline '6953325' (Bus 414: Stadion (Schwarzer Berg) => Am Hafen)
+Warning: PT stop: 315278647 has been moved to edge: -71079508#3
+Warning: PT stop: 41944784 has been moved to edge: -5640212#12
+Warning: Incomplete route for ptline '6953421' (Bus 417: Berggarten => Moorhüttenweg via IGS Volkmarode)
+Warning: Incomplete route for ptline '6953421' (Bus 417: Berggarten => Moorhüttenweg via IGS Volkmarode)
+Warning: Could not re-assign PT stop: 4488834928 probably broken osm file
+Warning: Cannot revise pt stop localization for pt line: 6953422, which has no route edges. Ignoring!
+Warning: Incomplete route for ptline '6953423' (Bus 417: Dammstraße Ost => Moorhüttenweg)
+Warning: Could not re-assign PT stop: 4488834928 probably broken osm file
+Warning: Incomplete route for ptline '6953424' (Bus 417: IGS Volkmarode => Berggarten)
+Warning: PT stop: 338891505 has been moved to edge: -8093325#0
+Warning: Incomplete route for ptline '6953425' (Bus 417: Moorhüttenweg => Angerburgstraße)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6953425'. Ignoring!
+Warning: PT stop: 4405184054 has been moved to edge: -626854750
+Warning: PT stop: 249292782 has been moved to edge: -246580705#13
+Warning: PT stop: 249292782 has been moved to edge: 246580705#13
+Warning: PT stop: 4451836156 has been moved to edge: -626854744
+Warning: PT stop: 249292782 has been moved to edge: -246580705#13
+Warning: Incomplete route for ptline '6974024' (Bus 418: Riddagshausen => Raffteichbad)
+Warning: PT stop: 249292782 has been moved to edge: 246580705#13
+Warning: Incomplete route for ptline '6974025' (Bus 418: Riddagshausen => Reuchlinstraße)
+Warning: Incomplete route for ptline '6974265' (Bus 422: Bebelhof => Güldenstraße)
+Warning: PT stop: 241780520 has been moved to edge: 106565788#1
+Warning: PT stop: 4080374351 has been moved to edge: 106565788#1
+Warning: PT stop: 2688872995 has been moved to edge: -121228319#2
+Warning: PT stop: 335811224 has been moved to edge: 320399277#0
+Warning: Incomplete route for ptline '6974403' (Bus 424: Rühme => Bevenrode)
+Warning: Incomplete route for ptline '6974404' (Bus 424: Rühme => Waggum)
+Warning: Cannot assign stop '634647642' on edge '625219033' to pt line '6974826'. Ignoring!
+Warning: Cannot revise pt stop localization for pt line: 6974827, which has no route edges. Ignoring!
+Warning: Incomplete route for ptline '6974828' (Bus 427: Essehof => Weddel => Volkmarode)
+Warning: Cannot revise pt stop localization for pt line: 6974829, which has no route edges. Ignoring!
+Warning: Incomplete route for ptline '6974830' (Bus 427: IGS Volkmarode => Volkmarode)
+Warning: Incomplete route for ptline '6974830' (Bus 427: IGS Volkmarode => Volkmarode)
+Warning: Incomplete route for ptline '6974831' (Bus 427: Moorhüttenweg => IGS Volkmarode)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6974831'. Ignoring!
+Warning: Incomplete route for ptline '6974832' (Bus 427: Volkmarode => Essehof)
+Warning: Incomplete route for ptline '6974833' (Bus 427: Volkmarode => Hordorf)
+Warning: Incomplete route for ptline '6974834' (Bus 427: Volkmarode => Weddel => Essehof)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6974834'. Ignoring!
+Warning: Incomplete route for ptline '6974835' (Bus 427: Volkmarode => Weddel via IGS Volkmarode)
+Warning: Incomplete route for ptline '6974835' (Bus 427: Volkmarode => Weddel via IGS Volkmarode)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6974835'. Ignoring!
+Warning: Incomplete route for ptline '6974836' (Bus 427: Volkmarode => Weddel)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6974836'. Ignoring!
+Warning: Cannot revise pt stop localization for pt line: 6974837, which has no route edges. Ignoring!
+Warning: Incomplete route for ptline '6974838' (Bus 427: Weddel => Volkmarode via IGS Volkmarode)
+Warning: PT stop: 4023616496 has been moved to edge: -30642235#0
+Warning: Incomplete route for ptline '6974839' (Bus 427: Weddel => Volkmarode)
+Warning: Incomplete route for ptline '6974989' (Bus 431: Am Spieltore => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974989' (Bus 431: Am Spieltore => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974989' (Bus 431: Am Spieltore => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6974991' (Bus 431: Erfurtplatz => Helmstedter Straße)
+Warning: Cannot assign stop '867187858' on edge '419181777' to pt line '6974991'. Ignoring!
+Warning: PT stop: 4440386517 has been moved to edge: -24936966
+Warning: PT stop: 4440360641 has been moved to edge: 323951971#6
+Warning: Could not assign stop '338088811' to pt line '6974993' (closest edge '221632395', distance 249.91). Ignoring!
+Warning: Incomplete route for ptline '6974995' (Bus 431: Hauptbahnhof => Glogaustraße)
+Warning: Could not assign stop '3147139642' to pt line '6974995' (closest edge '332766532', distance 232.45). Ignoring!
+Warning: PT stop: 4440360641 has been moved to edge: -323951971#6
+Warning: Incomplete route for ptline '6974996' (Bus 431: Hauptbahnhof => Klinikum Salzdahlumer Straße)
+Warning: Could not assign stop '3147139642' to pt line '6974996' (closest edge '332766532', distance 232.45). Ignoring!
+Warning: PT stop: 3399002578 has been moved to edge: -621499234#0
+Warning: Incomplete route for ptline '6974997' (Bus 431: Paxmannstraße => Hauptbahnhof)
+Warning: Incomplete route for ptline '6974997' (Bus 431: Paxmannstraße => Hauptbahnhof)
+Warning: Incomplete route for ptline '6974997' (Bus 431: Paxmannstraße => Hauptbahnhof)
+Warning: PT stop: 4440360641 has been moved to edge: 323951971#6
+Warning: Could not assign stop '338088811' to pt line '6974997' (closest edge '221632395', distance 249.91). Ignoring!
+Warning: Incomplete route for ptline '6974999' (Bus 431: Welfenplatz => Erfurtplatz)
+Warning: Incomplete route for ptline '6974999' (Bus 431: Welfenplatz => Erfurtplatz)
+Warning: Incomplete route for ptline '6974999' (Bus 431: Welfenplatz => Erfurtplatz)
+Warning: Incomplete route for ptline '6975000' (Bus 431: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6975000' (Bus 431: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6975000' (Bus 431: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6975000' (Bus 431: Welfenplatz => Helmstedter Straße)
+Warning: Incomplete route for ptline '6975024' (Bus 433: Paracelsusstraße => Hondelage)
+Warning: Incomplete route for ptline '6975025' (Bus 433: Völkenrode => Rudolfplatz)
+Warning: Incomplete route for ptline '6975161' (Bus 434: Heideblick => Hänflingsstraße)
+Warning: Could not assign stop '250749715' to pt line '6975161' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: Incomplete route for ptline '6975162' (Bus 434: Heideblick => Schmiedegasse)
+Warning: Could not assign stop '250749715' to pt line '6975162' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: Incomplete route for ptline '6975309' (Bus 443: Donauknoten => Helenenstraße)
+Warning: Cannot assign stop '324320825' on edge '424731204' to pt line '6975309'. Ignoring!
+Warning: Incomplete route for ptline '6975310' (Bus 443: Donauknoten => Münzstraße)
+Warning: Cannot assign stop '324320825' on edge '424731204' to pt line '6975310'. Ignoring!
+Warning: PT stop: 335811224 has been moved to edge: -320399277#0
+Warning: Incomplete route for ptline '6975312' (Bus 443: Rathaus => Essener Straße)
+Warning: Incomplete route for ptline '6975312' (Bus 443: Rathaus => Essener Straße)
+Warning: Cannot assign stop '324320817' on edge '424722181' to pt line '6977507'. Ignoring!
+Warning: Incomplete route for ptline '6977509' (Bus 454: Stadion (Schwarzer Berg) => Weizenbleek)
+Warning: Incomplete route for ptline '6977510' (Bus 455: Geitelde => BS Weststadt)
+Warning: PT stop: 2303921564 has been moved to edge: 116064030#0
+Warning: Incomplete route for ptline '6995391' (Bus 493: Rathaus => Neuerkerode)
+Warning: PT stop: 747307846 has been moved to edge: -60749772#0
+Warning: PT stop: 4440386517 has been moved to edge: -621499225
+Warning: Cannot assign stop '3399002578' on edge '621499234' to pt line '6995646'. Ignoring!
+Warning: PT stop: 3482184962 has been moved to edge: -25274451#0
+Warning: Incomplete route for ptline '6996025' (Bus 437: IGS Volkmarode => Im Dorfe)
+Warning: Cannot revise pt stop localization for pt line: 6996025, which has no route edges. Ignoring!
+Warning: Incomplete route for ptline '6996026' (Bus 437: Moorhüttenweg => Im Dorfe)
+Warning: Incomplete route for ptline '6996026' (Bus 437: Moorhüttenweg => Im Dorfe)
+Warning: Incomplete route for ptline '6996026' (Bus 437: Moorhüttenweg => Im Dorfe)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6996026'. Ignoring!
+Warning: PT stop: 76782846 has been moved to edge: 30642178#0
+Warning: PT stop: 4408174828 has been moved to edge: 30642178#0
+Warning: Incomplete route for ptline '6996027' (Bus 437: Moorhüttenweg => Neuer Weg via Klein Schöppenstedt u. IGS Volkmarode)
+Warning: Incomplete route for ptline '6996027' (Bus 437: Moorhüttenweg => Neuer Weg via Klein Schöppenstedt u. IGS Volkmarode)
+Warning: Incomplete route for ptline '6996027' (Bus 437: Moorhüttenweg => Neuer Weg via Klein Schöppenstedt u. IGS Volkmarode)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6996027'. Ignoring!
+Warning: Incomplete route for ptline '6996028' (Bus 437: Moorhüttenweg => Neuer Weg via Klein Schöppenstedt)
+Warning: Incomplete route for ptline '6996028' (Bus 437: Moorhüttenweg => Neuer Weg via Klein Schöppenstedt)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6996028'. Ignoring!
+Warning: Incomplete route for ptline '6996029' (Bus 437: Moorhüttenweg => Neuer Weg)
+Warning: Incomplete route for ptline '6996029' (Bus 437: Moorhüttenweg => Neuer Weg)
+Warning: Incomplete route for ptline '6996029' (Bus 437: Moorhüttenweg => Neuer Weg)
+Warning: Cannot assign stop '4408174823' on edge '363362631' to pt line '6996029'. Ignoring!
+Warning: PT stop: 60950121 has been moved to edge: -30642235#1
+Warning: Incomplete route for ptline '6996034' (Bus 437: Neuer Weg => Moorhüttenweg)
+Warning: Incomplete route for ptline '6996265' (Bus 442: Glogaustraße => Hans-Geitel-Straße)
+Warning: Incomplete route for ptline '6996265' (Bus 442: Glogaustraße => Hans-Geitel-Straße)
+Warning: Incomplete route for ptline '6996265' (Bus 442: Glogaustraße => Hans-Geitel-Straße)
+Warning: Incomplete route for ptline '6996265' (Bus 442: Glogaustraße => Hans-Geitel-Straße)
+Warning: Incomplete route for ptline '6996265' (Bus 442: Glogaustraße => Hans-Geitel-Straße)
+Warning: Incomplete route for ptline '6996265' (Bus 442: Glogaustraße => Hans-Geitel-Straße)
+Warning: Cannot assign stop '269746445' on edge '624354917' to pt line '6996265'. Ignoring!
+Warning: Cannot assign stop '4472819358' on edge '624354914' to pt line '6996265'. Ignoring!
+Warning: Cannot assign stop '314652877' on edge '624354914' to pt line '6996265'. Ignoring!
+Warning: PT stop: 4695047275 has been moved to edge: -106539341#0
+Warning: PT stop: 4695047276 has been moved to edge: -499546678
+Warning: PT stop: 311796194 has been moved to edge: 24377268#4
+Warning: PT stop: 4034401492 has been moved to edge: 24377268#4
+Warning: PT stop: 266699110 has been moved to edge: 28385144#3
+Warning: Cannot assign stop '4034402895' on edge '453727351' to pt line '6996265'. Ignoring!
+Warning: PT stop: 4034419953 has been moved to edge: 164062914
+Warning: PT stop: 701362829 has been moved to edge: 164062914
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996265. Ignoring!
+Warning: Could not assign stop '311796283' to pt line '6996265' (closest edge '164062914', distance 311.53). Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996265. Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996265. Ignoring!
+Warning: Could not assign stop '701362836' to pt line '6996265' (closest edge '164062914', distance 590.20). Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996265. Ignoring!
+Warning: Incomplete route for ptline '6996266' (Bus 442: Hans-Geitel-Straße => Schulzentrum Stöckheim)
+Warning: Incomplete route for ptline '6996266' (Bus 442: Hans-Geitel-Straße => Schulzentrum Stöckheim)
+Warning: Incomplete route for ptline '6996266' (Bus 442: Hans-Geitel-Straße => Schulzentrum Stöckheim)
+Warning: Incomplete route for ptline '6996266' (Bus 442: Hans-Geitel-Straße => Schulzentrum Stöckheim)
+Warning: Incomplete route for ptline '6996266' (Bus 442: Hans-Geitel-Straße => Schulzentrum Stöckheim)
+Warning: Incomplete route for ptline '6996266' (Bus 442: Hans-Geitel-Straße => Schulzentrum Stöckheim)
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996266. Ignoring!
+Warning: Could not assign stop '701362839' to pt line '6996266' (closest edge '-164062914', distance 584.39). Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996266. Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996266. Ignoring!
+Warning: Could not assign stop '311796286' to pt line '6996266' (closest edge '-164062914', distance 350.28). Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996266. Ignoring!
+Warning: Cannot revise pt stop localization for incomplete pt line: 6996266. Ignoring!
+Warning: PT stop: 4504233661 has been moved to edge: -28385144#2
+Warning: PT stop: 4034402896 has been moved to edge: -28385144#2
+Warning: PT stop: 4504246616 has been moved to edge: 23040706#4
+Warning: PT stop: 701379796 has been moved to edge: 23040706#4
+Warning: Cannot assign stop '314652883' on edge '624354916' to pt line '6996266'. Ignoring!
+Warning: PT stop: 4695564374 has been moved to edge: -13972078#2
+Warning: Incomplete route for ptline '6996267' (Bus 442: Helmstedter Straße => Welfenplatz)
+Warning: Incomplete route for ptline '6996267' (Bus 442: Helmstedter Straße => Welfenplatz)
+Warning: Incomplete route for ptline '6996267' (Bus 442: Helmstedter Straße => Welfenplatz)
+Warning: PT stop: 4504233658 has been moved to edge: -223096653#11
+Warning: PT stop: 701362839 has been moved to edge: -223096653#11
+Warning: PT stop: 4034419955 has been moved to edge: -223096653#4
+Warning: PT stop: 311796286 has been moved to edge: -223096653#5
+Warning: PT stop: 4034419954 has been moved to edge: -223096653#0
+Warning: PT stop: 701362833@6952991 has been moved to edge: -223096653#0
+Warning: Incomplete route for ptline '6996268' (Bus 442: Paxmannstrßae => Schulzentrum Stöckheim)
+Warning: Incomplete route for ptline '6996268' (Bus 442: Paxmannstrßae => Schulzentrum Stöckheim)
+Warning: Cannot assign stop '314652883' on edge '624354916' to pt line '6996268'. Ignoring!
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Incomplete route for ptline '6996269' (Bus 442: Schulzentrum Stöckheim => Helmstedter Straße)
+Warning: Cannot assign stop '269746445' on edge '624354917' to pt line '6996269'. Ignoring!
+Warning: Cannot assign stop '4472819358' on edge '624354914' to pt line '6996269'. Ignoring!
+Warning: Cannot assign stop '314652877' on edge '624354914' to pt line '6996269'. Ignoring!
+Warning: Cannot assign stop '617008716' on edge '624354915' to pt line '6996269'. Ignoring!
+Warning: PT stop: 4504233657 has been moved to edge: -55833388#0
+Warning: Incomplete route for ptline '6996484' (Bus 465: Donauknoten => Georg-Althaus-Straße)
+Warning: Incomplete route for ptline '6996484' (Bus 465: Donauknoten => Georg-Althaus-Straße)
+Warning: Incomplete route for ptline '6996484' (Bus 465: Donauknoten => Georg-Althaus-Straße)
+Warning: PT stop: 5755657215 has been moved to edge: -624680820
+Warning: PT stop: 4089670544 has been moved to edge: -254229792
+Warning: Incomplete route for ptline '6996486' (Bus 465: Turmstraße => Geiteldestraße)
+Warning: Incomplete route for ptline '6996486' (Bus 465: Turmstraße => Geiteldestraße)
+Warning: Incomplete route for ptline '6996504' (Bus 481: Rüningen => Leiferde)
+Warning: Incomplete route for ptline '6996504' (Bus 481: Rüningen => Leiferde)
+Warning: PT stop: 4513474938 has been moved to edge: 28192197#1
+Warning: PT stop: 4034581950 has been moved to edge: 28192197#1
+Warning: Incomplete route for ptline '6996505' (Bus 481: Rüningen => Stöckheim)
+Warning: Incomplete route for ptline '6996506' (Bus 481: Stöckheim => Rüningen)
+Warning: Cannot assign stop '4597637188' on edge '160472660' to pt line '6996506'. Ignoring!
+Warning: Incomplete route for ptline '6996668' (Bus 420: Braunschweig Hauptbahnhof => Wolfenbüttel Bahnhof)
+Warning: Incomplete route for ptline '6996669' (Bus 420: Braunschweig Rathhaus => Wolfenbüttel Kornmarkt)
+Warning: Incomplete route for ptline '6996669' (Bus 420: Braunschweig Rathhaus => Wolfenbüttel Kornmarkt)
+Warning: Incomplete route for ptline '6996670' (Bus 420: Wolfenbüttel Kornmarkt => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6996670' (Bus 420: Wolfenbüttel Kornmarkt => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6996671' (Bus 560: Bortfeld => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6996674' (Bus 560: Wendeburg => Braunschweig Rathaus (schnell))
+Warning: Incomplete route for ptline '6996675' (Bus 560: Wendeburg => Braunschweig Rathaus)
+Warning: Incomplete route for ptline '6996676' (Bus 560: Wipshausen => Braunschweig Rathaus (schnell))
+Warning: Incomplete route for ptline '7018920' (Bus 484: Gewerbegebiet Waller See => Rühme)
+Warning: Incomplete route for ptline '7018920' (Bus 484: Gewerbegebiet Waller See => Rühme)
+Warning: PT stop: 4393385970 has been moved to edge: -278491962#27
+Warning: PT stop: 4393385966 has been moved to edge: -278491962#10
+Warning: Incomplete route for ptline '7018921' (Bus 484: Hansestraße West => Rühme)
+Warning: Incomplete route for ptline '7018921' (Bus 484: Hansestraße West => Rühme)
+Warning: Incomplete route for ptline '7018922' (Bus 484: Rühme => Gewerbegebiet Waller See)
+Warning: Incomplete route for ptline '7018922' (Bus 484: Rühme => Gewerbegebiet Waller See)
+Warning: Incomplete route for ptline '7018922' (Bus 484: Rühme => Gewerbegebiet Waller See)
+Warning: Incomplete route for ptline '7018922' (Bus 484: Rühme => Gewerbegebiet Waller See)
+Warning: PT stop: 269321180 has been moved to edge: -23170152#3
+Warning: PT stop: 269321183 has been moved to edge: -23170152#3
+Warning: PT stop: 4393385970 has been moved to edge: 278491962#27
+Warning: PT stop: 4393385969 has been moved to edge: 278491962#27
+Warning: Incomplete route for ptline '7018923' (Bus 484: Rühme => Hansestraße West)
+Warning: Incomplete route for ptline '7018924' (Bus 484: Rühme => Groß Schwülper)
+Warning: Incomplete route for ptline '7019017' (Bus 465: Geiteldestraße => Broitzem)
+Warning: Incomplete route for ptline '7019395' (Bus 452: Helmstedter Straße => Bornum/Elm (komplett via Weddel))
+Warning: PT stop: 2497349356 has been moved to edge: 600204868
+Warning: Incomplete route for ptline '7019396' (Bus 452: Helmstedter Straße => Bornum/Elm (komplett))
+Warning: Incomplete route for ptline '7019397' (Bus 452: Helmstedter Straße => Emil-Berg-Straße (via Weddel))
+Warning: Incomplete route for ptline '7019398' (Bus 452: Helmstedter Straße => Emil-Berg-Straße)
+Warning: Incomplete route for ptline '7019398' (Bus 452: Helmstedter Straße => Emil-Berg-Straße)
+Warning: Incomplete route for ptline '7019398' (Bus 452: Helmstedter Straße => Emil-Berg-Straße)
+Warning: Incomplete route for ptline '7019398' (Bus 452: Helmstedter Straße => Emil-Berg-Straße)
+Warning: Incomplete route for ptline '7019398' (Bus 452: Helmstedter Straße => Emil-Berg-Straße)
+Warning: Incomplete route for ptline '7019398' (Bus 452: Helmstedter Straße => Emil-Berg-Straße)
+Warning: PT stop: 2497349356 has been moved to edge: -600204868
+Warning: Could not re-assign PT stop: 2497349142 probably broken osm file
+Warning: PT stop: 2497349152 has been moved to edge: 32043134#1
+Warning: Cannot assign stop '51468635' on edge '317682100' to pt line '7090405'. Ignoring!
+Warning: Cannot assign stop '54142977' on edge '206616707' to pt line '7090406'. Ignoring!
+Warning: Cannot assign stop '57860355' on edge '310291535' to pt line '7090528'. Ignoring!
+Warning: Cannot assign stop '89228269' on edge '624718348' to pt line '7090530'. Ignoring!
+Warning: Cannot assign stop '50844245' on edge '329223750' to pt line '7090531'. Ignoring!
+Warning: Incomplete route for ptline '7090584' (Tram 3: Weststadt => Schloss)
+Warning: Incomplete route for ptline '7090657' (Tram 5: Broitzem => Leonhardplatz)
+Warning: Cannot assign stop '59708243' on edge '208927316' to pt line '7090657'. Ignoring!
+Warning: Incomplete route for ptline '7090928' (Bus 465: Georg-Althaus-Straße => Donauknoten)
+Warning: Cannot assign stop '324320817' on edge '424722181' to pt line '7090928'. Ignoring!
+Warning: PT stop: 4745152243 has been moved to edge: -330062416#1
+Warning: PT stop: 4745152244 has been moved to edge: -330062416#1
+Warning: Could not assign stop '322003594' to pt line '7090928' (closest edge '624680817#2', distance 102.13). Ignoring!
+Warning: Incomplete route for ptline '71751' (Bus 427: Essehof => Weddel => Volkmarode via IGS Volkmarode)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: Incomplete route for ptline '7345498' (Bus 412: Braunschweiger Verkehrs-GmbH => Sachsendamm)
+Warning: PT stop: 4472847507 has been moved to edge: 624354912
+Warning: PT stop: 311807078 has been moved to edge: 624354912
+Warning: PT stop: 701299513 has been moved to edge: 55833388#2
+Warning: PT stop: 4034419959 has been moved to edge: 55833388#2
+Warning: Cannot assign stop '314652883' on edge '624354916' to pt line '7345498'. Ignoring!
+Warning: Incomplete route for ptline '73571' (Bus 454: Stadion (Schwarzer Berg) => Schwarzer Berg => Stadion (Schwarzer Berg))
+Warning: Incomplete route for ptline '7378841' (Bus 191: Wenden, Heideblick => Gifhorn, Steinweg)
+Warning: Could not assign stop '250749715' to pt line '7378841' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: PT stop: 27587334 has been moved to edge: -214776527#2
+Warning: PT stop: 481115754 has been moved to edge: -28266068#3
+Warning: PT stop: 481115754 has been moved to edge: 28266068#3
+Warning: PT stop: 27587334 has been moved to edge: 214776527#2
+Warning: Incomplete route for ptline '7392821' (Bus 191: Wenden, Heideblick => Gifhorn, Bahnhof (Süd))
+Warning: Could not assign stop '250749715' to pt line '7392821' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: PT stop: 27587334 has been moved to edge: -214776527#2
+Warning: PT stop: 481115754 has been moved to edge: -28266068#3
+Warning: Incomplete route for ptline '7393662' (Bus 111: Wenden, Heideblick => Gifhorn, Gesundheitsamt)
+Warning: Could not assign stop '250749715' to pt line '7393662' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: PT stop: 310417074 has been moved to edge: -511175451
+Warning: Incomplete route for ptline '75711' (Bus 484: Rühme => Groß Schwülper (via Gewerbegebiet Waller See))
+Warning: Incomplete route for ptline '75711' (Bus 484: Rühme => Groß Schwülper (via Gewerbegebiet Waller See))
+Warning: Incomplete route for ptline '75711' (Bus 484: Rühme => Groß Schwülper (via Gewerbegebiet Waller See))
+Warning: Incomplete route for ptline '75711' (Bus 484: Rühme => Groß Schwülper (via Gewerbegebiet Waller See))
+Warning: PT stop: 4393385966 has been moved to edge: 278491962#10
+Warning: PT stop: 4393385967 has been moved to edge: 278491962#10
+Warning: Incomplete route for ptline '76955' (Bus 414: Heideblick => Stadion (Schwarzer Berg))
+Warning: Could not assign stop '250749715' to pt line '76955' (closest edge '24803131#0', distance 123.33). Ignoring!
+Warning: PT stop: 4539421792 has been moved to edge: -611113396#0
+Warning: PT stop: 4539421789 has been moved to edge: -4747816#8
+Warning: PT stop: 91556885 has been moved to edge: -4747816#1
+Warning: PT stop: 4539420386 has been moved to edge: -23031878#4
+Warning: Incomplete route for ptline '7797054' (ICE 13: Berlin => Frankfurt)
+Warning: Incomplete route for ptline '7797950' (RB48: SZ-Lebenstedt=> Braunschweig HBF)
+Warning: Could not re-assign PT stop: 3905332675 probably broken osm file
+Warning: Incomplete route for ptline '7797951' (RB48: Braunschweig=> SZ-Lebenstedt)
+Warning: Incomplete route for ptline '7797951' (RB48: Braunschweig=> SZ-Lebenstedt)
+Warning: Incomplete route for ptline '7797951' (RB48: Braunschweig=> SZ-Lebenstedt)
+Warning: Incomplete route for ptline '7800621' (RB46: Seesen=> Braunschweig HBF)
+Warning: Incomplete route for ptline '7800621' (RB46: Seesen=> Braunschweig HBF)
+Warning: Could not re-assign PT stop: 333164383 probably broken osm file
+Warning: Incomplete route for ptline '7800622' (RB46: Braunschweig HBF=> Seesen)
+Warning: Incomplete route for ptline '78732' (IC 55: Leipzig => Köln)
+Warning: PT stop: 1584200207 has been moved to edge: -614064190
+Warning: Cannot assign stop '90235606' on edge '613758769' to pt line '8500503'. Ignoring!
+Warning: Cannot assign stop '90235606' on edge '613758769' to pt line '8500504'. Ignoring!
+Warning: Cannot assign stop '1584200207' on edge '614064190' to pt line '8501723'. Ignoring!
+Warning: Cannot assign stop '90235606' on edge '613758769' to pt line '8501724'. Ignoring!
+Warning: PT stop: 5806891689 has been moved to edge: -25628280#2
+Warning: PT stop: 1564712764 has been moved to edge: 198206390
+Warning: PT stop: 2303921564 has been moved to edge: -625219019#3
+Warning: PT stop: 2303941375@4617961 has been moved to edge: -625219019#3
+Warning: PT stop: 3366495664 has been moved to edge: -625219023#0
+Warning: Incomplete route for ptline '8688425' (Bus 413: Querumer Forst => Dieselstraße)
+Warning: Incomplete route for ptline '8688426' (Bus 413: Altstadtmarkt => Querumer Forst)
+Warning: Cannot assign stop '4183452885' on edge '26379359' to pt line '8688426'. Ignoring!
+Warning: Incomplete route for ptline '8688427' (Bus 413: Rüningen => Querumer Forst)
+Warning: Cannot assign stop '309662839' on edge '624680815' to pt line '8688427'. Ignoring!
+Warning: Cannot assign stop '4183452885' on edge '26379359' to pt line '8688427'. Ignoring!
+Warning: Incomplete route for ptline '9117989' (Bus 435: Donauknoten => Messegelände Nordeingang)
+Warning: PT stop: 1653209002 has been moved to edge: -5059308#9
+Warning: Could not assign stop '322003594' to pt line '9118455' (closest edge '624680817#2', distance 102.13). Ignoring!
+done (293ms).
+Warning: Removing pt stop:250749715 on non existing edge: 
+Warning: Removing pt stop:4209124829 on non existing edge: 
+Warning: Removing pt stop:940494842 on non existing edge: 
+Warning: Removed 3 pt stops because they could not be assigned to the network
+Align pt stop id signs with corresponding edge id signs ... done (1ms).
+Removing sharp turn with radius 0.05 at the start of edge '138330831#12'.
+Removing sharp turn with radius 6.18 at the start of edge '308953830#2'.
+Removing sharp turn with radius 8.51 at the end of edge '308958258#0'.
+Removing sharp turn with radius 1.73 at the end of edge '308958258#3'.
+Removing sharp turn with radius 6.57 at the end of edge '309122506'.
+Removing sharp turn with radius 7.45 at the end of edge '310290272#1'.
+Removing sharp turn with radius 6.10 at the end of edge '310432387#22'.
+Removing sharp turn with radius 6.68 at the end of edge '314921096#1'.
+Removing sharp turn with radius 8.43 at the end of edge '60046167#0'.
+Removing sharp turn with radius 8.32 at the end of edge '6078218#2'.
+Removing sharp turn with radius 3.13 at the end of edge '66016128#7'.
+Found 33 reversible edge sequences between broken rail nodes
+Reversed 31 sequences (count by length: 1:19 2:6 3:2 4:1 5:2 9:1)
+Warning: Ignoring buffer stop junction '2506246962' with 2 edges
+
+Added 67 edges to connect 39 buffer stops in both directions.
+Added 13 bidi-edges between 8 pairs of railway switches (count by length: 1:5 2:2 4:1)
+Warning: Last stop edge '30184447' is not part of the route of line '1132154'
+Warning: Last stop edge '561255723#0' is not part of the route of line '1518915'
+Warning: First stop edge '10298419#0' is not part of the route of line '2004766'
+Warning: First stop edge '38061217' is not part of the route of line '2532417'
+Warning: Last stop edge '38061217' is not part of the route of line '2532417'
+Warning: Could not retrieve edge '' for first stop of line '2639593'
+Warning: Could not retrieve edge '' for first stop of line '2657421'
+Warning: Last stop edge '310291535#0' is not part of the route of line '2752852'
+Warning: Last stop edge '329223750#0' is not part of the route of line '2770412'
+Warning: Last stop edge '329223750#0' is not part of the route of line '2770413'
+Warning: First stop edge '206616707#9' is not part of the route of line '2777015'
+Warning: First stop edge '208927316#8' is not part of the route of line '2808900'
+Warning: Last stop edge '-108915817' is not part of the route of line '2928268'
+Warning: Last stop edge '-108915817' is not part of the route of line '2928355'
+Warning: Could not retrieve edge '' for first stop of line '2930766'
+Warning: Could not retrieve edge '' for last stop of line '2930766'
+Warning: Last stop edge '31000146#3' is not part of the route of line '2948482'
+Warning: First stop edge '314921096#1' is not part of the route of line '3004644'
+Warning: Last stop edge '314921096#1' is not part of the route of line '3004644'
+Warning: First stop edge '317682100#2' is not part of the route of line '31366'
+Warning: Last stop edge '310291535#0' is not part of the route of line '31478'
+Warning: First stop edge '314921096#1' is not part of the route of line '3247692'
+Warning: Last stop edge '314921096#1' is not part of the route of line '3247692'
+Warning: Last stop edge '32043134#1' is not part of the route of line '3249632'
+Warning: First stop edge '292614141#15' is not part of the route of line '3887930'
+Warning: First stop edge '30642811#0' is not part of the route of line '4223566'
+Warning: Last stop edge '30642811#0' is not part of the route of line '4223566'
+Warning: First stop edge '314921085' is not part of the route of line '4233670'
+Warning: Last stop edge '314921085' is not part of the route of line '4233670'
+Warning: First stop edge '31238552' is not part of the route of line '4233673'
+Warning: Last stop edge '31238552' is not part of the route of line '4233673'
+Warning: First stop edge '31238552' is not part of the route of line '4233675'
+Warning: Last stop edge '31238552' is not part of the route of line '4233675'
+Warning: First stop edge '314921093' is not part of the route of line '4233677'
+Warning: First stop edge '314921085' is not part of the route of line '4238488'
+Warning: Last stop edge '314921085' is not part of the route of line '4238488'
+Warning: First stop edge '317682100#2' is not part of the route of line '4599998'
+Warning: First stop edge '206616707#9' is not part of the route of line '4599999'
+Warning: First stop edge '-621507752#0' is not part of the route of line '4673571'
+Warning: Last stop edge '424722179' is not part of the route of line '6561973'
+Warning: First stop edge '198206390' is not part of the route of line '6565867'
+Warning: First stop edge '198206390' is not part of the route of line '6567667'
+Warning: First stop edge '-60749772#0' is not part of the route of line '6592717'
+Warning: Last stop edge '502047174#0' is not part of the route of line '6615477'
+Warning: First stop edge '30184447' is not part of the route of line '6681788'
+Warning: Could not retrieve edge '64386525#5' for first stop of line '6714526'
+Warning: Could not retrieve edge '64386525#5' for last stop of line '6714526'
+Warning: First stop edge '-621499225' is not part of the route of line '6715040'
+Warning: Last stop edge '26379359#3' is not part of the route of line '6726650'
+Warning: First stop edge '625238453' is not part of the route of line '6726653'
+Warning: Last stop edge '26379359#3' is not part of the route of line '6726653'
+Warning: Could not retrieve edge '64386525#5' for first stop of line '6745384'
+Warning: Could not retrieve edge '64386525#5' for last stop of line '6745384'
+Warning: Could not retrieve edge '' for first stop of line '6768729'
+Warning: Last stop edge '424722179' is not part of the route of line '6831287'
+Warning: First stop edge '-624680820' is not part of the route of line '6832029'
+Warning: First stop edge '-624680815' is not part of the route of line '6832030'
+Warning: Last stop edge '-624680820' is not part of the route of line '6832054'
+Warning: First stop edge '-171266170' is not part of the route of line '6832055'
+Warning: Last stop edge '424722179' is not part of the route of line '6861965'
+Warning: First stop edge '160472660#4' is not part of the route of line '6862088'
+Warning: Last stop edge '32043134#1' is not part of the route of line '6915025'
+Warning: Last stop edge '32043134#1' is not part of the route of line '6915026'
+Warning: First stop edge '-223096653#11' is not part of the route of line '6952628'
+Warning: First stop edge '-621499225' is not part of the route of line '6952629'
+Warning: Last stop edge '624354912' is not part of the route of line '6952993'
+Warning: Could not retrieve edge '64386525#5' for first stop of line '6953421'
+Warning: Could not retrieve edge '64386525#5' for last stop of line '6953421'
+Warning: Could not retrieve edge '64386525#5' for first stop of line '6953423'
+Warning: Could not retrieve edge '64386525#5' for last stop of line '6953423'
+Warning: First stop edge '-60749772#0' is not part of the route of line '6974024'
+Warning: First stop edge '-60749772#0' is not part of the route of line '6974025'
+Warning: Last stop edge '106565788#1' is not part of the route of line '6974266'
+Warning: Last stop edge '599455968#0' is not part of the route of line '6974823'
+Warning: Last stop edge '625219033' is not part of the route of line '6974826'
+Warning: First stop edge '-30642235#1' is not part of the route of line '6974828'
+Warning: Last stop edge '-30642235#1' is not part of the route of line '6974828'
+Warning: Last stop edge '-30642235#1' is not part of the route of line '6974830'
+Warning: First stop edge '-30642235#1' is not part of the route of line '6974839'
+Warning: Last stop edge '-30642235#1' is not part of the route of line '6974839'
+Warning: Last stop edge '30184447' is not part of the route of line '6974993'
+Warning: First stop edge '30184447' is not part of the route of line '6974995'
+Warning: First stop edge '30184447' is not part of the route of line '6974996'
+Warning: Last stop edge '30184447' is not part of the route of line '6974997'
+Warning: First stop edge '-621499225' is not part of the route of line '6975000'
+Warning: Could not retrieve edge '' for first stop of line '6975161'
+Warning: Could not retrieve edge '' for first stop of line '6975162'
+Warning: First stop edge '625219026#1' is not part of the route of line '6975308'
+Warning: First stop edge '-625219019#3' is not part of the route of line '6978321'
+Warning: First stop edge '-25274451#0' is not part of the route of line '6995644'
+Warning: First stop edge '-25274451#0' is not part of the route of line '6995645'
+Warning: First stop edge '-621499234#0' is not part of the route of line '6995646'
+Warning: First stop edge '624354917' is not part of the route of line '6996265'
+Warning: Last stop edge '-223096653#11' is not part of the route of line '6996265'
+Warning: First stop edge '-223096653#11' is not part of the route of line '6996266'
+Warning: First stop edge '160472660#4' is not part of the route of line '6996506'
+Warning: First stop edge '278491962#27' is not part of the route of line '7018920'
+Warning: Last stop edge '32043134#1' is not part of the route of line '7019395'
+Warning: Last stop edge '32043134#1' is not part of the route of line '7019396'
+Warning: Last stop edge '32043134#1' is not part of the route of line '7019397'
+Warning: First stop edge '317682100#2' is not part of the route of line '7090405'
+Warning: First stop edge '206616707#9' is not part of the route of line '7090406'
+Warning: Last stop edge '310291535#0' is not part of the route of line '7090528'
+Warning: Last stop edge '624718348#0' is not part of the route of line '7090530'
+Warning: Last stop edge '329223750#0' is not part of the route of line '7090531'
+Warning: First stop edge '208927316#8' is not part of the route of line '7090657'
+Warning: Last stop edge '325528571#2' is not part of the route of line '7090928'
+Warning: First stop edge '-28266068#3' is not part of the route of line '7378840'
+Warning: Could not retrieve edge '' for first stop of line '7378841'
+Warning: First stop edge '-28266068#3' is not part of the route of line '7392814'
+Warning: Could not retrieve edge '' for first stop of line '7392821'
+Warning: Could not retrieve edge '' for first stop of line '7393662'
+Warning: Could not retrieve edge '' for first stop of line '76955'
+Warning: First stop edge '31238552' is not part of the route of line '7797950'
+Warning: Last stop edge '31238552' is not part of the route of line '7797950'
+Warning: First stop edge '30642811#0' is not part of the route of line '7800621'
+Warning: Last stop edge '30642811#0' is not part of the route of line '7800621'
+Warning: First stop edge '613758769' is not part of the route of line '8500503'
+Warning: First stop edge '613758769' is not part of the route of line '8500504'
+Warning: Last stop edge '-614064190' is not part of the route of line '8501723'
+Warning: First stop edge '613758769' is not part of the route of line '8501724'
+Warning: First stop edge '198206390' is not part of the route of line '8519006'
+Warning: Last stop edge '26379359#3' is not part of the route of line '8688426'
+Warning: First stop edge '624680815' is not part of the route of line '8688427'
+Warning: Last stop edge '26379359#3' is not part of the route of line '8688427'
+Warning: Last stop edge '325528571#2' is not part of the route of line '9118455'
+Warning: Could not add bidi-edge '-346600388#0'.
+Warning: Could not add bidi-edge '-625058945'.
+Added 12 bidi-edges for public transport stops and a total of 1165 bidi-edges to ensure connectivity of stops (0 stops remain disconnected)
+DijkstraRouter answered 208 queries and explored 155.97 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.03ms on average).
+Warning: Converting invalid rail_crossing to traffic_light at junction '1832833779'.
+Warning: Converting invalid rail_crossing to traffic_light at junction '3338276075'.
+Joining junction clusters ... 
+Warning: Reducing junction cluster 1097279102,1097279153,3151786705,3151786706,3151786708,3309334832,3309334834,3309334845,3400146007,3400146008,3400146009,3400146011,34672430,35913244,50917915,5293458213,5293501339,5293501340,5293530712,5293539133,5606749452,5606749453,5606749462,5606749463,5606749464,5606749465,5606749471,5606749475,5653296849,5653296850,5789925951,5789925952,5789927153 (it contains stop '441570856').
+Warning: Reducing junction cluster 1169223676,1169223678,1169223681,1169223696,1169223701,1169223703,21559570,26154203,26154204,268401509,268401511,287216368,287216369,292725687,3160041275,3160041276,3160041277,3160041278,324329718,324329720,324329721,324329723,5244249330,5244249338,566713884,5671614362,5671614363,5671614364,5671614371,5671614372,59904253,6137452232,6137452256,6137452257,807266986 (5 incoming edges).
+Warning: Reducing junction cluster 1192540483,26190028,26190029,5502161227,5502161229 (5 incoming edges).
+Warning: Not joining junctions 1204081664,1365939542,1365939618,1365939677,1365939681,1365939684,1365939719,1365939728,1365939757,1365939773,1365939857,1365939889,1365939892,1365939927,1365939933,1365939940,248714091,26153508,28115614,301224173,6052498180,90655504,966749887,966749890 (10 incoming edges).
+Warning: Reducing junction cluster 121847311,3158445953,36476470,51521130,874273138 (it contains stop '51519513').
+Warning: Not joining junctions 1289943265,36867633 (5 incoming edges).
+Warning: Not joining junctions 1289943268,36867635 (parallel incoming -113780419#2,113780419#0).
+Warning: Reducing junction cluster 1306026035,1306026053,1306026057,1578503015,3312512380,3312512383,3312512384,3312512389,3338276075,3338276076,362628929,4754421425,5303024523,5303024524,5303024526,5303024527,5303618654,5303618657,5303618661,5303618675,5690103580,5690103582,5690103583,5690103585,5690103588,5690103604,5690103605,5690103606,730445054,890353089 (7 incoming edges).
+Warning: Not joining junctions 1338907804,252122928 (only 1 edge within and no cross-traffic).
+Warning: Not joining junctions 1360994292,3847910660 (only 1 edge within and no cross-traffic).
+Warning: Ambiguous node type for node cluster 'cluster_1129461120_3312512338_3312512341_5653390239_5653390240_59706403' (rail_crossing,unknown), setting to 'priority'.
+Warning: Ambiguous node type for node cluster 'cluster_119574120_119574125_119574130_26154034_280598666_280598673_280598675_280598679_280598682_3060814336_3142496718_3239609688_3239609689_3239609692_3309207646_3309207647_3309207649_3309207651_3309207652_34672421_3821578726_3821578730_3909312075_50886961_5495778633_5495778634_5495778635_5495778636_5495778637_5495778638_5495778639_5495778640_5495778642_5495778643_5495778644_5495778645_5495778647_5495778648_5495778654_5495778655_5495778656_5495778657_5495778661_5495778664_5495778665_5495778666_5495778669_5495778670_5495778671_5495778672_5495778673_5495910792_5495910793_5495910794_5495910795_5661266433_5661266434_5671532740' (priority,rail_crossing), setting to 'priority'.
+Warning: Ambiguous node type for node cluster 'cluster_119574120_119574125_119574130_26154034_280598666_280598673_280598675_280598679_280598682_3060814336_3142496718_3239609688_3239609689_3239609692_3309207646_3309207647_3309207649_3309207651_3309207652_34672421_3821578726_3821578730_3909312075_50886961_5495778633_5495778634_5495778635_5495778636_5495778637_5495778638_5495778639_5495778640_5495778642_5495778643_5495778644_5495778645_5495778647_5495778648_5495778654_5495778655_5495778656_5495778657_5495778661_5495778664_5495778665_5495778666_5495778669_5495778670_5495778671_5495778672_5495778673_5495910792_5495910793_5495910794_5495910795_5661266433_5661266434_5671532740' (priority,rail_crossing), setting to 'priority'.
+Warning: Ambiguous node type for node cluster 'cluster_119574120_119574125_119574130_26154034_280598666_280598673_280598675_280598679_280598682_3060814336_3142496718_3239609688_3239609689_3239609692_3309207646_3309207647_3309207649_3309207651_3309207652_34672421_3821578726_3821578730_3909312075_50886961_5495778633_5495778634_5495778635_5495778636_5495778637_5495778638_5495778639_5495778640_5495778642_5495778643_5495778644_5495778645_5495778647_5495778648_5495778654_5495778655_5495778656_5495778657_5495778661_5495778664_5495778665_5495778666_5495778669_5495778670_5495778671_5495778672_5495778673_5495910792_5495910793_5495910794_5495910795_5661266433_5661266434_5671532740' (priority,rail_crossing), setting to 'priority'.
+Warning: Ambiguous node type for node cluster 'cluster_119574120_119574125_119574130_26154034_280598666_280598673_280598675_280598679_280598682_3060814336_3142496718_3239609688_3239609689_3239609692_3309207646_3309207647_3309207649_3309207651_3309207652_34672421_3821578726_3821578730_3909312075_50886961_5495778633_5495778634_5495778635_5495778636_5495778637_5495778638_5495778639_5495778640_5495778642_5495778643_5495778644_5495778645_5495778647_5495778648_5495778654_5495778655_5495778656_5495778657_5495778661_5495778664_5495778665_5495778666_5495778669_5495778670_5495778671_5495778672_5495778673_5495910792_5495910793_5495910794_5495910795_5661266433_5661266434_5671532740' (priority,rail_crossing), setting to 'priority'.
+done (1834ms).
+ Joined 1559 junction cluster(s).
+Removing empty nodes and geometry nodes ... done (808ms).
+   15844 nodes removed.
+Moving network to origin ... done (1185ms).
+Computing turning directions ... 
+Warning: Ambiguity in turnarounds computation at junction '119574141'.
+Warning: Ambiguity in turnarounds computation at junction '1289943265'.
+Warning: Ambiguity in turnarounds computation at junction '1289943268'.
+Warning: Ambiguity in turnarounds computation at junction '1339580745'.
+Warning: Ambiguity in turnarounds computation at junction '1360994969'.
+done (60ms).
+Assigning nodes to traffic lights ... done (28ms).
+Guessing and setting on-/off-ramps ... done (128ms).
+Warning: Found sharp turn with radius 7.30 at the start of edge '-10371014#0'.
+Warning: Found sharp turn with radius 7.88 at the start of edge '-10426716#0'.
+Warning: Found sharp turn with radius 8.38 at the end of edge '-10512676#1'.
+Warning: Found sharp turn with radius 5.08 at the start of edge '-105242493#1'.
+Warning: Found sharp turn with radius 7.57 at the end of edge '-10903013#1'.
+Warning: Found sharp turn with radius 8.87 at the start of edge '-10903616'.
+Warning: Found sharp turn with radius 4.65 at the end of edge '-121502289#0'.
+Warning: Found sharp turn with radius 2.13 at the end of edge '-135843312#0'.
+Warning: Found sharp turn with radius 6.09 at the start of edge '-135843312#2'.
+Removing sharp turn with radius 5.76 at the start of edge '-138330831#0'.
+Warning: Found sharp turn with radius 3.95 at the end of edge '-174667377#6'.
+Warning: Found angle of 99.18 degrees at edge '-22780604#1', segment 0.
+Warning: Found angle of 103.96 degrees at edge '-23622352#3', segment 2.
+Warning: Found angle of 105.13 degrees at edge '-24727191#2', segment 0.
+Warning: Found angle of 99.06 degrees at edge '-375856117#1', segment 0.
+Warning: Found angle of 100.29 degrees at edge '-551982112', segment 0.
+Sorting nodes' edges ... done (92ms).
+Computing node shapes ... 
+Warning: Shape for junction '1472910301' has distance 20.96 to its given position.
+Warning: Shape for junction '164942410' has distance 45.41 to its given position.
+Warning: Shape for junction '1882211537' has distance 30.99 to its given position.
+Warning: Shape for junction '21559563' has distance 20.18 to its given position.
+Warning: Shape for junction '249511668' has distance 29.77 to its given position.
+done (1302ms).
+Computing edge shapes ... done (796ms).
+Computing node types ... 
+Warning: Converting invalid rail_crossing to traffic_light at junction 'cluster_107966879_107967196_1726100565_3158445894_3158445897'.
+Warning: Converting invalid rail_crossing to traffic_light at junction 'cluster_1300781583_1364926258_1364926261_1458867323_213676134_218531111_218531146_218531174_2509191388_3158415682_3158415683_51519815_51521106'.
+Warning: Converting invalid rail_crossing to traffic_light at junction 'cluster_1301309371_3158445937'.
+done (53ms).
+Guessed 12356 pedestrian crossings.
+Computing priorities ... done (78ms).
+Computing approached edges ... done (74ms).
+Guessing and setting roundabouts ... 
+ Guessed 25 roundabout(s).
+done (27ms).
+Computing approaching lanes ... done (255ms).
+Dividing of lanes on approached lanes ... done (157ms).
+Processing turnarounds ... done (55ms).
+Rechecking of lane endings ... 
+Warning: Lane '-11014602#3_1' is not connected from any incoming edge at junction '57913898'.
+Warning: Lane '-129471084#1_0' is not connected from any incoming edge at junction '1097122230'.
+Warning: Lane '-157188978#1_0' is not connected from any incoming edge at junction '268021037'.
+Warning: Lane '-232711219#4_0' is not connected from any incoming edge at junction '36747539'.
+Warning: Lane '-24720033_0' is not connected from any incoming edge at junction '3854020422'.
+Warning: Edge '-350098731#1' is not connected to outgoing edges at junction 'cluster_269238326_28089439_28902905_3144381707_3144381708_3144381709_3290541944_3290544966_3603277500_3873859375_3873859385_3873859392_3873859394_52770481_52770488_5424757007_5424757009_5424757015_5424757018_5424757020_5424757144_5428417985'.
+Warning: Edge '100866305' is not connected to outgoing edges at junction '1165656810'.
+Warning: Edge '11014602#3' is not connected to outgoing edges at junction '57913898'.
+Warning: Edge '20205774#1' is not connected to outgoing edges at junction 'cluster_1300781583_1364926258_1364926261_1458867323_213676134_218531111_218531146_218531174_2509191388_3158415682_3158415683_51519815_51521106'.
+Warning: Edge '224067569#23' is not connected to outgoing edges at junction '2329045200'.
+done (39ms).
+Warning: Invalid pedestrian topology: crossing ':cluster_1690636897_248208984_c3' across [515354699#1 -515354699#1 40314737#2 -40314737#2] has no target.
+Warning: Invalid pedestrian topology: crossing ':cluster_1755789031_253078568_2870321471_2870321472_3155095024_3211302695_3211302697_3211302698_3211302699_322694558_35806897_3843771239_3843771241_3843771242_5426361941_5426361942_5426362013_5426362014_5426362015_5426362016_5426362078_5426362080_c3' across [319188811#0 319188813#3 25290479#6 -309119321#0 -310143559#0 42821103#4] has no target.
+Warning: Invalid pedestrian topology: crossing ':cluster_1774646768_28449329_308809877_3156641219_318630611_3287951999_5665990616_5665990617_5665990618_5665990619_c0' across [320708925#0 -393236369#1 393236369#1] has no target.
+Warning: Invalid pedestrian topology: crossing ':cluster_267829112_267829114_2870321478_52753789_5426358912_5426361946_5426361947_5426361948_5426361949_5426361950_5426361951_5426361952_5426361953_5426361954_5426361955_5426361957_5426362038_c7' across [25290479#4 -25290479#4 -310143559#2 310143559#2 32875565#0 319188813#0] has no target.
+Warning: Invalid pedestrian topology: crossing ':cluster_27733167_28007025_2952513729_2952513730_318630605_3287948387_3287948389_3287948403_3287948405_3838935979_3838935992_3838936000_3838936004_3838936021_3838936026_3838936027_3838936029_3838936031_3838936032_3838936033_5253650602_5253650603_5410809432_5410809435_5410809437_5410809438_5410809442_5410809443_5414384912_5414385979_5414385980_5414385983_5414385987_5464517571_5464517576_5464517580_5464517585_940467290_940467297_940467299_c11' across [503735158#0 206614452#7 -206614452#7 -291757763#8 291757763#8] has no target.
+Warning: Discarding invalid crossing ':cluster_2826430589_2826430590_2826430591_2826430592_2923937432_3142453719_3309207629_3309207632_3309207633_3309207634_35513392_3821563530_3821563532_3909312056_3909312057_c1' at junction 'cluster_2826430589_2826430590_2826430591_2826430592_2923937432_3142453719_3309207629_3309207632_3309207633_3309207634_35513392_3821563530_3821563532_3909312056_3909312057' with edges [-244302834#1 244302834#1 308942385#1 -308942385#1] (no walkingarea found).
+Joining traffic light nodes ... done (50ms).
+Computing traffic light control information ... 
+Warning: Unreachable edge '563253861#0' within tlLogic 'joinedS_9'
+Warning: The rail crossing '1010529095' does not have any roads.
+Warning: The rail crossing '1849163602' does not have any roads.
+Warning: The rail crossing '1881838940' does not have any roads.
+Warning: The rail crossing '1882498697' does not have any roads.
+Warning: The rail crossing '2191838560' does not have any roads.
+done (22ms).
+Computing node logics ... done (722ms).
+Computing traffic light logics ... 
+Warning: The traffic light '1832833779' cannot be adapted to a cycle time of 90.00.
+Warning: The traffic light '1832833779' has a high cycle time of 230.00.
+Warning: The traffic light '3307638679' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3307638679'
+Warning: The traffic light '3372466494' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3372466494'
+Warning: The traffic light '3377909463' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3377909463'
+Warning: The traffic light '3815832834' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3815832834'
+Warning: The traffic light '3815832836' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3815832836'
+Warning: The traffic light '3815833395' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3815833395'
+Warning: The traffic light '3827989567' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3827989567'
+Warning: The traffic light '3838935961' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3838935961'
+Warning: The traffic light '3840005358' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '3840005358'
+Warning: Minor green from edge '-35150968' to edge '-254495555' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '36145869' to edge '254495554' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '-509331935' to edge '-509331932' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+Warning: The traffic light '5416200814' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5416200814'
+Warning: The traffic light '5424247917' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5424247917'
+Warning: The traffic light '5426362246' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5426362246'
+Warning: The traffic light '5427413274' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5427413274'
+Warning: The traffic light '5495778216' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5495778216'
+Warning: The traffic light '5495778218' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5495778218'
+Warning: The traffic light '5496878162' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5496878162'
+Warning: The traffic light '5511905301' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '5511905301'
+Warning: The traffic light 'cluster_119574120_119574125_119574130_26154034_280598666_280598673_280598675_280598679_280598682_3060814336_3142496718_3239609688_3239609689_3239609692_3309207646_3309207647_3309207649_3309207651_3309207652_34672421_3821578726_3821578730_3909312075_50886961_5495778633_5495778634_5495778635_5495778636_5495778637_5495778638_5495778639_5495778640_5495778642_5495778643_5495778644_5495778645_5495778647_5495778648_5495778654_5495778655_5495778656_5495778657_5495778661_5495778664_5495778665_5495778666_5495778669_5495778670_5495778671_5495778672_5495778673_5495910792_5495910793_5495910794_5495910795_5661266433_5661266434_5671532740' cannot be adapted to a cycle time of 90.00.
+Warning: The traffic light 'cluster_119574120_119574125_119574130_26154034_280598666_280598673_280598675_280598679_280598682_3060814336_3142496718_3239609688_3239609689_3239609692_3309207646_3309207647_3309207649_3309207651_3309207652_34672421_3821578726_3821578730_3909312075_50886961_5495778633_5495778634_5495778635_5495778636_5495778637_5495778638_5495778639_5495778640_5495778642_5495778643_5495778644_5495778645_5495778647_5495778648_5495778654_5495778655_5495778656_5495778657_5495778661_5495778664_5495778665_5495778666_5495778669_5495778670_5495778671_5495778672_5495778673_5495910792_5495910793_5495910794_5495910795_5661266433_5661266434_5671532740' has a high cycle time of 485.00.
+Warning: The traffic light 'cluster_121847327_2319705378_2329045182_28783800_3158445942_3158445943_3325718457_3325718459_87320672' cannot be adapted to a cycle time of 90.00.
+Warning: The traffic light 'cluster_121847327_2319705378_2329045182_28783800_3158445942_3158445943_3325718457_3325718459_87320672' has a high cycle time of 227.00.
+Warning: The traffic light 'cluster_1289377242_1755789379_1755789393_26193612_3106556522_3144373880_3211302721_3211302724_3222371038_3228386963_3228386965_3228386966_3288085912_3290541887_3843771245_3843771959_52753757_52753771_5424756609_5424756931_5424756933_5424756934_5424756939_5424756944_5424756945_5424756948_5424756949' cannot be adapted to a cycle time of 90.00.
+Warning: The traffic light 'cluster_1289377242_1755789379_1755789393_26193612_3106556522_3144373880_3211302721_3211302724_3222371038_3228386963_3228386965_3228386966_3288085912_3290541887_3843771245_3843771959_52753757_52753771_5424756609_5424756931_5424756933_5424756934_5424756939_5424756944_5424756945_5424756948_5424756949' has a high cycle time of 281.00.
+Warning: The traffic light 'cluster_1365387155_1365387222_28089463_3319402021_3321708698_3321708702_5507950108_5507950112_5507950113_5507950114_5507950115_5507950116_5507950117_5507950246_5507950249_84794513' cannot be adapted to a cycle time of 90.00.
+Warning: The traffic light 'cluster_1365387155_1365387222_28089463_3319402021_3321708698_3321708702_5507950108_5507950112_5507950113_5507950114_5507950115_5507950116_5507950117_5507950246_5507950249_84794513' has a high cycle time of 188.00.
+Warning: Minor green from edge '-9723607#10' to edge '622493716#7' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '-9723607#10' to edge '296512968#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+done (515ms).
+ 235 traffic light(s) computed.
+Building inner edges ... 
+Warning: Speed of turning connection '95385375_0->95385356#1_0' reduced by 80.54 due to turning radius of 1.42 (length=1.49, angle=173.26).
+Warning: Speed of straight connection '24527048#1_1->24527048#2_1' reduced by 6.83 due to turning radius of 9.06 (length=4.23, angle=44.34).
+Warning: Speed of straight connection '-24527048#3_1->-24527048#1_1' reduced by 7.30 due to turning radius of 7.89 (length=4.12, angle=48.33).
+Warning: Speed of straight connection '221508970#0_1->221508970#1_1' reduced by 9.47 due to turning radius of 3.56 (length=1.03, angle=36.37).
+Warning: Speed of straight connection '13219511#0_1->13219511#1_1' reduced by 7.44 due to turning radius of 7.57 (length=6.40, angle=69.11).
+Warning: Intersecting left turns at junction '1896798721' from lane '24803209#0_1' and lane '-24803209#1_1' (increase junction radius to avoid this).
+Warning: Intersecting left turns at junction '1896798721' from lane '10902994#0_0' and lane '-10902994#1_0' (increase junction radius to avoid this).
+Warning: Intersecting left turns at junction '26193349' from lane '60151069#3_0' and lane '531939111_1' (increase junction radius to avoid this).
+Warning: Intersecting left turns at junction '3229688645' from lane '127240632_4' and lane '122119611#2_2' (increase junction radius to avoid this).
+Warning: Intersecting left turns at junction '344918064' from lane '41376838#1_0' and lane '31020728#1_0' (increase junction radius to avoid this).
+Warning: Connection '-207884678#0_0->35362580#0_0' is only 0.05m short.
+Warning: Connection '-24167028#1_1->334903253#1_0' is only 0.02m short.
+Warning: Connection '-375856117#1_0->-31134544#0_1' is only 0.01m short.
+done (1227ms).
+Added 108 stops for superposed rail edges.
+Find accesses for pt rail stops ... done (319ms).
+Warning: Could not determine direction for line '1518915' at stop '6071616362'
+Warning: Could not determine direction for line '6615477' at stop '6071616357'
+DijkstraRouter answered 676 queries and explored 637.01 edges on average.
+DijkstraRouter spent 0.21s answering queries (0.31ms on average).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 10117
+  Priority junctions          : 8709
+  Right-before-left junctions : 2568
+  Traffic light junctions      : 401
+  Rail crossing junctions      : 518
+  Rail signal junctions      : 37
+ Network boundaries:
+  Original boundary  : 10.39,52.15,10.79,52.41
+  Applied offset     : -598668.09,-5781120.07
+  Converted boundary : 0.00,0.00,12282.30,18672.55
+-----------------------------------------------------
+Writing network ... done (9227ms).
+Warning: 435 total messages of type: Ambiguity in turnarounds computation at junction '%'.
+Warning: 172 total messages of type: Ambiguous node type for node cluster '%' (%,%), setting to 'priority'.
+Warning: 19 total messages of type: Ambiguous railway kilometrage direction for way '%' (assuming forward)
+Warning: 7 total messages of type: Converting invalid rail_crossing to traffic_light at junction '%'.
+Warning: 66 total messages of type: Discarding unknown compound '%' in type '%' (first occurence for edge '%').
+Warning: 42 total messages of type: Discarding unusable type '%' (first occurence for edge '%').
+Warning: 154 total messages of type: Done reading first coherent chunk of pt stops. Further stops in relation % are ignored
+Warning: 29 total messages of type: Edge '%' is not connected to outgoing edges at junction '%'.
+Warning: 33 total messages of type: Found angle of % degrees at edge '%', segment %.
+Warning: 123 total messages of type: Found sharp turn with radius % at the end of edge '%'.
+Warning: 155 total messages of type: Found sharp turn with radius % at the start of edge '%'.
+Warning: 35 total messages of type: Ignoring restriction relation '%'.
+Warning: 48 total messages of type: Intersecting left turns at junction '%' from lane '%' and lane '%' (increase junction radius to avoid this).
+Warning: 6 total messages of type: Invalid pedestrian topology: crossing '%' across [%] has no target.
+Warning: 63 total messages of type: Lane '%' is not connected from any incoming edge at junction '%'.
+Warning: 10 total messages of type: Minor green from edge '%' to edge '%' exceeds %m/s. Maybe a left-turn lane is missing.
+Warning: 12 total messages of type: No way found for reference '%' in relation '%'
+Warning: 116 total messages of type: Not joining junctions % (%).
+Warning: 14 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
+Warning: 16 total messages of type: Platform '%' in relation: '%' is given as polygon, which currently is not supported.
+Warning: 45 total messages of type: Reducing junction cluster % (%).
+Warning: 20 total messages of type: Shape for junction '%' has distance % to its given position.
+Warning: 111 total messages of type: Speed of % connection '%' reduced by % due to turning radius of % (length=%, angle=%).
+Warning: 244 total messages of type: The rail crossing '%' does not have any roads.
+Warning: 50 total messages of type: The traffic light '%' cannot be adapted to a cycle time of %.
+Warning: 61 total messages of type: The traffic light '%' has a high cycle time of %.
+Warning: 25 total messages of type: Value of railway:position is not numeric ('%') in node '%'.
+Warning: 27 total messages of type: from-edge '%' of restriction relation could not be determined
+Warning: 6 total messages of type: to-edge '%' of restriction relation could not be determined
