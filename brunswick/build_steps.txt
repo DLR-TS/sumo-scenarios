@@ -1,13 +1,18 @@
 Step 0: preparing OSM
 
+BS_detail.osm.xml
+W,S,E,N (osmGet.py)
+10.462365,52.193273,10.601086,52.332196
+
+
 TAPAS Bounding Box
 52.172016, 10.404437  (lower left, old AIM scenario)
 52.465148, 10.738811(upper bound, end of A39)
 52.304234, 10.848116 (right bound, Uhry)
 52.339809, 10.348378 (left bound, Zweidorfer Holz)
 
-S,W,N,E (osmGet.py)
-52.172016,10.348378,52.465148,10.848116
+W,S,E,N (osmGet.py)
+10.348378,52.172016,10.848116,52.465148
 
 Hannover Extension
 52.255214, 9.615018 (Bredenbeck)
