@@ -1,0 +1,20 @@
+<measurements>
+	<singlelink link="-24337240#6" start="53990" end="61000" value="202" stddev="8" type="COUNT_VEH"/> 
+	<singlelink link="-25970859#1" start="53990" end="61000" value="431" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-26943536#1" start="53900" end="61000" value="270" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-27149243" start="53900" end="61000" value="350" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-274763815#0" start="53900" end="61000" value="147" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-4935286#0" start="53900" end="61000" value="465" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-7365262" start="53900" end="61000" value="105" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-814303496#0" start="53900" end="61000" value="282" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-880137010" start="53900" end="61000" value="353" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="-gneE3" start="53900" end="61000" value="105" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="24337240#5" start="53900" end="61000" value="390" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="25970859#1" start="53900" end="61000" value="301" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="26943536#1" start="53900" end="61000" value="294" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="27149243" start="53900" end="61000" value="360" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="274763815#0" start="53900" end="61000" value="140" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="4935286#0" start="53900" end="61000" value="468" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="814303496#0" start="53900" end="61000" value="331" stddev="8" type="COUNT_VEH"/>
+	<singlelink link="880137010" start="53900" end="61000" value="412" stddev="8" type="COUNT_VEH"/>
+</measurements>

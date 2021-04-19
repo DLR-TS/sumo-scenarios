@@ -1,0 +1,21 @@
+<detectors>
+	<detectorDefinition id="det1" lane="-25970859#1_1" type="between" pos="0" />
+	<detectorDefinition id="det2" lane="25970859#1_1" type="between" pos="0" />
+	<detectorDefinition id="det3" lane="-7365262_0" type="between" pos="0" />
+	<detectorDefinition id="det4" lane="-gneE3_0" type="between" pos="0" />
+	<detectorDefinition id="det5" lane="-24337240#6_1" type="between" pos="0" />
+	<detectorDefinition id="det6" lane="24337240#5_1" type="between" pos="0" />
+	<detectorDefinition id="det7" lane="-814303496#0_1" type="source" pos="0" />
+	<detectorDefinition id="det8" lane="814303496#0_1" type="sink" pos="0" />
+	<detectorDefinition id="det9" lane="4935286#0_1" type="source" pos="0" />
+	<detectorDefinition id="det10" lane="-4935286#0_1" type="sink" pos="0" />
+	<detectorDefinition id="det11" lane="-274763815#0_1" type="between" pos="0" />
+	<detectorDefinition id="det12" lane="274763815#0_0" type="between" pos="0" />
+	<detectorDefinition id="det13" lane="-26943536#1_1" type="sink" pos="0" />
+	<detectorDefinition id="det14" lane="26943536#1_1" type="source" pos="0" />
+	<detectorDefinition id="det15" lane="27149243_1" type="source" pos="0" />
+	<detectorDefinition id="det16" lane="-27149243_0" type="sink" pos="0" />
+	<detectorDefinition id="det17" lane="880137010_1" type="sink" pos="0" />
+	<detectorDefinition id="det18" lane="-880137010_1" type="source" pos="0" />
+	
+</detectors>

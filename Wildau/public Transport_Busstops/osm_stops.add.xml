@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/14/21 09:47:51 by Eclipse SUMO netedit Version v1_8_0+1937-5528240401
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\phart\OneDrive\Desktop\Wildau_Modell\Netzmodell2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\phart\OneDrive\Desktop\Wildau_Modell\Netzmodell2.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\phart\OneDrive\Desktop\Wildau_Modell\osm_stops.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1234643811" lane="-26943536#1_1" startPos="49.69" endPos="64.69" name="Ehrenmal" friendlyPos="1" lines="738"/>
+    <busStop id="-1234643950" lane="-111677669#3_1" startPos="12.04" endPos="27.04" name="Friedrich-Engels-Straße" friendlyPos="1" lines="738 736 N36 737"/>
+    <busStop id="-1242393436" lane="-37628709#0_1" startPos="50.00" endPos="100.00" name="Dorfaue" friendlyPos="1" lines="735 736 N36"/>
+    <busStop id="-1242393753" lane="-111681903#0_1" startPos="62.22" endPos="77.22" name="Freiheitstraße" friendlyPos="1" lines="736 N36 737"/>
+    <busStop id="-1242393807" lane="-24337240#3_1" startPos="7.47" endPos="22.47" name="Gesundheitszentrum" friendlyPos="1" lines="736 N36 737"/>
+    <busStop id="-1242393953" lane="-803012921#4_1" startPos="0.00" endPos="13.88" name="Volkshaus" friendlyPos="1" lines="738 736 N36 737"/>
+    <busStop id="-1383533505" lane="-782714971#0_1" startPos="41.36" endPos="56.36" name="Fliederweg" friendlyPos="1" lines="736 N36 737 738"/>
+    <busStop id="-2799026210" lane="-74277990_1" startPos="71.97" endPos="84.93" name="Birkenallee" friendlyPos="1" lines="737"/>
+    <busStop id="-295271266" lane="-40009020#6_1" startPos="0.77" endPos="15.77" name="Fichtestraße" friendlyPos="1" lines="738"/>
+    <busStop id="-3822420839" lane="-814303496#0_1" startPos="0.00" endPos="80.00" name="S Wildau" friendlyPos="1" lines="738 736 N36 737"/>
+    <busStop id="-7328303685" lane="-835445203_1" startPos="48.89" endPos="63.89" name="Wildau, Schmiedestraße" friendlyPos="1" lines="736 N36 737"/>
+    <busStop id="-7328339906" lane="-783907721#0_1" startPos="19.50" endPos="34.50" name="Dorfaue" friendlyPos="1" lines="736 N36 737 738"/>
+    <busStop id="-7728875784" lane="-627579930#0_1" startPos="9.26" endPos="24.26" name="Röntgenstraße" friendlyPos="1" lines="738"/>
+    <busStop id="1234643808" lane="782714966#1_1" startPos="75.00" endPos="120.00" name="Bergstraße" friendlyPos="1" lines="738"/>
+    <busStop id="1234643898" lane="111677669#3_1" startPos="14.33" endPos="29.33" name="Friedrich-Engels-Straße" friendlyPos="1" lines="737 736 N36 738"/>
+    <busStop id="1234644010" lane="26943536#1_1" startPos="264.14" endPos="279.14" name="Ehrenmal" friendlyPos="1"/>
+    <busStop id="1242393624" lane="24337240#2_1" startPos="0.00" endPos="12.67" name="Gesundheitszentrum" friendlyPos="1" lines="736 N36 738"/>
+    <busStop id="1242393899" lane="111681903#0_1" startPos="40.59" endPos="55.59" name="Freiheitstraße" friendlyPos="1" lines="736 N36 738"/>
+    <busStop id="1383533507" lane="782714971#0_1" startPos="25.47" endPos="40.47" name="Fliederweg" friendlyPos="1" lines="738 736 N36 737"/>
+    <busStop id="2609440759" lane="255228346_0" startPos="295.17" endPos="388.24" name="S Wildau" friendlyPos="1" lines="S46">
+        <access lane="-96687079#0_0" pos="31.05" length="28.68" friendlyPos="1"/>
+        <access lane="172251697#0_0" pos="27.32" length="46.31" friendlyPos="1"/>
+        <access lane="61902759#0_0" pos="5.36" length="50.50" friendlyPos="1"/>
+        <access lane="61902759#1_0" pos="5.21" length="46.39" friendlyPos="1"/>
+        <access lane="96687079#0_0" pos="33.90" length="33.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="295276561" lane="803012921#4_1" startPos="15.99" endPos="30.99" name="Volkshaus" friendlyPos="1" lines="737 736 N36 738"/>
+    <busStop id="32500319" lane="4935299#1_0" startPos="11.26" endPos="11.36" name="Chausseestraße" friendlyPos="1" lines="738 737 735"/>
+    <busStop id="3822420838" lane="814061747#1_1" startPos="0.00" endPos="7.50" name="S Wildau" friendlyPos="1" lines="737 736 N36"/>
+    <busStop id="428356215" lane="255228348_0" startPos="151.14" endPos="351.14" name="S Wildau" friendlyPos="1" lines="S46"/>
+    <busStop id="726485184" lane="311298665_1" startPos="48.85" endPos="63.85" name="Dorfaue" friendlyPos="1" lines="738 737 735"/>
+    <busStop id="7328303585" lane="835445203_1" startPos="61.95" endPos="76.95" name="Wildau, Schmiedestraße" friendlyPos="1" lines="736 N36 738"/>
+    <busStop id="8230253350" lane="-311298662#1_1" startPos="0.00" endPos="120.00" name="Wildau, Eichstraße" friendlyPos="1"/>
+    <busStop id="busStop_-782714966#1_0_35" lane="-782714966#1_1" startPos="26.01" endPos="36.01" name="Bergstraße" friendlyPos="1" lines="738"/>
+    <busStop id="busStop_40009020#5_0_37" lane="40009020#5_1" startPos="0.00" endPos="20.82" name="Fichtestraße" friendlyPos="1" lines="738"/>
+    <busStop id="busStop_627579930#0_0_36" lane="627579930#0_1" startPos="128.36" endPos="138.36" name="Röntgenstraße " friendlyPos="1" lines="738"/>
+</additional>
