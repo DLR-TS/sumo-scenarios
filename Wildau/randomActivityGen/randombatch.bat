@@ -1,0 +1,1 @@
+python randomActivityGen.py --net-file=../Netzmodell2.net.xml --stat-file=stats.xml --output-file=result.xml

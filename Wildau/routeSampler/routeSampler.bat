@@ -1,0 +1,1 @@
+"%SUMO_HOME%\tools\routeSampler.py" -r osm.passenger.routes.xml --edgedata-files edgedata-file_Wildau.xml -o samplertrips.xml --optimize full

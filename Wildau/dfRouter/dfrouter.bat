@@ -1,0 +1,1 @@
+dfrouter.exe --net-file ../Netzmodell2.net.xml --routes-output routes.rou.xml --emitters-output vehicles.xml --measure-files fahrzeuganzahl --vclass passenger --detector-files detectors.xml 

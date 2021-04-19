@@ -1,0 +1,1 @@
+duarouter.exe -n ../Netzmodell2.net.xml -r result.trip.xml  -o randomrouten.xml 

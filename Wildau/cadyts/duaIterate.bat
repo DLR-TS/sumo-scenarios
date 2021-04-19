@@ -1,0 +1,1 @@
+python "%SUMO_HOME%/tools/assign/duaIterate.py" -n ../Netzmodell2.net.xml -r osm.passenger.routes.xml  -a 3600  -b 53990 -e 61000 --vehroute-file detailed 

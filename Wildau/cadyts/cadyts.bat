@@ -1,0 +1,2 @@
+
+python "%SUMO_HOME%/tools/assign/cadytsIterate.py" -n ../Netzmodell2.net.xml -r 49/osm.passenger.routes_049.rou.alt.xml -d measurements.xml -a 3600 -c  "%SUMO_HOME%\bin\cadyts-master-SNAPSHOT.jar;%SUMO_HOME%\bin\floetteroed-utilities-master-SNAPSHOT.jar"    -b 53990 -e 61000
