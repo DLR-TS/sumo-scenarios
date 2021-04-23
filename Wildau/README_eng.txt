@@ -11,7 +11,7 @@ With the help of the presented tools, an overview should be given of how routes 
 Importtant: 
 In order to be able to execute the batch files, the network file must be specified correctly. In this case it is referred to in the batch files with ../ in front of the network file.
 Alternatively, the network file must be available in every subfolder.
-
+Every folde includes an cofiguration-file, which presentet the results of every tool. 
 
 Evaluation: 
 It is interesting to see whether SUMO  was able to convert the counting data at the counting points. To compare the input with the output an output file can be created.

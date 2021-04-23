@@ -1,1 +1,1 @@
-"%SUMO_HOME%\tools\detector\flowrouter.py" -n ../Netzmodell2.net.xml -d detectors.xml -f fahrzeuganzahl2.csv -o routes.xml --vclass passenger  -e flows.xml -i 60
+python "%SUMO_HOME%\tools\detector\flowrouter.py" -n ../Netzmodell2.net.xml -d detectors.xml -f fahrzeuganzahl2.csv -o flowrouter.rou.xml --vclass passenger  -e flows.xml -i 60

@@ -1,1 +1,1 @@
-duarouter.exe -n ../Netzmodell2.net.xml -r result.trip.xml  -o randomrouten.xml 
+duarouter.exe -n ../Netzmodell2.net.xml -r activityGen.trips.xml  -o activityGen.rou.xml 

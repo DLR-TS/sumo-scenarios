@@ -24,6 +24,7 @@ Mithilfe der vorgstellten Tools soll eine Übersicht gegeben werden, wie Routen 
 Wichtig: 
 Um die batch-Dateien ausführen zu können muss der Netz-File korrekt angegeben werden. In diesem Fall wird in den batch-Dateien mit ../ vor dem Netz-File darauf verwiesen. 
 Alternativ muss der Netz-File in jedem Unterordner vorhanden sein. 
+In jedem Ordner ist zudem eine Konfiguariontsdatei vorgesehen, welche die Ergebnisse der Tools "grafisch" darstellt. 
 
 Auswertung: 
 Interessant ist es zu sehen, ob SUMO die Zähldaten an den Zählstellen auch "wirklich" umsetzten kann/konnte. Um den Input mit dem Ouput vergleichen zu können, kann eine output-Datei erstellt werden. 
