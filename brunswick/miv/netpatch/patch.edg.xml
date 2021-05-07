@@ -1334,4 +1334,16 @@
     <edge id="127240643#17" numLanes="3"/>
     <edge id="127240643#18" numLanes="3"/>
 
+    <!-- Lower the Speed by Clover intersections -->
+    <edge id="30998180" speed="16.67"/>
+    <edge id="134605344" speed="16.67"/>
+    <edge id="196269095" speed="16.67"/>
+    <edge id="29174494" speed="16.67"/>
+    <edge id="196269094" speed="16.67"/>
+    <edge id="30145380" speed="16.67"/>
+    <edge id="23911027" speed="16.67"/>
+    <edge id="23911029" speed="16.67"/>
+    <edge id="133606987" speed="16.67"/>
+    <edge id="23911028" speed="16.67"/>
+    <edge id="270428398" speed="16.67"/>
 </edges>
