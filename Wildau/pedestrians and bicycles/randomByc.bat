@@ -1,0 +1,1 @@
+python "%SUMO_HOME%\tools\randomTrips.py" -n ../Netzmodell2.net.xml --fringe-factor 2 -p 12 -o osm.bicycle.trips.xml -e 61000 -b 53990 --vehicle-class bicycle --vclass bicycle --prefix bike --fringe-start-attributes "departSpeed=\"max\""   --max-distance 8000 --trip-attributes "departLane=\"best\"" --validate 

@@ -1,0 +1,1 @@
+python "%SUMO_HOME%\tools\randomTrips.py" -n ../Netzmodell2.net.xml --fringe-factor 1 -p 1.781700 -o osm.pedestrian.trips.xml -e 61000 -b 53990  --vehicle-class pedestrian --persontrips --prefix ped --trip-attributes "modes=\"public\"" --validate 

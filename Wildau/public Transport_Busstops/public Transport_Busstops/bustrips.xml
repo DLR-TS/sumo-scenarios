@@ -1,0 +1,78 @@
+<routes>
+	<vType id="bus" vClass="bus"/>
+	<!--route id="Bus738#1" edges="26943536#1 111677669#0 111677669#1 111677669#2 111677669#3 111677669#4 111677669#5 876057376 876343449#0 876343449#1 876343449#2 876343449#3 876343449#4 803012921#0 803012921#1 803012921#2 803012921#4 876343451#0 876343451#1 876343451#2 876343451#3 814303496#0 814303496#1 876343448#0 876343448#1 876343448#2 876343448#3 876343448#5 814061747#0 814061747#1 814061747#2 814061747#3 814061747#5 814061747#6 814061747#7 814061747#8 814061747#9 814061747#10 gneE0 828195561#0 828195561#1 782710712/--> 
+	<trip id="Bus738#1" type="bus" depart="0" from="26943536#1" to="26216780#2">
+		<stop busStop="1234644010" duration="30.00" until="780.0"/> <!--Ehrenmal-->
+		<stop busStop="1234643898" duration="30.00" until="840.0"/> <!--Friedrich..-->
+		<stop busStop="295276561" duration="30.00" until="900.0"/> <!--Volkshaus-->
+		<stop busStop="3822420838" duration="30.00" until="1080.0"/> <!--S Wildau-->
+		<stop busStop="8230253350" duration="30.00" until="1200.0"/> <!--Eichstr.-->
+		<stop busStop="busStop_-782714966#1_0_35" duration="30.00" until="1260.0"/> <!--Bergstraße-->
+		<stop busStop="busStop_627579930#0_0_36" duration="30.00" until="1320.0"/> <!--Röntgenstraße-->
+		<stop busStop="busStop_40009020#5_0_37" duration="30.00" until="1380.0"/> <!--Fichtestraße-->
+		<stop busStop="-1383533505" duration="30.00" until="1440.0"/> <!--Fliederweg--> 
+		<stop busStop="-7328339906" duration="30.00" until="1500.0"/> <!--Dorfaue--> 
+	</trip>
+	
+	<trip id="Bus738#2" type="bus" depart="0" from="4935299#0" to="-26943536#1">
+		<stop busStop="726485184" duration="30.00" until="660.0"/> <!--Dorfaue-->
+		<stop busStop="1383533507" duration="30.00" until="720.0"/> <!--Fliederweg-->
+		<stop busStop="-295271266" duration="30.00" until="780.0"/> <!--Fichtestraße-->
+		<stop busStop="-7728875784" duration="30.00" until="840.0"/> <!--Röntgenstraße-->
+		<stop busStop="1234643808" duration="30.00" until="900.0"/> <!--Bergstraße-->
+		<stop busStop="-3822420839" duration="30.00" until="1140.0"/> <!--S Wildau-->
+		<stop busStop="-1242393953" duration="30.00" until="1200.0"/> <!--Volkshaus-->
+		<stop busStop="-1234643950" duration="30.00" until="1260.0"/> <!--Friedrich-->
+		<stop busStop="-1234643811" duration="30.00" until="1320.0"/> <!--Ehrenmal-->
+	</trip>
+	
+	<trip id="Bus737#1" type="bus" depart="0" from="-828195561#0" to="26216780#1">
+		<stop busStop="-3822420839" duration="30.00" until="2340.0"/> <!--S Wildau-->
+		<stop busStop="-1242393953" duration="30.00" until="2400.0"/> <!--Volkshaus-->
+		<stop busStop="-1234643950" duration="30.00" until="2460.0"/> <!--Friedrich-->
+		<stop busStop="-7328303685" duration="30.00" until="2520.0"/> <!--Schmiedestraße-->
+		<stop busStop="-1242393807" duration="30.00" until="2580.0"/> <!--Gesundheitszentrum-->
+		<stop busStop="-1242393753" duration="30.00" until="2640.0"/> <!--Freiheitstraße-->
+		<stop busStop="-1383533505" duration="30.00" until="2700.0"/> <!--Fliederweg-->
+		<stop busStop="-7328339906" duration="30.00" until="2760.0"/> <!--Dorfaue-->
+	</trip>
+	
+	<trip id="Bus737#2" type="bus" depart="0" from="111681905#0" to="828195561#0">
+		<stop busStop="-2799026210" duration="30.00" until="3240.0"/> <!--Birkenallee-->
+		<stop busStop="1234643898" duration="30.00" until="3300.0"/> <!--Friedrich-->
+		<stop busStop="295276561" duration="30.00" until="3360.0"/> <!--Volkshaus-->
+		<stop busStop="3822420838" duration="30.00" until="3480.0"/> <!--S Wildau-->
+	</trip>
+	
+	<trip id="Bus736#1" type="bus" depart="0" from="-828195561#0" to="37628709#1">
+		<!--stop busStop="-3822420839" duration="30.00" until="3480.0"/--> <!--S Wildau-->
+		<!--stop busStop="-1242393953" duration="30.00" until="3540.0"/--> <!--Volkshaus-->
+		<stop busStop="-1234643950" duration="30.00" until="0.00"/> <!--Friedrich-->
+		<stop busStop="-7328303685" duration="30.00" until="60.0"/> <!--Schmiedestraße-->
+		<stop busStop="-1242393807" duration="30.00" until="120.0"/> <!--Gesundheitszentrum-->
+		<stop busStop="-1242393753" duration="30.00" until="180.0"/> <!--Freiheitstraße-->
+		<stop busStop="-1383533505" duration="30.00" until="240.0"/> <!--Fliederweg-->
+		<stop busStop="-7328339906" duration="30.00" until="300.0"/> <!--Dorfaue-->
+	</trip>
+	
+	<trip id="Bus736#2" type="bus" depart="0" from="-37628709#0" to="-37628709#0">
+		<stop busStop="-1242393436" duration="30.00" until="1740.0"/> <!--Dorfaue-->
+		<stop busStop="1383533507" duration="30.00" until="1800.0"/> <!--Fliederweg-->
+		<stop busStop="1242393899" duration="30.00" until="1860.0"/> <!--Freiheitstraße-->
+		<stop busStop="1242393624" duration="30.00" until="1920.0"/> <!--Gesundheitszentrum-->
+		<stop busStop="7328303585" duration="30.00" until="1980.0"/> <!--Schmiedestraße-->
+		<stop busStop="1234643898" duration="30.00" until="2040.0"/> <!--Friedrich-->
+		<stop busStop="295276561" duration="30.00" until="2100.0"/> <!--Volkshaus-->
+		<stop busStop="3822420838" duration="30.00" until="2280.0"/> <!--S Wildau-->
+	</trip>
+	
+	<trip id="Bus735#1" type="bus" depart="0" from="-205590836#0" to="26216780#1">
+		<stop busStop="-1242393436" duration="0" until="360.0"/> <!--Dorfaue-->
+	</trip>
+	
+	<trip id="Bus735#2" type="bus" depart="0" from="4935299#0" to="205590836#2">
+		<stop busStop="726485184" duration="30.00" until="1920.0"/> <!--Dorfaue-->
+	</trip>
+	
+	
+</routes>	

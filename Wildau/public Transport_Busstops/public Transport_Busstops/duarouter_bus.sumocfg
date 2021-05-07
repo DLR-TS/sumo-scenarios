@@ -1,0 +1,13 @@
+<configuration>
+	<input>
+		<net-file value="../Netzmodell2.net.xml"/>
+		<route-files value="bus.rou.xml"/>
+		<additional-files value="../additional.add.xml"/>
+		<gui-settings-file value="../settings.xml"/>
+		<output-prefix value="duarouter/"/>
+	</input>
+	<time>
+		<begin value="53990"/>
+		<end value="61000"/>
+	</time>
+</configuration>

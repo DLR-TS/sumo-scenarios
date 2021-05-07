@@ -9,7 +9,9 @@ Anhand von Wildau wurden drei Methoden für randomTrips angewendet.
 Im ersten Schritt wurde die rohe Routendatei vom WebWizard ("osm.passenger.rou.xml") durchlaufen, wobei die Standardeinstellungen des Fringe Factor und der Period übernommen wurden. 
 Im zweiten Schritt wurden der Fringe Factor und die Period verändert, um das gewünschte Erscheinungsbild zu erhalten (fringe factor= 7, period= 1.850).
 Ein weiterer Schritt ist die Anwendung der Funktion --speed-exponent 2, wobei Kanten mit einer höheren Geschwindigkeit eine höhere Wahrscheinlichkeit erhalten, befahren zu werden.
-Die Zahl hinter exponent kann beliebig gewählt werden. Die Wahrscheinlichkeit wird immer quadrtiert. 
+Die Zahl hinter exponent kann beliebig gewählt werden. Die Wahrscheinlichkeit wird immer quadriert. 
+
+Zudem ist es möglich den Fringe-Factor mit speed exponent zu kombinieren. Hierbei wird --fringe-speed-exponent aufgerufen, wobei der angebene Faktor (z.B. 2) nur auf die "fringe-Routen" angewendet wird.
 
 
 Anschließend kann eine output-Datei erstellt werden, wobei die generierten Routen des Tools als Routendatei angegeben werden müssen.  
