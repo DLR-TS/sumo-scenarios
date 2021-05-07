@@ -169,12 +169,12 @@
 
     <!-- KennedyPlatz -->    
     <tlLogic id="KennedyPlatz" type="actuated" programID="0" offset="0">
-        <phase duration="15" state="GGGGGGrrrrrrrrrGGGGrrrrrrrrrrGGGGGrrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyyyyyrrrrrrrrryyyyrrrrrrrrrryyyyyrrrrrrrrrrrrrr"/>
-        <phase duration="15" state="rrrrrrGGGGGrrrrrrrrrrrrrGGGGGrrrrrGGGGGGGrrGGGGr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrryyyyyrrrrrrrrrrrrryyyyyrrrrryyyyyyyrryyyyr"/>
-        <phase duration="15" state="rrrrrrrrrrrGGGgrrrrgggGgrrrrGrrrrrGrrrrrrGGrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrrrrryyyyrrrryyyyyrrrryrrrrryrrrrrryyrrrry"/>
+        <phase duration="15" state="GGGGGGrrrrrrrrrgGGGrrrrrrrrrrGGGGGrrrrrrrrrGGGGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyyyrrrrrrrrryyyyrrrrrrrrrryyyyyrrrrrrrrryyyyr"/>
+        <phase duration="15" state="rrrrrrGGGGGrrGgrrrrggrGrGGGGrrrrrrrGGGGGGrrGGGGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryyyyyrryyrrrryyryryyyyrrrrrrryyyyyyrrGGGGr"/>
+        <phase duration="15" state="rrrrrrrrrrrgGrrrrrrGrgrgrrrrGrrrrrGrrrrrrGGrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrrrrryyrrrrrrGryryrrrryrrrrryrrrrrryyrrrry"/>
     </tlLogic>
     
     <tlLogic id="KennedyPlatz_S" type="actuated" programID="0" offset="0">
@@ -208,13 +208,11 @@
     </tlLogic>
     
     <tlLogic id="A391_AS_Lehndorf_tl" type="actuated" programID="0" offset="0">
-        <phase duration="21" state="rrrrGGGrrrrrrGGr" minDur="5" maxDur="50"/>
-        <phase duration="4"  state="rrrryyyrrrrrryyr"/>
-        <phase duration="7"  state="rrrrrrrGrrrrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="4"  state="rrrrrrryrrrrrrry"/>
-        <phase duration="23" state="rrrrrrrrGGGGGrrr" minDur="7" maxDur="50"/>
-        <phase duration="4"  state="rrrrrrrryyyyyrrr"/>
-        <phase duration="21" state="GGGGrrrrrrrrrrrr" minDur="7" maxDur="50"/>
-        <phase duration="4"  state="yyyyrrrrrrrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGrrrrGGr" minDur="5" maxDur="50"/>
+        <phase duration="4"  state="rrrrrryyyrrrryyr"/>
+        <phase duration="20" state="GGGGrrrrrGrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="4"  state="yyyyrrrrryrrrrry"/>
+        <phase duration="20" state="rrrrGGrrGrGGGrrr" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="rrrryyrryryyyrrr"/>
     </tlLogic>
 </tll>
