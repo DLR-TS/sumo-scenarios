@@ -1,0 +1,32 @@
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="3600.00" id="SUMO-Wildau">
+		<edge id="828203038#1" sampledSeconds="0.00" departed="0" arrived="0" entered="25" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-535519490#0" sampledSeconds="0.00" departed="0" arrived="0" entered="20" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="575692603#2" sampledSeconds="0.00" departed="0" arrived="0" entered="24" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-205590836#0" sampledSeconds="0.00" departed="0" arrived="0" entered="22" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="124266855#6" sampledSeconds="0.00" departed="0" arrived="0" entered="9" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-124266855#6" sampledSeconds="0.00" departed="0" arrived="0" entered="5" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-502325084#3" sampledSeconds="0.00" departed="0" arrived="0" entered="23" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="502325084#3" sampledSeconds="0.00" departed="0" arrived="0" entered="26" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-4924947#0" sampledSeconds="0.00" departed="0" arrived="0" entered="8" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="4924947#0" sampledSeconds="0.00" departed="0" arrived="0" entered="2" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-4877788#1" sampledSeconds="0.00" departed="0" arrived="0" entered="8" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="4877788#1" sampledSeconds="0.00" departed="0" arrived="0" entered="13" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="240042195#0" sampledSeconds="0.00" departed="0" arrived="0" entered="18" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-240042195#0" sampledSeconds="0.00" departed="0" arrived="0" entered="14" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-40009020#6" sampledSeconds="0.00" departed="0" arrived="0" entered="23" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="40009020#6" sampledSeconds="0.00" departed="0" arrived="0" entered="27" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-835445203" sampledSeconds="0.00" departed="0" arrived="0" entered="25" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="835445203" sampledSeconds="0.00" departed="0" arrived="0" entered="27" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-498033359#3" sampledSeconds="0.00" departed="0" arrived="0" entered="20" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="498033359#3" sampledSeconds="0.00" departed="0" arrived="0" entered="34" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-876343451#3" sampledSeconds="0.00" departed="0" arrived="0" entered="20" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="876343451#3" sampledSeconds="0.00" departed="0" arrived="0" entered="24" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-26943536#1" sampledSeconds="0.00" departed="0" arrived="0" entered="15" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="26943536#1" sampledSeconds="0.00" departed="0" arrived="0" entered="16" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="627579930#0" sampledSeconds="0.00" departed="0" arrived="0" entered="7" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="-627579930#0" sampledSeconds="0.00" departed="0" arrived="0" entered="5" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+		<edge id="332645871" sampledSeconds="0.00" departed="0" arrived="0" entered="3" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+	    </interval>
+</meandata>
+		

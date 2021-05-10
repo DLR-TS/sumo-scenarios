@@ -1,0 +1,1 @@
+python "%SUMO_HOME%\tools\routeSampler.py" -r routes.rou.xml --edgedata-files counting_data_bike.xml -o samplertrips.xml --optimize full --attributes "type=\"bike\""
