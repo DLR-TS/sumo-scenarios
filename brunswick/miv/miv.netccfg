@@ -28,7 +28,6 @@
     </output>
 
     <processing>
-        <ignore-change-restrictions value="all"/>
         <geometry.remove value="true"/>
         <roundabouts.guess value="true"/>
         <keep-edges.by-vclass value="passenger,bus,tram"/>
