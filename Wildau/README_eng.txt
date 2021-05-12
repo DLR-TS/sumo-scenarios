@@ -23,3 +23,4 @@ Now the edge IDs of the counting positions can be searched for and compared in t
 
 An Excel table, which compares the counting data and the output data, can be used as an evaluation option or comparability. Now, for example, the square deviation of the individual data can be calculated.
 And finally the RMS can be formed. The number makes it clear which tool / variant receives the lowest value.
+The attached Python script can be used as an alternative to the manual calculation of the RMS in Excel. Only the second xml-file has to be transferred.

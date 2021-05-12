@@ -33,4 +33,5 @@ Zunächst wird dann die batch-Datei ausgeführt, wobei eine Konfigurationsdatei 
 Nun können in der Datei die Edge-ID´s der Zählpositionen gesucht und verglichen werden. 
 
 Als Auswertmöglichkeit bzw. Vergleichbarkeit bietet sich hier eine Excel-Tabelle an, welche die Zähldaten und die output-Daten gegenüberstellt. Nun kann z.B. die quadratische Abweichung der einzelnen Daten berechnet werden. 
-Und abschließend kann der RMS gebildet werden. Anhand der Zahl wird deutlich, welches Tool/Variante den kleinsten Wert erhält. 
+Und abschließend kann der RMS gebildet werden. Anhand der Zahl wird deutlich, welches Tool/Variante den kleinsten Wert erhält.
+Als Alternative zur händischen Berechnung des RMS in Excel kann das beigefügte Python-Skript verwendet werden. Hierbei muss lediglich die zweite übergebene XML-Datei beliebig angepasst werden.  

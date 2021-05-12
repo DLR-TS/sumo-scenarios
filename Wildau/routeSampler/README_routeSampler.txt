@@ -9,4 +9,7 @@ Der routeSampler kann in der gleichen batch-Datei aufgerufen werden ("routeSampl
 
 Gleichzeitigt wird eine separate output-Datei vom Sampler erzeugt und mithilfe des Aufrufes optimize, wird die Generierung optimiert. 
 Die Ergebnisse des Samplers können nun über eine neue output-Datei, wobei die Routen die in dem <Output_File> des Sampler stehen, erzeugt und abgeglichen werden.
- Ratsam ist es die gesammelten Ergebnisse der output-Daten in einer Excel-Tabelle zu notieren. 
+Ratsam ist es die gesammelten Ergebnisse der output-Daten in einer Excel-Tabelle zu notieren. 
+
+Hinweis: Sollten die gewünschten Zähldaten vom routeSampler nicht erreicht werden bzw. kommt es zu großen Abweichungen, so ist es ratsam mithilfe von randomTrips mehr Routenalternativen zu erzeugen.
+Annahme ist, dass der routeSampler eine gewisse Menge an Nachfrage/Routen benötigt, um die gewünschten Zählwerte zu erreichen.
