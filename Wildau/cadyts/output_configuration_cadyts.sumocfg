@@ -1,10 +1,9 @@
 <configuration>
 	<input>
 		<net-file value="../Netzmodell2.net.xml"/>
-		<route-files value="osm.passenger.rou.xml"/>
+		<route-files value="osm.passenger.routes.xml"/>
+		<gui-settings-file value="settings.xml"/>
 		<additional-files value="../additional.add.xml"/>
-		<gui-settings-file value="../settings.xml"/>
-		<output-prefix value="randomTrips/"/>
 	</input>
 	<time>
 		<begin value="53990"/>

@@ -1,10 +1,9 @@
 <configuration>
 	<input>
 		<net-file value="../Netzmodell2.net.xml"/>
-		<route-files value="duarouter.rou.xml"/>
-		<additional-files value="../additional.add.xml"/>
-		<gui-settings-file value="../settings.xml"/>
-		
+		<route-files value="routes.rou.xml"/>
+		<gui-settings-file value="settings.xml"/>
+		<additional-files value="../additional.add.xml,additional3.xml"/>
 	</input>
 	<time>
 		<begin value="53990"/>

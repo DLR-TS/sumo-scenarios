@@ -28,9 +28,11 @@ In jedem Ordner ist zudem eine Konfiguariontsdatei vorgesehen, welche die Ergebn
 
 Auswertung: 
 Interessant ist es zu sehen, ob SUMO die Zähldaten an den Zählstellen auch "wirklich" umsetzten kann/konnte. Um den Input mit dem Ouput vergleichen zu können, kann eine output-Datei erstellt werden. 
-Hierzu muss zunächst ein additional-File geschrieben werden (siehe additional.add.xml), welcher dann in eine batch-Datei (siehe test.bat) geschrieben wird. 
+Hierzu muss zunächst ein additional-File geschrieben werden (siehe additional.add.xml), welcher dann in eine batch-Datei (siehe output_configuration.bat) geschrieben wird. 
 Zunächst wird dann die batch-Datei ausgeführt, wobei eine Konfigurationsdatei "gespeichert" wird. Diese muss nun abgespielt werden, um die output-Datei, welche im additional-File benannt wurde, zu erhalten. 
-Nun können in der Datei die Edge-ID´s der Zählpositionen gesucht und verglichen werden. 
+Nun können in der Datei die Edge-ID´s der Zählpositionen gesucht und verglichen werden.
+Um die Arbeit zu erleichtern, befinden sich in jedem Ordner bereits die output-Konfigurationsdateien, wodurch keine separate batch-Datei mehr geschrieben werden muss.
+Lediglich die Files (Netz, Routen und Additional) müssen/können angepasst werden.  
 
 Als Auswertmöglichkeit bzw. Vergleichbarkeit bietet sich hier eine Excel-Tabelle an, welche die Zähldaten und die output-Daten gegenüberstellt. Nun kann z.B. die quadratische Abweichung der einzelnen Daten berechnet werden. 
 Und abschließend kann der RMS gebildet werden. Anhand der Zahl wird deutlich, welches Tool/Variante den kleinsten Wert erhält.

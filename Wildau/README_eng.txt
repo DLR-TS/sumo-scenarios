@@ -15,10 +15,11 @@ Every folde includes an cofiguration-file, which presentet the results of every 
 
 Evaluation: 
 It is interesting to see whether SUMO  was able to convert the counting data at the counting points. To compare the input with the output an output file can be created.
-To do this, an additional file must first be written (see additional.add.xml), which is then written to a batch file (see test.bat).
+To do this, an additional file must first be written (see additional.add.xml), which is then written to a batch file (see output_configuration.bat).
 At first the batch file must be executed and then should be a configuration file "saved". This must now be played in order to receive the output file, which was named in the additional file.
 Now the edge IDs of the counting positions can be searched for and compared in the file.
-
+To make the work easier, the output configuration files are already in each folder, which means that a separate batch file no longer has to be written.
+Only the files (network, routes and additional) must / can be adapted.
 
 
 An Excel table, which compares the counting data and the output data, can be used as an evaluation option or comparability. Now, for example, the square deviation of the individual data can be calculated.
