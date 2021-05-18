@@ -1,1 +1,0 @@
-duarouter.exe -n ../Netzmodell2.net.xml -r bustrips.xml --additional-files osm_stops.add.xml -o bus.rou.xml 
