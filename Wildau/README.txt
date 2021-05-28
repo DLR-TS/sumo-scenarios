@@ -37,3 +37,6 @@ Lediglich die Files (Netz, Routen und Additional) müssen/können angepasst werd
 Als Auswertmöglichkeit bzw. Vergleichbarkeit bietet sich hier eine Excel-Tabelle an, welche die Zähldaten und die output-Daten gegenüberstellt. Nun kann z.B. die quadratische Abweichung der einzelnen Daten berechnet werden. 
 Und abschließend kann der RMS gebildet werden. Anhand der Zahl wird deutlich, welches Tool/Variante den kleinsten Wert erhält.
 Als Alternative zur händischen Berechnung des RMS in Excel kann das beigefügte Python-Skript verwendet werden. Hierbei muss lediglich die zweite übergebene XML-Datei beliebig angepasst werden.  
+
+Als Inspiration befindet sich in diesen Ordner eine Excel-Tabelle mit den Ergebnissen des Porjektes, dargestellt in Diagrammen. Zum einen der RMS der einzelnen Tools, zum anderen die Zählwerte an drei Zählstellen.
+Das letzte Diagramm zeigt die prozentuale Abdeckung des Netzes. 
