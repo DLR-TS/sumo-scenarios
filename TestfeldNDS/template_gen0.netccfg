@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Jan 22 13:08:26 2019 by Eclipse SUMO netconvert Version v1_0_1+0645-93703db
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value="../brunswick/osm/BS_detail.osm.xml,osm/TestfeldNDS_main_roads.osm.xml.gz"/>
+        <type-files value="../brunswick/miv/miv.typ.xml"/>
+        <!--
+        <node-files value="../brunswick/netpatch/patch.nod.xml"/>
+        <edge-files value="../brunswick/netpatch/patch.edg.xml"/>
+        <connection-files value="../brunswick/netpatch/patch.con.xml"/>
+        <tllogic-files value="../brunswick/netpatch/patch.tll.xml"/>
+        -->
+    </input>
+
+    <output>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <proj.plain-geo value="true"/>
+        <!--
+        <ptstop-output value="_stops.add.xml"/>
+        <ptline-output value="_ptlines.xml"/>
+        -->
+    </output>
+
+    <processing>
+        <no-internal-links value="true"/>
+        <geometry.remove value="true"/>
+        <geometry.remove.min-length value="50"/>
+        <roundabouts.guess value="true"/>
+        <keep-edges.by-vclass value="passenger,bus,tram,rail_urban,rail,bicycle"/>
+        <remove-edges.by-type value="highway.track,highway.unsurfaced,highway.service"/>
+        <!--
+        <keep-edges.input-file value="netpatch/extra_edges.txt"/>
+        <geometry.remove.keep-edges.input-file value="netpatch/keep_induction_loops.txt"/>
+        -->
+        <keep-edges.components value="1"/>
+        <no-turnarounds.except-turnlane value="true"/>
+        <edges.join-tram-dist value="1.6"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+        <!--
+        <tls.unset value="2586328932, 262797998, 35513392"/>
+        -->
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair.minimal value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <log value="netconvert0.log"/>
+    </report>
+
+</configuration>
