@@ -393,7 +393,6 @@
     <connection from="122024412#0" fromLane="1" to="122024414#0" toLane="0"/>  
     
     <!-- Hallestraße & Sachsendamm  -->
-    !--
     <connection from="5199738#3" fromLane="1" to="24032969#0" toLane="0"/>
     <connection from="5199738#3" fromLane="1" to="80817384#0" toLane="0"/>
     <connection from="5199738#3" fromLane="1" to="-5199738#4" toLane="0"/>
