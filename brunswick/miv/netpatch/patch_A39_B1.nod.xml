@@ -1,0 +1,7 @@
+<nodes version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <delete id="1365059373"/>
+    <delete id="34583884"/>
+    <delete id="60493081"/>
+    <delete id="60493091"/>
+    <delete id="60493092"/>
+</nodes>

@@ -111,17 +111,7 @@
     <edge id="-428966186#2" numLanes="2"/>
     <edge id="584032570" numLanes="1"/>
     <delete id="-24342362"/>
-    
-    <!-- A39 & B1 -->
-    <delete id="-24598011"/>
-    <delete id="24598011"/>
-    <delete id="24598013"/>
-    <delete id="264644472"/>
-    <delete id="30780609"/>
-    <delete id="663285772"/>
-    <delete id="663285773"/>
-    <delete id="8080942"/>
-    
+
     <!-- Hamburger Straße -->
     <edge id="292107965#1" numLanes="3"/>
     <edge id="292107965#0" numLanes="3"/>

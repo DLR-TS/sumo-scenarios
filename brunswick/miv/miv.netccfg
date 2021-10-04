@@ -8,8 +8,8 @@
     <input>
         <osm-files value="../osm/BS_detail.osm.xml"/>
         <type-files value="miv.typ.xml"/>
-        <node-files value="netpatch/patch.nod.xml"/>
-        <edge-files value="netpatch/patch.edg.xml"/>
+        <node-files value="netpatch/patch.nod.xml,netpatch/patch_A39_B1.nod.xml"/>
+        <edge-files value="netpatch/patch.edg.xml,netpatch/patch_A39_B1.edg.xml"/>
         <connection-files value="netpatch/patch.con.xml"/>
         <tllogic-files value="netpatch/patch.tll.xml"/>
     </input>
