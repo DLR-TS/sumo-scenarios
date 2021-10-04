@@ -3,11 +3,25 @@
     <edge id="4696447" numLanes="2"/>
     <edge id="45826008" numLanes="2"/>
     <edge id="772112808#0" numLanes="2"/>
+    <edge id="772112808#1" numLanes="2"/>
     <edge id="95683441" numLanes="2"/>
     <edge id="772450613" numLanes="2"/>
     <edge id="-4696447" numLanes="2"/>
     <edge id="-45826008" numLanes="2"/>
     <edge id="-772112808#0" numLanes="2"/>
+    <edge id="-772112808#1" numLanes="2"/>
     <edge id="-95683441" numLanes="2"/>
     <edge id="-772450613" numLanes="2"/>
+    <edge id="181983648" numLanes="2"/>
+    <!-- Hannover Schiffgraben -->
+    <edge id="36874866" numLanes="2"/>
+    <edge id="30110466" numLanes="2"/>
+    <edge id="134472552" numLanes="2"/>
+    <edge id="134472553" numLanes="2"/>
+    <edge id="26580947" numLanes="2"/>
+    <edge id="-36874866" numLanes="2"/>
+    <edge id="-30110466" numLanes="2"/>
+    <edge id="-134472552" numLanes="2"/>
+    <edge id="-134472553" numLanes="2"/>
+    <edge id="-26580947" numLanes="2"/>
 </edges>
