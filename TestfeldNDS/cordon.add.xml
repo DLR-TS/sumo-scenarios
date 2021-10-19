@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-10-18 15:15:57 by Eclipse SUMO netedit Version v1_10_0+1473-78fb94939d9
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="net.net.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="net.net.xml.gz"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\behr_mi\Projekte\sumo\repos\sumo\tests\_kofif\cordon.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poi id="0" color="yellow" layer="202.00" name="A 2" x="124707.75" y="37326.33"/>
+    <poi id="10624428_0" color="red" layer="202.00" lon="11.064867" lat="52.217505"/>
+    <poi id="270216734_0" color="green" layer="202.00" lon="11.055932" lat="52.220053"/>
+
+    <poi id="1" color="yellow" layer="202.00" name="B 245a" x="122448.64" y="36276.24"/>
+    <poi id="23153119_1" color="red" layer="202.00" lon="11.026527" lat="52.209393"/>
+    <poi id="-23153119_1" color="green" layer="202.00" lon="11.026476" lat="52.209460"/>
+
+    <poi id="2" color="yellow" layer="202.00" name="B 245a" x="124380.20" y="32179.92"/>
+    <poi id="-244067207_2" color="red" layer="202.00" lon="11.052622" lat="52.173701"/>
+    <poi id="24557482_2" color="green" layer="202.00" lon="11.052572" lat="52.173685"/>
+
+    <poi id="3" color="yellow" layer="202.00" name="B 188" x="117417.91" y="61170.85"/>
+    <poi id="-83095354_3" color="red" layer="202.00" lon="10.965704" lat="52.436592"/>
+    <poi id="259276852_3" color="green" layer="202.00" lon="10.965682" lat="52.436620"/>
+
+    <poi id="4" color="yellow" layer="202.00" name="B 214" x="68084.07" y="66785.28"/>
+    <poi id="-4305047_4" color="red" layer="202.00" lon="10.240736" lat="52.492988"/>
+    <poi id="99000774_4" color="green" layer="202.00" lon="10.240699" lat="52.492970"/>
+
+    <poi id="5" color="yellow" layer="202.00" name="B 79" x="104875.97" y="17625.07"/>
+    <poi id="117608819_5" color="red" layer="202.00" lon="10.762480" lat="52.045946"/>
+    <poi id="-117608819_5" color="green" layer="202.00" lon="10.762525" lat="52.045955"/>
+
+    <poi id="6" color="yellow" layer="202.00" name="B 82" x="87102.64" y="10083.81"/>
+    <poi id="-124673653_6" color="red" layer="202.00" lon="10.500351" lat="51.981844"/>
+    <poi id="515656767_6" color="green" layer="202.00" lon="10.500446" lat="51.981837"/>
+
+    <poi id="7" color="yellow" layer="202.00" name="B 244" x="113424.89" y="19185.71"/>
+    <poi id="117608821_7" color="red" layer="202.00" lon="10.885448" lat="52.055660"/>
+    <poi id="-796359629_7" color="green" layer="202.00" lon="10.885498" lat="52.055656"/>
+
+    <poi id="8" color="yellow" layer="202.00" name="B 248" x="75078.84" y="13951.15"/>
+    <poi id="234082873_8" color="red" layer="202.00" lon="10.322909" lat="52.018710"/>
+    <poi id="-234082873_8" color="green" layer="202.00" lon="10.322945" lat="52.018655"/>
+
+    <poi id="9" color="yellow" layer="202.00" name="B 6" x="77850.98" y="13650.21"/>
+    <poi id="-258410972_9" color="red" layer="202.00" lon="10.365750" lat="52.016862"/>
+    <poi id="258410972_9" color="green" layer="202.00" lon="10.365781" lat="52.016884"/>
+
+    <poi id="10" color="yellow" layer="202.00" name="B 1" x="125791.63" y="37489.07"/>
+    <poi id="310276051_10" color="red" layer="202.00" lon="11.074582" lat="52.219939"/>
+    <poi id="-310276051_10" color="green" layer="202.00" lon="11.074575" lat="52.219971"/>
+
+    <poi id="11" color="yellow" layer="202.00" name="A 36" x="90655.08" y="11566.74"/>
+    <poi id="332880791_11" color="red" layer="202.00" lon="10.552677" lat="51.995353"/>
+    <poi id="332893809_11" color="green" layer="202.00" lon="10.552869" lat="51.995438"/>
+
+    <poi id="12" color="yellow" layer="202.00" name="B 245a" x="124653.35" y="30891.59"/>
+    <poi id="535190195_12" color="red" layer="202.00" lon="11.056847" lat="52.160501"/>
+    <poi id="-27089245_12" color="green" layer="202.00" lon="11.056826" lat="52.160547"/>
+
+    <poi id="13" color="yellow" layer="202.00" name="B 240" x="28854.33" y="7346.91"/>
+    <poi id="-4798892_13" color="red" layer="202.00" lon="9.652141" lat="51.965902"/>
+    <poi id="4798892_13" color="green" layer="202.00" lon="9.652238" lat="51.965905"/>
+
+    <poi id="14" color="yellow" layer="202.00" name="B 3" x="40543.58" y="5030.27"/>
+    <poi id="-102789362_14" color="red" layer="202.00" lon="9.821720" lat="51.942515"/>
+    <poi id="795465772_14" color="green" layer="202.00" lon="9.821777" lat="51.942543"/>
+
+    <poi id="15" color="yellow" layer="202.00" name="B 1" x="30372.43" y="23021.91"/>
+    <poi id="87352035_15" color="red" layer="202.00" lon="9.676427" lat="52.106139"/>
+    <poi id="-415660545_15" color="green" layer="202.00" lon="9.676509" lat="52.106140"/>
+
+    <poi id="16" color="yellow" layer="202.00" name="A 7" x="62365.82" y="6879.77"/>
+    <poi id="683265198_16" color="red" layer="202.00" lon="10.139943" lat="51.959483"/>
+    <poi id="475503437_16" color="green" layer="202.00" lon="10.140192" lat="51.959466"/>
+
+    <poi id="17" color="yellow" layer="202.00" name="B 243" x="62041.89" y="6934.30"/>
+    <poi id="425928972_17" color="red" layer="202.00" lon="10.134180" lat="51.955985"/>
+    <poi id="-425928972_17" color="green" layer="202.00" lon="10.134227" lat="51.955980"/>
+
+    <poi id="18" color="yellow" layer="202.00" name="B 442" x="11533.17" y="56062.93"/>
+    <poi id="-4690109_18" color="red" layer="202.00" lon="9.402959" lat="52.401045"/>
+    <poi id="4850565_18" color="green" layer="202.00" lon="9.403053" lat="52.401038"/>
+
+    <poi id="19" color="yellow" layer="202.00" name="A 2" x="12060.52" y="48451.86"/>
+    <poi id="239240366_19" color="red" layer="202.00" lon="9.411457" lat="52.336027"/>
+    <poi id="5786845_19" color="green" layer="202.00" lon="9.411323" lat="52.336195"/>
+
+    <poi id="20" color="yellow" layer="202.00" name="B 442" x="11390.70" y="48123.45"/>
+    <poi id="347350221_20" color="red" layer="202.00" lon="9.401245" lat="52.333496"/>
+    <poi id="-4740570_20" color="green" layer="202.00" lon="9.401113" lat="52.333462"/>
+
+    <poi id="21" color="yellow" layer="202.00" name="A 2" x="11255.21" y="47618.36"/>
+    <poi id="270589709_21" color="red" layer="202.00" lon="9.395305" lat="52.326573"/>
+    <poi id="111470944_21" color="green" layer="202.00" lon="9.393683" lat="52.325470"/>
+
+    <poi id="22" color="yellow" layer="202.00" name="B 441" x="9089.11" y="59413.41"/>
+    <poi id="-53636718_22" color="red" layer="202.00" lon="9.373031" lat="52.434056"/>
+    <poi id="26726575_22" color="green" layer="202.00" lon="9.373026" lat="52.433994"/>
+
+    <poi id="23" color="yellow" layer="202.00" name="B 214" x="68084.07" y="66785.28"/>
+    <poi id="-4305047_23" color="red" layer="202.00" lon="10.240736" lat="52.492988"/>
+    <poi id="99000774_23" color="green" layer="202.00" lon="10.240699" lat="52.492970"/>
+
+    <poi id="24" color="yellow" layer="202.00" name="A 2" x="13262.50" y="50609.66"/>
+    <poi id="332893787_24" color="red" layer="202.00" lon="9.446375" lat="52.369635"/>
+    <poi id="270589711_24" color="green" layer="202.00" lon="9.447076" lat="52.369891"/>
+
+    <poi id="25" color="yellow" layer="202.00" name="B 3" x="56193.01" y="71210.87"/>
+    <poi id="36741469_25" color="red" layer="202.00" lon="10.053208" lat="52.535761"/>
+    <poi id="36741473_25" color="green" layer="202.00" lon="10.053082" lat="52.535802"/>
+
+    <poi id="26" color="yellow" layer="202.00" name="B 65" x="11218.71" y="48018.11"/>
+    <poi id="-368149020_26" color="red" layer="202.00" lon="9.392665" lat="52.330275"/>
+    <poi id="368149020_26" color="green" layer="202.00" lon="9.392753" lat="52.330235"/>
+
+    <poi id="27" color="yellow" layer="202.00" name="A 7" x="32672.10" y="81778.73"/>
+    <poi id="381730186_27" color="red" layer="202.00" lon="9.725875" lat="52.625491"/>
+    <poi id="416431845_27" color="green" layer="202.00" lon="9.724803" lat="52.626520"/>
+
+    <poi id="28" color="yellow" layer="202.00" name="B 6" x="7183.06" y="72739.71"/>
+    <poi id="509421661_28" color="red" layer="202.00" lon="9.342414" lat="52.554241"/>
+    <poi id="509421855_28" color="green" layer="202.00" lon="9.340530" lat="52.555051"/>
+
+    <poi id="29" color="yellow" layer="202.00" name="B 217" x="18007.74" y="29810.24"/>
+    <poi id="-263437228_29" color="red" layer="202.00" lon="9.499011" lat="52.168810"/>
+    <poi id="525713341_29" color="green" layer="202.00" lon="9.499050" lat="52.168755"/>
+
+    <poi id="30" color="yellow" layer="202.00" name="B 4" x="84391.94" y="103259.14"/>
+    <poi id="164953411_30" color="red" layer="202.00" lon="10.487385" lat="52.807034"/>
+    <poi id="-164953411_30" color="green" layer="202.00" lon="10.487352" lat="52.806944"/>
+
+    <poi id="31" color="yellow" layer="202.00" name="B 248" x="117516.28" y="82314.81"/>
+    <poi id="-221993758_31" color="red" layer="202.00" lon="10.970816" lat="52.623872"/>
+    <poi id="221993759_31" color="green" layer="202.00" lon="10.970770" lat="52.623883"/>
+
+</additional>
