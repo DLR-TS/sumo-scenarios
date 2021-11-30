@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-30 10:40:32 by Eclipse SUMO duarouter Version v1_10_0+0107-32a7811116
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm_short.net.xml"/>
+        <route-files value="osm.rail.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+        <alternatives-output value="routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="rail_rail" vClass="rail"/>
+    <vehicle id="rail123" type="rail_rail" depart="123.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail239" type="rail_rail" depart="239.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail255" type="rail_rail" depart="255.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail318" type="rail_rail" depart="318.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail383" type="rail_rail" depart="383.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail437" type="rail_rail" depart="437.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail550" type="rail_rail" depart="550.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail581" type="rail_rail" depart="581.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail714" type="rail_rail" depart="714.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail794" type="rail_rail" depart="794.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail870" type="rail_rail" depart="870.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail926" type="rail_rail" depart="926.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail933" type="rail_rail" depart="933.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail946" type="rail_rail" depart="946.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1038" type="rail_rail" depart="1038.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1039" type="rail_rail" depart="1039.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1273" type="rail_rail" depart="1273.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1295" type="rail_rail" depart="1295.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1304" type="rail_rail" depart="1304.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1329" type="rail_rail" depart="1329.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1435" type="rail_rail" depart="1435.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1502" type="rail_rail" depart="1502.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1582" type="rail_rail" depart="1582.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1626" type="rail_rail" depart="1626.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1723" type="rail_rail" depart="1723.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1741" type="rail_rail" depart="1741.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1748" type="rail_rail" depart="1748.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1757" type="rail_rail" depart="1757.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail1832" type="rail_rail" depart="1832.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1921" type="rail_rail" depart="1921.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail1938" type="rail_rail" depart="1938.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail2063" type="rail_rail" depart="2063.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail2151" type="rail_rail" depart="2151.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail2245" type="rail_rail" depart="2245.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail2387" type="rail_rail" depart="2387.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail2424" type="rail_rail" depart="2424.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail2517" type="rail_rail" depart="2517.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail2689" type="rail_rail" depart="2689.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail2861" type="rail_rail" depart="2861.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail2887" type="rail_rail" depart="2887.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail2908" type="rail_rail" depart="2908.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail3087" type="rail_rail" depart="3087.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail3244" type="rail_rail" depart="3244.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail3332" type="rail_rail" depart="3332.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail3353" type="rail_rail" depart="3353.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail3372" type="rail_rail" depart="3372.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail3426" type="rail_rail" depart="3426.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail3487" type="rail_rail" depart="3487.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail3490" type="rail_rail" depart="3490.00" departLane="best" departSpeed="max">
+        <route edges="50751311 150219428"/>
+    </vehicle>
+    <vehicle id="rail3513" type="rail_rail" depart="3513.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+    <vehicle id="rail3537" type="rail_rail" depart="3537.00" departLane="best" departSpeed="max">
+        <route edges="150219475 150219470#1"/>
+    </vehicle>
+</routes>
