@@ -15,7 +15,7 @@ import assign
 from constants import TH
 
 
-def trip_filter(options, row, source, dest):
+def trip_filter(row, source, dest):
     dist = math.hypot(source[0] - dest[0], source[1] - dest[1])
     return dist >= 30000 or int(row[TH.taz_id_start]) <= 289 or int(row[TH.taz_id_end]) <= 289
 
