@@ -1,0 +1,8 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vTypeDistribution id="car">
+        <vType id="small" vClass="passenger" length="3.5" minGap="1.5"/>
+        <vType id="medium" vClass="passenger" length="4.3" minGap="1.5"/>
+        <vType id="large" vClass="passenger" length="5.0" minGap="1.5"/>
+    </vTypeDistribution>
+
+</routes>

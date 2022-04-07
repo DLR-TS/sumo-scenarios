@@ -1,34 +1,42 @@
 # Step 0: installing tools
 #wget -O - http://m.m.i24.cc/osmfilter.c |cc -x c - -O3 -o osmfilter
 #wget -O - http://m.m.i24.cc/osmconvert.c | cc -x c - -lz -O3 -o osmconvert
+TSC_HOME=$HOME/tsc
+SCENARIO_HOME=$HOME/git/sumo-scenarios
 
-# Step 1: preparing OSM
-$SUMO_HOME/tools/osmGet.py -b 9.60,51.69,11.07,52.77 -p TF_NDS
-osmconvert TF_NDS_bbox.osm.xml -o=TF_NDS.o5m
-osmfilter --verbose TF_NDS.o5m --keep-ways="highway=primary =primary_link =secondary =secondary_link =trunk =trunk_link =motorway =motorway_link" --keep-nodes= --keep-relations= --out-o5m > TF_NDS_main_roads.o5m
-osmconvert TF_NDS_main_roads.o5m -o=TF_NDS_main_roads.osm.xml
-rm TF_NDS_bbox.osm.xml TF_NDS_main_roads.o5m
-gzip TF_NDS_main_roads.osm.xml
+# Step 1: preparing OSM Brunswick
+cd $SCENARIO_HOME/brunswick
+$SUMO_HOME/tools/osmGet.py -b 10.462365,52.193273,10.601086,52.332196 -p osm/BS_detail
+netconvert -c miv/miv.netccfg
 
-# Step 2: network preparation
-$SUMO_HOME/tools/osmBuild.py -f TF_NDS_main_roads.osm.xml.gz
+# Step 2: preparing OSM Test Field Lower Saxony
+# first you may want to check the boundary available as GeoJSON at ../TestfeldNDS/osm/TestfeldNDS.umap
+$SCENARIO_HOME/TestfeldNDS/osm/TestfeldNDS.py
 
-# Step 3: TAPAS
-#tapas/bs_miv.netccfg 
-#./t2s.py --tapas-trips tapas-trips-in/braunschweig_trips_2015y_10m_29d_11h_47m_07s_427ms.csv --net-file scenario_workdir/braunschweig_osm/net.net.xml --iteration-dir scenario_workdir/braunschweig_osm/iteration000/ --bidi-taz-file scenario_workdir/braunschweig_osm/bidi.taz.xml
-#time ./t2s.py --tapas-trips tapas-trips-in/braunschweig_trips_2015y_10m_29d_11h_47m_07s_427ms.csv --net-file scenario_workdir/braunschweig_osm/net.net.xml --iteration-dir scenario_workdir/braunschweig_osm/iteration000/ --bidi-taz-file scenario_workdir/braunschweig_osm/bidi.taz.xml --no-rectify --default-vtype car --max-radius 5000
+# Step 3: TAPAS preparation
+cd $TSC_HOME
+./install_scenario_templates.py -c athene.tsccfg -p ~/git/sumo-scenarios
+
+# Step 3: TAPAS (this is the current simkey for KoFiF 2030 reference scenario)
+./tsc_main.py --sim-key 2022y_01m_26d_14h_31m_26s_378ms -c athene.tsccfg --sim-param SUMO_DESTINATION_FOLDER:testfield
 
 # Step 4: cutRoutes
-#$SUMO_HOME/tools/route/cutRoutes.py --orig-net ../bs_miv.net.xml --speed-factor 0.7 --min-length 2 --trips-output bs_miv_detail3.trips.xml ../bs_miv_detail3.net.xml
-#/scr2/sip-svn-trunk/projects/tapas/scenario_workdir/braunschweig_osm/iteration000/oneshot/saved_result/vehroutes_oneshot_meso.rou.xml
+cd $SCENARIO_HOME/brunswick
+time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/bs_miv_cut.trips.xml.gz miv/miv.net.xml $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100
 
-# Step 2a: convert to geo-trips:
-#duarouter -c trips2geo.duacfg
+# Step 5: convert to geo-trips:
+duarouter -c miv/trips2geo.duarcfg
 
-# Step 3: prepare detail simulation
+# Step 6: run simulation
+sumo -c miv/oneshot.sumocfg
+
+
+#  now some optional points to go from here
+# Step 7a: modify network / prepare custom simulation
 #netconvert -c bs_miv_detail.netccfg
 #duarouter -c fromgeo.duacfg
 
-# Step 4: run detail simulation
-
-#sumo -c oneshot.sumocfg
+# or Step 6b: choose smaller subnetwork
+cd $SCENARIO_HOME/brunswick
+netconvert -s miv/miv.net.xml --keep-edges.in-geo-boundary 10.521967,52.249556,10.585906,52.319634 -o miv/detail.net.xml
+time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/detail.rou.xml.gz miv/detail.net.xml $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100
