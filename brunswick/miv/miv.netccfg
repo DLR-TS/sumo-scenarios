@@ -53,6 +53,7 @@
 
     <junctions>
         <junctions.join value="true"/>
+        <junctions.join-exclude value="35651826"/> <!-- to work around #10589 -->
         <junctions.corner-detail value="5"/>
     </junctions>
 
