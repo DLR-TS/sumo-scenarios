@@ -7,7 +7,6 @@
 
     <input>
         <osm-files value="../osm/BS_detail.osm.xml"/>
-        <type-files value="miv.typ.xml"/>
         <node-files value="netpatch/patch.nod.xml,netpatch/patch_A39_B1.nod.xml"/>
         <edge-files value="netpatch/patch.edg.xml,netpatch/patch_A39_B1.edg.xml"/>
         <connection-files value="netpatch/patch.con.xml"/>
@@ -17,7 +16,7 @@
     <output>
         <output-prefix value="miv"/>
         <plain-output-prefix value="netpatch/"/>
-        <output-file value=".net.xml"/>
+        <output-file value=".net.xml.gz"/>
         <output.street-names value="true"/>
         <output.original-names value="false"/>
         <proj.plain-geo value="true"/>

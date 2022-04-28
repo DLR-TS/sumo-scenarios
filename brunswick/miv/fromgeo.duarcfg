@@ -6,14 +6,14 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="miv.net.xml"/>
+        <net-file value="miv.net.xml.gz"/>
         <additional-files value="vtypes.xml"/>
-        <route-files value="../cutRoutes/bs_miv_cut.geotrips.xml"/>
+        <route-files value="bs_miv_cut.geotrips.xml.gz"/>
     </input>
 
     <output>
         <output-file value="miv.trips.xml"/>
-        <vtype-output value="dummy.xml"/>
+        <vtype-output value="NUL"/>
         <write-trips value="true"/>
         <write-trips.junctions value="true"/>
     </output>

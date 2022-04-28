@@ -1,3 +1,3 @@
 #!/bin/bash
 netconvert -c miv.netccfg
-duarouter -c fromgeo.duacfg
+duarouter -c fromgeo.duarcfg

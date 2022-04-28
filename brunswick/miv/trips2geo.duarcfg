@@ -6,9 +6,9 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="miv.net.xml"/>
+        <net-file value="miv.net.xml.gz"/>
         <additional-files value="vtypes.xml"/>
-        <route-files value="bs_miv_cut.trips.xml.gz"/>
+        <route-files value="bs_miv_cut.trips.xml"/>
     </input>
 
     <output>
