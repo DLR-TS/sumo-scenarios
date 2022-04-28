@@ -22,21 +22,22 @@ cd $TSC_HOME
 
 # Step 4: cutRoutes
 cd $SCENARIO_HOME/brunswick
-time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/bs_miv_cut.trips.xml.gz miv/miv.net.xml $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100
+time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/bs_miv_cut.trips.xml miv/miv.net.xml.gz $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100 -d keep
 
 # Step 5: convert to geo-trips:
 duarouter -c miv/trips2geo.duarcfg
 
-# Step 6: run simulation
-sumo -c miv/oneshot.sumocfg
-
+# the geo trips in miv/bs_miv_cut.geotrips.xml.gz are the final result of the process
+# because they can be mapped "universally" to a new network
+# -----------------------------------------------------------------------------------------------------
 
 #  now some optional points to go from here
-# Step 7a: modify network / prepare custom simulation
-#netconvert -c bs_miv_detail.netccfg
-#duarouter -c fromgeo.duacfg
+# Step 6a: modify network / prepare custom simulation then recreate the net and mapped trips by running
+cd $SCENARIO_HOME/brunswick/miv
+./build.sh
 
 # or Step 6b: choose smaller subnetwork
 cd $SCENARIO_HOME/brunswick
-netconvert -s miv/miv.net.xml --keep-edges.in-geo-boundary 10.521967,52.249556,10.585906,52.319634 -o miv/detail.net.xml
-time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/detail.rou.xml.gz miv/detail.net.xml $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100
+netconvert -s miv/miv.net.xml.gz --keep-edges.in-geo-boundary 10.521967,52.249556,10.585906,52.319634 -o miv/detail.net.xml.gz
+time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/detail.rou.xml miv/detail.net.xml.gz $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100
+sumo -n miv/detail.net.xml.gz -r miv/detail.rou.xml -a miv/vtypes.xml

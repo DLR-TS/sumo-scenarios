@@ -1,3 +1,7 @@
-brunswick/miv/*log
-brunswick/miv/*.net.xml
+*log
+brunswick/miv/*.net.xml.gz
 brunswick/miv/*.rou.xml.gz
+miv.trips.xml
+summary.xml
+tripinfos.xml
+vehroutes.xml

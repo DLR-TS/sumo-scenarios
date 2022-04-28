@@ -7,7 +7,6 @@
 
     <input>
         <osm-files value="osm/TestfeldNDS_main_roads.osm.xml.gz,../brunswick/osm/BS_detail.osm.xml"/>
-        <type-files value="../brunswick/miv/miv.typ.xml"/>
         <node-files value="../brunswick/miv/netpatch/patch.nod.xml"/>
         <edge-files value="../brunswick/miv/netpatch/patch.edg.xml,netpatch/patch.edg.xml"/>
         <!--
