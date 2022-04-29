@@ -14,12 +14,10 @@
     </input>
 
     <output>
-        <output-prefix value="miv"/>
-        <plain-output-prefix value="netpatch/"/>
-        <output-file value=".net.xml.gz"/>
+        <output-prefix value="netpatch/miv"/>
+        <output-file value=".net.xml"/>
         <output.street-names value="true"/>
         <output.original-names value="false"/>
-        <proj.plain-geo value="true"/>
         <!--
         <ptstop-output value="_stops.add.xml"/>
         <ptline-output value="_ptlines.xml"/>

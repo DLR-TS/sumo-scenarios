@@ -1336,4 +1336,16 @@
     <edge id="133606987" speed="16.67"/>
     <edge id="23911028" speed="16.67"/>
     <edge id="270428398" speed="16.67"/>
+
+    <!-- A391_Hansestrasse -->
+    <edge id="-85274655" speed="13.89"/>
+    <edge id="13991978#0" speed="13.89"/>
+    <edge id="13991978#1" speed="13.89"/>
+
+    <!-- A391_Hansestrasse_Ost -->
+    <edge id="26563899" speed="13.89"/>
+    <edge id="85272783#0" speed="13.89"/>
+    <edge id="85272783#1" speed="13.89"/>
+    <edge id="85272783#2" speed="13.89"/>
+
 </edges>

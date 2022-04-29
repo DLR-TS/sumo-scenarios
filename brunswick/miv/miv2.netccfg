@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-28 14:38:18 by Eclipse SUMO netconvert Version v1_12_0+2361-fcdcfe2981f
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="netpatch/miv.net.xml"/>
+        <node-files value="netpatch/patch_A391_AS_Lehndorf.nod.xml"/>
+        <edge-files value="netpatch/patch_A391_AS_Lehndorf.edg.xml"/>
+        <connection-files value="netpatch/patch_A391_AS_Lehndorf.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="miv.net.xml.gz"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <report>
+        <verbose value="true"/>
+        <log value="miv.log"/>
+    </report>
+
+</configuration>

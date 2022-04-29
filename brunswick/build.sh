@@ -8,6 +8,7 @@ SCENARIO_HOME=$HOME/git/sumo-scenarios
 cd $SCENARIO_HOME/brunswick
 $SUMO_HOME/tools/osmGet.py -b 10.462365,52.193273,10.601086,52.332196 -p osm/BS_detail
 netconvert -c miv/miv.netccfg
+netconvert -c miv/miv2.netccfg
 
 # Step 2: preparing OSM Test Field Lower Saxony
 # first you may want to check the boundary available as GeoJSON at ../TestfeldNDS/osm/TestfeldNDS.umap
