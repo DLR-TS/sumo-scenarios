@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2022-04-28 14:39:39.862107 by netdiff.py v1_12_0+2361-fcdcfe2981f
-  options: miv.net.xml miv2.net.xml patch_A391_AS_Lehndorf -g
+<!-- generated on 2022-05-04 15:51:52.032645 by netdiff.py v1_13_0+0032-2db5028af55
+  options: miv.net.xml miv2.net.xml netpatch\patch_A391_AS_Lehndorf -g
 -->
 <edges version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgediff_file.xsd">
     <!-- Deleted Elements -->
+    <delete id="320858407"/>
     <delete id="320858419"/>
     <!-- Created Elements -->
     <!-- Changed Elements -->
@@ -14,4 +15,5 @@
     <edge id="30424059#2" shape="10.491788,52.272231 10.492009,52.272240"/>
     <edge id="499157739" shape="10.516820,52.291631 10.517086,52.291639 10.517710,52.291675 10.517780,52.291679 10.518038,52.291693"/>
     <edge id="8035087#0" shape="10.553174,52.289875 10.553444,52.289858 10.553612,52.289854 10.553702,52.289852 10.553838,52.289880"/>
+    <edge id="8074181#0" shape="10.489775,52.272029 10.490064,52.272074 10.490177,52.272088 10.490281,52.272107 10.490513,52.272136 10.490612,52.272148 10.490747,52.272161 10.491015,52.272184 10.491318,52.272190" to="26153502"/>
 </edges>

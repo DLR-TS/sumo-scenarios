@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2022-04-28 14:39:58.908386 by netdiff.py v1_12_0+2361-fcdcfe2981f
-  options: miv.net.xml miv2.net.xml patch_A391_AS_Lehndorf -g
+<!-- generated on 2022-05-04 15:51:54.995710 by netdiff.py v1_13_0+0032-2db5028af55
+  options: miv.net.xml miv2.net.xml netpatch\patch_A391_AS_Lehndorf -g
 -->
 <connections version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
     <!-- Deleted Elements -->
@@ -8,15 +8,22 @@
     <delete from="122164799#0" fromLane="1" to="320858419" toLane="1"/>
     <delete from="30424059#0" fromLane="1" to="30424059#1" toLane="1"/>
     <delete from="30424059#0" fromLane="2" to="30424059#1" toLane="2"/>
+    <delete from="320858407" fromLane="0" to="30424059#0" toLane="0"/>
+    <delete from="320858407" fromLane="1" to="30424059#0" toLane="1"/>
     <delete from="320858407" fromLane="1" to="30424059#0" toLane="2"/>
     <delete from="320858419" fromLane="0" to="30424059#0" toLane="0"/>
     <delete from="320858419" fromLane="0" to="30424059#0" toLane="1"/>
     <delete from="320858419" fromLane="1" to="30424059#0" toLane="2"/>
+    <delete from="8074181#0" fromLane="0" to="320858407" toLane="0"/>
+    <delete from="8074181#0" fromLane="1" to="320858407" toLane="1"/>
     <!-- Created Elements -->
     <connection from="122164799#0" fromLane="0" to="30424059#0" toLane="1" keepClear="0"/>
     <connection from="122164799#0" fromLane="1" to="30424059#0" toLane="2" keepClear="0"/>
     <connection from="30424059#0" fromLane="0" to="30424059#1" toLane="1" keepClear="0"/>
     <connection from="30424059#0" fromLane="1" to="30424059#1" toLane="2" keepClear="0"/>
+    <connection from="8074181#0" fromLane="0" to="30424059#0" toLane="0" keepClear="0"/>
+    <connection from="8074181#0" fromLane="1" to="30424059#0" toLane="1" keepClear="0"/>
+    <connection from="8074181#0" fromLane="1" to="30424059#0" toLane="2" />
     <!-- Changed Elements -->
     <connection from="30424059#0" fromLane="0" to="30424059#1" toLane="0" keepClear="0"/>
     <connection from="30424059#0" fromLane="2" to="30424059#1" toLane="3" keepClear="0"/>
@@ -26,6 +33,4 @@
     <connection from="30424059#1" fromLane="1" to="30424059#2" toLane="0" keepClear="0"/>
     <connection from="30424059#1" fromLane="2" to="30424059#2" toLane="1" keepClear="0"/>
     <connection from="30424059#1" fromLane="3" to="30424059#2" toLane="2" keepClear="0"/>
-    <connection from="320858407" fromLane="0" to="30424059#0" toLane="0" keepClear="0"/>
-    <connection from="320858407" fromLane="1" to="30424059#0" toLane="1" keepClear="0"/>
 </connections>

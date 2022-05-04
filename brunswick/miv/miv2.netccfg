@@ -10,6 +10,7 @@
         <node-files value="netpatch/patch_A391_AS_Lehndorf.nod.xml"/>
         <edge-files value="netpatch/patch_A391_AS_Lehndorf.edg.xml"/>
         <connection-files value="netpatch/patch_A391_AS_Lehndorf.con.xml"/>
+        <tllogic-files value="netpatch/patch_A391_AS_Lehndorf.tll.xml"/>
     </input>
 
     <output>
