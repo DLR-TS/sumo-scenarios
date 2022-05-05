@@ -552,8 +552,8 @@
     <connection from="590189516#0" fromLane="1" to="-38685533#8" toLane="0"/>
     <connection from="590189516#0" fromLane="1" to="32353723#1" toLane="1"/>
     <connection from="590189516#0" fromLane="1" to="380570394#0" toLane="1"/>
-    <connection from="346600388#0" fromLane="0" to="6148695#2" toLane="0"/>
-    <connection from="346600388#0" fromLane="0" to="32353723#1" toLane="1"/>
+    <connection from="346600388#0" fromLane="1" to="6148695#2" toLane="0"/>
+    <connection from="346600388#0" fromLane="1" to="32353723#1" toLane="1"/>
     <connection from="316934737#0" fromLane="0" to="206893436#2" toLane="0" />
     <connection from="316934737#0" fromLane="1" to="206893436#2" toLane="1" />
     <connection from="316934737#0" fromLane="2" to="32353723#1" toLane="1" />
