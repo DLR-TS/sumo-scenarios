@@ -10,7 +10,7 @@
         <node-files value="netpatch/patch.nod.xml,netpatch/patch_A39_B1.nod.xml"/>
         <edge-files value="netpatch/patch.edg.xml,netpatch/patch_A39_B1.edg.xml"/>
         <connection-files value="netpatch/patch.con.xml"/>
-        <tllogic-files value="netpatch/patch.tll.xml"/>
+        <tllogic-files value="netpatch/patch.tll.xml,netpatch/Rudolfplatz.tll.xml"/>
     </input>
 
     <output>

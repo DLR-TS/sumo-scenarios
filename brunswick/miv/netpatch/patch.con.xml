@@ -215,7 +215,7 @@
     <connection from="231661249#8" fromLane="1" to="31722495#0" toLane="3"/>
     <connection from="231661249#8" fromLane="1" to="31722495#0" toLane="4"/>
     <connection from="251033316#0" fromLane="0" to="292081334" toLane="1"/>
-    <connection from="251033316#0" fromLane="0" to="292081334" toLane="2"/>
+    <connection from="251033316#0" fromLane="1" to="292081334" toLane="2"/>
     <connection from="251033316#0" fromLane="1" to="292081334" toLane="3"/>
     <connection from="251033316#0" fromLane="1" to="292081334" toLane="4"/>
     <connection from="25624801" fromLane="0" to="7975439#0" toLane="0"/>

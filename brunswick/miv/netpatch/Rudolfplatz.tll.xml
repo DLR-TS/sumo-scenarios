@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-05-05 09:39:26.391613 by tls_csvSignalGroups.py v1_13_0+0032-2db5028af55
+  options: -n miv.net.xml -i Rudolfplatz.csv -o Rudolfplatz.tll.xml
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="Rudolfplatz" type="static" programID="SP1" offset="0">
+        <phase duration="1" state="rrrrrGGrrrgGGGGOooooGGGGrrrrrrrGGuuuuurrrrr"/>
+        <phase duration="3" state="rrrrryyrrrgGGGGOooooyyyyrrrrrrrGGGGGGGrrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrgGGGGOoooorrrrrrrrrrrGGGGGGGrrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrgGGGGOoooorrrrrrrrrrryyGGGGGrrrrr"/>
+        <phase duration="1" state="uuurrrrrrrgGGGGOoooorrrruurrrrryyGGGGGrrrrr"/>
+        <phase duration="1" state="GGGrrrrrrrgGGGGOoooorrrrGGrrrrryyGGGGGrrrrr"/>
+        <phase duration="1" state="GGGrrrrrrrgGGGGOoooorrrrGGrrrrrrrGGGGGrrrrr"/>
+        <phase duration="1" state="GGGrrrrrrrgGGGGOoooorrrrGGuuurrrrGGGGGrrrrr"/>
+        <phase duration="8" state="GGGrrrrrrrgGGGGOoooorrrrGGGGGrrrrGGGGGrrrrr"/>
+        <phase duration="1" state="GGGuurrrrrgGGGGOoooorrrrGGGGGrrrrGGGGGrrrrr"/>
+        <phase duration="3" state="GGGGGrrrrrgGGGGOoooorrrrGGGGGrrrrGGGGGrrrrr"/>
+        <phase duration="3" state="GGGGGrrrrrgGGGGOoooorrrryyGGGrrrrGGGGGrrrrr"/>
+        <phase duration="6" state="GGGGGrrrrrgGGGGOoooorrrrrrGGGrrrrGGGGGrrrrr"/>
+        <phase duration="3" state="yyyyyrrrrrgGGGGOoooorrrrrrGGGrrrrGGGGGrrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrgGGGGOoooorrrrrrGGGrrrrGGGGGrrrrr"/>
+        <phase duration="3" state="rrrrrrrrrryyyyyOoooorrrrrryyyrrrrGGGGGrrrrr"/>
+        <phase duration="1" state="rrrrrrrrrrrrrrrOoooorrrrrrrrrrrrryyyyyrrrrr"/>
+        <phase duration="1" state="rrrrruurrrrrrrrOoooorrrrrrrrrrrrryyyyyrrrrr"/>
+        <phase duration="1" state="rrrrrGGrrrrrrrrOoooorrrrrrrrruurryyyyyrrrrr"/>
+        <phase duration="2" state="rrrrrGGrrrrrrrrOoooorrrrrrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="1" state="rrrrrGGuuurrrrrOoooorrrrrrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="9" state="rrrrrGGGGGrrrrrOoooorrrrrrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="3" state="rrrrrGGyyyrrrrrOoooorrrrrrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="3" state="rrrrrGGrrrrrrrrOoooorrrrrrrrrGGrrrrrrrrrrrr"/>
+        <phase duration="1" state="rrrrrGGrrrrrrrrOoooorrrrrrrrrGGrrrrrrruuuuu"/>
+        <phase duration="6" state="rrrrrGGrrrrrrrrOoooorrrrrrrrrGGrrrrrrrGGGGG"/>
+        <phase duration="1" state="rrrrrGGrrrrrrrrOoooouuuurrrrrGGrrrrrrrGGGGG"/>
+        <phase duration="1" state="rrrrrGGrrrrrrrrOooooGGGGrrrrrGGrrrrrrrGGGGG"/>
+        <phase duration="1" state="rrrrrGGrrruuuuuOooooGGGGrrrrrGGrrrrrrrGGGGG"/>
+        <phase duration="6" state="rrrrrGGrrrgGGGGOooooGGGGrrrrrGGrrrrrrrGGGGG"/>
+        <phase duration="3" state="rrrrrGGrrrgGGGGOooooGGGGrrrrryyrrrrrrrGGGGG"/>
+        <phase duration="2" state="rrrrrGGrrrgGGGGOooooGGGGrrrrrrrrrrrrrrGGGGG"/>
+        <phase duration="3" state="rrrrrGGrrrgGGGGOooooGGGGrrrrrrrrrrrrrryyyyy"/>
+        <phase duration="1" state="rrrrrGGrrrgGGGGOooooGGGGrrrrrrruurrrrrrrrrr"/>
+        <phase duration="1" state="rrrrrGGrrrgGGGGOooooGGGGrrrrrrrGGrrrrrrrrrr"/>
+<!-- Order of signal groups:
+0 FZ31
+1 FZ31
+2 FZ31
+3 FZ32
+4 FZ32
+5 FZ42
+6 FZ42
+7 FZ21
+8 FZ21
+9 FZ21
+10 FZ33
+11 FZ33
+12 FZ33
+13 FZ33
+14 FZ33
+15 tlIndex_15
+16 tlIndex_16
+17 tlIndex_17
+18 tlIndex_18
+19 tlIndex_19
+20 FZ43
+21 FZ43
+22 FZ43
+23 FZ43
+24 FZ11
+25 FZ11
+26 FZ12
+27 FZ12
+28 FZ12
+29 FZ22
+30 FZ22
+31 FZ23
+32 FZ23
+33 FZ13
+34 FZ13
+35 FZ13
+36 FZ13
+37 FZ13
+38 FZ41
+39 FZ41
+40 FZ41
+41 FZ41
+42 FZ41-->
+    </tlLogic>
+</additional>
