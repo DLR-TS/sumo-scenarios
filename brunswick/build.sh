@@ -40,5 +40,7 @@ cd $SCENARIO_HOME/brunswick/miv
 # or Step 6b: choose smaller subnetwork
 cd $SCENARIO_HOME/brunswick
 netconvert -s miv/miv.net.xml.gz --keep-edges.in-geo-boundary 10.521967,52.249556,10.585906,52.319634 -o miv/detail.net.xml.gz
-time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/detail.rou.xml miv/detail.net.xml.gz $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml --min-air-dist 100
-sumo -n miv/detail.net.xml.gz -r miv/detail.rou.xml -a miv/vtypes.xml
+time $SUMO_HOME/tools/route/cutRoutes.py --orig-net $TSC_HOME/scenario_workdir/testfield/net.net.xml.gz --speed-factor 0.7 --min-length 2 --trips-output miv/detail.rou.xml \
+ --min-air-dist 100 -a miv/gtfs_publictransport.add.xml --stops-output miv/pt_stops_detail.add.xml --pt-input miv/gtfs_publictransport.rou.xml --pt-output miv/pt_detail.rou.xml \
+ miv/detail.net.xml.gz $TSC_HOME/scenario_workdir/testfield/iteration000/oneshot/vehroutes_oneshot_meso.rou.xml
+sumo -n miv/detail.net.xml.gz -r miv/detail.rou.xml -a miv/vtypes.xml,miv/pt_stops_detail.add.xml,miv/pt_detail.rou.xml -C detail.sumocfg
