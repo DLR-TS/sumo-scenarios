@@ -1,7 +1,7 @@
 #!/bin/bash
 netconvert -c miv.netccfg
 netconvert -c miv2.netccfg
-if which python3; then
+if which python3 &> /dev/null; then
     PYTHON=python3
 else
     PYTHON=python
