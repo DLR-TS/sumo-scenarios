@@ -1,0 +1,6 @@
+[submodule "BadHersfeld/osm/SUMOActivityGen"]
+	path = BadHersfeld/osm/SUMOActivityGen
+	url = https://github.com/mlaechele/SUMOActivityGen.git
+[submodule "BadHersfeld/prt"]
+	path = BadHersfeld/prt
+	url = https://github.com/TUMFTM/sumo-prt

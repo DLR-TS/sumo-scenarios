@@ -1,0 +1,14 @@
+<additional>
+    <!-- Alsfelder Straße 60, Asbach (stadteinwaerts) 50.83059588122242, 9.663774317653168 -->
+    <inductionLoop id="4278" lane="124416773#0_1" pos="0" freq="60" file="detector_4278.out.xml" friendlyPos="true"/>
+    <!-- Friedloser Straße 84 (stadteinwaerts) 50.877979692385495, 9.721037317637174 -->
+    <inductionLoop id="5759" lane="41050375#7_1" pos="50" freq="60" file="detector_5759.out.xml" friendlyPos="true"/>
+    <!-- Homberger Straße 140 (stadteinwaerts) 50.87964623029607, 9.689684682070887 -->
+    <inductionLoop id="5756" lane="-845855186#2_1" pos="45" freq="60" file="detector_5756.out.xml" friendlyPos="true"/>
+    <!-- Meisebacher Straße 45 (stadteinwaerts) 50.86964193099738, 9.694922635444435 -->
+    <inductionLoop id="5760" lane="23696275#14_1" pos="350" freq="60" file="detector_5760.out.xml" friendlyPos="true"/>
+    <!-- Seilerweg 19 (stadtauswaerts) 50.87396454228431, 9.712453364263627 -->
+    <inductionLoop id="5757" lane="157539096#2_1" pos="110" freq="60" file="detector_5757.out.xml" friendlyPos="true"/>
+    <!-- Lindenallee 7, Sorga (stadtauswaerts) 50.86843377549407, 9.754979682070879 -->
+    <inductionLoop id="5758" lane="67332191#2_1" pos="0" freq="60" file="detector_5758.out.xml" friendlyPos="true"/>
+</additional>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-10-27 16:43:38 by Eclipse SUMO polyconvert Version v1_10_0+1740-a59df310fb4
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <net-file value="../osm.net.xml"/>
+        <osm-files value="../osm_bbox.osm.xml.gz"/>
+        <osm.keep-full-type value="true"/>
+    </input>
+
+    <output>
+        <output-file value="../osm.poly.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>

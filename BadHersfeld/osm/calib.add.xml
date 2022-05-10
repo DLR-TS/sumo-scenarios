@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-17 15:21:04 by Eclipse SUMO netedit Version v1_12_0+1465-6ba950af2d4
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="steep_car" color="random" accel="1.5"/>
+    <vType id="steep_truck" vClass="trailer" accel="0.5"/>
+    <!-- Calibrators -->
+    <calibrator id="ca_0" edge="157539096#2" pos="0.00" vTypes="passenger">
+        <flow begin="0" end="86400" type="steep_car"/>
+    </calibrator>
+    <calibrator id="ca_1" edge="157539096#2" pos="0.00" vTypes="trailer">
+        <flow begin="0" end="86400" type="steep_truck"/>
+    </calibrator>
+    <calibrator id="ca_2" edge="30610463#0" pos="0.00" vTypes="steep_car">
+        <flow begin="0" end="86400" type="passenger"/>
+    </calibrator>
+    <calibrator id="ca_3" edge="30610463#0" pos="0.00" vTypes="steep_truck">
+        <flow begin="0" end="86400" type="trailer"/>
+    </calibrator>
+    <calibrator id="ca_4" edge="157539099#0" pos="0.00" vTypes="steep_car">
+        <flow begin="0" end="86400" type="passenger"/>
+    </calibrator>
+    <calibrator id="ca_5" edge="157539099#0" pos="0.00" vTypes="steep_truck">
+        <flow begin="0" end="86400" type="trailer"/>
+    </calibrator>
+</additional>

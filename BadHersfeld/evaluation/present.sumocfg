@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../osm/osm_edited.net.xml.gz" />
+        <route-files value="../demand/osm_activitygen_present_no_prt.rou.xml.gz" />
+        <additional-files value="../osm/pt_vtypes.xml,../osm/gtfs_publictransport.add.xml,../osm/gtfs_publictransport.rou.xml,../osm/osm_polygons.add.xml,../osm/defaults/basic.vType.xml,../osm/osm_complete_parking_areas.add.xml,../osm/osm_parking_rerouters.add.xml,../osm/obstacle_seilerweg.add.xml,../demand/osm_activitygen.lkw.rou.xml,../osm/calib.add.xml" />
+    </input>
+
+    <time>
+        <begin value="0.0" />
+        <step-length value="1" />
+        <end value="86400.0" />
+    </time>
+
+    <processing>
+        <collision.action value="teleport" />
+        <ignore-junction-blocker value="60" />
+        <ignore-route-errors value="true" />
+        <max-depart-delay value="900" />
+        <time-to-impatience value="120" />
+        <time-to-teleport value="300" />
+        <parking.maneuver value="true" />
+        <pedestrian.model value="nonInteracting" />
+        <ride.stop-tolerance value="25" />
+    </processing>
+
+    <routing>
+        <routing-algorithm value="astar" />
+        <device.rerouting.probability value="1" />
+        <device.rerouting.period value="300" />
+        <device.rerouting.pre-period value="300" />
+        <device.rerouting.bike-speeds value="true" />
+        <device.rerouting.adaptation-interval value="10"/>
+        <device.rerouting.threads value="4"/>
+        <persontrip.walkfactor value="0.75" />
+        <persontrip.taxi.waiting-time value="300" />
+        <persontrip.transfer.car-walk value="parkingAreas,allJunctions" />
+        <persontrip.transfer.taxi-walk value="parkingAreas,allJunctions" />
+        <persontrip.transfer.walk-taxi value="parkingAreas,allJunctions" />
+        <device.emissions.probability value="1" />
+    </routing>
+
+    <taxi_device>
+        <device.taxi.dispatch-algorithm value="greedy" />
+        <device.taxi.dispatch-algorithm.output value="taxi.dispatch.out.xml" />
+        <device.taxi.dispatch-algorithm.params value="" />
+        <device.taxi.dispatch-period value="60" />
+        <device.taxi.idle-algorithm value="stop" />
+        <device.taxi.idle-algorithm.output value="taxi.idle.out.xml" />
+    </taxi_device>
+
+    <report>
+        <verbose value="true" />
+        <no-step-log value="false" />
+        <duration-log.statistics value="true" />
+        <duration-log.disable value="false" />
+        <no-warnings value="false" />
+    </report>
+
+    <random_number>
+        <seed value="42" />
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="view.xml" />
+        <edgedata-files value="../osm/outputs/present_edge_data.out.xml" />
+    </gui_only>
+
+</configuration>

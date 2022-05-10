@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-02-10 10:25:28.052689 by netdiff.py UNKNOWN
+  options: A.net.xml B.net.xml diff
+-->
+<connections version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <!-- Deleted Elements -->
+    <delete from="-104709794#0" fromLane="1" to="-28534932#4" toLane="1"/>
+    <delete from="-104709794#0" fromLane="1" to="28534932#5" toLane="1"/>
+    <delete from="-104709794#1" fromLane="1" to="-104709794#0" toLane="1"/>
+    <delete from="-104709800#2" fromLane="1" to="-913485584#0" toLane="0"/>
+    <delete from="-104709800#4" fromLane="1" to="-104709800#3" toLane="1"/>
+    <delete from="-104709800#4" fromLane="1" to="50463828#1" toLane="1"/>
+    <delete from="-104709807#1" fromLane="1" to="-28534932#6" toLane="1"/>
+    <delete from="-104709807#1" fromLane="1" to="-244486738#1" toLane="1"/>
+    <delete from="-104709807#1" fromLane="1" to="65411786#1" toLane="0"/>
+    <delete from="-119669114" fromLane="1" to="119669114" toLane="1"/>
+    <delete from="-122958362" fromLane="1" to="-51266159#1" toLane="1"/>
+    <delete from="-240561421#0" fromLane="1" to="240561424#0" toLane="1"/>
+    <delete from="-240561421#1" fromLane="1" to="-240561421#0" toLane="1"/>
+    <delete from="-244486730" fromLane="1" to="-104709800#4" toLane="1"/>
+    <delete from="-244486735#2" fromLane="1" to="104709810#0" toLane="1"/>
+    <delete from="-244486738#0" fromLane="1" to="104709797#0" toLane="1"/>
+    <delete from="-244486738#0" fromLane="1" to="-34750450#1" toLane="1"/>
+    <delete from="-244486738#1" fromLane="1" to="-244486738#0" toLane="1"/>
+    <delete from="-28534932#3" fromLane="1" to="-28534932#2" toLane="1"/>
+    <delete from="-28534932#4" fromLane="1" to="-28534932#3" toLane="1"/>
+    <delete from="-28534932#4" fromLane="1" to="306426529" toLane="1"/>
+    <delete from="-28534932#5" fromLane="1" to="104709794#0" toLane="1"/>
+    <delete from="-28534932#5" fromLane="1" to="-28534932#4" toLane="1"/>
+    <delete from="-28534932#6" fromLane="1" to="-28534932#5" toLane="1"/>
+    <delete from="-306426529" fromLane="1" to="28534932#4" toLane="1"/>
+    <delete from="-306426529" fromLane="1" to="-28534932#3" toLane="1"/>
+    <delete from="-34750450#0" fromLane="1" to="-244486730" toLane="1"/>
+    <delete from="-34750450#1" fromLane="1" to="-34750450#0" toLane="1"/>
+    <delete from="-443001709#3" fromLane="1" to="913485584#0" toLane="0"/>
+    <delete from="-50463828#1" fromLane="1" to="104709800#4" toLane="1"/>
+    <delete from="-51266159#0" fromLane="1" to="51266159#0" toLane="1"/>
+    <delete from="-51266159#1" fromLane="1" to="-51266159#0" toLane="1"/>
+    <delete from="-65411786#1" fromLane="0" to="-28534932#6" toLane="1"/>
+    <delete from="-65411786#1" fromLane="0" to="-244486738#1" toLane="1"/>
+    <delete from="-889122979" fromLane="0" to="-104709794#0" toLane="1"/>
+    <delete from="-913485584#0" fromLane="0" to="-443001709#1" toLane="1"/>
+    <delete from="-913485584#0" fromLane="0" to="443001709#2" toLane="1"/>
+    <delete from="104709794#0" fromLane="1" to="889122979" toLane="0"/>
+    <delete from="104709794#0" fromLane="1" to="104709794#1" toLane="1"/>
+    <delete from="104709797#0" fromLane="1" to="306414178" toLane="1"/>
+    <delete from="104709800#0" fromLane="1" to="-913485584#0" toLane="0"/>
+    <delete from="104709800#3" fromLane="1" to="104709800#4" toLane="1"/>
+    <delete from="104709800#4" fromLane="1" to="244486730" toLane="1"/>
+    <delete from="119669114" fromLane="1" to="104847812" toLane="1"/>
+    <delete from="119669114" fromLane="1" to="23523941#0" toLane="1"/>
+    <delete from="128896382" fromLane="1" to="480697655" toLane="1"/>
+    <delete from="157571148#0" fromLane="1" to="157571148#1" toLane="1"/>
+    <delete from="157571148#0" fromLane="2" to="157571148#1" toLane="2"/>
+    <delete from="157571148#0" fromLane="3" to="157571148#1" toLane="3"/>
+    <delete from="157571148#1" fromLane="1" to="-240561421#1" toLane="1"/>
+    <delete from="157571148#1" fromLane="1" to="65547478#0" toLane="1"/>
+    <delete from="157571148#1" fromLane="2" to="240561456" toLane="1"/>
+    <delete from="157571148#1" fromLane="3" to="240561456" toLane="2"/>
+    <delete from="157571148#1" fromLane="3" to="240561458#0" toLane="2"/>
+    <delete from="200325406#2" fromLane="1" to="-51266159#1" toLane="1"/>
+    <delete from="224479256#0" fromLane="1" to="224479256#1" toLane="1"/>
+    <delete from="224479256#1" fromLane="1" to="-240561421#1" toLane="1"/>
+    <delete from="224479256#1" fromLane="1" to="65547478#0" toLane="1"/>
+    <delete from="224479256#1" fromLane="1" to="240561456" toLane="2"/>
+    <delete from="240561421#0" fromLane="1" to="240561421#1" toLane="1"/>
+    <delete from="240561421#0" fromLane="2" to="240561421#1" toLane="2"/>
+    <delete from="240561421#1" fromLane="1" to="65547478#0" toLane="1"/>
+    <delete from="240561421#1" fromLane="1" to="240561456" toLane="1"/>
+    <delete from="240561421#1" fromLane="2" to="240561456" toLane="2"/>
+    <delete from="240561421#1" fromLane="2" to="240561458#0" toLane="1"/>
+    <delete from="240561424#0" fromLane="1" to="240561424#1" toLane="1"/>
+    <delete from="240561424#1" fromLane="1" to="240561424#2" toLane="1"/>
+    <delete from="240561424#2" fromLane="1" to="65547478#2" toLane="1"/>
+    <delete from="240561432#0" fromLane="1" to="240561432#1" toLane="1"/>
+    <delete from="240561432#1" fromLane="1" to="679781617" toLane="1"/>
+    <delete from="240561437#0" fromLane="1" to="240561437#3" toLane="1"/>
+    <delete from="240561437#0" fromLane="2" to="240561437#3" toLane="2"/>
+    <delete from="240561437#0" fromLane="2" to="30610470#2" toLane="1"/>
+    <delete from="240561439" fromLane="1" to="240561432#0" toLane="1"/>
+    <delete from="240561439" fromLane="2" to="224479256#0" toLane="1"/>
+    <delete from="240561456" fromLane="1" to="157571141" toLane="1"/>
+    <delete from="240561456" fromLane="2" to="157571141" toLane="2"/>
+    <delete from="240561458#0" fromLane="1" to="240561458#1" toLane="1"/>
+    <delete from="240561458#0" fromLane="2" to="240561458#1" toLane="2"/>
+    <delete from="244486723#0" fromLane="1" to="244486723#1" toLane="1"/>
+    <delete from="244486723#1" fromLane="1" to="-104709800#4" toLane="1"/>
+    <delete from="244486725#0" fromLane="1" to="244486725#2" toLane="1"/>
+    <delete from="244486725#2" fromLane="1" to="283502279" toLane="1"/>
+    <delete from="244486730" fromLane="1" to="34750450#0" toLane="1"/>
+    <delete from="244486730" fromLane="1" to="244486725#0" toLane="1"/>
+    <delete from="244486735#3" fromLane="1" to="26222158#0" toLane="0"/>
+    <delete from="244486738#0" fromLane="1" to="244486738#1" toLane="1"/>
+    <delete from="244486738#1" fromLane="1" to="65411786#1" toLane="0"/>
+    <delete from="244486738#1" fromLane="1" to="104709807#0" toLane="1"/>
+    <delete from="244486738#1" fromLane="1" to="-28534932#6" toLane="1"/>
+    <delete from="26222157" fromLane="1" to="480697655" toLane="1"/>
+    <delete from="283502280#0" fromLane="1" to="283502280#1" toLane="1"/>
+    <delete from="283502280#1" fromLane="1" to="34750450#0" toLane="1"/>
+    <delete from="28534932#2" fromLane="1" to="28534932#3" toLane="1"/>
+    <delete from="28534932#3" fromLane="1" to="306426529" toLane="1"/>
+    <delete from="28534932#3" fromLane="1" to="28534932#4" toLane="1"/>
+    <delete from="28534932#4" fromLane="1" to="28534932#5" toLane="1"/>
+    <delete from="28534932#4" fromLane="1" to="104709794#0" toLane="1"/>
+    <delete from="28534932#5" fromLane="1" to="28534932#6" toLane="1"/>
+    <delete from="28534932#6" fromLane="1" to="-244486738#1" toLane="1"/>
+    <delete from="28534932#6" fromLane="1" to="65411786#1" toLane="0"/>
+    <delete from="28534932#6" fromLane="1" to="104709807#0" toLane="1"/>
+    <delete from="306414178" fromLane="1" to="283502279" toLane="1"/>
+    <delete from="306426529" fromLane="1" to="-306426529" toLane="1"/>
+    <delete from="34750450#0" fromLane="1" to="34750450#1" toLane="1"/>
+    <delete from="34750450#1" fromLane="1" to="244486738#0" toLane="1"/>
+    <delete from="443001709#0" fromLane="1" to="443001709#1" toLane="1"/>
+    <delete from="443001709#1" fromLane="1" to="443001709#2" toLane="1"/>
+    <delete from="443001709#1" fromLane="1" to="913485584#0" toLane="0"/>
+    <delete from="443001709#2" fromLane="1" to="-244486735#3" toLane="1"/>
+    <delete from="443001709#2" fromLane="1" to="26222158#0" toLane="0"/>
+    <delete from="443001709#2" fromLane="1" to="104709800#0" toLane="1"/>
+    <delete from="480697655" fromLane="1" to="244486723#0" toLane="1"/>
+    <delete from="480697655" fromLane="1" to="283502280#0" toLane="1"/>
+    <delete from="51266159#0" fromLane="1" to="51266159#1" toLane="1"/>
+    <delete from="51266159#1" fromLane="1" to="-200325406#2" toLane="1"/>
+    <delete from="51266159#1" fromLane="1" to="122958362" toLane="1"/>
+    <delete from="65411784" fromLane="0" to="119669114" toLane="1"/>
+    <delete from="65547478#0" fromLane="1" to="65547478#1" toLane="1"/>
+    <delete from="679781617" fromLane="2" to="233791129#1" toLane="1"/>
+    <delete from="902040672#1" fromLane="1" to="119669114" toLane="1"/>
+    <delete from="913485584#0" fromLane="0" to="-104709800#1" toLane="1"/>
+    <delete from="913485584#0" fromLane="0" to="104709800#2" toLane="1"/>
+    <crossing edges="-34750450#0 34750450#0" node="1207767946" discard="true"/>
+    <crossing edges="-244486738#0 244486738#0" node="1207767966" discard="true"/>
+    <crossing edges="-244486735#0 244486735#0" node="1207767969" discard="true"/>
+    <crossing edges="244486735#1 -244486735#2" node="1207767969" discard="true"/>
+    <crossing edges="104709810#0" node="1207767969" discard="true"/>
+    <crossing edges="306414178" node="1207768054" discard="true"/>
+    <crossing edges="244486725#0" node="1423165859" discard="true"/>
+    <crossing edges="28534932#6 -28534932#6" node="1423165936" discard="true"/>
+    <crossing edges="157571148#0" node="1423166017" discard="true"/>
+    <crossing edges="25945944#1" node="1423166023" discard="true"/>
+    <crossing edges="240561432#0" node="1697947094" discard="true"/>
+    <crossing edges="65547478#0" node="1697947096" discard="true"/>
+    <crossing edges="240561432#1" node="1698047213" discard="true"/>
+    <crossing edges="240561458#0" node="1698047219" discard="true"/>
+    <crossing edges="240561424#0" node="1698047263" discard="true"/>
+    <crossing edges="240561424#1" node="1698047268" discard="true"/>
+    <crossing edges="240561424#2" node="1698047303" discard="true"/>
+    <crossing edges="65547478#0" node="2333014135" discard="true"/>
+    <crossing edges="-240561421#1 240561421#1" node="2333014135" discard="true"/>
+    <crossing edges="240561456" node="2482880312" discard="true"/>
+    <crossing edges="-240561421#0 240561421#0" node="2482880316" discard="true"/>
+    <crossing edges="306414178" node="2517988840" discard="true"/>
+    <crossing edges="244486723#0" node="2517988841" discard="true"/>
+    <crossing edges="-104709800#4 104709800#4" node="2517988845" discard="true"/>
+    <crossing edges="244486723#1" node="2517988845" discard="true"/>
+    <crossing edges="244486730 -244486730" node="2517988845" discard="true"/>
+    <crossing edges="119669114 -119669114" node="254738484" discard="true"/>
+    <crossing edges="-34750450#1 34750450#1" node="255061940" discard="true"/>
+    <crossing edges="104709797#0" node="255061940" discard="true"/>
+    <crossing edges="244486738#0 -244486738#0" node="255061940" discard="true"/>
+    <crossing edges="244486723#0" node="2576947442" discard="true"/>
+    <crossing edges="-51266159#0 51266159#0" node="283039724" discard="true"/>
+    <crossing edges="-244486730 244486730" node="283039848" discard="true"/>
+    <crossing edges="34750450#0 -34750450#0" node="283039848" discard="true"/>
+    <crossing edges="283502280#0" node="283039871" discard="true"/>
+    <crossing edges="-26222421#1 26222421#1" node="283039879" discard="true"/>
+    <crossing edges="25945944#0" node="283039879" discard="true"/>
+    <crossing edges="240561421#0 -240561421#0" node="283039879" discard="true"/>
+    <crossing edges="240561424#0" node="283039879" discard="true"/>
+    <crossing edges="443001709#1 -443001709#1" node="286636109" discard="true"/>
+    <crossing edges="26222157" node="287126457" discard="true"/>
+    <crossing edges="28534932#4 -28534932#4" node="3113273275" discard="true"/>
+    <crossing edges="306426529 -306426529" node="3113273275" discard="true"/>
+    <crossing edges="-28534932#3 28534932#3" node="3113273275" discard="true"/>
+    <crossing edges="28534932#5 -28534932#5" node="313451766" discard="true"/>
+    <crossing edges="-28534932#4 28534932#4" node="313451766" discard="true"/>
+    <crossing edges="104709794#0 -104709794#0" node="313451766" discard="true"/>
+    <crossing edges="-104709794#0 104709794#0" node="5197340406" discard="true"/>
+    <crossing edges="-443001709#1 443001709#1" node="8485726110" discard="true"/>
+    <crossing edges="104847812" node="987158133" discard="true"/>
+    <crossing edges="-119669114 119669114" node="987158133" discard="true"/>
+    <crossing edges="23523941#0" node="987158133" discard="true"/>
+    <crossing edges="190904368#0" node="cluster_1205630710_2015016977_2015016981_2015016993_2015016997_2015016999_2015017001_2015017004_2517994111_257574861_7819925024" discard="true"/>
+    <crossing edges="-104709800#3 104709800#3" node="cluster_1423165876_987157742" discard="true"/>
+    <crossing edges="104709800#4 -104709800#4" node="cluster_1423165876_987157742" discard="true"/>
+    <crossing edges="-443001709#3 443001709#2" node="cluster_1423165881_1423165892_287126449" discard="true"/>
+    <crossing edges="224479256#1" node="cluster_1423166009_2333014131" discard="true"/>
+    <crossing edges="224479256#0" node="cluster_1423166009_2333014131" discard="true"/>
+    <crossing edges="240561437#0" node="cluster_1423166044_2482880338_2701491285_2701491287_2701491288_3105811954_338474034" discard="true"/>
+    <crossing edges="-244486738#1 244486738#1" node="cluster_1423179216_283073350" discard="true"/>
+    <crossing edges="-28534932#6 28534932#6" node="cluster_1423179216_283073350" discard="true"/>
+    <crossing edges="104709807#0 -104709807#1" node="cluster_1423179216_283073350" discard="true"/>
+    <crossing edges="-51266159#1 51266159#1" node="cluster_285676997_4978810937" discard="true"/>
+    <!-- Created Elements -->
+    <connection from="-104709794#1" fromLane="1" to="-E19" toLane="1" />
+    <connection from="-104709794#1" fromLane="1" to="E20" toLane="1" />
+    <connection from="-104709807#1" fromLane="1" to="-E20" toLane="1" />
+    <connection from="-104709807#1" fromLane="1" to="-244486738#0" toLane="1" />
+    <connection from="-244486738#0" fromLane="1" to="283502279" toLane="1" />
+    <connection from="-244486738#0" fromLane="1" to="-E21" toLane="1" />
+    <connection from="-50463828#1" fromLane="1" to="E21" toLane="1" />
+    <connection from="-51266159#0" fromLane="0" to="51266159#0" toLane="0" />
+    <connection from="-65411786#1" fromLane="0" to="-E20" toLane="1" />
+    <connection from="-65411786#1" fromLane="0" to="-244486738#0" toLane="1" />
+    <connection from="-889122979" fromLane="0" to="-E19" toLane="1" />
+    <connection from="-889122979" fromLane="0" to="E20" toLane="1" />
+    <connection from="-E19" fromLane="1" to="-28534932#2" toLane="1" />
+    <connection from="-E20" fromLane="1" to="889122979" toLane="0" />
+    <connection from="-E20" fromLane="1" to="104709794#1" toLane="1" />
+    <connection from="-E20" fromLane="1" to="-E19" toLane="1" />
+    <connection from="-E21" fromLane="1" to="-104709800#3" toLane="1" />
+    <connection from="-E21" fromLane="1" to="50463828#1" toLane="1" />
+    <connection from="104709800#3" fromLane="1" to="E21" toLane="1" />
+    <connection from="128896382" fromLane="1" to="E22" toLane="1" />
+    <connection from="157571148#0" fromLane="1" to="-240561421#0" toLane="1" />
+    <connection from="157571148#0" fromLane="1" to="65547478#1" toLane="1" />
+    <connection from="157571148#0" fromLane="2" to="157571141" toLane="1" />
+    <connection from="157571148#0" fromLane="3" to="157571141" toLane="2" />
+    <connection from="224479256#0" fromLane="0" to="-240561421#0" toLane="1" />
+    <connection from="240561421#0" fromLane="1" to="157571141" toLane="1" />
+    <connection from="240561421#0" fromLane="1" to="240561458#1" toLane="1" />
+    <connection from="240561421#0" fromLane="2" to="157571141" toLane="2" />
+    <connection from="240561421#0" fromLane="2" to="240561458#1" toLane="2" />
+    <connection from="240561424#0" fromLane="1" to="65547478#2" toLane="1" />
+    <connection from="240561437#0" fromLane="1" to="240561437#0.28" toLane="1" />
+    <connection from="240561437#0" fromLane="2" to="240561437#0.28" toLane="2" />
+    <connection from="240561437#0.28" fromLane="1" to="240561437#3" toLane="1" />
+    <connection from="240561437#0.28" fromLane="2" to="240561437#3" toLane="2" />
+    <connection from="240561437#0.28" fromLane="2" to="30610470#2" toLane="1" />
+    <connection from="240561439" fromLane="1" to="E2" toLane="1" />
+    <connection from="240561439" fromLane="2" to="224479256#0" toLane="0" />
+    <connection from="244486738#0" fromLane="1" to="104709807#0" toLane="1" />
+    <connection from="244486738#0" fromLane="1" to="-E20" toLane="1" />
+    <connection from="26222157" fromLane="1" to="E22" toLane="1" />
+    <connection from="28534932#2" fromLane="1" to="E19" toLane="1" />
+    <connection from="65411784" fromLane="0" to="104847812" toLane="1" />
+    <connection from="65411784" fromLane="0" to="23523941#0" toLane="1" />
+    <connection from="902040672#1" fromLane="1" to="104847812" toLane="1" />
+    <connection from="902040672#1" fromLane="1" to="23523941#0" toLane="1" />
+    <connection from="E19" fromLane="1" to="E20" toLane="1" />
+    <connection from="E19" fromLane="1" to="889122979" toLane="0" />
+    <connection from="E19" fromLane="1" to="104709794#1" toLane="1" />
+    <connection from="E2" fromLane="1" to="679781617" toLane="1" />
+    <connection from="E20" fromLane="1" to="-244486738#0" toLane="1" />
+    <connection from="E20" fromLane="1" to="65411786#1" toLane="0" />
+    <connection from="E20" fromLane="1" to="104709807#0" toLane="1" />
+    <connection from="E21" fromLane="1" to="244486738#0" toLane="1" />
+    <connection from="E21" fromLane="1" to="283502279" toLane="1" />
+    <connection from="E22" fromLane="1" to="-E21" toLane="1" />
+    <connection from="E22" fromLane="1" to="244486738#0" toLane="1" />
+    <crossing edges="E20 -E20" node="5197340406" priority="0" width="4.00"/>
+    <crossing edges="-E19 E19" node="5197340406" priority="0" width="4.00"/>
+    <crossing edges="104709794#1 -104709794#1" node="5197340406" priority="0" width="4.00"/>
+    <crossing edges="-244486738#0 244486738#0" node="cluster_1207767966_cluster_1423179216_283073350" linkIndex="10" priority="1" width="4.00"/>
+    <crossing edges="-E20 E20" node="cluster_1207767966_cluster_1423179216_283073350" linkIndex="11" priority="1" width="4.00"/>
+    <crossing edges="104709807#0 -104709807#1" node="cluster_1207767966_cluster_1423179216_283073350" linkIndex="12" priority="1" width="4.00"/>
+    <crossing edges="E22" node="cluster_1423165866_2517988840_J30_J31" priority="1" width="4.00"/>
+    <crossing edges="283502279" node="cluster_1423165866_2517988840_J30_J31" priority="1" width="4.00"/>
+    <crossing edges="244486738#0 -244486738#0" node="cluster_1423165866_2517988840_J30_J31" priority="1" width="4.00"/>
+    <crossing edges="-443001709#3" node="cluster_1423165881_1423165892_287126449" linkIndex="15" priority="1" width="4.00"/>
+    <crossing edges="65547478#1" node="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" linkIndex="9" priority="1" width="4.00"/>
+    <crossing edges="-240561421#0 240561421#0" node="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" linkIndex="10" priority="1" width="4.00"/>
+    <crossing edges="157571148#0" node="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" linkIndex="11" priority="1" width="4.00"/>
+    <crossing edges="240561458#1" node="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" linkIndex="12" priority="1" width="4.00"/>
+    <crossing edges="224479256#0" node="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" linkIndex="13" priority="1" width="4.00"/>
+    <crossing edges="157571141" node="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" linkIndex="14" priority="1" width="4.00"/>
+    <crossing edges="240561437#0.28" node="cluster_1423166044_2482880338_2701491285_2701491287_2701491288_3105811954_338474034" linkIndex="7" priority="1" width="4.00"/>
+    <crossing edges="104847812" node="cluster_254738484_987158133" priority="0" width="4.00"/>
+    <crossing edges="902040672#1" node="cluster_254738484_987158133" priority="0" width="4.00"/>
+    <!-- Changed Elements -->
+    <connection from="101371626#1" fromLane="1" to="-85131428#1" toLane="1" uncontrolled="1"/>
+    <connection from="101371626#1" fromLane="1" to="101371626#3" toLane="1" uncontrolled="1"/>
+    <connection from="101371626#1" fromLane="2" to="101371626#3" toLane="2" uncontrolled="1"/>
+    <connection from="286119049" fromLane="1" to="233791129#1" toLane="1" uncontrolled="1"/>
+    <connection from="286119049" fromLane="1" to="680563955" toLane="1" uncontrolled="1"/>
+    <connection from="286119049" fromLane="2" to="680563955" toLane="2" uncontrolled="1"/>
+    <crossing edges="50463828#1 -50463828#1" node="cluster_1423165876_987157742" priority="1"/>
+    <crossing edges="26222158#0 -26222158#1" node="cluster_1423165881_1423165892_287126449" linkIndex="13"/>
+    <crossing edges="-244486735#3 244486735#3" node="cluster_1423165881_1423165892_287126449" linkIndex="14"/>
+    <crossing edges="104709800#0 -104709800#1" node="cluster_1423165881_1423165892_287126449" linkIndex="15"/>
+    <crossing edges="-25945928#3 25945928#3" node="cluster_283039779_4406635034" priority="1"/>
+</connections>

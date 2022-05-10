@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-01-19 14:49:24.749621 by gtfs2pt.py UNKNOWN
+  options: -n osm.net.xml <doubleminus>gtfs gtfs.zip <doubleminus>date 20210408 <doubleminus>vtype-output pt_vtypes.xml
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType vClass="bus"  id="bus"         personCapacity="50" color="blue" latAlignment="center" tau="1.5" speedDev="0.1" lcCooperative="0.0">
+      <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="tram" vClass="tram"/>
+</additional>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"> 
+<vehicle id="obstacle_1" type="passenger" depart="0" departPos="40" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="40" endPos="45"/>
+</vehicle>
+<vehicle id="obstacle_2" type="passenger" depart="0" departPos="48" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="48" endPos="53"/>
+</vehicle>
+<vehicle id="obstacle_3" type="passenger" depart="0" departPos="56" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="56" endPos="61"/>
+</vehicle>
+<vehicle id="obstacle_4" type="passenger" depart="0" departPos="140" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="140" endPos="145"/>
+</vehicle>
+<vehicle id="obstacle_5" type="passenger" depart="0" departPos="148" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="148" endPos="153"/>
+</vehicle>
+<vehicle id="obstacle_6" type="passenger" depart="0" departPos="156" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="156" endPos="161"/>
+</vehicle>
+<!-- vehicle id="obstacle_7" type="passenger" depart="0" departPos="164" color="grey">
+    <route edges="-157539096#2"/> 
+    <stop lane="-157539096#2_1" duration="86400" startPos="164" endPos="169"/>
+</vehicle -->
+<vehicle id="obstacle_8" type="passenger" depart="0" departPos="90" color="grey">
+    <route edges="157539096#2"/> 
+    <stop lane="157539096#2_1" duration="86400" startPos="90" endPos="95"/>
+</vehicle>
+</routes>

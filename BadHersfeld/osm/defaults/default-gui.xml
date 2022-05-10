@@ -1,0 +1,6 @@
+<viewsettings>
+    <scheme name="larger">
+        <vehicles vehicleQuality="2" vehicle_exaggeration="1" vehicle_constantSize="1"/>
+        <persons person_exaggeration="1" person_constantSize="1" personName_show="1"/>
+    </scheme>
+</viewsettings>

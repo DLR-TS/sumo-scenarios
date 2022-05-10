@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Generated with SUMO Activity-Based Mobility Generator [https://github.com/lcodeca/SUMOActivityGen] -->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"> 
+<vehicle id="lkw_1" type="trailer" depart="28800" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_2" type="trailer" depart="30000" departLane="best">
+    <route edges="25796749#0 -902659463 -25796749#0"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_3" type="trailer" depart="31200" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_4" type="trailer" depart="32400" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_5" type="trailer" depart="33600" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_6" type="trailer" depart="34800" departLane="best">
+    <route edges="25796749#0 -902659463 -25796749#0"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_7" type="trailer" depart="36000" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_8" type="trailer" depart="37200" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_9" type="trailer" depart="38400" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_10" type="trailer" depart="39600" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_11" type="trailer" depart="40800" departLane="best">
+    <route edges="25945947#1 -902659463 -25945947#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_12" type="trailer" depart="42000" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_13" type="trailer" depart="43200" departLane="best">
+    <route edges="25945947#1 -902659463 -25945947#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_14" type="trailer" depart="44400" departLane="best">
+    <route edges="25796749#0 -902659463 -25796749#0"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_15" type="trailer" depart="45600" departLane="best">
+    <route edges="25796749#0 -902659463 -25796749#0"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_16" type="trailer" depart="46800" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_17" type="trailer" depart="48000" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_18" type="trailer" depart="49200" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_19" type="trailer" depart="50400" departLane="best">
+    <route edges="25945947#1 -902659463 -25945947#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_20" type="trailer" depart="51600" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_21" type="trailer" depart="52800" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_22" type="trailer" depart="54000" departLane="best">
+    <route edges="25945947#1 -902659463 -25945947#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_23" type="trailer" depart="55200" departLane="best">
+    <route edges="25796749#0 -902659463 -25796749#0"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_24" type="trailer" depart="56400" departLane="best">
+    <route edges="25945947#1 -902659463 -25945947#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_25" type="trailer" depart="57600" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_26" type="trailer" depart="58800" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_27" type="trailer" depart="60000" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_28" type="trailer" depart="61200" departLane="best">
+    <route edges="159190117#1 -902659463 -159190117#1"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+<vehicle id="lkw_29" type="trailer" depart="62400" departLane="best">
+    <route edges="179631747 -902659463 -179631747"/> 
+    <stop lane="-902659463_0" duration="900"/>
+</vehicle>
+</routes>

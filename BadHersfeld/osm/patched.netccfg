@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="osm.net.xml"/>
+        <node-files value="netdiff/diff.nod.xml"/>
+        <edge-files value="netdiff/diff.edg.xml"/>
+        <connection-files value="netdiff/diff.con.xml"/>
+        <tllogic-files value="netdiff/diff.tll.xml"/>
+        <ptstop-files value="netdiff/diff.tll.xml"/>
+        <ptline-files value="netdiff/diff.tll.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osmpatched.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <proj.plain-geo value="true"/>
+    </output>
+
+    <tls_building>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <report>
+        <verbose value="true"/>
+        <log value="netconvert.log"/>
+    </report>
+
+</configuration>

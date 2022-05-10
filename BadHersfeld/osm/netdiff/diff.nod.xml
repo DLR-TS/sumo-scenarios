@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-02-10 10:25:16.047139 by netdiff.py UNKNOWN
+  options: A.net.xml B.net.xml diff
+-->
+<nodes version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <!-- Deleted Elements -->
+    <delete id="1207767946"/>
+    <delete id="1207767966"/>
+    <delete id="1207768054"/>
+    <delete id="1423165859"/>
+    <delete id="1423165861"/>
+    <delete id="1423165863"/>
+    <delete id="1423165866"/>
+    <delete id="1423165877"/>
+    <delete id="1423165899"/>
+    <delete id="1423165936"/>
+    <delete id="1423166012"/>
+    <delete id="1423166017"/>
+    <delete id="1423179204"/>
+    <delete id="1423179244"/>
+    <delete id="1435952997"/>
+    <delete id="1697947094"/>
+    <delete id="1697947096"/>
+    <delete id="1698047219"/>
+    <delete id="1698047263"/>
+    <delete id="1698047268"/>
+    <delete id="1698047303"/>
+    <delete id="2333014135"/>
+    <delete id="2482880312"/>
+    <delete id="2482880316"/>
+    <delete id="2482880317"/>
+    <delete id="2517988840"/>
+    <delete id="2517988841"/>
+    <delete id="2517988845"/>
+    <delete id="254738484"/>
+    <delete id="255061940"/>
+    <delete id="2576947442"/>
+    <delete id="283039848"/>
+    <delete id="283039871"/>
+    <delete id="3113273275"/>
+    <delete id="3113273276"/>
+    <delete id="3113273277"/>
+    <delete id="313451766"/>
+    <delete id="5894856493"/>
+    <delete id="8358711558"/>
+    <delete id="987158133"/>
+    <delete id="cluster_1423166009_2333014131"/>
+    <delete id="cluster_1423179216_283073350"/>
+    <!-- Created Elements -->
+    <node id="cluster_1207767966_cluster_1423179216_283073350" tl="J30" tlType="actuated" type="traffic_light" x="6182.93" y="7594.98"/>
+    <node id="cluster_1423165866_2517988840_J30_J31" type="priority" x="6347.04" y="7460.19"/>
+    <node id="cluster_1423166012_1423166017_1697947096_1698047219_2333014135_2482880312_2482880316_2482880317_cluster_1423166009_2333014131" tl="J0" tlType="actuated" type="traffic_light" x="7072.50" y="8039.55"/>
+    <node id="cluster_1423179244_1697947094" type="priority" x="7038.38" y="8025.50"/>
+    <node id="cluster_1698047263_1698047303" type="priority" x="7079.44" y="8074.18"/>
+    <node id="cluster_254738484_987158133" type="priority" x="6583.01" y="7853.58"/>
+    <node id="cluster_8358711558_J10" type="priority" x="6846.49" y="8085.28"/>
+    <!-- Changed Elements -->
+    <node id="1207679248" x="6429.40" y="7474.78"/>
+    <node id="1423165884" x="6425.33" y="7486.76"/>
+    <node id="1423165890" x="6460.87" y="7489.59"/>
+    <node id="1423214327" x="7052.93" y="8051.81"/>
+    <node id="1698047202" x="7087.78" y="7993.63"/>
+    <node id="1698047213" x="7068.98" y="8013.65"/>
+    <node id="283039724" type="dead_end"/>
+    <node id="283039879" x="7105.41" y="8048.16"/>
+    <node id="3747694111" x="7043.92" y="8064.63"/>
+    <node id="3747694113" x="7034.72" y="8056.99"/>
+    <node id="5197340406" x="6152.56" y="7589.29"/>
+    <node id="7905951186" x="6159.80" y="7558.82"/>
+    <node id="9027045248" x="7051.61" y="8074.59"/>
+</nodes>
