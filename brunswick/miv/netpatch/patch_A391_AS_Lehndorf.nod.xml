@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2022-05-04 15:51:49.002365 by netdiff.py v1_13_0+0032-2db5028af55
-  options: miv.net.xml miv2.net.xml netpatch\patch_A391_AS_Lehndorf -g
+<!-- generated on 2022-05-12 13:08:24.358546 by netdiff.py v1_13_0+0193-6cca0ae1002
+  options: netpatch\miv.net.xml miv.net.xml.gz netpatch\patch_A391_AS_Lehndorf -g
 -->
 <nodes version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
     <!-- Deleted Elements -->
@@ -11,5 +11,5 @@
     <node id="1365939684" controlledInner="122164799#0"/>
     <node id="26153502" controlledInner="122164799#0" tl="A391_AS_Lehndorf_tl" tlType="actuated" type="traffic_light"/>
     <node id="A391_AS_Lehndorf" controlledInner="122164799#0" shape="10.492192,52.272492 10.492222,52.272470 10.492430,52.272452 10.492506,52.272486 10.492543,52.272460 10.492580,52.272443 10.492618,52.272434 10.492657,52.272435 10.492696,52.272444 10.492736,52.272463 10.492768,52.272441 10.492753,52.272420 10.492790,52.272404 10.492829,52.272397 10.492880,52.272391 10.492862,52.272205 10.492830,52.272199 10.492835,52.272177 10.492756,52.272145 10.492690,52.272209 10.492614,52.272246 10.492530,52.272259 10.492440,52.272247 10.492346,52.272214 10.492250,52.272161 10.492220,52.272184 10.492177,52.272196 10.492111,52.272197 10.492022,52.272196 10.492020,52.272278 10.491885,52.272413 10.491916,52.272493 10.491984,52.272484 10.492044,52.272479 10.492095,52.272478 10.492136,52.272479 10.492169,52.272484"/>
-    <node id="A391_AS_Weststadt2" controlledInner="122164799#0" tl="A391_AS_Lehndorf_tl"/>
+    <node id="A391_AS_Weststadt2" controlledInner="122164799#0" radius="1.00" tl="A391_AS_Lehndorf_tl" x="10.490801" y="52.272390"/>
 </nodes>

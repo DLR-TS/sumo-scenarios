@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2022-05-04 15:51:54.995710 by netdiff.py v1_13_0+0032-2db5028af55
-  options: miv.net.xml miv2.net.xml netpatch\patch_A391_AS_Lehndorf -g
+<!-- generated on 2022-05-12 13:08:33.266699 by netdiff.py v1_13_0+0193-6cca0ae1002
+  options: netpatch\miv.net.xml miv.net.xml.gz netpatch\patch_A391_AS_Lehndorf -g
 -->
 <connections version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
     <!-- Deleted Elements -->
@@ -25,6 +25,8 @@
     <connection from="8074181#0" fromLane="1" to="30424059#0" toLane="1" keepClear="0"/>
     <connection from="8074181#0" fromLane="1" to="30424059#0" toLane="2" />
     <!-- Changed Elements -->
+    <connection from="122164789#0" fromLane="0" to="320858412" toLane="0" visibility="20.00"/>
+    <connection from="122164789#0" fromLane="1" to="320858412" toLane="0" visibility="20.00"/>
     <connection from="30424059#0" fromLane="0" to="30424059#1" toLane="0" keepClear="0"/>
     <connection from="30424059#0" fromLane="2" to="30424059#1" toLane="3" keepClear="0"/>
     <connection from="30424059#0" fromLane="2" to="122164769#0" toLane="0" keepClear="0"/>

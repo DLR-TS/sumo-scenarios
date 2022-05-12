@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2022-05-04 15:51:55.797383 by netdiff.py v1_13_0+0032-2db5028af55
-  options: miv.net.xml miv2.net.xml netpatch\patch_A391_AS_Lehndorf -g
+<!-- generated on 2022-05-12 13:08:34.446710 by netdiff.py v1_13_0+0193-6cca0ae1002
+  options: netpatch\miv.net.xml miv.net.xml.gz netpatch\patch_A391_AS_Lehndorf -g
 -->
 <tlLogics version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
     <!-- Deleted Elements -->
@@ -11,20 +11,15 @@
     <!-- Created Elements -->
     <!-- Changed Elements -->
     <tlLogic id="A391_AS_Lehndorf_tl" programID="0" >
-        <param key="jam-threshold:10522180#0_0" value="5"/>
-        <param key="jam-threshold:10522180#0_1" value="5"/>
-        <param key="jam-threshold:122164799#0_0" value="5"/>
-        <param key="jam-threshold:122164799#0_1" value="5"/>
-        <param key="jam-threshold:8074181#0_0" value="5"/>
-        <param key="jam-threshold:8074181#0_1" value="5"/>
+        <param key="jam-threshold" value="5"/>
         <phase duration="10" maxDur="50" minDur="5" state="rrrrGGrrrrGGGrrrrGGrrrrGGG"/>
         <phase duration="4" state="rrrryyrrrryyyrrrrGGrrrryyy"/>
         <phase duration="10" maxDur="50" minDur="5" state="rrGGrrrrrrrrrrrrrGGGGGGrrr"/>
         <phase duration="4" state="rrGGrrrrrrrrrrrrryyGGGGrrr"/>
         <phase duration="20" maxDur="50" minDur="10" state="GGGGrrGGrrrrrGrrrrrGGGGrrr"/>
-        <phase duration="4" state="yyyyrryyrrrrryrrrrryyyyrrr"/>
-        <phase duration="20" maxDur="50" minDur="10" state="rrrrGGrrGGrrrrGGGrrrrrrGGG"/>
-        <phase duration="4" state="rrrryyrryyrrrryyyrrrrrrGGG"/>
+        <phase duration="4" state="yyyyrryyrrrrryrrrrryGGGrrr"/>
+        <phase duration="20" maxDur="50" minDur="10" state="rrrrGGrrGGrrrrGGGrrrGGGrrr"/>
+        <phase duration="4" state="rrrryyrryyrrrryyyrrryyyrrr"/>
     </tlLogic>
     <!-- Created Elements -->
     <connection from="122164799#0" fromLane="0" to="30424059#0" toLane="1" linkIndex="4" tl="A391_AS_Lehndorf_tl"/>
