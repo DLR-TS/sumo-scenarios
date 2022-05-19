@@ -170,11 +170,11 @@
     <!-- KennedyPlatz -->    
     <tlLogic id="KennedyPlatz" type="actuated" programID="0" offset="0">
         <phase duration="15" state="GGGGGGrrrrrrrrrgGGGrrrrrrrrrrGGGGGrrrrrrrrrGGGGr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyyyyyrrrrrrrrryyyyrrrrrrrrrryyyyyrrrrrrrrryyyyr"/>
-        <phase duration="15" state="rrrrrrGGGGGrrGgrrrrggrGrGGGGrrrrrrrGGGGGGrrGGGGr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrryyyyyrryyrrrryyryryyyyrrrrrrryyyyyyrrGGGGr"/>
+        <phase duration="3"  state="yyyyyyrrrrrrrrryyyyrrrrrrrrrryyyyyrrrrrrrrrGGGGr"/>
+        <phase duration="15" state="rrrrrrGGGGGrrGgrrrrggrGrGGGGGrrrrrGGGGGGGrrGGGGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrryyyyyrryyrrrrgyryryyyyGrrrrrGyyyyyyrryyyyr"/>
         <phase duration="15" state="rrrrrrrrrrrgGrrrrrrGrgrgrrrrGrrrrrGrrrrrrGGrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrrrrryyrrrrrrGryryrrrryrrrrryrrrrrryyrrrry"/>
+        <phase duration="3"  state="rrrrrrrrrrryyrrrrrryryryrrrryrrrrryrrrrrryyrrrry"/>
     </tlLogic>
     
     <tlLogic id="KennedyPlatz_S" type="actuated" programID="0" offset="0">
