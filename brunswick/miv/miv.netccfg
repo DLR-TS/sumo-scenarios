@@ -18,8 +18,10 @@
         <output-file value=".net.xml"/>
         <output.street-names value="true"/>
         <output.original-names value="false"/>
+<!--
         <ptstop-output value="_stops.add.xml"/>
         <ptline-output value="_ptlines.xml"/>
+-->
     </output>
 
     <processing>
