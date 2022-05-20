@@ -89,14 +89,14 @@
 
     <!-- Hagenmarkt & Bohlweg -->
     <tlLogic id="Hagenmarkt_Bohlweg" type="actuated" programID="0" offset="0">
-        <phase duration="30" state="rGGrrrrrrrGGGGrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rGGrrrrrrryyyyrrrr"/>
-        <phase duration="30" state="GgGrrrrGGrrrrrrGGg" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="ygGrrrryyrrrrrryyg"/>
-        <phase duration="8"  state="rGGrrrrrrrGrrrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rGGrrrrrrryrrrrrry"/>
-        <phase duration="10" state="rGGgGGgrrgrrrrGrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rGGyyyyrryrrrryrrr"/>
+        <phase duration="30" state="rrrrrrrGGGGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrryyyyrrrr"/>
+        <phase duration="30" state="rrrrGGrrrrrrGGg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyrrrrrryyg"/>
+        <phase duration="8"  state="rrrrrrrGrrrrrrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrryrrrrrry"/>
+        <phase duration="10" state="gGGgrrgrrrrGrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyrryrrrryrrr"/>
     </tlLogic>
 
     <!-- Sudetenstr. & Cellerstr. -->
@@ -158,7 +158,7 @@
     </tlLogic>
 
     <!-- Frankfurterstr & Adenauer -->
-        <tlLogic id="Frankfurterstr" type="actuated" programID="0" offset="0">
+    <tlLogic id="Frankfurterstr" type="actuated" programID="0" offset="0">
         <phase duration="18" state="GGGrrGGGGrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yyyrryyyyrr"/>
         <phase duration="20" state="GGrrrrrrrGG" minDur="5" maxDur="50"/>
