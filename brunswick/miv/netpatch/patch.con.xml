@@ -467,6 +467,7 @@
     <connection from="56816450#0" fromLane="0" to="7823657#0" toLane="0"/>
     <connection from="56816450#0" fromLane="1" to="7823657#0" toLane="1"/>
     <connection from="56816450#0" fromLane="2" to="37975912#4" toLane="1"/>
+    <connection from="317673535#3" fromLane="0" to="301916360#0" toLane="0"/>
     
     <!-- Alte Waage  -->
     <connection from="191875413#1" fromLane="0" to="32269752#1" toLane="0"/>
