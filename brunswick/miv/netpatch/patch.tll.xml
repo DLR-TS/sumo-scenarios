@@ -176,7 +176,7 @@
         <phase duration="15" state="rrrrrrrrrrrgGrrrrrrGrgrgrrrrGrrrrrGrrrrrrGGrrrrG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrrrrrrrrryyrrrrrryryryrrrryrrrrryrrrrrryyrrrry"/>
     </tlLogic>
-    
+
     <tlLogic id="KennedyPlatz_S" type="actuated" programID="0" offset="0">
         <phase duration="15" state="GrrGGGGGrrrrrrrrrGG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yrryyyyyrrrrrrrrryy"/>
@@ -185,7 +185,7 @@
         <phase duration="15" state="rGGrrrrrrrrrrrrGGrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="ryyrrrrrrrrrrrryyrr"/>
     </tlLogic>
-    
+
     <!-- A392 & Hamburger -->
     <tlLogic id="A392_AS_Hamburger" type="actuated" programID="0" offset="0">
         <phase duration="10" state="rrGGGGggGGrGGGrrrGrrr" minDur="5" maxDur="50"/>
@@ -195,7 +195,7 @@
         <phase duration="10" state="GGrrrrGGrrrrrrrrrrGGG" minDur="5" maxDur="50"/>
         <phase duration="5"  state="yyrrrrggrrrrrrrrrryyy"/>
     </tlLogic>
-    
+
     <tlLogic id="Wenden" type="actuated" programID="0" offset="0">
         <phase duration="29" state="rrGGggrrrGGgggrr" minDur="5" maxDur="50"/>
         <phase duration="5"  state="rryygyrrryyygyrr"/>
@@ -205,14 +205,5 @@
         <phase duration="5"  state="yyrrrrygyrrrrryg"/>
         <phase duration="6"  state="rrrrrrrGrrrrrrrG"/>
         <phase duration="5"  state="rrrrrrryrrrrrrry"/>
-    </tlLogic>
-    
-    <tlLogic id="A391_AS_Lehndorf_tl" type="actuated" programID="0" offset="0">
-        <phase duration="20" state="rrrrrrGGGrrrrGGr" minDur="5" maxDur="50"/>
-        <phase duration="4"  state="rrrrrryyyrrrryyr"/>
-        <phase duration="20" state="GGGGrrrrrGrrrrrG" minDur="5" maxDur="50"/>
-        <phase duration="4"  state="yyyyrrrrryrrrrry"/>
-        <phase duration="20" state="rrrrGGrrGrGGGrrr" minDur="7" maxDur="50"/>
-        <phase duration="4"  state="rrrryyrryryyyrrr"/>
     </tlLogic>
 </tll>

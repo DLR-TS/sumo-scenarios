@@ -35,4 +35,12 @@
     <connection from="30424059#1" fromLane="1" to="30424059#2" toLane="0" keepClear="0"/>
     <connection from="30424059#1" fromLane="2" to="30424059#2" toLane="1" keepClear="0"/>
     <connection from="30424059#1" fromLane="3" to="30424059#2" toLane="2" keepClear="0"/>
+
+    <connection from="122164823#0" fromLane="0" to="296271622#1" toLane="0"/>
+    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="1"/>
+    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="2"/>
+    <connection from="122164787#1" fromLane="0" to="296271622#1" toLane="0"/>
+    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="1"/>
+    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="2"/>
+    <connection from="122164787#1" fromLane="2" to="83094952#0" toLane="0"/>
 </connections>

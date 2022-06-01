@@ -22,29 +22,6 @@
     <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="0"/>
     <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="1"/>
 
-    <!-- A391_AS_Lehndorf -->
-    <connection from="122164823#0" fromLane="0" to="296271622#1" toLane="0"/>
-    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="1"/>
-    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="2"/>
-    <connection from="122164787#1" fromLane="0" to="296271622#1" toLane="0"/>
-    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="1"/>
-    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="2"/>
-    <connection from="122164787#1" fromLane="2" to="83094952#0" toLane="0"/>    
-    <connection from="30424059#0" fromLane="0" to="30424059#1" toLane="0"/>
-    <connection from="30424059#0" fromLane="1" to="30424059#1" toLane="1"/>
-    <connection from="30424059#0" fromLane="2" to="30424059#1" toLane="2"/>
-    <connection from="30424059#0" fromLane="2" to="122164769#0" toLane="1"/>
-    <connection from="30424059#0" fromLane="2" to="122164769#0" toLane="0"/>
-    <connection from="320858419" fromLane="0" to="30424059#0" toLane="0"/>
-    <connection from="320858419" fromLane="0" to="30424059#0" toLane="1"/>
-    <connection from="320858419" fromLane="1" to="30424059#0" toLane="2"/>
-    <connection from="320858407" fromLane="0" to="30424059#0" toLane="0"/>
-    <connection from="320858407" fromLane="1" to="30424059#0" toLane="1"/>
-    <connection from="320858407" fromLane="1" to="30424059#0" toLane="2"/>
-    
-    <connection from="8074184#0" fromLane="0" to="23048926#0" toLane="0"/>
-    <connection from="8074184#0" fromLane="0" to="320858416" toLane="0"/>
-    
     <!-- A391_AS_Weststadt -->
     <delete from="24271242#0" to="32755914"/>
     <delete from="24271242#0" to="24271247#0"/>
