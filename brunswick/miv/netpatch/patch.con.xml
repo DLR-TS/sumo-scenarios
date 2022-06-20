@@ -785,6 +785,9 @@
     <connection from="25258740#2" fromLane="2" to="-599936773" toLane="0"/>
     <connection from="25258740#2" fromLane="2" to="382044611#0" toLane="1"/>
 
-
+    <!-- Tram Siegfriedstraße -->
+    <connection from="511268012#0" fromLane="0" to="35919683#0" toLane="0"/>
+    <connection from="511268012#0" fromLane="1" to="511268013#0" toLane="0"/>
+    <connection from="511268012#0" fromLane="1" to="-511268009#3" toLane="0"/>
 
 </connections>
