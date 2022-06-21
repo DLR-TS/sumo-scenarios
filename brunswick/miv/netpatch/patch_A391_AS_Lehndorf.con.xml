@@ -43,4 +43,8 @@
     <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="1"/>
     <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="2"/>
     <connection from="122164787#1" fromLane="2" to="83094952#0" toLane="0"/>
+
+    <connection from="8074184#0" fromLane="0" to="23048926#0" toLane="0"/>
+    <connection from="8074184#0" fromLane="0" to="320858416" toLane="0"/>
+    <connection from="8074184#0" fromLane="1" to="320858416" toLane="0"/>
 </connections>
