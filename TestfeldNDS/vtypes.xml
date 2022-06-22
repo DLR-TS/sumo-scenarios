@@ -1,70 +1,101 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vType id="passenger" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="passenger" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" emissionClass="HBEFA3/PC_G_EU4"/>
     
-    <vType id="small_passenger_gasoline" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
-    <vType id="small_passenger_diesel" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
-    <vType id="small_passenger_gas" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="small_passenger_evehicle" vClass="evehicle" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="small_passenger_plugin_hybrid" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="small_passenger_fuel_cell" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="medium_passenger_gasoline" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
-    <vType id="medium_passenger_diesel" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
-    <vType id="medium_passenger_gas" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="medium_passenger_evehicle" vClass="evehicle" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="medium_passenger_plugin_hybrid" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="medium_passenger_fuel_cell" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="large_passenger_gasoline" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
-    <vType id="large_passenger_diesel" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
-    <vType id="large_passenger_gas" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="large_passenger_evehicle" vClass="evehicle" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="large_passenger_plugin_hybrid" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="large_passenger_fuel_cell" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_gasoline" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="small_passenger_diesel" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="small_passenger_gas" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_evehicle" vClass="evehicle" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_plugin_hybrid" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_fuel_cell" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_gasoline" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="medium_passenger_diesel" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="medium_passenger_gas" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_evehicle" vClass="evehicle" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_plugin_hybrid" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_fuel_cell" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_gasoline" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="large_passenger_diesel" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="large_passenger_gas" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_evehicle" vClass="evehicle" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_plugin_hybrid" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_fuel_cell" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    
+    <vType id="small_passenger_gasoline_automated" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="small_passenger_diesel_automated" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="small_passenger_gas_automated" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_evehicle_automated" vClass="evehicle" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_plugin_hybrid_automated" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="small_passenger_fuel_cell_automated" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_gasoline_automated" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="medium_passenger_diesel_automated" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="medium_passenger_gas_automated" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_evehicle_automated" vClass="evehicle" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_plugin_hybrid_automated" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="medium_passenger_fuel_cell_automated" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_gasoline_automated" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="large_passenger_diesel_automated" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="large_passenger_gas_automated" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_evehicle_automated" vClass="evehicle" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_plugin_hybrid_automated" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="large_passenger_fuel_cell_automated" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="0.5" emissionClass="Energy/unknown"/>
 
-    <vType id="delivery_3.5t_gasoline" vClass="delivery" emissionClass="HBEFA3/LDV_G_EU4"/>
-    <vType id="delivery_3.5t_diesel" vClass="delivery" emissionClass="HBEFA3/LDV_D_EU4"/>
-    <vType id="delivery_3.5t_gas" vClass="delivery" emissionClass="Energy/unknown"/>
-    <vType id="delivery_3.5t_evehicle" vClass="delivery" emissionClass="Energy/unknown"/>
-    <vType id="delivery_3.5t_plugin_hybrid" vClass="delivery" emissionClass="Energy/unknown"/>
-    <vType id="delivery_3.5t_fuel_cell" vClass="delivery" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_gasoline" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="1.15" emissionClass="HBEFA3/LDV_G_EU4"/>
+    <vType id="delivery_3.5t_diesel" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="1.15" emissionClass="HBEFA3/LDV_D_EU4"/>
+    <vType id="delivery_3.5t_gas" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_evehicle" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_plugin_hybrid" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_fuel_cell" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="1.15" emissionClass="Energy/unknown"/>
+       
+    <vType id="delivery_3.5t_gasoline_automated" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="0.5" emissionClass="HBEFA3/LDV_G_EU4"/>
+    <vType id="delivery_3.5t_diesel_automated" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="0.5" emissionClass="HBEFA3/LDV_D_EU4"/>
+    <vType id="delivery_3.5t_gas_automated" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_evehicle_automated" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_plugin_hybrid_automated" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="0.5" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_fuel_cell_automated" vClass="delivery" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length = "6.5" tau="0.5" emissionClass="Energy/unknown"/>
+    
+    <vType id="truck_7.5t" vClass="truck" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="8.0" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="truck_12t" vClass="truck" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="11.0" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="truck_heavy_duty" vClass="truck" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="17.8" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="trailer" vClass="trailer" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="17.8" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+        
+    <vType id="truck_7.5t_automated" vClass="truck" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="8.0" tau="0.5" emissionClass="HBEFA3/HDV_D_EU4"/> 
+    <vType id="truck_12t_automated" vClass="truck" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="11.0" tau="0.5" emissionClass="HBEFA3/HDV_D_EU4"/> 
+    <vType id="truck_heavy_duty_automated" vClass="truck" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="17.8" tau="0.5" emissionClass="HBEFA3/HDV_D_EU4"/> 
+    <vType id="trailer_automated" vClass="trailer" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="17.8" tau="0.5" emissionClass="HBEFA3/HDV_D_EU4"/>    
 
-    <vType id="truck_7.5t" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="truck_12t" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="truck_heavy_duty" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="trailer" vClass="trailer" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_small_passenger_gasoline" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="restricted_small_passenger_diesel" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="restricted_small_passenger_gas" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_small_passenger_evehicle" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_small_passenger_plugin_hybrid" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_small_passenger_fuel_cell" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_medium_passenger_gasoline" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="restricted_medium_passenger_diesel" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="restricted_medium_passenger_gas" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_medium_passenger_evehicle" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_medium_passenger_plugin_hybrid" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_medium_passenger_fuel_cell" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_large_passenger_gasoline" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="restricted_large_passenger_diesel" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="restricted_large_passenger_gas" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_large_passenger_evehicle" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_large_passenger_plugin_hybrid" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_large_passenger_fuel_cell" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" maxSpeed = "38.9" minGap="3.0" tau="1.15" emissionClass="Energy/unknown"/>
 
-    <vType id="restricted_small_passenger_gasoline" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
-    <vType id="restricted_small_passenger_diesel" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
-    <vType id="restricted_small_passenger_gas" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_small_passenger_evehicle" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_small_passenger_plugin_hybrid" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_small_passenger_fuel_cell" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_medium_passenger_gasoline" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
-    <vType id="restricted_medium_passenger_diesel" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
-    <vType id="restricted_medium_passenger_gas" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_medium_passenger_evehicle" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_medium_passenger_plugin_hybrid" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_medium_passenger_fuel_cell" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_large_passenger_gasoline" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
-    <vType id="restricted_large_passenger_diesel" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
-    <vType id="restricted_large_passenger_gas" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_large_passenger_evehicle" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_large_passenger_plugin_hybrid" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
-    <vType id="restricted_large_passenger_fuel_cell" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="Energy/unknown"/>
+    <vType id="restricted_delivery_3.5t_gasoline" vClass="custom1" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/LDV_G_EU4"/>
+    <vType id="restricted_delivery_3.5t_diesel" vClass="custom1" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/LDV_D_EU4"/>
+    <vType id="restricted_delivery_3.5t_gas" vClass="custom1" maxSpeed = "38.9" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_delivery_3.5t_evehicle" vClass="custom1" maxSpeed = "38.9" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_delivery_3.5t_plugin_hybrid" vClass="custom1" maxSpeed = "38.9" tau="1.15" emissionClass="Energy/unknown"/>
+    <vType id="restricted_delivery_3.5t_fuel_cell" vClass="custom1" maxSpeed = "38.9" tau="1.15" emissionClass="Energy/unknown"/>
 
-    <vType id="restricted_delivery_3.5t_gasoline" vClass="custom1" emissionClass="HBEFA3/LDV_G_EU4"/>
-    <vType id="restricted_delivery_3.5t_diesel" vClass="custom1" emissionClass="HBEFA3/LDV_D_EU4"/>
-    <vType id="restricted_delivery_3.5t_gas" vClass="custom1" emissionClass="Energy/unknown"/>
-    <vType id="restricted_delivery_3.5t_evehicle" vClass="custom1" emissionClass="Energy/unknown"/>
-    <vType id="restricted_delivery_3.5t_plugin_hybrid" vClass="custom1" emissionClass="Energy/unknown"/>
-    <vType id="restricted_delivery_3.5t_fuel_cell" vClass="custom1" emissionClass="Energy/unknown"/>
+    <vType id="restricted_truck_7.5t" vClass="custom2" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_truck_12t" vClass="custom2" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_truck_heavy_duty" vClass="custom2" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_trailer" vClass="custom2" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
 
-    <vType id="restricted_truck_7.5t" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="restricted_truck_12t" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="restricted_truck_heavy_duty" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="restricted_trailer" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="coach" vClass="bus" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="15.0" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>    
+    <vType id="coach_automated" vClass="bus" speedDev="0.2" maxSpeed = "38.9" minGap="3.0" length="15.0" tau="0.5" emissionClass="HBEFA3/HDV_D_EU4"/>     
+    <vType id="restricted_coach" vClass="bus" maxSpeed = "38.9" tau="1.15" emissionClass="HBEFA3/HDV_D_EU4"/>
 
-    <vType id="coach" vClass="bus" emissionClass="HBEFA3/HDV_D_EU4"/>
-    <vType id="restricted_coach" vClass="bus" emissionClass="HBEFA3/HDV_D_EU4"/>
-
-    <vType id="ped_bike" vClass="pedestrian" maxSpeed="5.56"/>
 </routes>
