@@ -41,11 +41,12 @@
         <tls.join value="true"/>
         <tls.guess-signals value="true"/>
         <tls.default-type value="actuated"/>
-        <tls.unset value="2586328932, 262797998, 35513392, 28115611, 26153502"/>
+        <tls.unset value="2586328932, 262797998, 35513392, 28115611, 26153502, 26154204"/>
     </tls_building>
 
     <ramp_guessing>
         <ramps.guess value="true"/>
+        <ramps.unset value="26229175"/>
     </ramp_guessing>
 
     <junctions>

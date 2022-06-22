@@ -28,7 +28,6 @@
     <join nodes="26154203 268401511 287216369 3160041276 3160041277 3160041278 324329718 324329720 324329721 324329723 566713884 59904253 6137452232 6137452256 6137452257 807266986"
         id="A392_AS_Hamburger" type="traffic_light" tl="A392_AS_Hamburger"/>
     <node id="21559570" tl="A392_AS_Hamburger"/>
-    <node id="26154204" tl="A392_AS_Hamburger" type="traffic_light"/>
     <joinExclude nodes="1169223673 26154204 5671614371"/>
     <node id="268401509" type="priority"/>
     

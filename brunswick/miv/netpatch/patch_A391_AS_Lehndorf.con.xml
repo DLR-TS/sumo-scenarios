@@ -14,6 +14,8 @@
     <delete from="320858419" fromLane="0" to="30424059#0" toLane="0"/>
     <delete from="320858419" fromLane="0" to="30424059#0" toLane="1"/>
     <delete from="320858419" fromLane="1" to="30424059#0" toLane="2"/>
+    <delete from="122164823#0" fromLane="0" to="296271622#1" toLane="1"/>
+    <delete from="122164787#1" fromLane="2" to="296271622#1" toLane="2"/>
     <delete from="8074181#0" fromLane="0" to="320858407" toLane="0"/>
     <delete from="8074181#0" fromLane="1" to="320858407" toLane="1"/>
     <!-- Created Elements -->

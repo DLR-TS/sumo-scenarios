@@ -1346,4 +1346,9 @@
     <edge id="85272783#1" speed="13.89"/>
     <edge id="85272783#2" speed="13.89"/>
 
+    <!-- A392_AS_Hamburger -->
+    <edge id="26691822#0" priority="10"/>
+    <edge id="26691822#1" priority="10"/>
+    <edge id="26691822#2" priority="10"/>
+
 </edges>

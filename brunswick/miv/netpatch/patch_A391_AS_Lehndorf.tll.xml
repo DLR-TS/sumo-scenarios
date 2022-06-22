@@ -12,14 +12,14 @@
     <!-- Changed Elements -->
     <tlLogic id="A391_AS_Lehndorf_tl" programID="0" >
         <param key="jam-threshold" value="5"/>
-        <phase duration="10" maxDur="50" minDur="5" state="rrrrGGrrrrGGGrrrrGGrrrrGGG"/>
-        <phase duration="4" state="rrrryyrrrryyyrrrrGGrrrryyy"/>
-        <phase duration="10" maxDur="50" minDur="5" state="rrGGrrrrrrrrrrrrrGGGGGGrrr"/>
-        <phase duration="4" state="rrGGrrrrrrrrrrrrryyGGGGrrr"/>
-        <phase duration="20" maxDur="50" minDur="10" state="GGGGrrGGrrrrrGrrrrrGGGGrrr"/>
-        <phase duration="4" state="yyyyrryyrrrrryrrrrryGGGrrr"/>
-        <phase duration="20" maxDur="50" minDur="10" state="rrrrGGrrGGrrrrGGGrrrGGGrrr"/>
-        <phase duration="4" state="rrrryyrryyrrrryyyrrryyyrrr"/>
+        <phase duration="10" state="rrrrGGrrrrGGGrrrrGGrrrrGGG" maxDur="50" minDur="5"/>
+        <phase duration="4"  state="rrrryyrrrryyyrrrrGGrrrryyy"/>
+        <phase duration="10" state="rrGGrrGGrrrrrrrrrGGGGGGrrr" maxDur="50" minDur="5"/>
+        <phase duration="4"  state="rrGGrrGGrrrrrrrrryyGGGGrrr"/>
+        <phase duration="20" state="GGGGrrGGrrrrrGrrrrrGGGGrrr" maxDur="50" minDur="10"/>
+        <phase duration="4"  state="yyyyrryyrrrrryrrrrryGGGrrr"/>
+        <phase duration="20" state="rrrrGGrrGGrrrrGGGrrrGGGrrr" maxDur="50" minDur="10"/>
+        <phase duration="4"  state="rrrryyrryyrrrryyyrrryyyrrr"/>
     </tlLogic>
     <!-- Created Elements -->
     <connection from="122164799#0" fromLane="0" to="30424059#0" toLane="1" linkIndex="4" tl="A391_AS_Lehndorf_tl"/>
@@ -31,20 +31,20 @@
     <connection from="10522180#0" fromLane="0" to="122164789#0" toLane="0" linkIndex="23" tl="A391_AS_Lehndorf_tl"/>
     <connection from="10522180#0" fromLane="0" to="122164799#0" toLane="0" linkIndex="24" tl="A391_AS_Lehndorf_tl"/>
     <connection from="10522180#0" fromLane="1" to="122164799#0" toLane="1" linkIndex="25" tl="A391_AS_Lehndorf_tl"/>
-    <connection from="122164787#1" fromLane="0" to="296271622#1" toLane="0" linkIndex="10"/>
-    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="1" linkIndex="11"/>
-    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="2" linkIndex="12"/>
-    <connection from="122164787#1" fromLane="2" to="83094952#0" toLane="0" linkIndex="13"/>
-    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="0" linkIndex="6"/>
-    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="1" linkIndex="7"/>
-    <connection from="122164823#0" fromLane="0" to="296271622#1" toLane="0" linkIndex="14"/>
-    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="1" linkIndex="15"/>
-    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="2" linkIndex="16"/>
-    <connection from="122164828#0" fromLane="0" to="122164820" toLane="0" linkIndex="8"/>
-    <connection from="122164828#0" fromLane="1" to="122164820" toLane="1" linkIndex="9"/>
-    <connection from="30424059#2" fromLane="0" to="30998233" toLane="0" linkIndex="17"/>
-    <connection from="30424059#2" fromLane="1" to="30998233" toLane="1" linkIndex="18"/>
-    <connection from="30424059#2" fromLane="2" to="104365620#1" toLane="0" linkIndex="19"/>
+    <connection from="122164787#1" fromLane="0" to="296271622#1" toLane="0" linkIndex="10" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="1" linkIndex="11" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164787#1" fromLane="1" to="296271622#1" toLane="2" linkIndex="12" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164787#1" fromLane="2" to="83094952#0" toLane="0" linkIndex="13" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="0" linkIndex="6" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="1" linkIndex="7" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164823#0" fromLane="0" to="296271622#1" toLane="0" linkIndex="14" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="1" linkIndex="15" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164823#0" fromLane="1" to="296271622#1" toLane="2" linkIndex="16" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164828#0" fromLane="0" to="122164820" toLane="0" linkIndex="8" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="122164828#0" fromLane="1" to="122164820" toLane="1" linkIndex="9" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="30424059#2" fromLane="0" to="30998233" toLane="0" linkIndex="17" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="30424059#2" fromLane="1" to="30998233" toLane="1" linkIndex="18" tl="A391_AS_Lehndorf_tl"/>
+    <connection from="30424059#2" fromLane="2" to="104365620#1" toLane="0" linkIndex="19" tl="A391_AS_Lehndorf_tl"/>
     <connection from="30424216#0" fromLane="0" to="122164789#0" toLane="0" linkIndex="20" tl="A391_AS_Lehndorf_tl"/>
     <connection from="30424216#0" fromLane="1" to="122164789#0" toLane="1" linkIndex="21" tl="A391_AS_Lehndorf_tl"/>
     <connection from="30424216#0" fromLane="1" to="122164799#0" toLane="1" linkIndex="22" tl="A391_AS_Lehndorf_tl"/>

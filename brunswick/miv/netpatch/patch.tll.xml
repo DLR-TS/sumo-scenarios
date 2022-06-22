@@ -188,12 +188,12 @@
 
     <!-- A392 & Hamburger -->
     <tlLogic id="A392_AS_Hamburger" type="actuated" programID="0" offset="0">
-        <phase duration="10" state="rrGGGGggGGrGGGrrrGrrr" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="rrGGyyggyyryyyrrryrrr"/>
-        <phase duration="10" state="rrGGrrGGrrGrrrGGGrrrr" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="rryyrrGGrryrrryyyrrrr"/>
-        <phase duration="10" state="GGrrrrGGrrrrrrrrrrGGG" minDur="5" maxDur="50"/>
-        <phase duration="5"  state="yyrrrrggrrrrrrrrrryyy"/>
+        <phase duration="10" state="rrGGGGrGGGrrrGrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rrGGyyryyyrrryrrr"/>
+        <phase duration="10" state="rrGGrrGrrrGGGrrrr" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="rryyrryrrryyyrrrr"/>
+        <phase duration="10" state="GGrrrrrrrrrrrrGGG" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="yyrrrrrrrrrrrryyy"/>
     </tlLogic>
 
     <tlLogic id="Wenden" type="actuated" programID="0" offset="0">

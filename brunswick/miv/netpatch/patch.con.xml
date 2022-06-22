@@ -92,6 +92,8 @@
     <connection from="431412124" fromLane="3" to="26691822#0" toLane="1"/>
     <connection from="431412124" fromLane="3" to="125068044#1" toLane="1"/>
     <delete from="299911661" to="26691822#0"/>
+    <connection from="26229178#0" fromLane="0" to="26229175" toLane="0" visibility="20"/>
+    <connection from="26229178#0" fromLane="1" to="26229175" toLane="1" visibility="20"/>
 
 
     <!-- KennedyPlatz -->    
