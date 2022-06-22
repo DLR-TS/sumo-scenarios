@@ -1,6 +1,8 @@
 *log
 brunswick/miv/*.net.xml.gz
 brunswick/miv/*.rou.xml.gz
+brunswick/miv/netpatch/Rudolfplatz.tll.xml
+brunswick/miv/netpatch/miv.net.xml
 miv.trips.xml
 summary.xml
 tripinfos.xml
