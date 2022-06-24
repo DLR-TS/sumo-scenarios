@@ -181,7 +181,7 @@
     <connection from="292081334" fromLane="1" to="624411668#0" toLane="0" />
     <connection from="292081334" fromLane="2" to="624411668#0" toLane="1" />
     <connection from="292081334" fromLane="3" to="7975436#0" toLane="0" />
-    <connection from="292081334" fromLane="4" to="7975436#0" toLane="1" />   
+    <connection from="292081334" fromLane="4" to="7975436#0" toLane="1" />
     <connection from="31722493#0" fromLane="0" to="25624802#0" toLane="0"/>
     <connection from="31722493#0" fromLane="1" to="25624802#0" toLane="1"/>
     <connection from="31722493#0" fromLane="2" to="25624801" toLane="0"/>
@@ -207,16 +207,13 @@
     <connection from="7975431#0" fromLane="0" to="31722494#0" toLane="1"/>
     <connection from="7975431#0" fromLane="0" to="31722494#0" toLane="2"/>
     <connection from="7975431#0" fromLane="0" to="-292080506#2" toLane="0"/>
-    
-    <!--
-    -->
-    
+
     <!-- BS-Süd Clover Intersection Off-Ramp(NW) -->
     <connection from="4743824" fromLane="0" to="4727541" toLane="0"/>
     <connection from="4743824" fromLane="1" to="4727541" toLane="0"/>
     <connection from="4743824" fromLane="1" to="23919226" toLane="0"/>
     <connection from="4743824" fromLane="2" to="23919226" toLane="1"/>
-    
+
     <!-- Richmondweg -->
     <connection from="320709895" fromLane="0" to="5196537#0" toLane="0"/>
     <connection from="320709895" fromLane="1" to="591178581" toLane="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-04-28 14:38:18 by Eclipse SUMO netconvert Version v1_12_0+2361-fcdcfe2981f
+<!-- generated on 2022-06-24 14:49:50 by Eclipse SUMO netconvert Version v1_13_0+1120-413ff0db2d7
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
@@ -20,6 +20,10 @@
     <projection>
         <proj.utm value="true"/>
     </projection>
+
+    <processing>
+        <roundabouts.guess value="false"/>
+    </processing>
 
     <report>
         <verbose value="true"/>
