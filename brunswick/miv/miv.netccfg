@@ -26,7 +26,9 @@
 
     <processing>
         <geometry.remove value="true"/>
+<!-- disable until we can unset roundabouts manually
         <roundabouts.guess value="true"/>
+-->
         <keep-edges.by-vclass value="passenger,bus,tram"/>
         <remove-edges.by-type value="highway.track,highway.unsurfaced,highway.service"/>
         <keep-edges.input-file value="netpatch/extra_edges.txt"/>
