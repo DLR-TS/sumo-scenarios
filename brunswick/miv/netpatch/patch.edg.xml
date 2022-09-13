@@ -1,10 +1,8 @@
 <edges version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgediff_file.xsd">
-    <edge id="296271622#1" numLanes="3"/>
 
     <edge id="47007890" numLanes="2"/>
 
     <edge id="23209055#0" numLanes="1"/>
-    <edge id="23209055#1" numLanes="1"/>
     <edge id="23209055#2" numLanes="1"/>
 
     <edge id="316682910#0" numLanes="1" allow="tram"/>
@@ -68,11 +66,7 @@
     <edge id="35577458#2" numLanes="2"/>
     <edge id="35577458#1" numLanes="2"/>
     <edge id="23576763#2" numLanes="1"/>
-    <edge id="23576763#1" numLanes="1"/>
-    <edge id="23576763#0" numLanes="1"/>
     <edge id="325528572#0" numLanes="1"/>
-    <edge id="325528572#1" numLanes="1"/>
-    <edge id="325528572#2" numLanes="1"/>
     <edge id="325528566#0" numLanes="3"/>
     <edge id="35577460#1" numLanes="2"/>
     <edge id="35577460#0" numLanes="2"/>
@@ -82,8 +76,6 @@
     <edge id="-9723607#4" numLanes="2"/>    
     
     <!-- A391_AS_Lehndorf -->
-    <edge id="30424059#0" numLanes="3"/>
-    <edge id="30424059#1" numLanes="3"/>
     <edge id="10522191#0" shape=""/>
     <edge id="122164787#1" numLanes="3"/>
     <edge id="122164787#0" numLanes="4"/>
@@ -101,7 +93,6 @@
     <edge id="-315171893#1" numLanes="2"/>
     
     <!-- Marienstift -->
-    <edge id="428966186#0" numLanes="1"/>
     <edge id="428966186#1" numLanes="1"/>
     <edge id="428966186#2" numLanes="1"/>
     <edge id="428966186#3" numLanes="1"/>
@@ -150,7 +141,6 @@
     <!-- A391 & Hansestraße  -->
     <edge id="26563899" numLanes="3"/>
     <edge id="-26563899" numLanes="1"/>
-    <edge id="134637609" numLanes="1"/>
     
     <!-- Donausrt. Isarstr.  -->
     <edge id="24241785" numLanes="2"/>
@@ -159,47 +149,28 @@
     <edge id="-509331935" numLanes="2"/>
     
     <!-- A39 & Salzdaluhmer  -->
-    <edge id="323957163" numLanes="4"/>
-    <edge id="5059192" numLanes="3"/>
-    <edge id="-5059192" numLanes="3"/>
-    <edge id="-323957163" numLanes="2"/>
     
     <!-- Salzdaluhmer & Ackerstr. -->
-    <edge id="-323956197" numLanes="3"/>
-    <edge id="323956197" numLanes="2"/>
     <edge id="-393236410" numLanes="2"/>
-    <edge id="393236410" numLanes="2"/>
-    <edge id="393236412" numLanes="2"/>
-    <edge id="-393236412" numLanes="2"/>
-    <edge id="-393236413" numLanes="2"/>
-    <edge id="393236413" numLanes="2"/>
     
     <!-- Messeweg -->
     <edge id="325068516" numLanes="2"/>
-    <edge id="-28217897" numLanes="2"/>
-    <edge id="325068515" numLanes="2"/>
-    <edge id="4515443#0" numLanes="2"/>
-    <edge id="4515443#1" numLanes="2"/>
-    <edge id="4515443#2" numLanes="2"/>
     
     <!-- Sudetenstr. & Cellerstr. -->
     <edge id="70545096#4" numLanes="2"/>
     <edge id="70545096#5" numLanes="2"/>
     <edge id="6244362" numLanes="3"/>
-    <edge id="61890740" numLanes="3"/>
     <edge id="277665454#0" numLanes="3"/>
     <edge id="277665454#1" numLanes="3"/>
     <edge id="277665454#2" numLanes="3"/>
     <edge id="277665454#3" numLanes="3"/>
     <edge id="277665454#4" numLanes="3"/>
-    <edge id="30426842" numLanes="2"/>
     <edge id="635617943#0" numLanes="3"/>
     <edge id="635617943#1" numLanes="3"/>
     <edge id="277665457" numLanes="2"/>
     <edge id="61890329" numLanes="2"/>
     
     <!-- Am Bockelsberg & Wendebrueck -->
-    <edge id="-4789462" numLanes="2"/>
     <edge id="214776522#0" numLanes="2"/>
     <edge id="214776522#1" numLanes="2"/>
     <edge id="214776521" numLanes="3"/>
@@ -208,7 +179,6 @@
     <!-- A391 & L625 -->
     <edge id="27293667" numLanes="2"/>
     <edge id="5005721" numLanes="2" speed="13.89"/>
-    <edge id="28194117#0" speed="13.89"/>
     <edge id="28194117#1" speed="13.89"/>
     <edge id="214776523#0" speed="13.89"/>
     <edge id="-27293668#0" speed="13.89"/>
@@ -216,7 +186,6 @@
     <edge id="-214776523#1" speed="13.89"/>
     <edge id="-214776523#0" speed="13.89"/>
     <edge id="-28194117#1" speed="13.89"/>
-    <edge id="-5005721" speed="13.89"/>
     
     <!-- Schloss -->
     <edge id="27220216" numLanes="3"/>
@@ -230,7 +199,6 @@
     <edge id="25076156" allow="emergency authority bus"/>
     
     <!-- Leonhardplatz -->
-    <edge id="625058946" allow="emergency authority bus"/>
     <edge id="293576921#0" allow="emergency authority bus tram"/>
     <edge id="293576921#1" allow="emergency authority bus tram"/>
     
@@ -238,13 +206,6 @@
     <edge id="10517312#6" numLanes="2"/>
     
     <!-- Frankfurterstr & Adenauer -->
-    <edge id="122119632#0" numLanes="1"/>
-    <edge id="122119632#1" numLanes="1"/>
-    <edge id="122119632#2" numLanes="1"/>
-    <edge id="122119632#3" numLanes="1"/>
-    <edge id="122119632#4" numLanes="1"/>
-    <edge id="122119632#5" numLanes="1"/>
-    <edge id="122119632#6" numLanes="1"/>
     
     <!-- KennedyPlatz -->    
     <edge id="32352621#0" shape="10.527260,52.258042 10.527354,52.257951 10.527424,52.257899 10.527486,52.257868 10.527557,52.257847 10.527624,52.257836 10.527649,52.257834 10.527676,52.257834"/>
@@ -362,8 +323,6 @@
     <edge id="-56816465#2" speed="8.33"/>
     <edge id="-56816465#3" speed="8.33"/>
     <edge id="-59507511#0" speed="8.33"/>
-    <edge id="-59507511#1" speed="8.33"/>
-    <edge id="-59507511#2" speed="8.33"/>
     <edge id="206391414#0" speed="8.33"/>
     <edge id="206391414#1" speed="8.33"/>
     <edge id="206391414#2" speed="8.33"/>
@@ -378,8 +337,6 @@
     <edge id="56816465#0" speed="8.33"/>
     <edge id="56816465#3" speed="8.33"/>
     <edge id="59507511#0" speed="8.33"/>
-    <edge id="59507511#1" speed="8.33"/>
-    <edge id="59507511#2" speed="8.33"/>
     <edge id="-501199064#1" speed="8.33"/>
     <edge id="501199064#1" speed="8.33"/>
     <edge id="-501199064#2" speed="8.33"/>
@@ -402,11 +359,9 @@
     <edge id="133328142" speed="13.89"/>
     <edge id="133328144#0" speed="13.89"/>
     <edge id="133328144#1" speed="13.89"/>
-    <edge id="133762687" speed="13.89"/>
     <edge id="133762688#0" speed="13.89"/>
     <edge id="165991996#0" speed="13.89"/>
     <edge id="165991996#1" speed="13.89"/>
-    <edge id="24273875" speed="13.89"/>
     <edge id="294074604" speed="13.89"/>
     <edge id="31289655#0" speed="13.89"/>
     <edge id="31289655#1" speed="13.89"/>
@@ -417,13 +372,9 @@
 
     <edge id="625058945" numLanes="1" allow="emergency authority bus tram"/>
     <edge id="23295224#1" numLanes="1"/>
-    <edge id="23295226#0" numLanes="1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="23295226#1" numLanes="1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="23295226#2" numLanes="1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="23295226#3" numLanes="1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="293576921#5" numLanes="1"/>
     <edge id="332907827#0" numLanes="1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="332907827#1" numLanes="1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     
     <edge id="-108915782#0" numLanes="1"/>
     <edge id="-108915782#1" numLanes="1"/>
@@ -885,73 +836,39 @@
     <!-- Merge Tram lines 4&5 and Cars lane -->
     <edge id="563616437#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="563616437#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="291757757#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="393081313#8" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="393081313#9" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="561503393#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="561503393#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-23272948" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-23274377#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-23274377#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-23274377#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-23298006" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-23374966#7" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-23374966#8" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-27143339" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-332907826" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-332907828#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-332907828#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-332907828#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-332907828#3" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-332907828#4" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="23272948" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="23274377#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="23274377#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="23274377#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="23298006" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="27143339" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="332907826" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="332907828#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="332907828#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="332907828#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="332907828#3" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="332907828#4" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="333477152" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="36827562" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="5137919#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="5137919#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="5137919#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="5137919#3" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-375217310#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-375217310#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-375217310#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-375217310#3" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-563616438#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-563616438#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-563616438#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-622456655#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="-622456655#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="155738436#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="155738436#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="155738436#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="375217306" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="375217310#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="375217310#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="375217310#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="375217310#3" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="428966186#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="563616437#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="563616437#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="23040911#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="563616438#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="563616438#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="563616438#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="578374653#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="578374653#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="578374653#2" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="578374653#3" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="578374653#4" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
-    <edge id="622456655#0" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="622456655#1" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <edge id="625058945" disallow="pedestrian rail_urban rail rail_electric rail_fast ship"/>
     <delete id="291757758#13"/>
@@ -1119,9 +1036,7 @@
     <edge id="563320575#1" allow="emergency authority bus tram"/>
     <edge id="334152817#1" allow="emergency authority bus tram"/>
     <edge id="334152816#2" allow="emergency authority bus tram"/>
-    <edge id="334152816#3" allow="emergency authority bus tram"/>
     <edge id="334152817#1" allow="emergency authority bus tram"/>
-    <edge id="334152816#0" allow="emergency authority bus tram"/>
     
     <edge id="-624680815" numLanes="3"/>
     <edge id="-313800998" numLanes="3"/>
@@ -1232,14 +1147,8 @@
     <roundabout nodes="54173332 54173352 54173367" edges="7016640#1 7016640#2 7016640#4"/>
 
     <!-- reverting 310143561 (wrong input data) -->
-    <edge id="310143561#0" from="5426362057" shape="10.529329,52.251182 10.529323,52.251198 10.529270,52.251324" to="1582162279"/>
-    <edge id="310143561#1" from="3209822901" to="5426362057"/>
     <edge id="310143561#2" from="3155104145" to="3209822901"/>
     <edge id="310143561#3" from="51519935" to="3155104145"/>
-    <edge id="310143561#4" from="3840815123" to="51519935"/>
     <edge id="310143561#5" from="3155104124" to="3840815123"/>
     <edge id="310143561#6" from="3840808508" to="3155104124"/>
-    <edge id="310143561#7" from="5426362241" to="3840808508"/>
-    <edge id="310143561#8" from="5426362250" to="5426362241"/>
-    <edge id="310143561#9" from="51519940" to="5426362250"/>
 </edges>
