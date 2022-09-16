@@ -1,17 +1,13 @@
 <connections version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
 
     <!-- motorway extra connection (to avoid counter-lc-deadlock) -->
-    <connection from="277671149" fromLane="0" to="25036019" toLane="0"/>
     <connection from="277671149" fromLane="1" to="25036019" toLane="0"/>
-    <connection from="277671149" fromLane="1" to="26563778" toLane="0"/>
 
     <connection from="30998180" fromLane="0" to="23048938" toLane="0"/>
     <connection from="30998180" fromLane="1" to="23048938" toLane="0"/>
     <connection from="30998180" fromLane="1" to="5668902" toLane="0"/>
 
-    <connection from="24043421" fromLane="0" to="20455466" toLane="0"/>
     <connection from="24043421" fromLane="1" to="20455466" toLane="0"/>
-    <connection from="24043421" fromLane="1" to="125164486#0" toLane="0"/>
 
     <!-- bad junction (add connections to avoid counter-lc-deadlock) -->
     <connection from="296271622#1" fromLane="0" to="8074184#0" toLane="0"/>
@@ -23,10 +19,6 @@
     <connection from="122164804#0" fromLane="0" to="296271622#1" toLane="1"/>
 
     <!-- A391_AS_Weststadt -->
-    <delete from="24271242#0" to="32755914"/>
-    <delete from="24271242#0" to="24271247#0"/>
-    <delete from="24271244#0" to="325528578"/>
-    <delete from="24271244#0" to="4526773#0"/>
     <delete from="325528576" to="4526773#0"/>
     <delete from="32905536" to="24271247#0"/>
     <connection from="24271242#0" fromLane="0" to="4526773#0" toLane="0"/>
@@ -209,10 +201,7 @@
     <connection from="7975431#0" fromLane="0" to="-292080506#2" toLane="0"/>
 
     <!-- BS-Süd Clover Intersection Off-Ramp(NW) -->
-    <connection from="4743824" fromLane="0" to="4727541" toLane="0"/>
     <connection from="4743824" fromLane="1" to="4727541" toLane="0"/>
-    <connection from="4743824" fromLane="1" to="23919226" toLane="0"/>
-    <connection from="4743824" fromLane="2" to="23919226" toLane="1"/>
 
     <!-- Richmondweg -->
     <connection from="320709895" fromLane="0" to="5196537#0" toLane="0"/>
@@ -296,7 +285,6 @@
     <connection from="266106260#0" fromLane="1" to="362641686#0" toLane="0"/>
     <connection from="266106260#0" fromLane="0" to="277703980#0" toLane="0"/>    
     
-    <connection from="34126875#0" fromLane="0" to="-490103296" toLane="0"/>
     <connection from="24044421" fromLane="1" to="24044474#0" toLane="0"/>
     <connection from="24044421" fromLane="0" to="266106267#1" toLane="0"/>
     
@@ -612,23 +600,24 @@
     <connection from="577024306#0" fromLane="1" to="578374647#0" toLane="1" />
     <connection from="577024306#0" fromLane="2" to="155738436#1" toLane="0" />
     <connection from="577024306#0" fromLane="2" to="656577834" toLane="0" />
+<!--
     <connection from="226674628#0" fromLane="0" to="155738436#1" toLane="0" />
     <connection from="226674628#0" fromLane="1" to="656577834" toLane="0" />
     <connection from="226674628#0" fromLane="2" to="656577834" toLane="1" />
     <connection from="226674628#0" fromLane="2" to="578374647#0" toLane="1" />
-    
+-->
     <!-- Gesundheitsamt -->
     <connection from="499157757#0" fromLane="0" to="31451331#0" toLane="0" />
     <connection from="499157757#0" fromLane="0" to="508534063" toLane="0" />
     <connection from="499157757#0" fromLane="0" to="30913401#0" toLane="0" />
     <connection from="499157757#0" fromLane="1" to="30913401#0" toLane="1" />
-    
+
     <!-- Hangenring -->
     <connection from="147688816#1" fromLane="0" to="608604363#0" toLane="0" />
     <connection from="147688816#1" fromLane="0" to="147688814" toLane="0" />
     <connection from="147688816#1" fromLane="1" to="147688814" toLane="1" />
     <connection from="147688816#1" fromLane="1" to="147688814" toLane="2" />
-    
+
     <!-- A391 & A2 -->
     <connection from="23911029" fromLane="0" to="18361876" toLane="0"/>
     <connection from="23911029" fromLane="1" to="18361876" toLane="0"/>
@@ -727,7 +716,7 @@
     <connection from="-332907828#1" to="23272948" fromLane="0" toLane="0"/>
     -->
     
-    <!-- Hahnenkleestraße -->
+    <!-- Hahnenkleestraße
     <connection from="-624680815" fromLane="0" to="21852998#0" toLane="0"/>
     <connection from="-624680815" fromLane="1" to="-313800999" toLane="0"/>
     <connection from="-624680815" fromLane="2" to="22634112#0" toLane="0"/>
@@ -744,7 +733,7 @@
     <connection from="313800999" fromLane="1" to="-313800999" toLane="0"/>
     <connection from="313800999" fromLane="0" to="22634112#0" toLane="0"/>
     <connection from="313800999" fromLane="0" to="313800998" toLane="0"/>
-    
+     -->
     <!-- -->
     <connection from="-7866802#3" fromLane="0" to="393079302#0" toLane="0"/>
     <connection from="-7866802#3" fromLane="1" to="-323956195#2" toLane="0"/>
@@ -781,9 +770,10 @@
     <connection from="25258740#4" fromLane="1" to="61302715#0" toLane="1"/>
     <connection from="25258740#4" fromLane="1" to="563320575#0" toLane="0"/>
     <delete from="25258740#4" fromLane="2" to="563320575#0" toLane="0"/>
+<!--
     <connection from="25258740#2" fromLane="2" to="-599936773" toLane="0"/>
     <connection from="25258740#2" fromLane="2" to="382044611#0" toLane="1"/>
-
+-->
     <!-- Tram Siegfriedstraße -->
     <connection from="511268012#0" fromLane="0" to="35919683#0" toLane="0"/>
     <connection from="511268012#0" fromLane="1" to="511268013#0" toLane="0"/>
