@@ -1,0 +1,85 @@
+diff --git a/brunswick/osm/BS_detail.osm.xml b/brunswick/osm/BS_detail.osm.xml
+index 4e50fe6..4332afd 100644
+--- a/brunswick/osm/BS_detail.osm.xml
++++ b/brunswick/osm/BS_detail.osm.xml
+@@ -1847808,29 +1847808,32 @@
+     <tag k="type" v="multipolygon"/>
+   </relation>
+   <relation id="31272">
+-    <member type="node" ref="3151780943" role="stop"/>
+-    <member type="node" ref="3151780944" role="stop"/>
+-    <member type="node" ref="2190669669" role="stop"/>
+-    <member type="node" ref="89228269" role="stop"/>
+-    <member type="node" ref="3052897504" role="stop"/>
+-    <member type="node" ref="297653552" role="stop"/>
+-    <member type="node" ref="813301343" role="stop"/>
+-    <member type="node" ref="251043373" role="stop"/>
+-    <member type="node" ref="5414153120" role="stop"/>
++    <member type="node" ref="50926856" role="stop"/>
++    <member type="way" ref="61302708" role="platform"/>
++    <member type="node" ref="5708039346" role="stop"/>
++    <member type="way" ref="61302695" role="platform"/>
+     <member type="node" ref="5414156524" role="stop"/>
++    <member type="way" ref="543672526" role="platform"/>
++    <member type="node" ref="5876532242" role="stop"/>
++    <member type="way" ref="622083243" role="platform"/>
++    <member type="node" ref="5414153120" role="stop"/>
+     <member type="way" ref="61434768" role="platform"/>
++    <member type="node" ref="3151780943" role="stop"/>
+     <member type="way" ref="61567809" role="platform"/>
++    <member type="node" ref="3151780944" role="stop"/>
+     <member type="way" ref="61314636" role="platform"/>
++    <member type="node" ref="2190669669" role="stop"/>
+     <member type="way" ref="61314642" role="platform"/>
++    <member type="node" ref="89228269" role="stop"/>
+     <member type="way" ref="61312639" role="platform"/>
++    <member type="node" ref="3052897504" role="stop"/>
+     <member type="way" ref="61578884" role="platform"/>
++    <member type="node" ref="297653552" role="stop"/>
+     <member type="way" ref="61578699" role="platform"/>
++    <member type="node" ref="813301343" role="stop"/>
+     <member type="way" ref="67333642" role="platform"/>
++    <member type="node" ref="251043373" role="stop"/>
+     <member type="way" ref="39140173" role="platform"/>
+-    <member type="way" ref="61302695" role="platform"/>
+-    <member type="way" ref="543672526" role="platform"/>
+-    <member type="node" ref="5708039355" role="stop"/>
+-    <member type="node" ref="5876532242" role="stop"/>
+     <member type="way" ref="291757758" role=""/>
+     <member type="way" ref="393081303" role=""/>
+     <member type="way" ref="393081314" role=""/>
+@@ -1847850,7 +1847853,6 @@
+     <member type="way" ref="244302834" role=""/>
+     <member type="way" ref="308942395" role=""/>
+     <member type="way" ref="292614141" role=""/>
+-    <member type="way" ref="622083243" role="platform"/>
+     <tag k="colour" v="#009ee3"/>
+     <tag k="from" v="Helmstedter Straße"/>
+     <tag k="interval" v="15"/>
+@@ -1906995,12 +1906997,13 @@
+     <member type="way" ref="61314640" role="platform"/>
+     <member type="node" ref="34672434" role="stop"/>
+     <member type="way" ref="61567810" role="platform"/>
+-    <member type="node" ref="5414156523" role="stop"/>
+-    <member type="way" ref="61434763" role="platform"/>
+     <member type="node" ref="5414156521" role="stop"/>
+-    <member type="way" ref="166390159" role="platform"/>
++    <member type="way" ref="61434763" role="platform"/>
++    <member type="node" ref="6071616361" role="stop"/>
++    <member type="way" ref="646087105" role="platform"/>
++    <member type="node" ref="5414156523" role="stop"/>
+     <member type="way" ref="560978321" role="platform"/>
+-    <member type="node" ref="5708111211" role="stop"/>
++    <member type="node" ref="765824928" role="stop"/>
+     <member type="way" ref="61302698" role="platform"/>
+     <member type="node" ref="50926835" role="stop"/>
+     <member type="way" ref="61302705" role="platform"/>
+@@ -1907028,8 +1907031,6 @@
+     <member type="way" ref="393081301" role=""/>
+     <member type="way" ref="310569080" role=""/>
+     <member type="way" ref="600220249" role=""/>
+-    <member type="way" ref="646087105" role="platform"/>
+-    <member type="node" ref="6071616361" role="stop"/>
+     <tag k="colour" v="#009ee3"/>
+     <tag k="from" v="Inselwall"/>
+     <tag k="interval" v="15"/>
