@@ -4,6 +4,7 @@ if which python3 &> /dev/null; then
 else
     PYTHON=python
 fi
+patch -N ../osm/BS_detail.osm.xml ../osm/tram4.diff
 netconvert -c miv.netccfg
 netconvert -c pt.netccfg -o pt.net.xml.gz
 #$PYTHON $SUMO_HOME/tools/tls/tls_csvSignalGroups.py -n netpatch/miv.net.xml -i netpatch/Rudolfplatz.csv -o netpatch/Rudolfplatz.tll.xml
