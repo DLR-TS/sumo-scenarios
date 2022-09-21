@@ -29,7 +29,7 @@
 <!-- disable until we can unset roundabouts manually -->
         <roundabouts.guess value="false"/>
         <keep-edges.by-vclass value="passenger,bus,tram"/>
-        <remove-edges.by-type value="highway.track,highway.unsurfaced,highway.service"/>
+        <remove-edges.by-type value="highway.track,highway.unsurfaced"/>
         <keep-edges.input-file value="netpatch/extra_edges.txt"/>
         <geometry.remove.keep-edges.input-file value="netpatch/keep_induction_loops.txt"/>
         <keep-edges.components value="1"/>
@@ -52,7 +52,7 @@
 
     <junctions>
         <junctions.join value="true"/>
-        <junctions.join-exclude value="35651826"/> <!-- to work around #10589 -->
+        <junctions.join-exclude value="35651826, 27376092"/> <!-- to work around #10589 -->
         <junctions.corner-detail value="5"/>
     </junctions>
 

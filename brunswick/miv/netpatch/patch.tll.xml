@@ -79,12 +79,12 @@
 
     <!-- Güldenstraße & Celler Str. -->
     <tlLogic id="Gueldenstr" type="actuated" programID="0" offset="0">
-        <phase duration="30" state="rrGGGGrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rryyyyrrrrrrrryyyyy"/>
-        <phase duration="21" state="GGrrrrGGrrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyrrrryyrrrrrrrrrrr"/>
-        <phase duration="30" state="rrrrrrrrGGGGGGrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrryyyyyyrrrrr"/>
+        <phase duration="30" state="rrGGGGrrrrrrrrrgGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rryyyyrrrrrrrrryyyyyy"/>
+        <phase duration="21" state="GGrrrrGGrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyrrrryyrrrrrrrrrrrrr"/>
+        <phase duration="30" state="rrrrrrrrGGGGGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyyyyyyrrrrrr"/>
     </tlLogic>
 
     <!-- Hagenmarkt & Bohlweg -->
