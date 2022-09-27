@@ -4,3 +4,6 @@
 [submodule "BadHersfeld/prt"]
 	path = BadHersfeld/prt
 	url = https://github.com/TUMFTM/sumo-prt
+[submodule "sumo-berlin"]
+	path = sumo-berlin
+	url = https://github.com/DLR-TS/sumo-berlin
