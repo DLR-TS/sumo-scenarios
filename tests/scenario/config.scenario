@@ -1,0 +1,24 @@
+home_operating_system:posix
+batch_result_repository:$SCENARIO_BATCH_RESULT
+historical_report_location:$SCENARIO_REPORT
+kill_timeout:3600
+binary:$TEXTTEST_HOME/scenariorunner.py
+create_catalogues:true
+
+copy_test_path_merge:data
+
+[collate_file]
+log:log.txt
+
+[run_dependent_text]
+output:\r{REPLACE \n}
+output:(\\)+{REPLACE /}
+output:[0-9\.]+ms{REPLACE (TIME)}
+output:^Performance:{->}^Vehicles:
+output:AStarRouter spent .*
+errors:Network contains internal links which are ignored.
+catalogue:.pyc
+catalogue:__pycache__
+
+[floating_point_tolerance]
+output:0.0101
