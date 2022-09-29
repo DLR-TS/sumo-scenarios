@@ -1,0 +1,45 @@
+Loading net-file from 'osm.net.xml' ... done (1238ms).
+Loading additional-files from 'osm.poly.xml' ... done (148ms).
+Loading additional-files from 'osm_stops.add.xml' ... done (12ms).
+Loading done.
+Simulation version v1_14_1+1340-cb4752f7430 started with time: 0.00
+Simulation ended at time: 1000.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 15.21s
+ Real time factor: 65.7333
+ UPS: 38910.734240
+ UPS-Persons: 47405.376980
+Vehicles: 
+ Inserted: 1555 (Loaded: 1578)
+ Running: 1019
+ Waiting: 15
+Teleports: 22 (Jam: 9, Yield: 11, Wrong Lane: 2)
+Persons: 
+ Inserted: 1491
+ Running: 1413
+ Jammed: 36
+Statistics (avg of 536):
+ RouteLength: 2867.12
+ Speed: 8.49
+ Duration: 368.97
+ WaitingTime: 91.25
+ TimeLoss: 146.96
+ DepartDelay: 0.73
+Pedestrian Statistics (avg of 83 walks):
+ RouteLength: 418.01
+ Duration: 346.53
+ TimeLoss: 51.16
+Ride Statistics (avg of 7 rides):
+ WaitingTime: 120.71
+ RouteLength: 952.11
+ Duration: 152.86
+ Bus: 3
+ Train: 4
+
+DijkstraRouter answered 34634 queries and explored 19.31 edges on average.
+DijkstraRouter spent 0.20s answering queries (0.01ms on average).
+DijkstraRouter answered 1511 queries and explored 1104.59 edges on average.
+DijkstraRouter spent 2.13s answering queries (1.41ms on average).
+DijkstraRouter answered 6 queries and explored 40.50 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).

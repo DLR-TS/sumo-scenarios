@@ -16,6 +16,7 @@ output:(\\)+{REPLACE /}
 output:[0-9\.]+ms{REPLACE (TIME)}
 output:^Performance:{->}^Vehicles:
 output:AStarRouter spent .*
+output:DijkstraRouter spent .*
 errors:Network contains internal links which are ignored.
 catalogue:.pyc
 catalogue:__pycache__

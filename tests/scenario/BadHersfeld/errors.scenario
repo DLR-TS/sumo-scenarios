@@ -1,0 +1,18 @@
+Warning: Unused states in tlLogic 'J0', program '0' in phase 0 after tl-index 14
+Warning: Missing green phase in tlLogic 'J0', program '0' for tl-index 15.
+Warning: At actuated tlLogic 'cluster_1205630710_2015016977_2015016981_2015016993_2015016997_2015016999_2015017001_2015017004_2517994111_257574861_7819925024', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1719495812_2421259767_259997081_752052885_769123046_769123048_769123050_769123051_769123054', actuated phase 5 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1885282509_2546666441_267198458_267198459_2701501241_2897690900_3277466484', actuated phase 5 has no controlling detector.
+Warning: Unused states in tlLogic 'joinedS_0', program '0' in phase 0 after tl-index 15
+Warning: busStop '23979551#0:19.78' on lane '23979551#0_1' is too short for vehicle '10009264.0'.
+Warning: busStop '67332189#3:24.69' on lane '67332189#3_1' is too short for vehicle '10009264.0'.
+Warning: busStop '50371428#1:61.57' on lane '50371428#1_1' is too short for vehicle '10010361.0'.
+Warning: busStop '124416776#0:0.00' on lane '124416776#0_1' is too short for vehicle '10010473.0'.
+Warning: busStop '151592248#8:20.43' on lane '151592248#8_1' is too short for vehicle '10010558.0'.
+Warning: busStop '30610461#9:23.02' on lane '30610461#9_1' is too short for vehicle '10010673.0'.
+Warning: busStop '151702608#1:3.19' on lane '151702608#1_1' is too short for vehicle '10010781.0'.
+Warning: busStop '127529207#1:73.55' on lane '127529207#1_1' is too short for vehicle '10010933.0'.
+Warning: busStop '157539099#1:35.52' on lane '157539099#1_1' is too short for vehicle '10010954.0'.
+Warning: busStop '157539101#1:0.20' on lane '157539101#1_1' is too short for vehicle '10100832.0'.
+Warning: busStop '240561428#1:2.89' on lane '240561428#1_1' is too short for vehicle '10100773.0'.
+Warning: busStop '-151585859#1:20.81' on lane '-151585859#1_1' is too short for vehicle '10101029.0'.

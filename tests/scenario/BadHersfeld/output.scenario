@@ -1,0 +1,44 @@
+Loading net-file from 'osm_edited.net.xml.gz' ... done (1177ms).
+Loading additional-files from 'pt_vtypes.xml' ... done (8ms).
+Loading additional-files from 'gtfs_publictransport.add.xml' ... done (24ms).
+Loading additional-files from 'gtfs_publictransport.rou.xml' ... 
+done (37ms).
+Loading additional-files from 'osm_polygons.add.xml' ... done (286ms).
+Loading additional-files from 'defaults/basic.vType.xml' ... done (2ms).
+Loading additional-files from 'osm_complete_parking_areas.add.xml' ... done (122ms).
+Loading additional-files from 'osm_parking_rerouters.add.xml' ... done (69ms).
+Loading additional-files from 'induction_loops.add.xml' ... done (7ms).
+Loading additional-files from 'edge_lane_data.add.xml' ... done (27ms).
+Loading additional-files from 'obstacle_seilerweg.add.xml' ... done (6ms).
+Loading done.
+Simulation version v1_14_1+1340-cb4752f7430 started with time: 0.00
+Step #0.00 (116ms ~= 8.62*RT, ~60.34UPS, vehicles TOT 7 ACT 7 BUF 0)                      Step #100.00 (11ms ~= 90.91*RT, ~636.36UPS, vehicles TOT 7 ACT 7 BUF 0)                   Step #200.00 (9ms ~= 111.11*RT, ~777.78UPS, vehicles TOT 7 ACT 7 BUF 0)                   Step #300.00 (11ms ~= 90.91*RT, ~636.36UPS, vehicles TOT 7 ACT 7 BUF 0)                   Step #400.00 (10ms ~= 100.00*RT, ~700.00UPS, vehicles TOT 7 ACT 7 BUF 0)                  Step #500.00 (11ms ~= 90.91*RT, ~636.36UPS, vehicles TOT 7 ACT 7 BUF 0)                   Step #600.00 (11ms ~= 90.91*RT, ~636.36UPS, vehicles TOT 7 ACT 7 BUF 0)                   Step #700.00 (10ms ~= 100.00*RT, ~700.00UPS, vehicles TOT 7 ACT 7 BUF 0)                  Step #800.00 (11ms ~= 90.91*RT, ~636.36UPS, vehicles TOT 7 ACT 7 BUF 0)                   Step #900.00 (10ms ~= 100.00*RT, ~700.00UPS, vehicles TOT 7 ACT 7 BUF 0)                  Step #1000.00 (4ms ~= 250.00*RT, ~1750.00UPS, vehicles TOT 7 ACT 7 BUF 0)                  
+Simulation ended at time: 1000.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 2.23s
+ Real time factor: 448.229
+ UPS: 3137.606455
+Vehicles: 
+ Inserted: 7 (Loaded: 654)
+ Running: 7
+ Waiting: 0
+Persons: 
+ Inserted: 1
+ Running: 0
+Statistics (avg of 0):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00
+
+AStarRouter answered 2 queries and explored 1.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
+AStarRouter answered 2 queries and explored 1.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
+AStarRouter answered 2 queries and explored 1.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
+AStarRouter answered 1 queries and explored 1.00 edges on average.
+AStarRouter spent 0.00s answering queries (0.00ms on average).
