@@ -6,7 +6,6 @@ else
 fi
 patch -N ../osm/BS_detail.osm.xml ../osm/tram4.diff
 netconvert -c miv.netccfg
-# netconvert -c pt.netccfg -o pt.net.xml.gz
 #$PYTHON $SUMO_HOME/tools/tls/tls_csvSignalGroups.py -n netpatch/miv.net.xml -i netpatch/Rudolfplatz.csv -o netpatch/Rudolfplatz.tll.xml
 $PYTHON $SUMO_HOME/tools/tls/tls_csvSignalGroups.py -n netpatch/miv.net.xml -i netpatch/Rudolfplatz_SP33.csv -o netpatch/Rudolfplatz.tll.xml
 netconvert -c miv2.netccfg

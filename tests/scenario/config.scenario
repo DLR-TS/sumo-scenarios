@@ -11,6 +11,7 @@ copy_test_path_merge:data
 log:log.txt
 
 [run_dependent_text]
+output:Simulation.*started with{REPLACE Simulation started with}
 output:\r{REPLACE \n}
 output:(\\)+{REPLACE /}
 output:[0-9\.]+ms{REPLACE (TIME)}
