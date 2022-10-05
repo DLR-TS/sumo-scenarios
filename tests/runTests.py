@@ -15,6 +15,7 @@ BINARIES = ("activitygen", "emissionsDrivingCycle", "emissionsMap",
             "TraCITestClient")
 if "SUMO_HOME" not in os.environ:
     os.environ["SUMO_HOME"] = os.path.join(os.environ["HOME"], "sumo")
+os.environ["TEXTTEST_HOME"] = os.path.dirname(__file__)
 for binary in BINARIES:
     if binary == "sumo-gui":
         os.environ["GUISIM_BINARY"] = os.path.join(os.environ["SUMO_HOME"], "bin", binary + suffix)
