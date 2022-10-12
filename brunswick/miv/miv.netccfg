@@ -18,22 +18,15 @@
         <output-file value=".net.xml"/>
         <output.street-names value="true"/>
         <output.original-names value="true"/>
-<!--
         <ptstop-output value="_stops.add.xml"/>
         <ptline-output value="_ptlines.xml"/>
--->
     </output>
 
     <processing>
         <geometry.remove value="true"/>
-<!-- disable until we can unset roundabouts manually -->
+<!-- disable roundabout guessing until we can unset them manually -->
         <roundabouts.guess value="false"/>
-        <keep-edges.by-vclass value="passenger,bus,tram"/>
-        <remove-edges.by-type value="highway.track,highway.unsurfaced"/>
-        <keep-edges.input-file value="netpatch/extra_edges.txt"/>
         <geometry.remove.keep-edges.input-file value="netpatch/keep_induction_loops.txt"/>
-        <keep-edges.components value="1"/>
-        <no-turnarounds.except-turnlane value="true"/>
         <edges.join-tram-dist value="1.6"/>
     </processing>
 
@@ -50,7 +43,15 @@
         <ramps.unset value="26229175"/>
     </ramp_guessing>
 
+    <edge_removal>
+        <keep-edges.input-file value="netpatch/extra_edges.txt"/>
+        <keep-edges.by-vclass value="passenger,bus,tram"/>
+        <keep-edges.components value="1"/>
+        <remove-edges.by-type value="highway.track,highway.unsurfaced"/>
+    </edge_removal>
+
     <junctions>
+        <no-turnarounds.except-turnlane value="true"/>
         <junctions.join value="true"/>
         <junctions.join-exclude value="35651826, 27376092"/> <!-- to work around #10589 -->
         <junctions.corner-detail value="5"/>

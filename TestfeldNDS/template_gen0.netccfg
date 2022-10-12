@@ -17,10 +17,8 @@
     <output>
         <output.street-names value="true"/>
         <output.original-names value="true"/>
-        <!--
         <ptstop-output value="_stops.add.xml"/>
         <ptline-output value="_ptlines.xml"/>
-        -->
     </output>
 
     <projection>
@@ -29,15 +27,16 @@
 
     <processing>
         <geometry.remove value="true"/>
+<!-- disable roundabout guessing until we can unset them manually -->
+        <roundabouts.guess value="false"/>
         <geometry.remove.keep-edges.input-file value="../brunswick/miv/netpatch/keep_induction_loops.txt"/>
-        <roundabouts.guess value="true"/>
         <edges.join value="true"/>
         <edges.join-tram-dist value="1.6"/>
     </processing>
 
     <tls_building>
         <tls.discard-simple value="true"/>
-        <tls.unset value="71449546,253334329,25753551,2586328932,262797998,35513392,28115611,26153502"/>
+        <tls.unset value="71449546, 253334329, 25753551, 2586328932, 262797998, 35513392, 28115611, 26153502, 26154204"/>
         <tls.join value="true"/>
         <tls.guess-signals value="true"/>
         <tls.default-type value="actuated"/>
@@ -45,19 +44,21 @@
 
     <ramp_guessing>
         <ramps.guess value="true"/>
+        <ramps.unset value="26229175"/>
     </ramp_guessing>
 
     <edge_removal>
         <keep-edges.input-file value="../brunswick/miv/netpatch/extra_edges.txt"/>
         <keep-edges.by-vclass value="passenger,bus,tram"/>
         <keep-edges.components value="1"/>
-        <remove-edges.by-type value="highway.track,highway.unsurfaced,highway.service"/>
+        <remove-edges.by-type value="highway.track,highway.unsurfaced"/>
     </edge_removal>
 
     <junctions>
         <no-internal-links value="true"/>
         <no-turnarounds.except-turnlane value="true"/>
         <junctions.join value="true"/>
+        <junctions.join-exclude value="35651826, 27376092"/> <!-- to work around #10589 -->
         <junctions.join-same value="true"/>
         <junctions.corner-detail value="5"/>
     </junctions>
