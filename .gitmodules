@@ -9,5 +9,5 @@
 	url = https://github.com/DLR-TS/sumo-berlin
 [submodule "sumo_ingolstadt"]
 	path = sumo_ingolstadt
-	url = https://github.com/DLR-TS/sumo_ingolstadt
+	url = https://github.com/TUM-VT/sumo_ingolstadt
 	branch = cutmap
