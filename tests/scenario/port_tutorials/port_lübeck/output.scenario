@@ -1,16 +1,16 @@
-Loading net-file from 'port.net.xml' ... done (465ms).
-Loading additional-files from 'osm.poly.xml' ... done (88ms).
+Loading net-file from 'port.net.xml' ... done (604ms).
+Loading additional-files from 'osm.poly.xml' ... done (109ms).
 Loading additional-files from 'stops.add.xml' ... 
-done (10ms).
+done (12ms).
 Loading done.
-Simulation version v1_14_1+1340-cb4752f7430 started with time: 0.00
+Simulation version v1_14_1+1757-dea40b50d78 started with time: 0.00.
 Simulation ended at time: 1000.00
 Reason: The final simulation step has been reached.
 Performance: 
- Duration: 1.04s
- Real time factor: 961.538
- UPS: 46550.000000
- UPS-Persons: 31571.153846
+ Duration: 1.46s
+ Real time factor: 683.995
+ UPS: 33113.543092
+ UPS-Persons: 22458.276334
 Vehicles: 
  Inserted: 89
  Running: 62
@@ -30,7 +30,7 @@ Statistics (avg of 27):
  TimeLoss: 336.23
  DepartDelay: 0.56
 Pedestrian Statistics (avg of 63 walks):
- RouteLength: 30.73
+ RouteLength: 30.26
  Duration: 12.46
  TimeLoss: 4.54
 Ride Statistics (avg of 42 rides):
@@ -39,9 +39,9 @@ Ride Statistics (avg of 42 rides):
  Duration: 411.74
  Bus: 42
 
-DijkstraRouter answered 84 queries and explored 20.06 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.00ms on average).
+DijkstraRouter answered 84 queries and explored 11.82 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.01ms on average).
 DijkstraRouter answered 101 queries and explored 34.04 edges on average.
 DijkstraRouter spent 0.00s answering queries (0.01ms on average).
 DijkstraRouter answered 196 queries and explored 176.83 edges on average.
-DijkstraRouter spent 0.03s answering queries (0.15ms on average).
+DijkstraRouter spent 0.07s answering queries (0.33ms on average).

@@ -1,33 +1,3 @@
-Warning: At actuated tlLogic 'cluster_1355332164_3344674537_3344674539_370572081', actuated phase 11 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332164_3344674537_3344674539_370572081', linkIndex 21 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332164_3344674537_3344674539_370572081', linkIndex 22 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332166_3344674557_3344674566_3344674577_3344674578_3344674580_3344674581_3344674585_3344674587_3344674590_428532033_5251898888_917021690', linkIndex 17 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332166_3344674557_3344674566_3344674577_3344674578_3344674580_3344674581_3344674585_3344674587_3344674590_428532033_5251898888_917021690', linkIndex 18 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 5 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 6 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 7 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 8 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 62 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 63 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 64 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355332186_30263369_3344674523_3344674525_3344674528_3344674529_3344674532_3344674535', linkIndex 65 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', actuated phase 3 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 15 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 16 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 17 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 18 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 40 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 41 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 42 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_1355385620_250743983_3344674705_3344674710_3344674712_3344674719_3344674721_3344674725', linkIndex 43 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_3344674718_415780624_5251861544_5251861545_5251861546_5251861549_5251861550_5672014906_5672014907_5672014909_5672014910_5672014911_5690515547_5690515565_5690515568_5690515570_5690515571', linkIndex 37 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_3344674718_415780624_5251861544_5251861545_5251861546_5251861549_5251861550_5672014906_5672014907_5672014909_5672014910_5672014911_5690515547_5690515565_5690515568_5690515570_5690515571', linkIndex 38 has no controlling detector.
-Warning: At actuated tlLogic 'cluster_3344674718_415780624_5251861544_5251861545_5251861546_5251861549_5251861550_5672014906_5672014907_5672014909_5672014910_5672014911_5690515547_5690515565_5690515568_5690515570_5690515571', linkIndex 39 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_0', linkIndex 15 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_0', linkIndex 16 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_0', linkIndex 17 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_1', linkIndex 5 has no controlling detector.
-Warning: At actuated tlLogic 'joinedS_1', linkIndex 6 has no controlling detector.
 Warning: busStop '1780723613' on lane '222336041#2_0' is too short for vehicle 'pt_bus_424:0.0'.
 Warning: busStop '-310417058' on lane '-173298393_1' is too short for vehicle 'pt_bus_424:0.0'.
 Warning: busStop '-333697507' on lane '-4729000#1_1' is too short for vehicle 'pt_bus_424:1.0'.
@@ -43,83 +13,12 @@ Warning: busStop '4103294757' on lane '24787043_0' is too short for vehicle 'pt_
 Warning: busStop '248483771' on lane '28672098#1_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '715902961' on lane '511308631_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '1944469926@6953326' on lane '71962469#1_0' is too short for vehicle 'pt_bus_416:4.0'.
-Warning: Person 'ped402' is jammed on edge ':cluster_30221033_30222586_5696060089_c1', time=332.00.
-Warning: Person 'ped496' is jammed on edge ':cluster_30221033_30222586_5696060089_c1', time=344.00.
-Warning: Vehicle 'truck186' performs emergency braking on lane ':cluster_1875436943_1875436944_3344674928_13_1' with decel=7.00, wished=4.00, severity=1.00, time=365.00.
-Warning: Teleporting vehicle 'veh37'; waited too long (jam), lane=':1726836151_0_0', time=376.00.
-Warning: Vehicle 'veh37' ends teleporting on edge '204717311#0', time=376.00.
-Warning: Person 'ped454' is jammed on edge ':cluster_30221033_30222586_5696060089_c1', time=389.00.
-Warning: Teleporting vehicle 'truck60'; waited too long (yield), lane='-165764258#0_1', time=400.00.
-Warning: Person 'ped10' is jammed on edge ':cluster_30221033_30222586_5696060089_c1', time=402.00.
-Warning: Vehicle 'truck60' ends teleporting on edge '-28266064#1', time=406.00.
-Warning: Person 'ped7' is jammed on edge ':cluster_30221033_30222586_5696060089_c1', time=419.00.
-Warning: Teleporting vehicle 'truck71'; waited too long (jam), lane=':5672014901_0_0', time=445.00.
-Warning: Vehicle 'truck71' ends teleporting on edge '30918489#4', time=445.00.
-Warning: Person 'ped665' is jammed on edge ':1726836151_c0', time=447.00.
-Warning: Person 'ped173' is jammed on edge ':30227278_c0', time=449.00.
-Warning: Teleporting vehicle 'pt_bus_416:0.0'; waited too long (wrong lane), lane='-108915817#1_1', time=450.00.
-Warning: Vehicle 'pt_bus_416:0.0' ends teleporting on edge '-108915817#1', time=450.00.
-Warning: Person 'ped87' is jammed on edge ':cluster_3344674718_415780624_5251861544_5251861545_5251861546_5251861549_5251861550_5672014906_5672014907_5672014909_5672014910_5672014911_5690515547_5690515565_5690515568_5690515570_5690515571_w7', time=484.00.
-Warning: Person 'ped612' is jammed on edge ':30227278_c0', time=489.00.
-Warning: Person 'ped634' is jammed on edge ':3344674470_c0', time=510.00.
-Warning: Teleporting vehicle 'pt_bus_464:0.0'; waited too long (yield), lane='625075004#0_0', time=530.00.
-Warning: Vehicle 'pt_bus_464:0.0' ends teleporting on edge '-28266064#1', time=530.00.
-Warning: Teleporting vehicle 'truck156'; waited too long (jam), lane='-71306777#2_1', time=538.00.
-Warning: Vehicle 'truck156' ends teleporting on edge '-71306777#1', time=538.00.
-Warning: Person 'ped634' is jammed on edge ':30227278_c0', time=564.00.
-Warning: Person 'ped258' is jammed on edge ':30227278_c0', time=602.00.
-Warning: Person 'ped773' is jammed on edge ':30227278_c0', time=607.00.
-Warning: Teleporting vehicle 'truck256'; waited too long (yield), lane='4743301#2_1', time=669.00.
-Warning: Vehicle 'truck256' ends teleporting on edge '-4743301#3', time=669.00.
-Warning: Person 'ped1019' is jammed on edge ':21559705_c3', time=680.00.
-Warning: Teleporting vehicle 'truck237'; waited too long (jam), lane='511175449#2_2', time=693.00.
-Warning: Vehicle 'truck237' ends teleporting on edge '511175449#4', time=695.00.
-Warning: Teleporting vehicle 'veh196'; waited too long (yield), lane='-165764258#0_1', time=705.00.
-Warning: Teleporting vehicle 'truck276'; waited too long (jam), lane='-165764258#2_1', time=710.00.
-Warning: Vehicle 'veh196' ends teleporting on edge '28266063#0', time=710.00.
-Warning: Vehicle 'truck276' ends teleporting on edge '-165764258#1', time=710.00.
-Warning: Teleporting vehicle 'veh452'; waited too long (yield), lane='165764258#0_1', time=729.00.
-Warning: Vehicle 'veh452' ends teleporting on edge '-4743301#3', time=748.00.
-Warning: Teleporting vehicle 'pt_bus_416:3.0'; waited too long (wrong lane), lane='-108915817#1_1', time=757.00.
-Warning: Vehicle 'pt_bus_416:3.0' ends teleporting on edge '-108915817#1', time=757.00.
-Warning: Teleporting vehicle 'truck141'; waited too long (jam), lane=':cluster_30221033_30222586_5696060089_22_0', time=759.00.
-Warning: Vehicle 'truck141' ends teleporting on edge '-28266064#1', time=764.00.
-Warning: Teleporting vehicle 'veh411'; waited too long (yield), lane='22988925#1_1', time=768.00.
-Warning: Vehicle 'veh411' ends teleporting on edge '54981191', time=768.00.
-Warning: Teleporting vehicle 'truck323'; waited too long (yield), lane=':842199485_5_0', time=771.00.
-Warning: Vehicle 'truck323' ends teleporting on edge '70908501#0', time=771.00.
-Warning: Teleporting vehicle 'veh163'; waited too long (yield), lane='-395221032_1', time=774.00.
-Warning: Vehicle 'veh163' ends teleporting on edge '-4743166', time=778.00.
-Warning: Teleporting vehicle 'veh546'; waited too long (yield), lane='-4747574#4_1', time=836.00.
-Warning: Person 'ped992' is jammed on edge ':21559705_c3', time=841.00.
-Warning: Person 'ped1052' is jammed on edge ':cluster_30221033_30222586_5696060089_c2', time=846.00.
-Warning: Person 'ped87' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=847.00.
-Warning: Person 'ped1161' is jammed on edge ':cluster_30221033_30222586_5696060089_c2', time=848.00.
-Warning: Person 'ped1264' is jammed on edge ':21559705_c3', time=863.00.
-Warning: Person 'ped226' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=871.00.
-Warning: Person 'ped156' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=873.00.
-Warning: Person 'ped496' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=874.00.
-Warning: Person 'ped209' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=878.00.
-Warning: Person 'ped992' is jammed on edge ':30323084_c0', time=879.00.
-Warning: Person 'ped143' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=880.00.
-Warning: Person 'ped201' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=881.00.
-Warning: Person 'ped1100' is jammed on edge ':30227278_c0', time=884.00.
-Warning: Person 'ped1264' is jammed on edge ':30323084_c0', time=901.00.
-Warning: Person 'ped806' is jammed on edge ':30227278_c0', time=902.00.
-Warning: Teleporting vehicle 'truck258'; waited too long (yield), lane=':cluster_269321668_3344674571_3344674573_3344674591_3350693820_3350693821_3350693822_54173114_691739679_691739683_81_0', time=902.00.
-Warning: Vehicle 'truck258' ends teleporting on edge '82457821#1', time=902.00.
-Warning: Teleporting vehicle 'pt_bus_414:3.0'; waited too long (yield), lane='173759898#1_1', time=912.00.
-Warning: Person 'ped454' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=915.00.
-Warning: Person 'ped7' is jammed on edge ':cluster_1911258154_5690515569_5690515610_5690515617_w0', time=917.00.
-Warning: Person 'ped424' is jammed on edge ':5672015528_c0', time=919.00.
-Warning: Person 'ped1016' is jammed on edge ':30259129_c2', time=925.00.
-Warning: Vehicle 'veh546' ends teleporting on edge '-4743301#3', time=928.00.
-Warning: Person 'ped1119' is jammed on edge ':27557097_c2', time=939.00.
-Warning: Person 'ped987' is jammed on edge ':5672014901_w0', time=946.00.
-Warning: Person 'ped1451' is jammed on edge ':5672015528_c0', time=958.00.
-Warning: Teleporting vehicle 'truck135'; waited too long (jam), lane=':5672014901_0_0', time=985.00.
-Warning: Vehicle 'truck135' ends teleporting on edge '30918489#4', time=985.00.
-Warning: Teleporting vehicle 'pt_bus_424:6.0'; waited too long (jam), lane='222336041#2_0', time=993.00.
-Warning: Vehicle 'pt_bus_424:6.0' ends teleporting on edge '625075004#0', time=993.00.
-Warning: Teleporting vehicle 'veh68'; waited too long (jam), lane=':1726836151_0_0', time=998.00.
-Warning: Vehicle 'veh68' ends teleporting on edge '204717311#0', time=998.00.
+Warning: Teleporting vehicle 'truck186'; collision with vehicle 'truck251', lane='22988931#3_2', gap=-8.51, time=365.00 stage=move.
+Warning: 2 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
+Warning: 28 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
+Warning: 45 total messages of type: Person '%' is jammed on edge '%', time=%.
+Warning: 19 total messages of type: Teleporting vehicle '%'; waited too long (jam), lane='%', time=%.
+Warning: 2 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane), lane='%', time=%.
+Warning: 13 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
+Warning: 31 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 2 total messages of type: Vehicle '%' performs emergency braking on lane '%' with decel=%, wished=%, severity=%, time=%.

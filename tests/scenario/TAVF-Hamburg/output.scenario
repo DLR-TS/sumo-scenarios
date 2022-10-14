@@ -1,13 +1,13 @@
-Loading net-file from 'network.net.xml.gz' ... done (77ms).
-Loading additional-files from 'busStops.add.xml' ... done (8ms).
+Loading net-file from 'network.net.xml.gz' ... done (168ms).
+Loading additional-files from 'busStops.add.xml' ... done (21ms).
 Loading done.
-Simulation version v1_14_1+1340-cb4752f7430 started with time: 0.00
+Simulation version v1_14_1+1757-dea40b50d78 started with time: 0.00.
 Simulation ended at time: 1000.00
 Reason: The final simulation step has been reached.
 Performance: 
- Duration: 10.12s
- Real time factor: 98.8435
- UPS: 98700.998320
+ Duration: 20.87s
+ Real time factor: 47.918
+ UPS: 47848.866740
 Vehicles: 
  Inserted: 5908 (Loaded: 5927)
  Running: 1170
@@ -21,4 +21,4 @@ Statistics (avg of 4738):
  DepartDelay: 0.87
 
 DijkstraRouter answered 5877 queries and explored 95.55 edges on average.
-DijkstraRouter spent 0.25s answering queries (0.04ms on average).
+DijkstraRouter spent 0.59s answering queries (0.10ms on average).

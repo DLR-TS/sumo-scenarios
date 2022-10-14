@@ -1,14 +1,12 @@
 Warning: Ignoring invalid access from non-pedestrian lane '127071510_0' in busStop 'busStop_pier'.
-Warning: Not using public transport line 'ferry' for routing persons. It has less than two usable stops.
 Warning: Vehicle 'stapler.0' with device.taxi should have vClass taxi instead of 'truck'.
 Warning: Vehicle 'stapler.1' with device.taxi should have vClass taxi instead of 'truck'.
 Warning: Vehicle 'stapler.2' with device.taxi should have vClass taxi instead of 'truck'.
 Warning: Vehicle 'stapler.3' with device.taxi should have vClass taxi instead of 'truck'.
 Warning: Vehicle 'stapler.4' with device.taxi should have vClass taxi instead of 'truck'.
-Warning: Teleporting vehicle 'passengercartoship.2'; waited too long (blocked), lane='-128042010_1', time=730.00.
-Warning: Vehicle 'passengercartoship.2' teleports beyond arrival edge '-128042010', time=730.00.
 Warning: Vehicle 'passengercartoship.2' skips stop on lane '-128042010_1' time=730.00.
-Warning: Teleporting vehicle 'trucktoship.2'; waited too long (blocked), lane='-277007500#0_1', time=816.00.
-Warning: Vehicle 'trucktoship.2' teleports beyond arrival edge '-277007500#0', time=816.00.
 Warning: Vehicle 'trucktoship.2' skips stop on lane '-277007500#0_1' time=816.00.
 Warning: Person 'pedestrianfromship.1' could not find sidewalk on edge '127071510', time=874.00.
+Warning: 1 total messages of type: Not using public transport line '%' for routing persons. It has less than two usable stops.
+Warning: 2 total messages of type: Teleporting vehicle '%'; waited too long (blocked), lane='%', time=%.
+Warning: 2 total messages of type: Vehicle '%' teleports beyond arrival edge '%', time=%.
