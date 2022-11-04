@@ -10,7 +10,7 @@ To run the small PRT test you need to run build.sh in the prt_infra dir and then
 To get all in one, run `prt_runner.py joined.sumocfg`
 
 To run the whole simulation with demand and PRT:
-- Create the `joined.net.xml` usind build script in `prt_infra`
+- Create the `joined.net.xml` using the build script in `prt/prt_infra`
 - Adapt route file in `joined.sumocfg` to select demand file (default `osm_activitygen_present_with_prt.rou.xml.gz`)
 - Run simulation `sumo-gui -c joined.sumocfg` (with GUI) or `sumo -c joined.sumocfg` (without GUI)
 
