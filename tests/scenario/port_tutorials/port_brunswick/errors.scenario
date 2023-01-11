@@ -13,12 +13,12 @@ Warning: busStop '4103294757' on lane '24787043_0' is too short for vehicle 'pt_
 Warning: busStop '248483771' on lane '28672098#1_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '715902961' on lane '511308631_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '1944469926@6953326' on lane '71962469#1_0' is too short for vehicle 'pt_bus_416:4.0'.
-Warning: Teleporting vehicle 'truck186'; collision with vehicle 'truck251', lane='22988931#3_2', gap=-8.51, time=365.00 stage=move.
 Warning: 2 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
 Warning: 28 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
-Warning: 45 total messages of type: Person '%' is jammed on edge '%', time=%.
-Warning: 19 total messages of type: Teleporting vehicle '%'; waited too long (jam), lane='%', time=%.
+Warning: 32 total messages of type: Person '%' is jammed on edge '%', time=%.
+Warning: 10 total messages of type: Teleporting vehicle '%'; waited too long (jam), lane='%', time=%.
 Warning: 2 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane), lane='%', time=%.
-Warning: 13 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
-Warning: 31 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
-Warning: 2 total messages of type: Vehicle '%' performs emergency braking on lane '%' with decel=%, wished=%, severity=%, time=%.
+Warning: 7 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
+Warning: 2 total messages of type: Unequal lengths of bidi lane '%' and lane '%' (% != %).
+Warning: 18 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 1 total messages of type: Vehicle '%' performs emergency braking on lane '%' with decel=%, wished=%, severity=%, time=%.

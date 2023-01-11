@@ -16,9 +16,12 @@ output:\r{REPLACE \n}
 output:(\\)+{REPLACE /}
 output:[0-9\.]+ms{REPLACE (TIME)}
 output:^Performance:{->}^Vehicles:
-output:AStarRouter spent .*
-output:DijkstraRouter spent .*
+output:AStarRouter answered
+output:AStarRouter spent
+output:DijkstraRouter answered
+output:DijkstraRouter spent
 errors:Network contains internal links which are ignored.
+errors:Warning: [0-9]+ total messages{REPLACE Warning: <n> total messages}
 catalogue:.pyc
 catalogue:__pycache__
 

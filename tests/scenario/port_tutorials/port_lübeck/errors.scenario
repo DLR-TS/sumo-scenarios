@@ -6,7 +6,7 @@ Warning: Vehicle 'stapler.3' with device.taxi should have vClass taxi instead of
 Warning: Vehicle 'stapler.4' with device.taxi should have vClass taxi instead of 'truck'.
 Warning: Vehicle 'passengercartoship.2' skips stop on lane '-128042010_1' time=730.00.
 Warning: Vehicle 'trucktoship.2' skips stop on lane '-277007500#0_1' time=816.00.
-Warning: Person 'pedestrianfromship.1' could not find sidewalk on edge '127071510', time=874.00.
 Warning: 1 total messages of type: Not using public transport line '%' for routing persons. It has less than two usable stops.
+Warning: 2 total messages of type: Person '%' could not find sidewalk on edge '%', time=%.
 Warning: 2 total messages of type: Teleporting vehicle '%'; waited too long (blocked), lane='%', time=%.
 Warning: 2 total messages of type: Vehicle '%' teleports beyond arrival edge '%', time=%.
