@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <osm-files value="osm/TestfeldNDS_main_roads.osm.xml.gz,../brunswick/osm/BS_detail.osm.xml"/>
+        <osm-files value="../brunswick/osm/BS_detail.osm.xml,osm/TestfeldNDS_main_roads.osm.xml.gz"/>
         <!-- do not include the A39 / B1 patch here since it removes infrastructure we need -->
         <node-files value="../brunswick/miv/netpatch/patch.nod.xml"/>
         <edge-files value="../brunswick/miv/netpatch/patch.edg.xml,netpatch/patch.edg.xml"/>

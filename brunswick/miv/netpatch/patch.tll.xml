@@ -47,13 +47,13 @@
         <phase duration="3" state="rrryyrrr"/>
     </tlLogic>
 
-    <!-- Lessingplatz (right turns phase) -->
+    <!-- Lessingplatz (right turns phase)
     <tlLogic id="Lessingplatz" type="actuated" programID="0" offset="0">
         <phase duration="42" state="GGr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yyr"/>
         <phase duration="42" state="rrG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rry"/>
-    </tlLogic>
+    </tlLogic> -->
 
     <!-- B1 & Rautheimer St-->
     <tlLogic id="Rautheimer_B1" type="actuated" programID="0" offset="0">
@@ -77,7 +77,7 @@
         <phase duration="3"  state="rrrrrrrrrrrrrrryrrrrrryrrrrrrr"/>
     </tlLogic>
 
-    <!-- Güldenstraße & Celler Str. -->
+    <!-- Güldenstraße & Celler Str.
     <tlLogic id="Gueldenstr" type="actuated" programID="0" offset="0">
         <phase duration="30" state="rrGGGGrrrrrrrrrgGGGGG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rryyyyrrrrrrrrryyyyyy"/>
@@ -85,7 +85,7 @@
         <phase duration="3"  state="yyrrrryyrrrrrrrrrrrrr"/>
         <phase duration="30" state="rrrrrrrrGGGGGGGrrrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrrrrrrryyyyyyyrrrrrr"/>
-    </tlLogic>
+    </tlLogic> -->
 
     <!-- Hagenmarkt & Bohlweg -->
     <tlLogic id="Hagenmarkt_Bohlweg" type="actuated" programID="0" offset="0">
@@ -137,7 +137,7 @@
         <phase duration="3"  state="rrrrrryrrrrrrry"/>
     </tlLogic>
 
-    <!-- Europapl. & Adenauer -->
+    <!-- Europapl. & Adenauer
     <tlLogic id="Europaplatz" type="actuated" programID="0" offset="0">
         <phase duration="12" state="ggGGrGGGrrGGGGGrrrrrr" minDur="5" maxDur="50"/>
         <phase duration="3"  state="yyGGrGGyrryyyyyrrrrrr"/>
@@ -145,7 +145,7 @@
         <phase duration="3"  state="rrGGyGGryyrrrrrGGGrrr"/>
         <phase duration="12" state="rrGGrGGrrrrrrrrGGGGGG" minDur="5" maxDur="50"/>
         <phase duration="3"  state="rrGGrGGrrrrrrrryyyyyy"/>
-    </tlLogic>
+    </tlLogic> -->
 
     <!-- Kallenwall & Europapl. -->
     <tlLogic id="EuropaplatzN" type="actuated" programID="0" offset="0">
