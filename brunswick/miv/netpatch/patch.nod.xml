@@ -62,10 +62,9 @@
         id="Forschungskreuzung" type="traffic_light" tl="Forschungskreuzung"/>
 
     <!-- Lessingplatz -->
-    <joinExclude nodes="26189998 251048978"/>
-    <node id="26189998" tl="Lessingplatz" type="traffic_light"/>
+    <join nodes="251048975 3144381702" tl="Lessingplatz" type="traffic_light"/>
     <node id="251048978" tl="Lessingplatz" type="traffic_light"/>
-    
+    <node id="26189998" type="priority"/>
     
     <join nodes="1248442751 21430661" id="PeinerCeller" type="traffic_light"/>
 

@@ -1,28 +1,4 @@
 <tll>
-    <!--
-    <tlLogic id="A391_AS_Weststadt" type="actuated" programID="0" offset="0">
-        <phase duration="9"  state="GGGGrrrrggGrrGGrrrrGGGGGrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyyyrrrryyGrrGGrrrryyyyyrrrrrrrrrr"/>
-        <phase duration="10" state="rrrrrrrrrrGrrGGrrrrrrrrrrGGGGrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrrrryrryyrrrrrrrrrryyyyrrrrr"/>
-        <phase duration="10" state="rrrrGGGGGGrGGggrrrrrrrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrryyyyGGrGGyyrrrrrrrrrrrrrryyyyy"/>
-        <phase duration="10" state="rrrrrrrrGGrGGrrrGGGrrrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrryyryyrrryyyrrrrrrrrrrrrrrr"/>
-        <phase duration="10" state="rrrrrrrrrrrrrrrGrrrrrrrrGrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrrrrrrrrryrrrrrrrryrrrrrrrrr"/>
-    </tlLogic>
-    -->
-
-    <!--
-    <tlLogic id="A391_AS_Weststadt2" type="actuated" programID="0" offset="0">
-        <phase duration="42" state="GGGrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyyrrr"/>
-        <phase duration="42" state="rrrGGG" minDur="5" maxDur="25"/>
-        <phase duration="3"  state="rrryyy"/>
-    </tlLogic>
-    -->
-
     <tlLogic id="HBF" type="actuated" programID="0" offset="0">
         <!--                        01234567890123456789012345678901234 -->
         <phase duration="15" state="rrrrrrGGGGGGGGGGrrrrrrrrrrrrrGGGGG" minDur="5" maxDur="50"/>
@@ -47,13 +23,13 @@
         <phase duration="3" state="rrryyrrr"/>
     </tlLogic>
 
-    <!-- Lessingplatz (right turns phase)
+    <!-- Lessingplatz (right turns phase) -->
     <tlLogic id="Lessingplatz" type="actuated" programID="0" offset="0">
-        <phase duration="42" state="GGr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyr"/>
-        <phase duration="42" state="rrG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rry"/>
-    </tlLogic> -->
+        <phase duration="42" state="GGrGrG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyryry"/>
+        <phase duration="22" state="rrGrGr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rryryr"/>
+    </tlLogic>
 
     <!-- B1 & Rautheimer St-->
     <tlLogic id="Rautheimer_B1" type="actuated" programID="0" offset="0">
@@ -77,15 +53,15 @@
         <phase duration="3"  state="rrrrrrrrrrrrrrryrrrrrryrrrrrrr"/>
     </tlLogic>
 
-    <!-- Güldenstraße & Celler Str.
+    <!-- Güldenstraße & Celler Str. -->
     <tlLogic id="Gueldenstr" type="actuated" programID="0" offset="0">
-        <phase duration="30" state="rrGGGGrrrrrrrrrgGGGGG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rryyyyrrrrrrrrryyyyyy"/>
-        <phase duration="21" state="GGrrrrGGrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyrrrryyrrrrrrrrrrrrr"/>
-        <phase duration="30" state="rrrrrrrrGGGGGGGrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrrrrrrryyyyyyyrrrrrr"/>
-    </tlLogic> -->
+        <phase duration="30" state="rrGGGGrrrrrrrrrrgGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rryyyyrrrrrrrrrryyyyyy"/>
+        <phase duration="21" state="GGrrrrGGrrrrrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyrrrryyrrrrrrrrrrrrrr"/>
+        <phase duration="30" state="rrrrrrrrGGGGGGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyyyyyyyrrrrrr"/>
+    </tlLogic>
 
     <!-- Hagenmarkt & Bohlweg -->
     <tlLogic id="Hagenmarkt_Bohlweg" type="actuated" programID="0" offset="0">
@@ -137,15 +113,15 @@
         <phase duration="3"  state="rrrrrryrrrrrrry"/>
     </tlLogic>
 
-    <!-- Europapl. & Adenauer
+    <!-- Europapl. & Adenauer -->
     <tlLogic id="Europaplatz" type="actuated" programID="0" offset="0">
-        <phase duration="12" state="ggGGrGGGrrGGGGGrrrrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="yyGGrGGyrryyyyyrrrrrr"/>
-        <phase duration="12" state="rrGGgGGrGGrrrrrGGGrrr" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrGGyGGryyrrrrrGGGrrr"/>
-        <phase duration="12" state="rrGGrGGrrrrrrrrGGGGGG" minDur="5" maxDur="50"/>
-        <phase duration="3"  state="rrGGrGGrrrrrrrryyyyyy"/>
-    </tlLogic> -->
+        <phase duration="12" state="ggGGrGGGrrrGGGGGrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyGGrGGyrrryyyyyrrrrrr"/>
+        <phase duration="12" state="rrGGgGGrGGGrrrrrGGGrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrGGyGGryyyrrrrrGGGrrr"/>
+        <phase duration="12" state="rrGGrGGrrrrrrrrrGGGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrGGrGGrrrrrrrrryyyyyy"/>
+    </tlLogic>
 
     <!-- Kallenwall & Europapl. -->
     <tlLogic id="EuropaplatzN" type="actuated" programID="0" offset="0">
