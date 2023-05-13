@@ -1,0 +1,20 @@
+<add>
+    <vType id="train" vClass="rail">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="rail" vClass="rail">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="light_rail" vClass="rail_urban">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="subway" vClass="rail_urban">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="tram" vClass="tram">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="bus" vClass="bus">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+</add>
