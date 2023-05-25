@@ -1,0 +1,57 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+	
+<!--Richtung Adlershof-->	
+<route id="tram_63_0"   edges="10699887#0 10699887#3 10699887#4 147053824#1 147053824#2 147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#3 178028204#4 178028204#9 166142947#1 152839426 -152839428 45875465 679901152#0 179699938#5">
+		<stop busStop="bs_6" duration="30.00" until="60.00"/> <!--Ottomar., eine Minute bis zur nächsten Station-->
+		<stop busStop="bs_5" duration="30.00" until="120.00"/>	<!--Wassermann, zwei Minuten bis zur nächsten Station-->
+		<stop busStop="bs_3" duration="30.00" until="240.00"/>	<!--Marktplatz, drei Minuten bis zum S Bahnhof-->
+		<stop busStop="bs_8" duration="30.00" until="300.00"/>	<!--S Adlershof-->
+</route>
+	<flow id="tram_63_0" route="tram_63_0" type="pt_tram" line="tram_63#0" begin="14:02:00" end="15:00:00" period="1200"/>
+<!--Richtung Adlershof-->	
+<route id="tram_61_0"  edges="10699887#0 10699887#3 10699887#4 147053824#1 147053824#2 147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#3 178028204#4 178028204#9 166142947#1 152839426 -152839428 45875465 679901152#0 179699938#5">
+		<stop busStop="bs_6" duration="30.00" until="60.00"/> <!--Ottomar., eine Minute bis zur nächsten Station-->
+		<stop busStop="bs_5" duration="30.00" until="120.00"/>	<!--Wassermann, zwei Minuten bis zur nächsten Station-->
+		<stop busStop="bs_3" duration="30.00" until="240.00"/>	<!--Marktplatz, drei Minuten bis zum S Bahnhof-->
+		<stop busStop="bs_8" duration="30.00" until="300.00"/>	<!--S Adlershof-->
+</route>
+	<flow id="tram_61_0" route="tram_61_0" type="pt_tram" line="tram_61#0" begin="14:02:00" end="15:00:00" period="1200"/>
+	
+	
+<!--Richtung Spindlersfeld-->	
+<route id="tram_63_1" color="cyan" edges="-158236383#1 220198809#1 220194458#4 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#4 -178028204#3 -178028204#1 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#4 -147053824#3 -147053824#2 -147053824#1 179699940#6 86614777#1 86614777#2">
+		<stop busStop="bs_9" duration="30.00" until="60.00"/>	<!--S Adlershof, drei Minuten bis zum Marktplatz-->
+		<stop busStop="bs_2" duration="30.00" until="240.00"/>	<!--Marktplatz, eine Minuten bis Wasser-->
+		<stop busStop="bs_4" duration="30.00" until="300.00"/>	<!--Wassermann, eine Minute bis Otto-->
+		<stop busStop="bs_7" duration="30.00" until="360.00"/>	<!--Ottomar.-->
+</route>
+	<flow id="tram_63_1" route="tram_63_1" type="pt_tram" line="tram_63#1" begin="14:02:00" end="15:00:00" period="1200"/>
+<!--Richtung Spindlersfeld-->	
+<route id="tram_61_1"   color="cyan" edges="-158236383#1 220198809#1 220194458#4 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#4 -178028204#3 -178028204#1 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#4 -147053824#3 -147053824#2 -147053824#1 179699940#6 86614777#1 86614777#2">
+		<stop busStop="bs_9" duration="30.00" until="60.00"/>	<!--S Adlershof, drei Minuten bis zum Marktplatz-->
+		<stop busStop="bs_2" duration="30.00" until="240.00"/>	<!--Marktplatz, eine Minuten bis Wasser-->
+		<stop busStop="bs_4" duration="30.00" until="300.00"/>	<!--Wassermann, eine Minute bis Otto-->
+		<stop busStop="bs_7" duration="30.00" until="360.00"/>	<!--Ottomar.-->
+</route>
+	<flow id="tram_61_1" route="tram_61_1" type="pt_tram" line="tram_61#1" begin="14:08:00" end="15:00:00" period="1200"/>
+<route id="bus_164"   color="cyan" edges=" 158236381 220194458#4 -45875465 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -1066222296#1 25771472#0">
+	<stop busStop="bs_9" duration="30.00" until="60.00"/>	<!--S Adlershof-->
+	<!--stop busStop="bs_0" duration="30.00"/>	Dörpfelstraße-->
+	<stop busStop="bs_1" duration="30.00" until="180.00"/>	<!--Anna-Se-->
+</route>
+	<flow id="164" route="bus_164" type="pt_bus" line="bus_164" begin="14:17:00" end="15:00:00" period="1200"/>
+<route id="bus_162"   color="cyan" edges=" 158236381 220194458#4 -45875465 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -1066222296#1 25771472#0">
+	<stop busStop="bs_9" duration="30.00" until="60.00"/>	<!--S Adlershof-->
+	<!--stop busStop="bs_0" duration="30.00"/>	Dörpfelstraße-->
+	<stop busStop="bs_1" duration="30.00" until="180.00"/>	<!--Anna-Se-->
+</route>
+	<flow id="162" route="bus_162" type="pt_bus" line="bus_162" begin="14:06:00" end="15:00:00" period="1200"/>
+</routes>
+	
+
+
+	
+	
+	

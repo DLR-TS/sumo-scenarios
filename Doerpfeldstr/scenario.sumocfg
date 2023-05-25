@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-11 12:51:57 by Eclipse SUMO sumo Version v1_17_0+0172-8b68beeaf46
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml.gz"/>
+        <route-files value="tram.rou.xml,cars_bikes.rou.xml"/>
+        <additional-files value="vtypes.add.xml,stops.add.xml"/>
+    </input>
+
+</configuration>
