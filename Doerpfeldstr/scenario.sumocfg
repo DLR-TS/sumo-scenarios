@@ -7,8 +7,13 @@
 
     <input>
         <net-file value="net.net.xml.gz"/>
-        <route-files value="tram.rou.xml,cars_bikes.rou.xml"/>
+        <route-files value="tram.rou.xml,cars_bikes.rou.xml,parking_cars.rou.xml"/>
         <additional-files value="vtypes.add.xml,stops.add.xml"/>
     </input>
+	
+	<time>
+		<begin value="50300"/>
+		<end value="54100"/>
+	</time>
 
 </configuration>
