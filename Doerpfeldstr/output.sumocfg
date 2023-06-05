@@ -1,0 +1,11 @@
+<configuration>
+	<input>
+		<net-file value="net.net.xml.gz"/>
+		<route-files value="samplertrips.rou.xml"/>
+		<additional-files value="additional.add.xml"/>
+	</input>
+	<time>
+		<begin value="50300"/>
+		<end value="54100"/>
+	</time>
+</configuration>

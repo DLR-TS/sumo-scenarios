@@ -1,0 +1,12 @@
+<configuration>
+	<input>
+		<net-file value="net.net.xml.gz"/>
+		<route-files value="flows_2.rou.xml"/>
+		<additional-files value="additional_flows.add.xml"/>
+	</input>
+	<time>
+		<begin value="50300"/>
+		<end value="54100"/>
+	</time>
+	
+</configuration>

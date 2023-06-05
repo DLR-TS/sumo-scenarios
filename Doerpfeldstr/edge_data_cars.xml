@@ -1,0 +1,16 @@
+<meandata>
+    <interval begin="50300" end="54100" id="Adlershof">
+        
+        
+        <edge id="178028204#9"  entered="274" /> <!--Fotoladen, Richtung Bahnhof-->
+        
+        <edge id="-178028204#9"  entered="468" />
+        
+        <edge id="-147053824#2"  entered="154" /> <!--Fahrradwelt, Richtung Otto-->
+        
+        <edge id="147053824#2"  entered="508" />
+        
+        
+        
+    </interval>
+</meandata>

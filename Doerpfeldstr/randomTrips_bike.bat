@@ -1,0 +1,2 @@
+python "%SUMO_HOME%\tools\randomTrips.py"  -n net.net.xml.gz --seed 42 --fringe-factor 10 -p 6  -r osm.bicycle.rou.xml -b 50400 -e 54000 --vehicle-class bicycle --vclass bicycle --prefix bike --min-distance 8000 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes  -L -l --validate
+python "%SUMO_HOME%\tools\routeSampler.py" -r osm.bicycle.rou.xml --edgedata-files edge_data_bike.xml -o samplertrips_bike.rou.xml --optimize full
