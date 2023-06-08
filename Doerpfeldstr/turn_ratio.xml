@@ -1,0 +1,78 @@
+<data>
+	<interval id="generated" begin="50300" end="54100">
+		<edgeRelation from="152839428" to="-152839426" ratio="0.9"/> <!--Erste Kreuzung kommend vom Bahnhof-->
+		<edgeRelation from="152839428" to="24152326#0" ratio="0.1"/>
+		
+		<edgeRelation from="-166142947#1" to="-178028204#9" ratio="0.9"/> <!--Zweite Kreuzung kommend vom Bahnhof-->
+		<edgeRelation from="-166142947#1" to="-20553068#3" ratio="0.1"/>
+		
+		<edgeRelation from="-178028204#9" to="-178028204#4" ratio="0.9"/> <!--Dritte Kreuzung kommend vom Bahnhof-->
+		<edgeRelation from="-178028204#9" to="-140964924" ratio="0.1"/>
+		
+		<edgeRelation from="-178028204#4" to="-178028204#3" ratio="0.9"/>
+		<edgeRelation from="-178028204#4" to="-23788323" ratio="0.1"/>
+		
+		<edgeRelation from="-178028204#1" to="-178028203#2" ratio="0.9"/>
+		<edgeRelation from="-178028204#1" to="149611534#0" ratio="0.1"/>
+		
+		<edgeRelation from="-178028203#1" to="-1072269112#0" ratio="0.8"/>
+		<edgeRelation from="-178028203#1" to="140964915#0" ratio="0.1"/>
+		<edgeRelation from="-178028203#1" to="20554351" ratio="0.1"/>
+		
+		<edgeRelation from="-1072269112#0" to="-1072269113" ratio="0.9"/>
+		<edgeRelation from="-1072269112#0" to="-19589130#4" ratio="0.1"/>
+		
+		<edgeRelation from="-147053824#5" to="-147053824#4" ratio="0.9"/>
+		<edgeRelation from="-147053824#5" to="-140964910#3" ratio="0.1"/>
+		
+		<edgeRelation from="-147053824#4" to="-147053824#3" ratio="0.8"/>
+		<edgeRelation from="-147053824#4" to="-140964927#4" ratio="0.1"/>
+		<edgeRelation from="-147053824#4" to="35554226#1" ratio="0.1"/>
+		
+		<edgeRelation from="-147053824#3" to="-147053824#2" ratio="0.9"/>
+		<edgeRelation from="-147053824#3" to="-146511475#0" ratio="0.1"/>
+		
+		<edgeRelation from="-147053824#1" to="-11389403#3" ratio="0.9"/>
+		<edgeRelation from="-147053824#1" to="11391856#2" ratio="0.1"/>
+		
+		<edgeRelation from="11389403#3" to="147053824#1" ratio="0.9"/> <!--Zum Bahnhof-->
+		<edgeRelation from="11389403#3" to="11391856#2" ratio="0.1"/>
+		
+		<edgeRelation from="147053824#2" to="-146511475#0" ratio="0.1"/>
+		<edgeRelation from="147053824#2" to="147053824#3" ratio="0.9"/>
+		
+		<edgeRelation from="147053824#3" to="147053824#4" ratio="0.8"/>
+		<edgeRelation from="147053824#3" to="-140964927#4" ratio="0.1"/>
+		<edgeRelation from="147053824#3" to="35554226#1" ratio="0.1"/>
+		
+		<edgeRelation from="147053824#4" to="147053824#5" ratio="0.9"/>
+		<edgeRelation from="147053824#4" to="-140964910#3" ratio="0.1"/>
+		
+		<edgeRelation from="147053824#5" to="1072269113" ratio="0.9"/>
+		<edgeRelation from="147053824#5" to="140964907#1" ratio="0.1"/>
+		
+		<edgeRelation from="1072269113" to="1072269112#0" ratio="0.9"/>
+		<edgeRelation from="1072269113" to="-19589130#4" ratio="0.1"/>
+		
+		<edgeRelation from="1072269112#0" to="178028203#1" ratio="0.8"/>
+		<edgeRelation from="1072269112#0" to="20554351" ratio="0.1"/>
+		<edgeRelation from="1072269112#0" to="140964915#0" ratio="0.1"/>
+		
+		<edgeRelation from="178028203#2" to="178028204#1" ratio="0.9"/>
+		<edgeRelation from="178028203#2" to="149611534#0" ratio="0.1"/>
+		
+		
+		<edgeRelation from="178028204#4" to="178028204#9" ratio="0.8"/>
+		<edgeRelation from="178028204#4" to="23913525#0" ratio="0.1"/>
+		<edgeRelation from="178028204#4" to="-140964924" ratio="0.1"/>
+		
+		<edgeRelation from="178028204#9" to="166142947#1" ratio="0.9"/>
+		<edgeRelation from="178028204#9" to="-20553068#3" ratio="0.1"/>
+		
+		
+		<edgeRelation from="152839426" to="-152839428" ratio="0.8"/>
+		<edgeRelation from="152839426" to="-187123053#6" ratio="0.1"/>
+		<edgeRelation from="152839426" to="24152326#0" ratio="0.1"/>
+		
+	</interval>
+</data>
