@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-10 11:43:49 by Eclipse SUMO netedit Version v1_17_0+0871-1d9458f9fa0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="t_0" vClass="delivery"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="h0" type="t_0" depart="14:17:00"> <!--Post-->
+        <route edges="318210357#0 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#4 -178028204#3 149611534#0"/>
+        <stop lane="-178028204#9_1" startPos="32.40" endPos="42.40" duration="240.00"/>
+    </vehicle>
+    <vehicle id="h1" type="t_0" depart="14:20:00"> <!--Asia-->
+        <route edges="23788323 -178028204#3 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#5 -140964910#3 -140964910#2"/>
+        <stop lane="-147053824#5_1" startPos="81.85" endPos="91.85" duration="300.00"/>
+    </vehicle>
+	<vehicle id="h2" type="t_0" depart="14:36:00"> <!--Post-->
+        <route edges="318210357#0 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#4 -178028204#3 149611534#0"/>
+        <stop lane="-178028204#9_1" startPos="32.40" endPos="42.40" duration="240.00"/>
+    </vehicle>
+    <vehicle id="h3" type="t_0" depart="14:47:00"> <!--Fotoladen-->
+        <route edges="147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#4 178028204#9 166142947#1 -152839428 679901152#0 40191607#2"/>
+        <stop lane="166142947#1_1" startPos="37.47" endPos="47.47" duration="150.00"/>
+    </vehicle>
+</routes>
