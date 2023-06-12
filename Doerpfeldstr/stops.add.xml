@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-06-09 19:30:03 by Eclipse SUMO netedit Version v1_17_0+0871-1d9458f9fa0
+<!-- generated on 2023-06-12 11:01:03 by Eclipse SUMO netedit Version v1_17_0+0871-1d9458f9fa0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
-    <busStop id="bs_0" lane="-218797686#0_0" startPos="15" endPos="40" name="S Adlershof"/>
-    <busStop id="bs_1" lane="220194458#4_0" startPos="10" endPos="35"/>
-    <busStop id="bs_3" lane="24152326#0_1" startPos="37.12" endPos="47.12"/>
-    <busStop id="bs_4" lane="-178028204#3_2" startPos="30" endPos="55"/>
-    <busStop id="bs_5" lane="147053824#3_2" startPos="2" endPos="27"/>
-    <busStop id="bs_6" lane="1072269112#0_2" startPos="25" endPos="50"/>
-    <busStop id="bs_7" lane="-147053824#4_2" startPos="60" endPos="85"/>
-    <busStop id="bs_8" lane="179699940#6_0" startPos="285" endPos="310"/>
-    <busStop id="bs_9" lane="10699887#3_0" startPos="25" endPos="50"/>
+    <busStop id="bs_0" name="S Adlershof" lane="-218797686#0_0" startPos="15.00" endPos="40.00"/>
+    <busStop id="bs_1" name="S Adlershof" lane="220194458#4_0" startPos="10.00" endPos="35.00"/>
+    <busStop id="bs_3" name="Anna-Seghers-Str." lane="24152326#0_1" startPos="37.12" endPos="47.12"/>
+    <busStop id="bs_4" name="Marktplatz Adlershof" lane="-178028204#3_2" startPos="30.00" endPos="55.00"/>
+    <busStop id="bs_5" name="Wassermannstraße" lane="147053824#3_2" startPos="5.00" endPos="24.00"/>
+    <busStop id="bs_6" name="Marktplatz Adlershof" lane="1072269112#0_2" startPos="25.00" endPos="50.00"/>
+    <busStop id="bs_7" name="Wassermannstraße" lane="-147053824#4_2" startPos="50.00" endPos="75.00"/>
+    <busStop id="bs_8" name="Ottomar-Geschke-Str." lane="179699940#6_0" startPos="285.00" endPos="310.00"/>
+    <busStop id="bs_9" name="Ottomar-Geschke-Str." lane="10699887#3_0" startPos="25.00" endPos="50.00"/>
 </additional>
