@@ -1,8 +1,8 @@
 <configuration>
 	<input>
 		<net-file value="net.net.xml.gz"/>
-		<route-files value="samplertrips_bike.rou.xml"/>
-		<additional-files value="additional_bike.add.xml"/>
+		<route-files value="tram.rou.xml,samplertrips_bike.rou.xml"/>
+		<additional-files value="additional_bike.add.xml,stops.add.xml"/>
 	</input>
 	<time>
 		<begin value="50300"/>
