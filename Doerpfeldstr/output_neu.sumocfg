@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-14 15:28:09 by Eclipse SUMO sumo Version v1_17_0+0871-1d9458f9fa0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml.gz"/>
+        <route-files value="samplertrips.rou.xml"/>
+        <additional-files value="additional.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="50300"/>
+        <end value="54100"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="100"/>
+        <time-to-teleport.bidi value="-1"/>
+    </processing>
+
+</configuration>

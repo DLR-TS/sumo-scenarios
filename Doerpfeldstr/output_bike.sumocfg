@@ -1,7 +1,7 @@
 <configuration>
 	<input>
 		<net-file value="net.net.xml.gz"/>
-		<route-files value="tram.rou.xml,samplertrips_bike.rou.xml"/>
+		<route-files value="tram.rou.xml,samplertrips_bike.rou.xml,parking_vehicle.rou.xml,parking_heavy.rou.xml"/>
 		<additional-files value="additional_bike.add.xml,stops.add.xml"/>
 	</input>
 	<time>
