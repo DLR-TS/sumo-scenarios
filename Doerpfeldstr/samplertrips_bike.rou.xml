@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-06-12 15:55:27.787350 by routeSampler.py v1_17_0+0871-1d9458f9fa0
+<!-- generated on 2023-06-16 13:53:06.973426 by routeSampler.py v1_17_0+0966-791c67e8cd8
 <configuration>
     <route-files value="osm.bicycle.rou.xml"/>
     <turn-ratio-files value="turn_ratio.xml"/>
@@ -15,7 +15,7 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
 <!-- begin="50300.0" end="54100.0" -->
 	<vType id="bike_bicycle" vClass="bicycle"/>
-	<vehicle id="0" depart="50300.00" type="bike_bicycle">
+    <vehicle id="0" depart="50300.00" type="bike_bicycle">
         <route edges="-187114311 23925124#2 -166142951#1 -166142951#0 -1066221582 -1066221787 -1066222296#1 -1066222296#0 -137534616 25771472#0 -140964907#3 -140964907#2 -140964907#1 1072269113 1072269112#0"/>
     </vehicle>
     <vehicle id="1" depart="50307.17" type="bike_bicycle">

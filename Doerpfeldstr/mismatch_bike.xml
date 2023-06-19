@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-06-12 15:55:27.787350 by routeSampler.py v1_17_0+0871-1d9458f9fa0
+<!-- generated on 2023-06-16 13:53:06.973426 by routeSampler.py v1_17_0+0966-791c67e8cd8
 <configuration>
     <route-files value="osm.bicycle.rou.xml"/>
     <turn-ratio-files value="turn_ratio.xml"/>
