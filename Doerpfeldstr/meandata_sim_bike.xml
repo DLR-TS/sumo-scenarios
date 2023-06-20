@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-20 12:00:01 by Eclipse SUMO GUI Version v1_17_0+0966-791c67e8cd8
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\net.net.xml.gz"/>
+        <route-files value="C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\samplertrips_bike.rou.xml,C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\parking_heavy.rou.xml,C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\parking_vehicle.rou.xml,C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\tram.rou.xml"/>
+        <additional-files value="C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\additional_bike.add.xml,C:\Users\hart_pn\sumo-scenarios\Doerpfeldstr\stops.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="50300"/>
+        <end value="54100"/>
+    </time>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="50300.00" end="54100.00" id="sim_bike">
+        <edge id="178028204#9" sampledSeconds="181.23" traveltime="1.64" overlapTraveltime="2.37" density="7.83" laneDensity="2.61" occupancy="0.46" waitingTime="24.00" timeLoss="55.06" speed="4.23" speedRelative="0.51" departed="0" arrived="0" entered="83" left="83" laneChangedFrom="3" laneChangedTo="3"/>
+        <edge id="-178028204#9" sampledSeconds="4652.87" traveltime="24.16" overlapTraveltime="25.13" density="19.52" laneDensity="6.51" occupancy="2.33" waitingTime="391.00" timeLoss="644.47" speed="2.64" speedRelative="0.32" departed="0" arrived="13" entered="189" left="175" laneChangedFrom="37" laneChangedTo="37"/>
+        <edge id="-147053824#2" sampledSeconds="2510.90" traveltime="18.73" overlapTraveltime="19.04" density="6.57" laneDensity="2.19" occupancy="0.43" waitingTime="0.00" timeLoss="166.37" speed="5.39" speedRelative="0.39" departed="0" arrived="2" entered="132" left="129" laneChangedFrom="8" laneChangedTo="8"/>
+        <edge id="147053824#2" sampledSeconds="862.95" traveltime="23.40" overlapTraveltime="23.67" density="2.26" laneDensity="0.75" occupancy="0.27" waitingTime="0.00" timeLoss="42.67" speed="4.41" speedRelative="0.32" departed="0" arrived="1" entered="37" left="35" laneChangedFrom="4" laneChangedTo="4"/>
+    </interval>
+</meandata>

@@ -3,7 +3,7 @@
     <vType id="pt_tram" vClass="tram"/>
 	
 <!--Richtung Adlershof-->	
-<route id="tram_63_0"   edges="10699887#0 10699887#3 10699887#4 147053824#1 147053824#2 147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#4 178028204#9 166142947#1 -152839428 679901152#0 -218797686#0">
+<route id="tram_63_0"   edges="10699887#0 10699887#3 10699887#4 147053824#1 147053824#2 147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#4 178028204#9 178028204#9.13 166142947#1 -152839428 679901152#0 -218797686#0">
 		<stop busStop="bs_9" duration="30.00" until="60.00"/> <!--Ottomar., eine Minute bis zur nächsten Station-->
 		<stop busStop="bs_5" duration="30.00" until="120.00"/>	<!--Wassermann, zwei Minuten bis zur nächsten Station-->
 		<stop busStop="bs_6" duration="30.00" until="240.00"/>	<!--Marktplatz, drei Minuten bis zum S Bahnhof-->
@@ -11,7 +11,7 @@
 </route>
 	<flow id="tram_63_0" route="tram_63_0" type="pt_tram" line="tram_63#0" begin="14:13:00" end="15:00:00" period="1200"/>
 <!--Richtung Adlershof-->	
-<route id="tram_61_0"  edges="10699887#0 10699887#3 10699887#4 147053824#1 147053824#2 147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#4 178028204#9 166142947#1 -152839428 679901152#0 -218797686#0">
+<route id="tram_61_0"  edges="10699887#0 10699887#3 10699887#4 147053824#1 147053824#2 147053824#3 147053824#4 147053824#5 1072269113 1072269112#0 178028203#1 178028203#2 178028204#1 178028204#4 178028204#9 178028204#9.13 166142947#1 -152839428 679901152#0 -218797686#0">
 		<stop busStop="bs_9" duration="30.00" until="60.00"/> <!--Ottomar., eine Minute bis zur nächsten Station-->
 		<stop busStop="bs_5" duration="30.00" until="120.00"/>	<!--Wassermann, zwei Minuten bis zur nächsten Station-->
 		<stop busStop="bs_6" duration="30.00" until="240.00"/>	<!--Marktplatz, drei Minuten bis zum S Bahnhof-->
@@ -21,7 +21,7 @@
 	
 	
 <!--Richtung Spindlersfeld-->	
-<route id="tram_63_1" color="cyan" edges="220194458#4 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#4 -178028204#3 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#5 -147053824#4 -147053824#3 -147053824#2 -147053824#1 179699940#6 86614777#1 86614777#2">
+<route id="tram_63_1" color="cyan" edges="220194458#4 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#9.72 -178028204#4 -178028204#3 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#5 -147053824#4 -147053824#3 -147053824#2 -147053824#1 179699940#6 86614777#1 86614777#2">
 		<stop busStop="bs_1" duration="30.00" until="60.00"/>	<!--S Adlershof, drei Minuten bis zum Marktplatz-->
 		<stop busStop="bs_4" duration="30.00" until="240.00"/>	<!--Marktplatz, eine Minuten bis Wasser-->
 		<stop busStop="bs_7" duration="30.00" until="300.00"/>	<!--Wassermann, eine Minute bis Otto-->
@@ -29,7 +29,7 @@
 </route>
 	<flow id="tram_63_1" route="tram_63_1" type="pt_tram" line="tram_63#1" begin="14:02:00" end="15:00:00" period="1200"/>
 <!--Richtung Spindlersfeld-->	
-<route id="tram_61_1"   color="cyan" edges="220194458#4 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#4 -178028204#3 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#5 -147053824#4 -147053824#3 -147053824#2 -147053824#1 179699940#6 86614777#1 86614777#2">
+<route id="tram_61_1"   color="cyan" edges="220194458#4 -679901152#1 -45875465 -152839426 -178028204#9 -178028204#9.72 -178028204#4 -178028204#3 -178028203#2 -178028203#1 -1072269112#0 -1072269113 -147053824#5 -147053824#4 -147053824#3 -147053824#2 -147053824#1 179699940#6 86614777#1 86614777#2">
 		<stop busStop="bs_1" duration="30.00" until="60.00"/>	<!--S Adlershof, drei Minuten bis zum Marktplatz-->
 		<stop busStop="bs_4" duration="30.00" until="240.00"/>	<!--Marktplatz, eine Minuten bis Wasser-->
 		<stop busStop="bs_7" duration="30.00" until="300.00"/>	<!--Wassermann, eine Minute bis Otto-->
