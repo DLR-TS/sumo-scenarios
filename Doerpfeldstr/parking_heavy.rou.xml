@@ -4,28 +4,25 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <!-- VTypes -->
-    <vType id="t_0" vClass="delivery"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <vehicle id="h0" type="t_0" depart="14:17:00"> <!--Post-->
+    <vehicle id="h0" type="delivery" depart="14:17:00"> <!--Post-->
         <route edges="20553068#3 -178028204#9 -178028204#9.72 -140964924"/>
         <stop lane="-178028204#9_1" startPos="32.40" endPos="42.40" duration="240.00"/>
     </vehicle>
-    <vehicle id="h1" type="t_0" depart="14:20:00"> <!--Asia-->
+    <vehicle id="h1" type="delivery" depart="14:20:00"> <!--Asia-->
         <route edges="-149611534#0 -178028203#2 -178028203#1 -1072269112#0 -1072269113 140964907#1"/>
         <stop lane="-1072269112#0_1" startPos="50.00" endPos="60.00" duration="300.00"/>
     </vehicle>
-	<vehicle id="h2" type="t_0" depart="14:25:00"> <!--Biomarkt-->
-        <route edges="318210357#0 -679901152#1 -45875465 24152326#0"/>
+    <vehicle id="h2" type="delivery" depart="14:25:00"> <!--Biomarkt-->
+        <route edges="318210357#0 -679901152#1 -45875465 -45875465.50 24152326#0"/>
         <stop lane="-45875465_1" startPos="39.27" endPos="49.27" duration="120.00"/>
     </vehicle>
-    <vehicle id="h3" type="t_0" depart="14:33:00"> <!--kurz vor dem Marktplatz Richtung Bahnhof-->
+    <vehicle id="h3" type="delivery" depart="14:33:00"> <!--kurz vor dem Marktplatz Richtung Bahnhof-->
         <route edges="140964927#4 147053824#4"/>
         <stop lane="147053824#4_1" startPos="54.07" endPos="64.07" duration="200.00"/>
     </vehicle>
-	<vehicle id="h4" type="t_0" depart="14:36:00"> <!--Post-->
+    <vehicle id="h4" type="delivery" depart="14:36:00"> <!--Post-->
         <route edges="20553068#3 -178028204#9 -178028204#9.72 -140964924"/>
         <stop lane="-178028204#9_1" startPos="17.10" endPos="27.10" duration="160.00"/>
     </vehicle>
-    
 </routes>

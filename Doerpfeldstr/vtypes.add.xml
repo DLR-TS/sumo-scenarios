@@ -4,10 +4,8 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <!-- VTypes -->
-    <vType id="t_0" vClass="tram" color="red"/>
-    <vType id="t_1" vClass="tram" color="yellow"/>
-    <vType id="t_2" vClass="delivery" color="cyan"/>
-    <vType id="t_3" vClass="bicycle"/>
-    <vType id="t_4"/>
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="delivery" vClass="delivery"/>
+    <vType id="bicycle" vClass="bicycle"/>
 </additional>

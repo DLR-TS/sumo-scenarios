@@ -1,3 +1,4 @@
 osm.passenger.rou.xml
 trips.trips.xml
-/mismatch.xml
+mismatch*.xml
+meandata_sim*.xml

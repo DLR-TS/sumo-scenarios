@@ -1,13 +1,13 @@
 <data>
 	<interval id="generated" begin="50300" end="54100">
-		<edgeRelation from="-45875465" to="-152839426" ratio="0.9"/> <!--Erste Kreuzung kommend vom Bahnhof-->
-		<edgeRelation from="-45875465" to="24152326#0" ratio="0.1"/>
+		<edgeRelation from="-45875465.50" to="-152839426" ratio="0.9"/> <!--Erste Kreuzung kommend vom Bahnhof-->
+		<edgeRelation from="-45875465.50" to="24152326#0" ratio="0.1"/>
 		
 		<edgeRelation from="-152839426" to="-178028204#9" ratio="0.9"/> <!--Zweite Kreuzung kommend vom Bahnhof-->
 		<edgeRelation from="-152839426" to="-20553068#3" ratio="0.1"/>
 		
-		<edgeRelation from="-178028204#9" to="-178028204#4" ratio="0.9"/> <!--Dritte Kreuzung kommend vom Bahnhof-->
-		<edgeRelation from="-178028204#9" to="-140964924" ratio="0.1"/>
+		<edgeRelation from="-178028204#9.72" to="-178028204#4" ratio="0.9"/> <!--Dritte Kreuzung kommend vom Bahnhof-->
+		<edgeRelation from="-178028204#9.72" to="-140964924" ratio="0.1"/>
 		
 		<edgeRelation from="-178028204#4" to="-178028204#3" ratio="0.9"/>
 		<edgeRelation from="-178028204#4" to="-23788323" ratio="0.1"/>
@@ -66,8 +66,8 @@
 		<edgeRelation from="178028204#4" to="23913525#0" ratio="0.1"/>
 		<edgeRelation from="178028204#4" to="-140964924" ratio="0.1"/>
 		
-		<edgeRelation from="178028204#9" to="166142947#1" ratio="0.9"/>
-		<edgeRelation from="178028204#9" to="-20553068#3" ratio="0.1"/>
+		<edgeRelation from="178028204#9.13" to="166142947#1" ratio="0.9"/>
+		<edgeRelation from="178028204#9.13" to="-20553068#3" ratio="0.1"/>
 		
 		
 		<edgeRelation from="166142947#1" to="-152839428" ratio="0.8"/>
