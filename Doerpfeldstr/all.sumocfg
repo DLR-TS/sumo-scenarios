@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-06-26 16:02:44 by Eclipse SUMO sumo Version v1_17_0+0966-791c67e8cd8
+<!-- generated on 2023-07-06 19:51:22 by Eclipse SUMO sumo Version v1_18_0+0023-ef591d47046
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -20,5 +20,9 @@
         <time-to-teleport value="100"/>
         <time-to-teleport.bidi value="70"/>
     </processing>
+
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
 
 </configuration>
