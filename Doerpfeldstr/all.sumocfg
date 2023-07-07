@@ -8,7 +8,7 @@
     <input>
         <net-file value="net.net.xml.gz"/>
         <route-files value="samplertrips.rou.xml,samplertrips_bike.rou.xml,parking_heavy.rou.xml,parking_vehicle.rou.xml,tram.rou.xml"/>
-        <additional-files value="vtypes.add.xml,additional_bike.add.xml,additional.add.xml,stops.add.xml"/>
+        <additional-files value="vtypes.add.xml,additional_bike.add.xml,additional.add.xml,stops.add.xml,tram_tls.add.xml"/>
     </input>
 
     <time>
