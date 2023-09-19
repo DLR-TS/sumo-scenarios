@@ -526,7 +526,7 @@
    
    <!-- Leonhardplatz -->
     <connection from="625058945" fromLane="0" to="291757763#5" toLane="0"/>
-    <connection from="625058945" fromLane="0" to="563616437#0" toLane="0"/>
+    <connection from="625058945" fromLane="0" to="563616437#0" toLane="0" allow="emergency authority bus tram"/>
     <connection from="625058945" fromLane="0" to="5058977#1" toLane="0"/>
     <connection from="320364657#0" fromLane="0" to="23295226#2" toLane="0"/>
     <connection from="320364657#0" fromLane="1" to="5058977#1" toLane="0"/>
