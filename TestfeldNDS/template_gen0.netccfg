@@ -64,7 +64,7 @@
     </junctions>
 
     <railway>
-        <railway.topology.repair.minimal value="true"/>
+        <railway.topology.repair value="true"/>
     </railway>
 
     <report>
