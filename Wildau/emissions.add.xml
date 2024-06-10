@@ -1,0 +1,3 @@
+<additional>
+	<edgeData type="emissions" id="SUMO-Wildau" file="wildau.emissions.xml" />
+</additional>
