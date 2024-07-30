@@ -1,4 +1,4 @@
-..\..\utils\patch.exe -N ../osm/BS_detail.osm.xml ../osm/tram4.diff
+%SUMO_LIBRARIES%\utils\patch.exe -N ../osm/BS_detail.osm.xml ../osm/tram4.diff
 %SUMO_HOME%\bin\netconvert.exe -c miv.netccfg
 python %SUMO_HOME%\tools\tls\tls_csvSignalGroups.py -n netpatch/miv.net.xml -i netpatch/Rudolfplatz_SP33.csv -o netpatch/Rudolfplatz.tll.xml
 %SUMO_HOME%\bin\netconvert.exe -c miv2.netccfg
