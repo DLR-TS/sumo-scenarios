@@ -6,15 +6,15 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="port.net.xml"/>
+        <net-file value="port.net.xml.gz"/>
         <route-files value="veh.rou.xml"/>
         <additional-files value="osm.poly.xml,stops.add.xml"/>
     </input>
-	
-	<time>
-		<begin value="0"/>
-		<end value="3600"/> <!-- one hour 3600-->
-	</time>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/> <!-- one hour 3600-->
+    </time>
 
     <processing>
         <ignore-route-errors value="true"/>

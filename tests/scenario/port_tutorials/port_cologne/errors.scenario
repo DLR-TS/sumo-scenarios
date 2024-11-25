@@ -1,5 +1,7 @@
-Warning: 5 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
-Warning: 106 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
-Warning: 20 total messages of type: Teleporting vehicle '%'; waited too long (jam), lane='%', time=%.
-Warning: 20 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
-Warning: 35 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 1 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
+Warning: 9 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
+Warning: 35 total messages of type: Teleporting vehicle '%'; waited too long (jam), lane='%', time=%.
+Warning: 3 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane), lane='%', time=%.
+Warning: 27 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
+Warning: 59 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 1 total messages of type: Vehicle '%' teleports beyond arrival edge '%', time=%.

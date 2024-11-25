@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="osm.net.xml"/>
+        <net-file value="osm.net.xml.gz"/>
         <route-files value="osm.passenger.trips.xml,osm.truck.trips.xml,osm.rail.trips.xml,osm.ship.trips.xml"/>
         <additional-files value="osm.poly.xml"/>
     </input>
@@ -26,10 +26,10 @@
         <no-step-log value="true"/>
     </report>
 
-	<time>
-		<begin value="0"/>
-		<end value="3600"/> 
-	</time>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/> 
+    </time>
 
     <gui_only>
         <gui-settings-file value="osm.view.xml"/>
