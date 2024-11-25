@@ -1,24 +1,24 @@
-Loading net-file from 'network.net.xml.gz' ... done (222ms).
-Loading additional-files from 'busStops.add.xml' ... done (17ms).
+Loading net-file from 'network.net.xml.gz' ... done (156ms).
+Loading additional-files from 'busStops.add.xml' ... done (20ms).
 Loading done.
-Simulation version v1_15_0+1566-079bf128d9b started with time: 0.00.
-Simulation ended at time: 1000.00
+Simulation version v1_21_0+0932-f310b11d73c started with time: 0.00.
+Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
-Performance: 
- Duration: 24.29s
- Real time factor: 41.1658
- UPS: 41365.428948
-Vehicles: 
- Inserted: 5909 (Loaded: 5927)
- Running: 1207
- Waiting: 8
-Statistics (avg of 4702):
- RouteLength: 1632.59
- Speed: 9.30
- Duration: 183.30
- WaitingTime: 47.98
- TimeLoss: 63.25
- DepartDelay: 0.85
-
-DijkstraRouter answered 5876 queries and explored 95.80 edges on average.
-DijkstraRouter spent 0.66s answering queries (0.11ms on average).
+Performance:
+ Duration: 16.89s
+ Real time factor: 59.1961
+ UPS: 59192.860948
+Vehicles:
+ Inserted: 5905 (Loaded: 5927)
+ Running: 1192
+ Waiting: 12
+ Emergency Braking: 2
+Statistics (avg of 4713):
+ RouteLength: 1626.80
+ Speed: 9.39
+ Duration: 181.27
+ WaitingTime: 46.55
+ TimeLoss: 61.64
+ DepartDelay: 0.90
+DijkstraRouter answered 5878 queries and explored 94.67 edges on average.
+DijkstraRouter spent 0.48s answering queries (0.08ms on average).

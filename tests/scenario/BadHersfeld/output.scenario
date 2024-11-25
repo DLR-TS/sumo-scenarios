@@ -1,28 +1,28 @@
-Loading net-file from 'osm_edited.net.xml.gz' ... done (2297ms).
-Loading additional-files from 'pt_vtypes.xml' ... done (16ms).
-Loading additional-files from 'gtfs_publictransport.add.xml' ... done (44ms).
-Loading additional-files from 'gtfs_publictransport.rou.xml' ... 
-done (57ms).
-Loading additional-files from 'osm_polygons.add.xml' ... done (580ms).
-Loading additional-files from 'defaults/basic.vType.xml' ... done (2ms).
-Loading additional-files from 'osm_complete_parking_areas.add.xml' ... done (240ms).
-Loading additional-files from 'osm_parking_rerouters.add.xml' ... done (124ms).
-Loading additional-files from 'induction_loops.add.xml' ... done (5ms).
-Loading additional-files from 'edge_lane_data.add.xml' ... done (37ms).
-Loading additional-files from 'obstacle_seilerweg.add.xml' ... done (11ms).
+Loading net-file from 'osm_edited.net.xml.gz' ... done (2410ms).
+Loading additional-files from 'pt_vtypes.xml' ... done (13ms).
+Loading additional-files from 'gtfs_publictransport.add.xml' ... done (32ms).
+Loading additional-files from 'gtfs_publictransport.rou.xml' ...
+ done (54ms).
+Loading additional-files from 'osm_polygons.add.xml' ... done (1503ms).
+Loading additional-files from 'defaults/basic.vType.xml' ... done (11ms).
+Loading additional-files from 'osm_complete_parking_areas.add.xml' ... done (182ms).
+Loading additional-files from 'osm_parking_rerouters.add.xml' ... done (150ms).
+Loading additional-files from 'induction_loops.add.xml' ... done (4ms).
+Loading additional-files from 'edge_lane_data.add.xml' ... done (38ms).
+Loading additional-files from 'obstacle_seilerweg.add.xml' ... done (10ms).
 Loading done.
-Simulation version v1_14_1+1757-dea40b50d78 started with time: 0.00.
-Simulation ended at time: 1000.00
+Simulation version v1_21_0+0932-f310b11d73c started with time: 0.00.
+Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
-Performance: 
- Duration: 4.10s
- Real time factor: 244.2
- UPS: 1709.401709
-Vehicles: 
+Performance:
+ Duration: 4.41s
+ Real time factor: 226.603
+ UPS: 1586.222524
+Vehicles:
  Inserted: 7 (Loaded: 654)
  Running: 7
  Waiting: 0
-Persons: 
+Persons:
  Inserted: 1
  Running: 0
 Statistics (avg of 0):
@@ -32,7 +32,6 @@ Statistics (avg of 0):
  WaitingTime: 0.00
  TimeLoss: 0.00
  DepartDelay: 0.00
-
 AStarRouter answered 2 queries and explored 1.00 edges on average.
 AStarRouter spent 0.00s answering queries (0.00ms on average).
 AStarRouter answered 2 queries and explored 1.00 edges on average.

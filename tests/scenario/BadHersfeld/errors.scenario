@@ -10,6 +10,5 @@ Warning: busStop '157539099#1:35.52' on lane '157539099#1_1' is too short for ve
 Warning: busStop '157539101#1:0.20' on lane '157539101#1_1' is too short for vehicle '10100832.0'.
 Warning: busStop '240561428#1:2.89' on lane '240561428#1_1' is too short for vehicle '10100773.0'.
 Warning: busStop '-151585859#1:20.81' on lane '-151585859#1_1' is too short for vehicle '10101029.0'.
-Warning: 3 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
 Warning: 1 total messages of type: Missing green phase in tlLogic '%', program '%' for tl-index %.
 Warning: 2 total messages of type: Unused states in tlLogic '%', program '%' in phase % after tl-index %
