@@ -1,0 +1,5 @@
+#!/bin/bash
+python "$SUMO_HOME/tools/randomTrips.py" -n osm.net.xml.gz --fringe-factor 5 -p 1 -o osm.passenger.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes --validate
+python "$SUMO_HOME/tools/randomTrips.py" -n osm.net.xml.gz --fringe-factor 5 -p 10 -o osm.truck.trips.xml -e 3600 --vehicle-class truck --vclass truck --prefix truck --min-distance 600 --fringe-start-attributes "departSpeed=\"max\"" --trip-attributes "departLane=\"best\"" --validate
+python "$SUMO_HOME/tools/randomTrips.py" -n osm.net.xml.gz --fringe-factor 1 -p 100 -o osm.ship.trips.xml -e 3600 --vehicle-class ship --vclass ship --prefix ship --validate --fringe-start-attributes "departSpeed=\"max\""
+python "$SUMO_HOME/tools/randomTrips.py" -n osm.net.xml.gz --fringe-factor 40 -p 1 -o osm.rail.trips.xml -e 3600 --vehicle-class rail --vclass rail --prefix rail --fringe-start-attributes "departSpeed=\"max\"" --min-distance 2400 --trip-attributes "departLane=\"best\"" --validate

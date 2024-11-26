@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-11-30 10:40:15 by Eclipse SUMO duarouter Version v1_10_0+0107-32a7811116
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+<!-- generated on 2024-11-26 23:34:15.880547 by randomTrips.py v1_21_0+0972-0c1835538dd
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <output-trip-file value="osm.ship.trips.xml"/>
+    <prefix value="ship"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="ship"/>
+    <fringe-factor value="1"/>
+    <vclass value="ship"/>
+    <validate value="True"/>
+    <period value="100.0"/>
+</configuration>
+-->
+
+<!-- generated on 2024-11-26 23:34:15 by Eclipse SUMO duarouter Version v1_21_0+0972-0c1835538dd
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="osm_short.net.xml"/>
+        <net-file value="osm.net.xml.gz"/>
         <route-files value="osm.ship.trips.xml"/>
     </input>
 
     <output>
         <output-file value="osm.ship.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
         <write-trips value="true"/>
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="3600"/>
+        <end value="3600.0"/>
     </time>
 
     <report>
@@ -24,35 +39,39 @@
         <no-step-log value="true"/>
     </report>
 
-</configuration>
+</duarouterConfiguration>
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="ship_ship" vClass="ship"/>
-    <trip id="ship0" type="ship_ship" depart="0.00" departSpeed="max" from="gneE15" to="-gneE10"/>
+    <trip id="ship0" type="ship_ship" depart="0.00" from="gneE15" to="-gneE10"/>
     <trip id="ship1" type="ship_ship" depart="100.00" from="-gneE21" to="-gneE19"/>
+    <trip id="ship2" type="ship_ship" depart="200.00" from="gneE2" to="gneE17"/>
     <trip id="ship4" type="ship_ship" depart="400.00" from="-gneE6" to="-gneE10"/>
     <trip id="ship5" type="ship_ship" depart="500.00" from="-gneE19" to="-gneE9"/>
     <trip id="ship6" type="ship_ship" depart="600.00" from="-gneE10" to="-gneE18"/>
     <trip id="ship7" type="ship_ship" depart="700.00" from="gneE16" to="gneE10"/>
-    <trip id="ship8" type="ship_ship" depart="800.00" from="-gneE19" to="gneE12"/>
+    <trip id="ship8" type="ship_ship" depart="800.00" from="-gneE19" to="gneE13"/>
     <trip id="ship9" type="ship_ship" depart="900.00" from="gneE3" to="-83015625#2.163346"/>
-    <trip id="ship11" type="ship_ship" depart="1100.00" from="-gneE4" to="-gneE16"/>
+    <trip id="ship10" type="ship_ship" depart="1000.00" from="gneE3" to="gneE18"/>
     <trip id="ship12" type="ship_ship" depart="1200.00" from="gneE7" to="-gneE4"/>
     <trip id="ship13" type="ship_ship" depart="1300.00" from="-gneE12" to="-gneE12"/>
     <trip id="ship14" type="ship_ship" depart="1400.00" from="gneE5" to="gneE13"/>
     <trip id="ship16" type="ship_ship" depart="1600.00" from="gneE10" to="gneE8"/>
-    <trip id="ship17" type="ship_ship" depart="1700.00" from="-gneE5.239" to="gneE10"/>
+    <trip id="ship17" type="ship_ship" depart="1700.00" from="-gneE5.239" to="gneE11"/>
     <trip id="ship18" type="ship_ship" depart="1800.00" from="gneE4" to="gneE14"/>
     <trip id="ship19" type="ship_ship" depart="1900.00" from="gneE5" to="gneE12"/>
+    <trip id="ship21" type="ship_ship" depart="2100.00" from="-gneE19" to="-gneE21"/>
     <trip id="ship22" type="ship_ship" depart="2200.00" from="-gneE12" to="-gneE19"/>
-    <trip id="ship24" type="ship_ship" depart="2400.00" departSpeed="max" from="gneE15" to="-gneE5.239"/>
+    <trip id="ship23" type="ship_ship" depart="2300.00" from="-gneE13" to="-gneE21"/>
+    <trip id="ship24" type="ship_ship" depart="2400.00" from="gneE15" to="-gneE5"/>
     <trip id="ship25" type="ship_ship" depart="2500.00" from="-gneE5" to="-gneE18"/>
-    <trip id="ship26" type="ship_ship" depart="2600.00" from="-gneE20" to="gneE7"/>
-    <trip id="ship27" type="ship_ship" depart="2700.00" from="gneE16" to="gneE13"/>
+    <trip id="ship26" type="ship_ship" depart="2600.00" from="-gneE20" to="gneE6.259"/>
+    <trip id="ship27" type="ship_ship" depart="2700.00" from="gneE16" to="gneE14"/>
     <trip id="ship29" type="ship_ship" depart="2900.00" from="-gneE16" to="-gneE5.239"/>
-    <trip id="ship32" type="ship_ship" depart="3200.00" from="gneE4" to="gneE22"/>
+    <trip id="ship30" type="ship_ship" depart="3000.00" from="gneE9" to="gneE15"/>
+    <trip id="ship31" type="ship_ship" depart="3100.00" from="gneE11" to="gneE17"/>
+    <trip id="ship32" type="ship_ship" depart="3200.00" from="gneE4" to="gneE21"/>
     <trip id="ship33" type="ship_ship" depart="3300.00" from="-gneE19" to="-gneE10"/>
-    <trip id="ship34" type="ship_ship" depart="3400.00" from="-gneE3" to="-gneE20"/>
     <trip id="ship35" type="ship_ship" depart="3500.00" from="-gneE18" to="gneE7"/>
 </routes>

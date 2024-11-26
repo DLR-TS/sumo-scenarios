@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-11-30 10:40:39 by Eclipse SUMO duarouter Version v1_10_0+0107-32a7811116
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+<!-- generated on 2024-11-26 23:34:17.085591 by randomTrips.py v1_21_0+0972-0c1835538dd
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <output-trip-file value="osm.rail.trips.xml"/>
+    <prefix value="rail"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="rail"/>
+    <fringe-factor value="40"/>
+    <vclass value="rail"/>
+    <min-distance value="2400.0"/>
+    <validate value="True"/>
+    <period value="1.0"/>
+</configuration>
+-->
+
+<!-- generated on 2024-11-26 23:34:17 by Eclipse SUMO duarouter Version v1_21_0+0972-0c1835538dd
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="osm_short.net.xml"/>
+        <net-file value="osm.net.xml.gz"/>
         <route-files value="osm.rail.trips.xml"/>
     </input>
 
     <output>
         <output-file value="osm.rail.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
         <write-trips value="true"/>
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="3600"/>
+        <end value="3600.0"/>
     </time>
 
     <report>
@@ -24,7 +41,7 @@
         <no-step-log value="true"/>
     </report>
 
-</configuration>
+</duarouterConfiguration>
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
