@@ -42,7 +42,7 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <busStop id="busStop_pier" lane="-128042010_1" startPos="37.63" endPos="57.63" name="busstation_pier">
+    <busStop id="busStop_pier" lane="-128042010_1" startPos="37.63" endPos="57.63" name="busstation_pier" parkingLength="10000">
 		<access lane="127071510_0" pos="10"/>
 	</busStop>
     <busStop id="busStop_busstation_terminal" lane="-197841302_1" startPos="19.11" endPos="39.11" name="busstation_terminal"/>
@@ -50,7 +50,7 @@
     <busStop id="busStop_waterway" lane="127071510_0" startPos="0" endPos="20" name="busstation_waterway">
 		<access lane="-128042010_1" pos="50"/>
 	</busStop>
-    <containerStop id="containerStop_pier" lane="-277007500#0_1" startPos="62.73" endPos="82.73" name="containerstop_pier"/>
+    <containerStop id="containerStop_pier" lane="-277007500#0_1" startPos="62.73" endPos="82.73" name="containerstop_pier" parkingLength="10000"/>
     <containerStop id="containerStop_truck_terminal" lane="149185411#2_0" startPos="54.73" endPos="74.73" name="truck_terminal"/>
     <containerStop id="containerStop_truck_trainstation" lane="276781727#9_0" startPos="10" endPos="30" name="truck_trainstation"/>
     <containerStop id="containerStop_trainstation" lane="29497609_0" startPos="523.06" endPos="623.06" name="trainstation"/>
