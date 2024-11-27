@@ -1,64 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 08/09/21 13:59:47 by Eclipse SUMO netconvert Version v1_8_0+1925-6bf04e0fef
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
-
-    <input>
-        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertShips.typ.xml"/>
-        <osm-files value="osm_bbox.osm.xml"/>
-    </input>
-
-    <output>
-        <output-file value="osm.net.xml"/>
-        <output.street-names value="true"/>
-        <output.original-names value="true"/>
-        <ptstop-output value="osm_stops.add.xml"/>
-        <ptline-output value="osm_ptlines.xml"/>
-    </output>
-
-    <projection>
-        <proj.utm value="true"/>
-    </projection>
-
-    <processing>
-        <geometry.remove value="true"/>
-        <roundabouts.guess value="true"/>
-    </processing>
-
-    <tls_building>
-        <tls.discard-simple value="true"/>
-        <tls.join value="true"/>
-        <tls.guess-signals value="true"/>
-        <tls.default-type value="actuated"/>
-    </tls_building>
-
-    <ramp_guessing>
-        <ramps.guess value="true"/>
-    </ramp_guessing>
-
-    <junctions>
-        <junctions.join value="true"/>
-        <junctions.corner-detail value="5"/>
-    </junctions>
-
-    <pedestrian>
-        <crossings.guess value="true"/>
-    </pedestrian>
-
-    <railway>
-        <railway.topology.repair value="true"/>
-        <railway.topology.repair.stop-turn value="true"/>
-    </railway>
-
-    <report>
-        <verbose value="true"/>
-        <aggregate-warnings value="5"/>
-    </report>
-
-</configuration>
+<!-- generated on 2024-11-27 11:25:50 by Eclipse SUMO netedit Version v1_21_0+0981-da72f542b3e
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
     <busStop id="-2126769009" name="Am Grasplatz" lane="-5989176#0_1" startPos="50.44" endPos="65.08" friendlyPos="true" lines="433"/>
     <busStop id="-2126769010" name="Am Grasplatz" lane="-33199328_1" startPos="15.34" endPos="30.34" friendlyPos="true" lines="480"/>
     <busStop id="-2303819179" name="Schlesierweg" lane="-108915782#2_1" startPos="13.84" endPos="28.84" friendlyPos="true" lines="480"/>
@@ -105,7 +51,6 @@
     <busStop id="-4112400477" name="Carl-Giesecke-Straße" lane="-23170152#6_1" startPos="32.03" endPos="47.03" friendlyPos="true" lines="484"/>
     <busStop id="-4112400479" name="Hansestraße West" lane="-23170152#0_1" startPos="18.99" endPos="33.99" friendlyPos="true" lines="484"/>
     <busStop id="-4112400479@7018923" name="Hansestraße West" lane="-23170152#0_1" startPos="18.99" endPos="33.99" friendlyPos="true" lines="484"/>
-    <busStop id="-41944784" name="Rodelandweg" lane="-5640212#11_1" startPos="40.25" endPos="55.25" friendlyPos="true" lines="416"/>
     <busStop id="-4393385969" name="Gewerbegebiet Waller See (Ost)" lane="-722504209#0_1" startPos="60.75" endPos="75.75" friendlyPos="true" lines="484"/>
     <busStop id="-4393542161" name="Am Platz" lane="-30253923_0" startPos="48.76" endPos="63.76" friendlyPos="true" lines="424">
         <access lane="-30253924#0_0" pos="44.97" length="78.56" friendlyPos="1"/>
@@ -136,7 +81,7 @@
     <busStop id="-855328418" name="Dreisch" lane="-173759898#0_1" startPos="90.81" endPos="105.81" friendlyPos="true" lines="414"/>
     <busStop id="1355332139" name="Kanalbrücke" lane="307704875#13_1" startPos="17.88" endPos="32.88" friendlyPos="true" lines="484"/>
     <busStop id="1644625945" name="Hermann-Blenk-Straße" lane="358613274_1" startPos="78.14" endPos="93.14" friendlyPos="true"/>
-    <busStop id="1780723613" name="Lincolnsiedlung" lane="222336041#2_0" startPos="0.00" endPos="1.49" friendlyPos="true" lines="424 464 484"/>
+    <busStop id="1780723613" name="Lincolnsiedlung" lane="222336041#2_0" startPos="0.00" endPos="-0.1" friendlyPos="true" lines="424 464 484" personCapacity="50"/>
     <busStop id="1845907223" name="Schlesierweg" lane="67500111#1_0" startPos="27.69" endPos="35.17" friendlyPos="true">
         <access lane="-108915782#2_0" pos="42.14" length="1.66" friendlyPos="1"/>
         <access lane="-119136523#1_0" pos="10.63" length="45.59" friendlyPos="1"/>
@@ -144,11 +89,8 @@
         <access lane="108915782#1_0" pos="29.96" length="15.76" friendlyPos="1"/>
         <access lane="119136523#1_0" pos="70.60" length="50.39" friendlyPos="1"/>
     </busStop>
-    <busStop id="1944469926" name="Wartheweg" lane="71962469#1_0" startPos="26.84" endPos="41.84" friendlyPos="true" lines="416"/>
-    <busStop id="1944469926@6953326" name="Wartheweg" lane="71962469#1_0" startPos="29.07" endPos="32.34" friendlyPos="true" lines="416"/>
     <busStop id="2078032882" name="Heideblick" lane="24803131_1" startPos="25.38" endPos="40.38" friendlyPos="true" lines="113"/>
     <busStop id="2126769011" name="Am Grasplatz" lane="611101972_1" startPos="29.59" endPos="44.59" friendlyPos="true" lines="480"/>
-    <busStop id="2299687606" name="Wartheweg" lane="71962469#1_0" startPos="27.54" endPos="42.54" friendlyPos="true" lines="416"/>
     <busStop id="2304877719" name="Am Grasplatz" lane="509331932_1" startPos="6.14" endPos="21.14" friendlyPos="true" lines="480"/>
     <busStop id="2310890289" name="Am Platz" lane="30253923_1" startPos="44.26" endPos="59.26" friendlyPos="true" lines="424 464"/>
     <busStop id="2310890299" name="Pappelallee" lane="5640229#5_1" startPos="45.80" endPos="60.80" friendlyPos="true" lines="424"/>
@@ -157,7 +99,6 @@
     <busStop id="2313104483" name="Lincolnsiedlung" lane="625075010#1_0" startPos="0.00" endPos="2.89" friendlyPos="true" lines="424 484"/>
     <busStop id="2314078460" name="Daimlerstraße" lane="511308690_1" startPos="20.80" endPos="35.80" friendlyPos="true" lines="484"/>
     <busStop id="2314078461" name="Daimlerstraße" lane="511308694#0_1" startPos="8.79" endPos="23.79" friendlyPos="true" lines="484"/>
-    <busStop id="247261400" name="Rodelandweg" lane="5640212#12_1" startPos="13.14" endPos="28.14" friendlyPos="true" lines="416"/>
     <busStop id="248483771" name="Hansestraße" lane="28672098#1_1" startPos="16.00" endPos="23.50" friendlyPos="true" lines="414"/>
     <busStop id="250749715" name="Heideblick" lane="23187673#1_0" startPos="53.00" endPos="68.00" friendlyPos="true" lines="112 434 191 111 414"/>
     <busStop id="2525484873" name="Lincolnsiedlung" lane="859066418#1_0" startPos="0.00" endPos="15.90" friendlyPos="true" lines="10 1">
