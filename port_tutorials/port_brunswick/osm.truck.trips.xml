@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-27 12:50:07.981871 by randomTrips.py v1_21_0+0982-fff2aa94565
+<!-- generated on 2024-11-28 10:57:18.840923 by randomTrips.py v1_21_0+1012-56f51359a8c
 <configuration>
     <net-file value="osm.net.xml.gz"/>
     <output-trip-file value="osm.truck.trips.xml"/>
@@ -16,7 +16,7 @@
 </configuration>
 -->
 
-<!-- generated on 2024-11-27 12:50:07 by Eclipse SUMO duarouter Version v1_21_0+0981-da72f542b3e
+<!-- generated on 2024-11-28 10:57:18 by Eclipse SUMO duarouter Version v1_21_0+1000-2a7a7de367c
 <duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-27 12:50:05.949560 by randomTrips.py v1_21_0+0982-fff2aa94565
+<!-- generated on 2024-11-28 10:57:16.903913 by randomTrips.py v1_21_0+1012-56f51359a8c
 <configuration>
     <net-file value="osm.net.xml.gz"/>
     <output-trip-file value="osm.passenger.trips.xml"/>
@@ -17,7 +17,7 @@
 </configuration>
 -->
 
-<!-- generated on 2024-11-27 12:50:05 by Eclipse SUMO duarouter Version v1_21_0+0981-da72f542b3e
+<!-- generated on 2024-11-28 10:57:16 by Eclipse SUMO duarouter Version v1_21_0+1000-2a7a7de367c
 <duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -686,7 +686,6 @@
     <trip id="veh700" type="veh_passenger" depart="840.00" departLane="best" departSpeed="max" from="-108915817#1" to="7016608#2"/>
     <trip id="veh701" type="veh_passenger" depart="841.20" departLane="best" from="118782210#2" to="82457822"/>
     <trip id="veh702" type="veh_passenger" depart="842.40" departLane="best" departSpeed="max" from="172469211#0" to="-4764512#3"/>
-    <trip id="veh703" type="veh_passenger" depart="843.60" departLane="best" from="4726410#2" to="-32199683"/>
     <trip id="veh704" type="veh_passenger" depart="844.80" departLane="best" departSpeed="max" from="-611113394" to="4764216#8"/>
     <trip id="veh705" type="veh_passenger" depart="846.00" departLane="best" from="5640229#2" to="-7016571#0"/>
     <trip id="veh706" type="veh_passenger" depart="847.20" departLane="best" from="-23170152#0" to="-722504209#2"/>
@@ -2552,7 +2551,6 @@
     <trip id="veh2748" type="veh_passenger" depart="3297.60" departLane="best" from="511308724#6" to="165764259#0"/>
     <trip id="veh2749" type="veh_passenger" depart="3298.80" departLane="best" from="951227873#2" to="24982516#6"/>
     <trip id="veh2750" type="veh_passenger" depart="3300.00" departLane="best" from="511308639#0" to="-5640228#3"/>
-    <trip id="veh2751" type="veh_passenger" depart="3301.20" departLane="best" from="32199683" to="4726410#5"/>
     <trip id="veh2753" type="veh_passenger" depart="3303.60" departLane="best" departSpeed="max" from="22789636" to="625075006#0"/>
     <trip id="veh2754" type="veh_passenger" depart="3304.80" departLane="best" from="23031879#0" to="-278491962#5"/>
     <trip id="veh2755" type="veh_passenger" depart="3306.00" departLane="best" from="22780110" to="-10425592#3"/>

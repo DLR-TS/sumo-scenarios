@@ -40,7 +40,7 @@
         <access lane="5640230#1_0" pos="58.29" length="72.92" friendlyPos="1"/>
     </busStop>
     <busStop id="-333697504" name="Dammwiese" lane="-222114077#7_1" startPos="8.09" endPos="23.09" friendlyPos="true" lines="424"/>
-    <busStop id="-333697507" name="Am Berge" lane="-4729000#1_1" startPos="12.63" endPos="23.04" friendlyPos="true" lines="424"/>
+    <busStop id="-333697507" name="Am Berge" lane="-4729000#1_1" startPos="0" endPos="20" friendlyPos="true" lines="424"/>
     <busStop id="-4080471903" name="Neuruppinstraße" lane="-5989176#2_1" startPos="5.11" endPos="20.11" friendlyPos="true" lines="433"/>
     <busStop id="-4103243803" name="Sandanger" lane="-657618384_1" startPos="49.07" endPos="64.07" friendlyPos="true" lines="414"/>
     <busStop id="-4103249696" name="Dreisch" lane="-173759898#0_1" startPos="88.70" endPos="103.70" friendlyPos="true" lines="414"/>
@@ -81,7 +81,7 @@
     <busStop id="-855328418" name="Dreisch" lane="-173759898#0_1" startPos="90.81" endPos="105.81" friendlyPos="true" lines="414"/>
     <busStop id="1355332139" name="Kanalbrücke" lane="307704875#13_1" startPos="17.88" endPos="32.88" friendlyPos="true" lines="484"/>
     <busStop id="1644625945" name="Hermann-Blenk-Straße" lane="358613274_1" startPos="78.14" endPos="93.14" friendlyPos="true"/>
-    <busStop id="1780723613" name="Lincolnsiedlung" lane="222336041#2_0" startPos="0.00" endPos="-0.1" friendlyPos="true" lines="424 464 484" personCapacity="50"/>
+    <busStop id="1780723613" name="Lincolnsiedlung" lane="222336041#2_0" startPos="0.00" endPos="-0.1" friendlyPos="true" lines="424 464 484" personCapacity="100"/>
     <busStop id="1845907223" name="Schlesierweg" lane="67500111#1_0" startPos="27.69" endPos="35.17" friendlyPos="true">
         <access lane="-108915782#2_0" pos="42.14" length="1.66" friendlyPos="1"/>
         <access lane="-119136523#1_0" pos="10.63" length="45.59" friendlyPos="1"/>
