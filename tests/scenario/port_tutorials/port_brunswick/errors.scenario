@@ -1,6 +1,4 @@
-Warning: busStop '1780723613' on lane '222336041#2_0' is too short for vehicle 'pt_bus_424:0.0'.
 Warning: busStop '-310417058' on lane '-173298393_1' is too short for vehicle 'pt_bus_424:0.0'.
-Warning: Person 'ped3' could not find route across junction '247834538' from edge '22988925#0' to edge '611101996#5', time=79.00.
 Warning: busStop '-333697507' on lane '-4729000#1_1' is too short for vehicle 'pt_bus_424:1.0'.
 Warning: busStop '2313104483' on lane '625075010#1_0' is too short for vehicle 'pt_bus_424:1.0'.
 Warning: busStop '269320966' on lane '22988931#3_1' is too short for vehicle 'pt_bus_484:0.0'.
@@ -13,16 +11,6 @@ Warning: busStop '269321675' on lane '24787043_0' is too short for vehicle 'pt_b
 Warning: busStop '4103294757' on lane '24787043_0' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '248483771' on lane '28672098#1_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '715902961' on lane '511308631_1' is too short for vehicle 'pt_bus_414:2.0'.
-Warning: busStop '1944469926@6953326' on lane '71962469#1_0' is too short for vehicle 'pt_bus_416:4.0'.
-Warning: Person 'ped633' could not find route across junction '247834538' from walkingArea ':247834538_w2' to edge '22988925#0', time=458.00.
-Warning: Person 'ped136' could not find route across junction '247834538' from edge '22988925#0' to edge '611101996#5', time=591.00.
-Warning: Person 'ped375' could not find route across junction '247834538' from walkingArea ':247834538_w2' to edge '22988925#0', time=613.00.
-Warning: Person 'ped840' could not find route across junction '247834538' from walkingArea ':247834538_w2' to edge '22988925#0', time=627.00.
-Warning: Person 'ped1161' could not find route across junction 'cluster_3344674718_415780624_5251861544_5251861545_5251861546_5251861549_5251861550_5672014906_5672014907_5672014909_5672014910_5672014911_5690515547_5690515565_5690515568_5690515570_5690515571' from walkingArea ':cluster_3344674718_415780624_5251861544_5251861545_5251861546_5251861549_5251861550_5672014906_5672014907_5672014909_5672014910_5672014911_5690515547_5690515565_5690515568_5690515570_5690515571_w0' to edge '543274980#1', time=752.00.
-Warning: 2 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
-Warning: 5 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
-Warning: 18 total messages of type: Person '%' is jammed on edge '%', time=%.
-Warning: 12 total messages of type: Teleporting vehicle '%'; waited too long (jam), lane='%', time=%.
-Warning: 2 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane), lane='%', time=%.
-Warning: 9 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
-Warning: 22 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 3 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
+Warning: 1 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
+Warning: 2 total messages of type: Person '%' is jammed on edge '%', time=%.

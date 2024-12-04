@@ -1,44 +1,43 @@
-Loading net-file from 'osm.net.xml.gz' ... done (1572ms).
-Loading additional-files from 'osm.poly.xml' ... done (353ms).
-Loading additional-files from 'osm_stops.add.xml' ... done (12ms).
+Loading net-file from 'osm.net.xml.gz' ... done (1132ms).
+Loading additional-files from 'osm.poly.xml' ... done (266ms).
+Loading additional-files from 'osm_stops.add.xml' ... done (11ms).
 Loading done.
-Simulation version v1_21_0+0932-f310b11d73c started with time: 0.00.
+Simulation version v1_21_0+1169-4744b05457b started with time: 0.00.
 Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
 Performance:
- Duration: 27.63s
- Real time factor: 36.1952
- UPS: 21485.630520
- UPS-Persons: 26107.173882
+ Duration: 8.17s
+ Real time factor: 122.399
+ UPS: 37946.266830
+ UPS-Persons: 70803.916769
 Vehicles:
- Inserted: 1550 (Loaded: 1578)
- Running: 1038
- Waiting: 20
- Teleports: 23 (Jam: 12, Yield: 9, Wrong Lane: 2)
+ Inserted: 956 (Loaded: 966)
+ Running: 468
+ Waiting: 3
 Persons:
- Inserted: 1491
- Running: 1412
- Jammed: 18
-Statistics (avg of 512):
- RouteLength: 2825.47
- Speed: 8.55
- Duration: 357.91
- WaitingTime: 80.21
- TimeLoss: 137.19
- DepartDelay: 1.22
-Pedestrian Statistics (avg of 83 walks):
- RouteLength: 451.59
- Duration: 362.71
- TimeLoss: 42.57
-Ride Statistics (avg of 7 rides):
- WaitingTime: 119.00
- RouteLength: 982.62
- Duration: 140.14
- Bus: 3
- Train: 4
-DijkstraRouter answered 36574 queries and explored 12.48 edges on average.
-DijkstraRouter spent 0.20s answering queries (0.01ms on average).
-DijkstraRouter answered 1517 queries and explored 1105.04 edges on average.
-DijkstraRouter spent 2.30s answering queries (1.52ms on average).
-DijkstraRouter answered 6 queries and explored 40.50 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.17ms on average).
+ Inserted: 1205
+ Running: 1136
+ Jammed: 2
+Statistics (avg of 488):
+ RouteLength: 3094.17
+ Speed: 9.15
+ Duration: 352.69
+ WaitingTime: 58.96
+ TimeLoss: 114.01
+ DepartDelay: 0.47
+Pedestrian Statistics (avg of 78 walks):
+ RouteLength: 376.54
+ Duration: 308.40
+ TimeLoss: 37.78
+Ride Statistics (avg of 12 rides):
+ WaitingTime: 91.42
+ RouteLength: 1177.82
+ Duration: 178.58
+ Bus: 2
+ Train: 10
+DijkstraRouter answered 27534 queries and explored 12.89 edges on average.
+DijkstraRouter spent 0.14s answering queries (0.00ms on average).
+DijkstraRouter answered 865 queries and explored 1062.97 edges on average.
+DijkstraRouter spent 1.03s answering queries (1.18ms on average).
+DijkstraRouter answered 7 queries and explored 40.29 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).

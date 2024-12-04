@@ -1,7 +1,3 @@
-Warning: Vehicle 'passengercartoship.0' collision with person 'pedestrianfromship.11', lane='-128042010_0', gap=-1.40, time=815.00, stage=laneChange.
 Warning: 1 total messages of type: Ignoring invalid access from non-pedestrian lane '%' in busStop '%'.
-Warning: 1 total messages of type: Not using public transport line '%' for routing persons. It has less than two usable stops.
-Warning: 2 total messages of type: Teleporting vehicle '%'; waited too long (blocked), lane='%', time=%.
-Warning: 2 total messages of type: Vehicle '%' skips stop on lane '%' time=%.
-Warning: 2 total messages of type: Vehicle '%' teleports beyond arrival edge '%', time=%.
+Warning: 2 total messages of type: Not using public transport line '%' for routing persons. It has less than two usable stops.
 Warning: 1 total messages of type: Vehicle '%' with device.taxi should have vClass taxi instead of '%'.

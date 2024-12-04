@@ -1,24 +1,23 @@
-Loading net-file from 'osm.net.xml.gz' ... done (973ms).
-Loading additional-files from 'osm.poly.xml' ... done (1353ms).
+Loading net-file from 'osm.net.xml.gz' ... done (468ms).
+Loading additional-files from 'osm.poly.xml' ... done (1113ms).
 Loading done.
-Simulation version v1_21_0+0932-f310b11d73c started with time: 0.00.
+Simulation version v1_21_0+1169-4744b05457b started with time: 0.00.
 Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
 Performance:
- Duration: 14.96s
- Real time factor: 66.836
- UPS: 51816.668895
+ Duration: 6.06s
+ Real time factor: 165.071
+ UPS: 50037.801255
 Vehicles:
- Inserted: 1828 (Loaded: 1870)
- Running: 1481
- Waiting: 27
- Teleports: 65 (Jam: 35, Yield: 27, Wrong Lane: 3)
-Statistics (avg of 347):
- RouteLength: 2075.95
- Speed: 8.49
- Duration: 291.98
- WaitingTime: 90.78
- TimeLoss: 140.53
- DepartDelay: 1.71
-DijkstraRouter answered 1902 queries and explored 1083.32 edges on average.
-DijkstraRouter spent 2.59s answering queries (1.36ms on average).
+ Inserted: 896 (Loaded: 909)
+ Running: 462
+ Waiting: 1
+Statistics (avg of 434):
+ RouteLength: 3271.72
+ Speed: 9.88
+ Duration: 359.09
+ WaitingTime: 49.97
+ TimeLoss: 106.23
+ DepartDelay: 0.60
+DijkstraRouter answered 897 queries and explored 909.41 edges on average.
+DijkstraRouter spent 0.61s answering queries (0.68ms on average).

@@ -1,45 +1,44 @@
-Loading net-file from 'port.net.xml.gz' ... done (613ms).
-Loading additional-files from 'osm.poly.xml' ... done (199ms).
-Loading additional-files from 'stops.add.xml' ... done (11ms).
+Loading net-file from 'port.net.xml.gz' ... done (442ms).
+Loading additional-files from 'osm.poly.xml' ... done (145ms).
+Loading additional-files from 'stops.add.xml' ... done (10ms).
 Loading done.
-Simulation version v1_21_0+0932-f310b11d73c started with time: 0.00.
+Simulation version v1_21_0+1169-4744b05457b started with time: 0.00.
 Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
 Performance:
- Duration: 1.05s
- Real time factor: 956.938
- UPS: 46640.191388
- UPS-Persons: 31293.779904
+ Duration: 0.67s
+ Real time factor: 1497.01
+ UPS: 73034.431138
+ UPS-Persons: 47985.029940
 Vehicles:
- Inserted: 89
- Running: 62
+ Inserted: 92
+ Running: 63
  Waiting: 0
- Teleports: 2 (Collisions: 1, Jam: 2)
 Persons:
  Inserted: 40
- Running: 18
+ Running: 11
 Containers:
  Inserted: 30
  Running: 30
-Statistics (avg of 27):
- RouteLength: 4730.45
- Speed: 6.70
- Duration: 761.55
- WaitingTime: 227.96
- TimeLoss: 341.38
- DepartDelay: 0.56
-Pedestrian Statistics (avg of 64 walks):
- RouteLength: 31.76
- Duration: 27.31
- TimeLoss: 4.46
-Ride Statistics (avg of 44 rides):
- WaitingTime: 204.32
- RouteLength: 452.54
- Duration: 412.70
- Bus: 44
-DijkstraRouter answered 88 queries and explored 11.66 edges on average.
+Statistics (avg of 29):
+ RouteLength: 4493.76
+ Speed: 6.67
+ Duration: 707.52
+ WaitingTime: 0.66
+ TimeLoss: 83.65
+ DepartDelay: 0.52
+Pedestrian Statistics (avg of 78 walks):
+ RouteLength: 30.89
+ Duration: 26.97
+ TimeLoss: 4.91
+Ride Statistics (avg of 58 rides):
+ WaitingTime: 157.16
+ RouteLength: 758.53
+ Duration: 410.79
+ Bus: 58
+DijkstraRouter answered 116 queries and explored 10.84 edges on average.
 DijkstraRouter spent 0.00s answering queries (0.00ms on average).
-DijkstraRouter answered 102 queries and explored 35.06 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.00ms on average).
-DijkstraRouter answered 199 queries and explored 178.27 edges on average.
-DijkstraRouter spent 0.02s answering queries (0.12ms on average).
+DijkstraRouter answered 109 queries and explored 41.67 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.01ms on average).
+DijkstraRouter answered 213 queries and explored 175.31 edges on average.
+DijkstraRouter spent 0.01s answering queries (0.04ms on average).
