@@ -1,24 +1,28 @@
-Loading net-file from 'network.net.xml.gz' ... done (156ms).
-Loading additional-files from 'busStops.add.xml' ... done (20ms).
+Loading net-file from 'network.net.xml.gz' ... done (105ms).
+Loading additional-files from 'busStops.add.xml' ... done (16ms).
+Loading route-files incrementally from 'bus_route.rou.xml'
+Loading route-files incrementally from 'vType.xml'
+Loading route-files incrementally from 'PKW_automatic.rou.xml.gz'
+Loading route-files incrementally from 'LKW_automatic.rou.xml'
 Loading done.
-Simulation version v1_21_0+0932-f310b11d73c started with time: 0.00.
+Simulation version v1_22_0+1763-5b74540d762 started with time: 0.00.
 Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
 Performance:
- Duration: 16.89s
- Real time factor: 59.1961
- UPS: 59192.860948
+ Duration: 12.85s
+ Real time factor: 77.8331
+ UPS: 77267.901619
 Vehicles:
- Inserted: 5905 (Loaded: 5927)
- Running: 1192
- Waiting: 12
+ Inserted: 5909 (Loaded: 5927)
+ Running: 1195
+ Waiting: 8
  Emergency Braking: 2
-Statistics (avg of 4713):
- RouteLength: 1626.80
- Speed: 9.39
- Duration: 181.27
- WaitingTime: 46.55
- TimeLoss: 61.64
- DepartDelay: 0.90
-DijkstraRouter answered 5878 queries and explored 94.67 edges on average.
-DijkstraRouter spent 0.48s answering queries (0.08ms on average).
+Statistics (avg of 4714):
+ RouteLength: 1626.55
+ Speed: 9.46
+ Duration: 179.63
+ WaitingTime: 45.30
+ TimeLoss: 60.03
+ DepartDelay: 0.94
+DijkstraRouter answered 5867 queries and explored 94.65 edges on average.
+DijkstraRouter spent 0.34s answering queries (0.06ms on average).

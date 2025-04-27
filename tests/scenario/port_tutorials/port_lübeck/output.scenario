@@ -1,15 +1,16 @@
-Loading net-file from 'port.net.xml.gz' ... done (442ms).
-Loading additional-files from 'osm.poly.xml' ... done (145ms).
-Loading additional-files from 'stops.add.xml' ... done (10ms).
+Loading net-file from 'port.net.xml.gz' ... done (761ms).
+Loading additional-files from 'osm.poly.xml' ... done (339ms).
+Loading additional-files from 'stops.add.xml' ... done (16ms).
+Loading route-files incrementally from 'veh.rou.xml'
 Loading done.
-Simulation version v1_21_0+1169-4744b05457b started with time: 0.00.
+Simulation version v1_22_0+1763-5b74540d762 started with time: 0.00.
 Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
 Performance:
- Duration: 0.67s
- Real time factor: 1497.01
- UPS: 73034.431138
- UPS-Persons: 47985.029940
+ Duration: 1.23s
+ Real time factor: 816.327
+ UPS: 39697.142857
+ UPS-Persons: 26155.102041
 Vehicles:
  Inserted: 92
  Running: 63
@@ -22,23 +23,23 @@ Containers:
  Running: 30
 Statistics (avg of 29):
  RouteLength: 4493.76
- Speed: 6.67
- Duration: 707.52
- WaitingTime: 0.66
- TimeLoss: 83.65
+ Speed: 6.66
+ Duration: 708.14
+ WaitingTime: 0.79
+ TimeLoss: 87.20
  DepartDelay: 0.52
 Pedestrian Statistics (avg of 78 walks):
- RouteLength: 30.89
- Duration: 26.97
- TimeLoss: 4.91
+ RouteLength: 30.88
+ Duration: 26.74
+ TimeLoss: 4.68
 Ride Statistics (avg of 58 rides):
- WaitingTime: 157.16
- RouteLength: 758.53
- Duration: 410.79
+ WaitingTime: 157.91
+ RouteLength: 758.93
+ Duration: 410.10
  Bus: 58
 DijkstraRouter answered 116 queries and explored 10.84 edges on average.
 DijkstraRouter spent 0.00s answering queries (0.00ms on average).
 DijkstraRouter answered 109 queries and explored 41.67 edges on average.
 DijkstraRouter spent 0.00s answering queries (0.01ms on average).
-DijkstraRouter answered 213 queries and explored 175.31 edges on average.
-DijkstraRouter spent 0.01s answering queries (0.04ms on average).
+DijkstraRouter answered 209 queries and explored 175.32 edges on average.
+DijkstraRouter spent 0.03s answering queries (0.16ms on average).

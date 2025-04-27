@@ -5,8 +5,6 @@ Warning: busStop '269320966' on lane '22988931#3_1' is too short for vehicle 'pt
 Warning: busStop '4103294756' on lane '31000149_1' is too short for vehicle 'pt_bus_414:0.0'.
 Warning: busStop '844172723' on lane '31000149_1' is too short for vehicle 'pt_bus_414:0.0'.
 Warning: busStop '-844172698' on lane '-7016592#2_1' is too short for vehicle 'pt_bus_414:0.0'.
-Warning: busStop '4539379534' on lane '10750085#7_1' is too short for vehicle 'pt_bus_414:1.0'.
-Warning: busStop '844172701' on lane '10750085#7_1' is too short for vehicle 'pt_bus_414:1.0'.
 Warning: busStop '269321675' on lane '24787043_0' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '4103294757' on lane '24787043_0' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '248483771' on lane '28672098#1_1' is too short for vehicle 'pt_bus_414:2.0'.
