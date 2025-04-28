@@ -24,7 +24,7 @@
     <busStop friendlyPos="true" id="busStop#28" lane="201_1" startPos="38.164" endPos="58.164" lines="--"/>
     <busStop friendlyPos="true" id="busStop#29" lane="79_1" startPos="109.125" endPos="130.483" lines="--"/>
     <busStop friendlyPos="true" id="busStop#30" lane="67_1" startPos="56.029" endPos="77.975" lines="--"/>
-    <busStop friendlyPos="true" id="busStop#31" lane="189[1][0]+20000_1" startPos="10.895" endPos="22.895" lines="--"/>
+    <busStop friendlyPos="true" id="busStop#31" lane="189[1][0]+20000_1" startPos="10.895" endPos="22.895" lines="--" personCapacity="100"/>
     <busStop friendlyPos="true" id="busStop#32" lane="20001+87[1][0]_1" startPos="6.353" endPos="21.353" lines="--"/>
     <busStop friendlyPos="true" id="busStop#33" lane="20002+89[1][0]_1" startPos="0.1" endPos="26.983" lines="--"/>
     <busStop friendlyPos="true" id="busStop#34" lane="109[1][0]+20003_1" startPos="0.1" endPos="30.331" lines="--"/>

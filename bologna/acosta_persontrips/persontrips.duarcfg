@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
         <net-file value="acosta_peds.net.xml"/>
@@ -10,7 +10,7 @@
 
     <output>
         <output-file value="persontrips.rou.xml"/>
-        <vtype-output value="NUL"/>
+        <vtype-output value="/dev/null"/>
     </output>
 
-</configuration>
+</duarouterConfiguration>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="acosta_peds.net.xml"/>
-        <route-files value="acosta.rou.xml,persontrips.rou.xml"/>
+        <route-files value="acosta.rou.xml,persontrips.rou.xml,acosta_busses.rou.xml"/>
         <additional-files value="acosta_vtypes.add.xml,acosta_bus_stops.add.xml,acosta_tls2.add.xml"/>
     </input>
 
@@ -13,8 +13,13 @@
         <stop-output value="stops.xml"/>
     </output>
 
+    <processing>
+        <pedestrian.striping.reserve-oncoming value="0.34"/>
+    </processing>
+
     <report>
         <log value="sumo_log.txt"/>
+        <duration-log.statistics value="true"/>
         <no-step-log value="true"/>
     </report>
 
@@ -22,4 +27,4 @@
         <gui-settings-file value="settings.gui.xml"/>
     </gui_only>
 
-</configuration>
+</sumoConfiguration>

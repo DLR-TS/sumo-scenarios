@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="joined_buslanes.net.xml"/>
@@ -18,8 +18,4 @@
         <no-step-log value="true"/>
     </report>
 
-    <emissions>
-        <phemlight-path value="./PHEMlight/"/>
-    </emissions>
-
-</configuration>
+</sumoConfiguration>

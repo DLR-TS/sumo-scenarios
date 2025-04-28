@@ -9,9 +9,9 @@
         <phase duration="5"  state="gggrrrrrGGGrrrrGGGGrGrG"/>
         <phase duration="5"  state="gggrrrrrGGGrrrrrrrrrrrr"/>
         <phase duration="3"  state="GGGrrrrryyyrrrrrrrrrrrr"/>
-        <phase duration="2"  state="GGGrrrrrrrrGrrrrrrrrrrr"/>
-        <phase duration="12" state="gggrrrrgrrrGrrrGGGGGrGG"/>
-        <phase duration="5"  state="gggrrrrgrrrGrrrrrrrrrrr"/>
+        <phase duration="2"  state="gggrrrrrrrrgrrrrrrrrrrr"/>
+        <phase duration="12" state="gggrrrrgrrrgrrrGGGGGrGG"/>
+        <phase duration="5"  state="gggrrrrgrrrgrrrrrrrrrrr"/>
         <phase duration="3"  state="yyyrrrryrrryrrrrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
@@ -36,6 +36,38 @@
         <phase duration="5"  state="rrrrrrrgGggrrrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrryyyyrrrrrrrrrr"/>
         <phase duration="3"  state="rrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="210" type="static" programID="utopia-mod" offset="0">
+        <phase duration="29" state="gGgrrrrrgGgrrrGGGGgrrrrrGGrGGrGrGr"/>
+        <phase duration="5"  state="gGgrrrrrgGgrrrGGGGgrrrrrrrrrrrrrrr"/>
+        <phase duration="5"  state="yyyrrrrrGGgrrrGGGGGrrrrrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrrryyyrrryyyyyrrrrrrrrrrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="22" state="rrrgGGGgrrrGGgrrrrrgGGGGrrGrrGrGrG"/>
+        <phase duration="5"  state="rrrgGGGgrrrGGgrrrrrgGGGrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrGGGGgrrryyyrrrrryyyyrrrrrrrrrrr"/>
+        <phase duration="1"  state="rrrgGGGgrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="4"  state="rrrgGGGgrrrrrrrrrrrrrrrGrGGGrGGGGG"/>
+        <phase duration="5"  state="rrrgGGGgrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrryyyyyrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="221" type="static" programID="utopia-mod" offset="0">
+        <phase duration="28" state="GGGggrrGGGGGGGgrrrrGGGrrGGrrG"/>
+        <phase duration="5"  state="GGGggrrGGGGGGGgrrrrGGGrrrrrrr"/>
+        <phase duration="4"  state="GGGggrryyyyyyygrrrrGGGrrrrrrr"/>
+        <phase duration="4"  state="yyyggrrrrrrrrrGrrrrGGGrrrrrrr"/>
+        <phase duration="56" state="rrrGGGGrrrrrrrGGGGGgggGGrGGrr"/>
+        <phase duration="5"  state="rrrGGGGrrrrrrrGGGGGgggrrrrrrr"/>
+        <phase duration="4"  state="rrrGGyyrrrrrrrGyyyygggrrrrrrr"/>
+        <phase duration="2"  state="rrrGGrrrrrrrrrGrrrrGGGrrrrrrr"/>
+        <phase duration="7"  state="GGGggrrGGGGGGGgrrrrGGGrrGGrrG"/>
+        <phase duration="5"  state="GGGggrrGGGGGGGgrrrrGGGrrrrrrr"/>
+        <phase duration="3"  state="yyyyyrryyyyyyyyrrrryyyrrrrrrr"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrrrGGGGGGG"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
 </add>
 

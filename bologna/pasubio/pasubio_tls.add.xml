@@ -68,30 +68,30 @@
         <phase duration="3" state="rrrrrrryyyyrrrrrrr" minDur="3" maxDur="3"/>
         <phase duration="3" state="rrrrrrrrrrrrrrrrrr" minDur="3" maxDur="3"/>
         <phase duration="50" state="rrrGGGgrrrrGGGgrrr" minDur="14" maxDur="77"/>
-        <phase duration="3" state="rrryyyyrrrrGGGgrrr" minDur="3" maxDur="3"/>
-        <phase duration="5" state="rrrrrrrrrrrGGGGrrr" minDur="5" maxDur="5"/>
-        <phase duration="1" state="rrrrrrrrrrrGGGGrrr" minDur="1" maxDur="1"/>
-        <phase duration="3" state="rrrrrrrrrrryyyyrrr" minDur="3" maxDur="3"/>
-        <phase duration="2" state="GGGrrrrrrrrrrrrrrr" minDur="2" maxDur="2"/>
+        <phase duration="3" state="rrrGGGgrrrrGGGgrrr" minDur="3" maxDur="3"/>
+        <phase duration="5" state="rrrGGGgrrrrGGGgrrr" minDur="5" maxDur="5"/>
+        <phase duration="1" state="rrrGGGgrrrrGGGgrrr" minDur="1" maxDur="1"/>
+        <phase duration="3" state="rrryyyyrrrryyyyrrr" minDur="3" maxDur="3"/>
+        <phase duration="4" state="GGGrrrrrrrrrrrrrrr" minDur="4" maxDur="4"/>
     </tlLogic>
     <tlLogic id="231" type="static" programID="utopia" offset="0">
-        <phase duration="45" state="rrrrGGggrrrGGGgGGGgrrrGGrrrrrrGGGGGgGGGgggrrr" minDur="12" maxDur="82"/>
-        <phase duration="5" state="rrrrGGggrrrGGGgGGGgrrrGGrrrrrrGGGGGgGGGgggrrr" minDur="5" maxDur="5"/>
-        <phase duration="3" state="rrrrGGggrrryyyyGGGgrrrGGrrrrrryyyyyyGGGgggrrr" minDur="3" maxDur="3"/>
-        <phase duration="2" state="rrrrGGGGrrrrrrrGGGgrrrGGrrrrrrrrrrrrGGGGGGrrr" minDur="2" maxDur="2"/>
-        <phase duration="3" state="rrrryyyyrrrrrrrGGGgrrryyrrrrrrrrrrrryyyyyyrrr" minDur="3" maxDur="3"/>
-        <phase duration="2" state="rrrrrrrrrrrrrrrGGGGrrrrrrrrrrrrrrrrrrrrrrrrrr" minDur="2" maxDur="2"/>
-        <phase duration="4" state="GGGGrrrrGggrrrrGGGGrrrrrGggggGrrrrrrrrrrrrGGg" minDur="4" maxDur="4"/>
-        <phase duration="3" state="GGGGrrrrGggrrrryyyyrrrrrGggggGrrrrrrrrrrrrGGg" minDur="3" maxDur="3"/>
-        <phase duration="2" state="GGGGrrrrGggrrrrrrrrrrrrrGggggGrrrrrrrrrrrrGGg" minDur="2" maxDur="2"/>
-        <phase duration="9" state="GGGGrrrrGggrrrrrrrrGGGrrGggggGrrrrrrrrrrrrGGg" minDur="9" maxDur="23"/>
-        <phase duration="3" state="yyyyrrrrGggrrrrrrrrGGGrrGggggGrrrrrrrrrrrrGGg" minDur="3" maxDur="3"/>
-        <phase duration="2" state="rrrrrrrrGGGrrrrrrrrGGGrrGggggGrrrrrrrrrrrrGGg" minDur="2" maxDur="2"/>
-        <phase duration="3" state="rrrrrrrryyyrrrrrrrrGGGrryyyyyyrrrrrrrrrrrryyy" minDur="3" maxDur="3"/>
-        <phase duration="2" state="rrrrrrrrrrrrrrrrrrrGGGrrrrrrrrrrrrrrrrrrrrrrr" minDur="2" maxDur="2"/>
-        <phase duration="3" state="rrrrGGggrrrGGGgrrrryyyrrrrrrrrrrrrrrrrrrrrrrr" minDur="3" maxDur="3"/>
-        <phase duration="3" state="rrrrGGggrrrGGGgrrrrrrrrrrrrrrrGGGGGgGGGgggrrr" minDur="3" maxDur="3"/>
-        <phase duration="2" state="rrrrGGggrrrGGGgGGGgrrrGGrrrrrrGGGGGgGGGgggrrr" minDur="2" maxDur="2"/>
+        <phase duration="45" state="rrrrGGggrrrGGGgGGGgrrrGGrrrrrrGGGGGgGGgggrrr" minDur="12" maxDur="82"/>
+        <phase duration="5" state="rrrrGGggrrrGGGgGGGgrrrGGrrrrrrGGGGGgGGgggrrr" minDur="5" maxDur="5"/>
+        <phase duration="3" state="rrrrGGggrrryyyyGGGgrrrGGrrrrrryyyyyyGGgggrrr" minDur="3" maxDur="3"/>
+        <phase duration="2" state="rrrrGGGGrrrrrrrGGGgrrrGGrrrrrrrrrrrrGGGGGrrr" minDur="2" maxDur="2"/>
+        <phase duration="3" state="rrrryyyyrrrrrrrGGGgrrryyrrrrrrrrrrrryyyyyrrr" minDur="3" maxDur="3"/>
+        <phase duration="2" state="rrrrrrrrrrrrrrrGGGGrrrrrrrrrrrrrrrrrrrrrrrrr" minDur="2" maxDur="2"/>
+        <phase duration="4" state="GGGGrrrrGggrrrrGGGGrrrrrGggggGrrrrrrrrrrrGGg" minDur="4" maxDur="4"/>
+        <phase duration="3" state="GGGGrrrrGggrrrryyyyrrrrrGggggGrrrrrrrrrrrGGg" minDur="3" maxDur="3"/>
+        <phase duration="2" state="GGGGrrrrGggrrrrrrrrrrrrrGggggGrrrrrrrrrrrGGg" minDur="2" maxDur="2"/>
+        <phase duration="9" state="GGGGrrrrGggrrrrrrrrGGGrrGggggGrrrrrrrrrrrGGg" minDur="9" maxDur="23"/>
+        <phase duration="3" state="yyyyrrrrGggrrrrrrrrGGGrrGggggGrrrrrrrrrrrGGg" minDur="3" maxDur="3"/>
+        <phase duration="2" state="rrrrrrrrGGGrrrrrrrrGGGrrGggggGrrrrrrrrrrrGGg" minDur="2" maxDur="2"/>
+        <phase duration="3" state="rrrrrrrryyyrrrrrrrrGGGrryyyyyyrrrrrrrrrrryyy" minDur="3" maxDur="3"/>
+        <phase duration="2" state="rrrrrrrrrrrrrrrrrrrGGGrrrrrrrrrrrrrrrrrrrrrr" minDur="2" maxDur="2"/>
+        <phase duration="3" state="rrrrGGggrrrGGGgrrrryyyrrrrrrrrrrrrrrrrrrrrrr" minDur="3" maxDur="3"/>
+        <phase duration="3" state="rrrrGGggrrrGGGgrrrrrrrrrrrrrrrGGGGGgGGgggrrr" minDur="3" maxDur="3"/>
+        <phase duration="2" state="rrrrGGggrrrGGGgGGGgrrrGGrrrrrrGGGGGgGGgggrrr" minDur="2" maxDur="2"/>
     </tlLogic>
     <tlLogic id="232" type="static" programID="utopia" offset="0">
         <phase duration="41" state="GGgGGGGgrrrGG" minDur="21" maxDur="81"/>
