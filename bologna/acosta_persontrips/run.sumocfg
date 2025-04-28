@@ -19,7 +19,6 @@
 
     <report>
         <log value="sumo_log.txt"/>
-        <duration-log.statistics value="true"/>
         <no-step-log value="true"/>
     </report>
 
