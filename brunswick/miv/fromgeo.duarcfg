@@ -19,7 +19,8 @@
     </output>
 
     <processing>
-        <skip-new-routes value="true"/>
+        <ignore-errors value="true"/>
+        <routing-algorithm value="CH"/>
     </processing>
 
     <report>

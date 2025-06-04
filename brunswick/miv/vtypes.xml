@@ -67,4 +67,6 @@
     <vType id="restricted_coach" vClass="bus" emissionClass="HBEFA3/HDV_D_EU4"/>
 
     <vType id="ped_bike" vClass="pedestrian" maxSpeed="5.56"/>
+    <vType id="bus" vClass="bus"/>
+    <vType id="tram" vClass="tram"/>
 </routes>
