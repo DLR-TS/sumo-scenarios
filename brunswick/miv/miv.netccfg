@@ -53,7 +53,7 @@
     <junctions>
         <no-turnarounds.except-turnlane value="true"/>
         <junctions.join value="true"/>
-        <junctions.join-exclude value="35651826, 27376092"/> <!-- to work around #10589 -->
+        <junctions.join-exclude value="35651826,27376092,28115602,6052498180,90655504"/> <!-- to work around #10589 -->
         <junctions.corner-detail value="5"/>
     </junctions>
 
