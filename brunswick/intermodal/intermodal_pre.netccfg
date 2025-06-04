@@ -26,7 +26,6 @@
 
     <processing>
         <geometry.remove value="true"/>
-        <remove-edges.by-type value="highway.track,highway.unsurfaced,highway.service"/>
         <keep-edges.input-file value="netpatch_pre/extra_edges.txt"/>
         <keep-edges.components value="1"/>
         <no-turnarounds.except-turnlane value="true"/>

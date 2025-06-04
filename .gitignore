@@ -18,6 +18,7 @@ brunswick/intermodal/fcd
 brunswick/intermodal/resources
 brunswick/intermodal/gtfs_pt_stops.add.xml
 brunswick/intermodal/gtfs_pt_vehicles.add.xml
+brunswick/intermodal/pre/intermodal.log
 miv.trips.xml
 summary.xml
 tripinfos.xml
