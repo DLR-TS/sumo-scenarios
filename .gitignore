@@ -3,6 +3,12 @@ brunswick/miv/*.net.xml.gz
 brunswick/miv/*.rou.xml.gz
 brunswick/miv/netpatch/Rudolfplatz.tll.xml
 brunswick/miv/netpatch/miv.net.xml
+brunswick/miv/netpatch/miv_stops.add.xml
+brunswick/miv/netpatch/miv_ptlines.xml
+brunswick/miv/fcd
+brunswick/miv/resources
+brunswick/miv/gtfs_pt_stops.add.xml
+brunswick/miv/gtfs_pt_vehicles.add.xml
 miv.trips.xml
 summary.xml
 tripinfos.xml
