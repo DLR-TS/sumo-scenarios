@@ -20,7 +20,7 @@
         <!--
         <plain-output-prefix value="netpatch/"/>
         -->
-        <output-file value=".net.xml"/>
+        <output-file value=".net.xml.gz"/>
         <output.street-names value="true"/>
         <output.original-names value="false"/>
         <proj.plain-geo value="true"/>

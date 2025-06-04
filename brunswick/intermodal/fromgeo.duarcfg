@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Feb  7 15:45:04 2019 by Eclipse SUMO duarouter Version v1_0_1+0645-93703db
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="intermodal.net.xml.gz"/>
+        <additional-files value="vtypes.xml"/>
+        <route-files value="../miv/bs_miv_cut.geotrips.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="miv.trips.xml"/>
+        <vtype-output value="NUL"/>
+        <write-trips value="true"/>
+        <write-trips.junctions value="true"/>
+    </output>
+
+    <processing>
+        <skip-new-routes value="true"/>
+    </processing>
+
+    <report>
+        <log value="fromgeo.dualog"/>
+    </report>
+
+    <departlane value="best"/>
+    <departspeed value="max"/>
+
+</configuration>
