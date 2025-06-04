@@ -92,6 +92,7 @@
     <connection from="315425129#0" fromLane="0" to="23208748#0" toLane="0"/>
     <connection from="315425129#0" fromLane="1" to="23208748#0" toLane="1" allow="bus"/>
     <connection from="315425129#0" fromLane="1" to="32055654" toLane="0" allow="bus"/>
+    <connection from="315425129#0" fromLane="1" to="51353826#0" toLane="0" allow="bus"/>
     <connection from="315425129#0" fromLane="2" to="32055654" toLane="1"/>
     <connection from="315425129#0" fromLane="3" to="32055654" toLane="2"/>
     <connection from="315425129#0" fromLane="3" to="32055654" toLane="3"/>
@@ -113,6 +114,7 @@
     
     <connection from="25076286#0" fromLane="0" to="24020907#0" toLane="0"/>
     <connection from="25076286#0" fromLane="1" to="24020907#0" toLane="1"/>
+    <connection from="25076286#0" fromLane="1" to="43328051#0" toLane="0"/>
     <connection from="25076286#0" fromLane="2" to="32352622#0" toLane="0"/>
     <connection from="25076286#0" fromLane="3" to="32352622#0" toLane="1"/>
     <connection from="25076286#0" fromLane="3" to="32352622#0" toLane="2"/>
@@ -139,6 +141,7 @@
 
     <connection from="32352621#0" fromLane="2" to="32352622#0" toLane="2"/>
     <connection from="32352621#0" fromLane="2" to="32352622#0" toLane="1"/>
+    <connection from="32352621#0" fromLane="2" to="43328051#0" toLane="0"/>
     <connection from="32352621#0" fromLane="1" to="32352622#0" toLane="0"/>
     <connection from="32352621#0" fromLane="1" to="24020907#0" toLane="1"/>
     <connection from="32352621#0" fromLane="0" to="24020907#0" toLane="0"/>
@@ -150,6 +153,7 @@
     
     <connection from="32352622#5" fromLane="0" to="23208748#0" toLane="0"/>
     <connection from="32352622#5" fromLane="1" to="23208748#0" toLane="1"/>
+    <connection from="32352622#5" fromLane="2" to="51353826#0" toLane="0"/>
     <connection from="32352622#5" fromLane="2" to="32055654" toLane="1"/>
     <connection from="32352622#5" fromLane="3" to="32055654" toLane="2"/>
     <connection from="32352622#5" fromLane="3" to="32055654" toLane="3"/>
