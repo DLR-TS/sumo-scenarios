@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="intermodal.net.xml.gz"/>
-        <additional-files value="vtypes.xml"/>
+        <additional-files value="../miv/vtypes.xml"/>
         <route-files value="../miv/bs_miv_cut.geotrips.xml.gz"/>
     </input>
 
@@ -19,7 +19,8 @@
     </output>
 
     <processing>
-        <skip-new-routes value="true"/>
+        <ignore-errors value="true"/>
+        <routing-algorithm value="CH"/>
     </processing>
 
     <report>

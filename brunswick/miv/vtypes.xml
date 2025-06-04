@@ -69,4 +69,5 @@
     <vType id="ped_bike" vClass="pedestrian" maxSpeed="5.56"/>
     <vType id="bus" vClass="bus"/>
     <vType id="tram" vClass="tram"/>
+    <vType id="train" vClass="rail"/>
 </routes>

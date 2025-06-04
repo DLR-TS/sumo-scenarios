@@ -9,6 +9,15 @@ brunswick/miv/fcd
 brunswick/miv/resources
 brunswick/miv/gtfs_pt_stops.add.xml
 brunswick/miv/gtfs_pt_vehicles.add.xml
+brunswick/intermodal/*.net.xml.gz
+brunswick/intermodal/*.rou.xml.gz
+brunswick/intermodal/netpatch/miv.net.xml
+brunswick/intermodal/netpatch/miv_stops.add.xml
+brunswick/intermodal/netpatch/miv_ptlines.xml
+brunswick/intermodal/fcd
+brunswick/intermodal/resources
+brunswick/intermodal/gtfs_pt_stops.add.xml
+brunswick/intermodal/gtfs_pt_vehicles.add.xml
 miv.trips.xml
 summary.xml
 tripinfos.xml
