@@ -1,0 +1,183 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    
+    <vType id="small_passenger_gasoline" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="small_passenger_diesel" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="small_passenger_gas" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="small_passenger_evehicle" vClass="evehicle" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+		<param key="has.battery.device" value="true"/>
+		<param key="device.battery.capacity" value="32300"/>
+		<param key="device.battery.maxPower" value="61000"/>
+		<param key="vehicleMass" value="1235"/>	
+		<param key="gearRatio" value="9"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="rollDragCoefficient" value="0.008"/>
+		<param key="airDragCoefficient" value="0.32"/>
+		<param key="frontSurfaceArea" value="2.07"/>
+		<param key="wheelRadius" value="0.3105"/>
+		<param key="loading" value="300"/>
+		<param key="rotatingMass" value="103.7"/>
+	</vType>
+    <vType id="small_passenger_plugin_hybrid" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="11100"/>
+		<param key="vehicleMass" value="1594"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="loading" value="300"/>
+	</vType>
+    <vType id="small_passenger_fuel_cell" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="medium_passenger_gasoline" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="medium_passenger_diesel" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="medium_passenger_gas" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="medium_passenger_evehicle" vClass="evehicle" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM/PC_BEV_GEN1">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="50000"/>
+        <param key="device.battery.maxPower" value="100000"/>
+		<param key="vehicleMass" value="1684.85"/>
+        <param key="gearRatio" value="9.3"/>
+        <param key="constantPowerIntake" value="360"/>
+        <param key="rollDragCoefficient" value="0.0095"/>
+        <param key="airDragCoefficient" value="0.32"/>
+        <param key="frontSurfaceArea" value="2.28"/>
+        <param key="wheelRadius" value="0.3456"/>
+		<param key="loading" value="300"/>
+		<param key="rotatingMass" value="104.6556"/>
+	</vType>
+    <vType id="medium_passenger_plugin_hybrid" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="19700"/>
+		<param key="vehicleMass" value="1811"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="loading" value="300"/>
+	</vType>
+    <vType id="medium_passenger_fuel_cell" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="large_passenger_gasoline" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="large_passenger_diesel" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="large_passenger_gas" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="large_passenger_evehicle" vClass="evehicle" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+		<param key="has.battery.device" value="true"/>
+		<param key="device.battery.capacity" value="80000"/>
+		<param key="device.battery.maxPower" value="180000"/>
+		<param key="vehicleMass" value="2100"/>
+		<param key="gearRatio" value="9.325"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="rollDragCoefficient" value="0.01"/>
+		<param key="airDragCoefficient" value="0.29"/>
+		<param key="frontSurfaceArea" value="3.23"/>
+		<param key="wheelRadius" value="0.3835"/>
+		<param key="loading" value="400"/>
+		<param key="rotatingMass" value="108.8"/>
+	</vType>
+    <vType id="large_passenger_plugin_hybrid" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="31200"/>
+		<param key="vehicleMass" value="2375"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="loading" value="300"/>
+	</vType>
+    <vType id="large_passenger_fuel_cell" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+
+    <vType id="delivery_3.5t_gasoline" vClass="delivery" emissionClass="HBEFA3/LDV_G_EU4"/>
+    <vType id="delivery_3.5t_diesel" vClass="delivery" emissionClass="HBEFA3/LDV_D_EU4"/>
+    <vType id="delivery_3.5t_gas" vClass="delivery" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_evehicle" vClass="delivery" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_plugin_hybrid" vClass="delivery" emissionClass="Energy/unknown"/>
+    <vType id="delivery_3.5t_fuel_cell" vClass="delivery" emissionClass="Energy/unknown"/>
+
+    <vType id="truck_7.5t" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="truck_12t" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="truck_heavy_duty" vClass="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="trailer" vClass="trailer" emissionClass="HBEFA3/HDV_D_EU4"/>
+
+    <vType id="restricted_small_passenger_gasoline" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="restricted_small_passenger_diesel" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="restricted_small_passenger_gas" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="restricted_small_passenger_evehicle" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+		<param key="has.battery.device" value="true"/>
+		<param key="device.battery.capacity" value="32300"/>
+		<param key="device.battery.maxPower" value="61000"/>
+		<param key="vehicleMass" value="1235"/>	
+		<param key="gearRatio" value="9"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="rollDragCoefficient" value="0.008"/>
+		<param key="airDragCoefficient" value="0.32"/>
+		<param key="frontSurfaceArea" value="2.07"/>
+		<param key="wheelRadius" value="0.3105"/>
+		<param key="loading" value="300"/>
+		<param key="rotatingMass" value="103.7"/>
+	</vType>
+    <vType id="restricted_small_passenger_plugin_hybrid" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="19700"/>
+		<param key="vehicleMass" value="1811"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="loading" value="300"/>
+	</vType>
+    <vType id="restricted_small_passenger_fuel_cell" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="restricted_medium_passenger_gasoline" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="restricted_medium_passenger_diesel" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="restricted_medium_passenger_gas" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="restricted_medium_passenger_evehicle" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="50000"/>
+        <param key="device.battery.maxPower" value="100000"/>
+		<param key="vehicleMass" value="1684.85"/>
+        <param key="gearRatio" value="9.3"/>
+        <param key="constantPowerIntake" value="360"/>
+        <param key="rollDragCoefficient" value="0.0095"/>
+        <param key="airDragCoefficient" value="0.32"/>
+        <param key="frontSurfaceArea" value="2.28"/>
+        <param key="wheelRadius" value="0.3456"/>
+		<param key="loading" value="300"/>
+		<param key="rotatingMass" value="104,6556"/>
+	</vType>
+    <vType id="restricted_medium_passenger_plugin_hybrid" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="19700"/>
+		<param key="vehicleMass" value="1811"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="loading" value="300"/>
+	</vType>
+    <vType id="restricted_medium_passenger_fuel_cell" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="restricted_large_passenger_gasoline" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="restricted_large_passenger_diesel" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
+    <vType id="restricted_large_passenger_gas" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+    <vType id="restricted_large_passenger_evehicle" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+		<param key="has.battery.device" value="true"/>
+		<param key="device.battery.capacity" value="80000"/>
+		<param key="device.battery.maxPower" value="180000"/>
+		<param key="vehicleMass" value="2100"/>
+		<param key="gearRatio" value="9.325"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="rollDragCoefficient" value="0.01"/>
+		<param key="airDragCoefficient" value="0.29"/>
+		<param key="frontSurfaceArea" value="3.23"/>
+		<param key="wheelRadius" value="0.3835"/>
+		<param key="loading" value="400"/>
+		<param key="rotatingMass" value="108.8"/>
+	</vType>
+    <vType id="restricted_large_passenger_plugin_hybrid" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="31200"/>
+		<param key="vehicleMass" value="2375"/>
+		<param key="constantPowerIntake" value="360"/>
+		<param key="loading" value="300"/>
+	</vType>
+    <vType id="restricted_large_passenger_fuel_cell" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
+
+    <vType id="restricted_delivery_3.5t_gasoline" vClass="custom1" emissionClass="HBEFA3/LDV_G_EU4"/>
+    <vType id="restricted_delivery_3.5t_diesel" vClass="custom1" emissionClass="HBEFA3/LDV_D_EU4"/>
+    <vType id="restricted_delivery_3.5t_gas" vClass="custom1" emissionClass="zero"/>
+    <vType id="restricted_delivery_3.5t_evehicle" vClass="custom1" emissionClass="Energy/unknown"/>
+    <vType id="restricted_delivery_3.5t_plugin_hybrid" vClass="custom1" emissionClass="Energy/unknown"/>
+    <vType id="restricted_delivery_3.5t_fuel_cell" vClass="custom1" emissionClass="zero"/>
+
+    <vType id="restricted_truck_7.5t" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_truck_12t" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_truck_heavy_duty" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_trailer" vClass="custom2" emissionClass="HBEFA3/HDV_D_EU4"/>
+
+    <vType id="coach" vClass="bus" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="restricted_coach" vClass="bus" emissionClass="HBEFA3/HDV_D_EU4"/>
+
+</routes>
