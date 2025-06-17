@@ -18,7 +18,7 @@
 		<param key="loading" value="300"/>
 		<param key="rotatingMass" value="103.7"/>
 	</vType>
-    <vType id="small_passenger_plugin_hybrid" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+    <vType id="small_passenger_plugin_hybrid" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="11100"/>
 		<param key="vehicleMass" value="1594"/>
@@ -43,7 +43,7 @@
 		<param key="loading" value="300"/>
 		<param key="rotatingMass" value="104,6556"/>
 	</vType>
-    <vType id="medium_passenger_plugin_hybrid" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+    <vType id="medium_passenger_plugin_hybrid" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="19700"/>
 		<param key="vehicleMass" value="1811"/>
@@ -68,7 +68,7 @@
 		<param key="loading" value="400"/>
 		<param key="rotatingMass" value="108.8"/>
 	</vType>
-    <vType id="large_passenger_plugin_hybrid" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+    <vType id="large_passenger_plugin_hybrid" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="31200"/>
 		<param key="vehicleMass" value="2375"/>
@@ -106,7 +106,7 @@
 		<param key="loading" value="300"/>
 		<param key="rotatingMass" value="103.7"/>
 	</vType>
-    <vType id="restricted_small_passenger_plugin_hybrid" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+    <vType id="restricted_small_passenger_plugin_hybrid" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="19700"/>
 		<param key="vehicleMass" value="1811"/>
@@ -131,7 +131,7 @@
 		<param key="loading" value="300"/>
 		<param key="rotatingMass" value="104,6556"/>
 	</vType>
-    <vType id="restricted_medium_passenger_plugin_hybrid" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+    <vType id="restricted_medium_passenger_plugin_hybrid" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="19700"/>
 		<param key="vehicleMass" value="1811"/>
@@ -156,7 +156,7 @@
 		<param key="loading" value="400"/>
 		<param key="rotatingMass" value="108.8"/>
 	</vType>
-    <vType id="restricted_large_passenger_plugin_hybrid" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_EU6d-Temp_D_HEV">
+    <vType id="restricted_large_passenger_plugin_hybrid" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="31200"/>
 		<param key="vehicleMass" value="2375"/>
