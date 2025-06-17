@@ -4,7 +4,7 @@
     <vType id="small_passenger_gasoline" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
     <vType id="small_passenger_diesel" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
     <vType id="small_passenger_gas" vClass="passenger" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
-    <vType id="small_passenger_evehicle" vClass="evehicle" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+    <vType id="small_passenger_evehicle" vClass="evehicle" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
 		<param key="has.battery.device" value="true"/>
 		<param key="device.battery.capacity" value="32300"/>
 		<param key="device.battery.maxPower" value="61000"/>
@@ -29,7 +29,7 @@
     <vType id="medium_passenger_gasoline" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
     <vType id="medium_passenger_diesel" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
     <vType id="medium_passenger_gas" vClass="passenger" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
-    <vType id="medium_passenger_evehicle" vClass="evehicle" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM/PC_BEV_GEN1">
+    <vType id="medium_passenger_evehicle" vClass="evehicle" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="50000"/>
         <param key="device.battery.maxPower" value="100000"/>
@@ -54,7 +54,7 @@
     <vType id="large_passenger_gasoline" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
     <vType id="large_passenger_diesel" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
     <vType id="large_passenger_gas" vClass="passenger" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
-    <vType id="large_passenger_evehicle" vClass="evehicle" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+    <vType id="large_passenger_evehicle" vClass="evehicle" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
 		<param key="has.battery.device" value="true"/>
 		<param key="device.battery.capacity" value="80000"/>
 		<param key="device.battery.maxPower" value="180000"/>
@@ -92,7 +92,7 @@
     <vType id="restricted_small_passenger_gasoline" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
     <vType id="restricted_small_passenger_diesel" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
     <vType id="restricted_small_passenger_gas" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
-    <vType id="restricted_small_passenger_evehicle" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+    <vType id="restricted_small_passenger_evehicle" vClass="vip" length="3.5" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
 		<param key="has.battery.device" value="true"/>
 		<param key="device.battery.capacity" value="32300"/>
 		<param key="device.battery.maxPower" value="61000"/>
@@ -117,7 +117,7 @@
     <vType id="restricted_medium_passenger_gasoline" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
     <vType id="restricted_medium_passenger_diesel" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
     <vType id="restricted_medium_passenger_gas" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
-    <vType id="restricted_medium_passenger_evehicle" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+    <vType id="restricted_medium_passenger_evehicle" vClass="vip" length="4.3" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
         <param key="has.battery.device" value="true"/>
         <param key="device.battery.capacity" value="50000"/>
         <param key="device.battery.maxPower" value="100000"/>
@@ -142,7 +142,7 @@
     <vType id="restricted_large_passenger_gasoline" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_G_EU4"/>
     <vType id="restricted_large_passenger_diesel" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="HBEFA3/PC_D_EU4"/>
     <vType id="restricted_large_passenger_gas" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="zero"/>
-    <vType id="restricted_large_passenger_evehicle" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="PHEMlight5/PC_BEV_GEN1">
+    <vType id="restricted_large_passenger_evehicle" vClass="vip" length="5.0" speedFactor="normc(1.0,0.2,0.7,1.4)" minGap="1.5" emissionClass="MMPEVEM">
 		<param key="has.battery.device" value="true"/>
 		<param key="device.battery.capacity" value="80000"/>
 		<param key="device.battery.maxPower" value="180000"/>
