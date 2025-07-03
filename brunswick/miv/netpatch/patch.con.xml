@@ -78,8 +78,8 @@
     <connection from="24032967#0" fromLane="1" to="319187466" toLane="2"/>
 
     <!-- A392_AS_Hamburger -->
-    <connection from="431412124" fromLane="0" to="299910664#0" toLane="1"/>
-    <connection from="431412124" fromLane="1" to="299910664#0" toLane="2"/>
+    <connection from="431412124" fromLane="0" to="299910664" toLane="1"/>
+    <connection from="431412124" fromLane="1" to="299910664" toLane="2"/>
     <connection from="431412124" fromLane="2" to="26691822#0" toLane="0"/>
     <connection from="431412124" fromLane="3" to="26691822#0" toLane="1"/>
     <connection from="431412124" fromLane="3" to="125068044#1" toLane="1"/>
