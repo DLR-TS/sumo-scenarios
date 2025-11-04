@@ -6,5 +6,4 @@ Warning: busStop '30610461#9:23.02' on lane '30610461#9_1' is too short for vehi
 Warning: busStop '127529207#1:73.55' on lane '127529207#1_1' is too short for vehicle '10010933.0'.
 Warning: busStop '157539099#1:35.52' on lane '157539099#1_1' is too short for vehicle '10010954.0'.
 Warning: busStop '-151585859#1:20.81' on lane '-151585859#1_1' is too short for vehicle '10101029.0'.
-Warning: 1 total messages of type: Missing green phase in tlLogic '%', program '%' for tl-index %.
 Warning: 2 total messages of type: Unused states in tlLogic '%', program '%' in phase % after tl-index %

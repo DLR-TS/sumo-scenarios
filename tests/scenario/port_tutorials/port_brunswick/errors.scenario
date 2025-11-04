@@ -1,14 +1,12 @@
 Warning: busStop '-310417058' on lane '-173298393_1' is too short for vehicle 'pt_bus_424:0.0'.
-Warning: busStop '-333697507' on lane '-4729000#1_1' is too short for vehicle 'pt_bus_424:1.0'.
 Warning: busStop '2313104483' on lane '625075010#1_0' is too short for vehicle 'pt_bus_424:1.0'.
 Warning: busStop '269320966' on lane '22988931#3_1' is too short for vehicle 'pt_bus_484:0.0'.
 Warning: busStop '4103294756' on lane '31000149_1' is too short for vehicle 'pt_bus_414:0.0'.
-Warning: busStop '844172723' on lane '31000149_1' is too short for vehicle 'pt_bus_414:0.0'.
-Warning: busStop '-844172698' on lane '-7016592#2_1' is too short for vehicle 'pt_bus_414:0.0'.
 Warning: busStop '269321675' on lane '24787043_0' is too short for vehicle 'pt_bus_414:2.0'.
-Warning: busStop '4103294757' on lane '24787043_0' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '248483771' on lane '28672098#1_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: busStop '715902961' on lane '511308631_1' is too short for vehicle 'pt_bus_414:2.0'.
-Warning: 3 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
+Warning: 1 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
 Warning: 1 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
-Warning: 2 total messages of type: Person '%' is jammed on edge '%', time=%.
+Warning: 1 total messages of type: Person '%' is jammed on edge '%', time=%.
+Warning: 1 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
+Warning: 1 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
