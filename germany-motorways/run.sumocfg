@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="gmw.net.xml.gz"/>
-        <route-files value="gmw.rou.xml"/>
+        <route-files value="gmw.rou.xml.gz"/>
     </input>
 
     <report>
