@@ -1,45 +1,47 @@
-Loading net-file from 'port.net.xml.gz' ... done (941ms).
-Loading additional-files from 'osm.poly.xml' ... done (392ms).
-Loading additional-files from 'stops.add.xml' ... done (56ms).
+Loading net-file from 'port.net.xml.gz' ... done (281ms).
+Loading additional-files from 'osm.poly.xml' ... done (120ms).
+Loading additional-files from 'stops.add.xml' ... done (16ms).
 Loading route-files incrementally from 'veh.rou.xml'
 Loading done.
-Simulation version v1_24_0+1758-175a17cea03 started with time: 0.00.
+Simulation version v1_27_0+0127-c92d668e833 started with time: 0.00.
+DijkstraRouter answered 1 queries and explored 20.00 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
 Simulation ended at time: 1000.00.
 Reason: The final simulation step has been reached.
 Performance:
- Duration: 1.63s
- Real time factor: 615.385
- UPS: 29921.846154
- UPS-Persons: 19716.307692
+ Duration: 0.64s
+ Real time factor: 1557.63
+ UPS: 77500.000000
+ UPS-Persons: 50716.510903
 Vehicles:
  Inserted: 92
  Running: 63
  Waiting: 0
 Persons:
  Inserted: 40
- Running: 11
+ Running: 20
 Containers:
  Inserted: 30
  Running: 30
 Statistics (avg of 29):
  RouteLength: 4493.76
- Speed: 6.67
- Duration: 707.76
- WaitingTime: 0.48
- TimeLoss: 83.86
- DepartDelay: 0.52
-Pedestrian Statistics (avg of 78 walks):
- RouteLength: 30.87
- Duration: 26.90
- TimeLoss: 4.84
-Ride Statistics (avg of 58 rides):
- WaitingTime: 157.16
- RouteLength: 758.53
- Duration: 410.64
- Bus: 58
-DijkstraRouter answered 116 queries and explored 10.84 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.01ms on average).
-DijkstraRouter answered 109 queries and explored 41.67 edges on average.
-DijkstraRouter spent 0.00s answering queries (0.03ms on average).
-DijkstraRouter answered 230 queries and explored 164.70 edges on average.
-DijkstraRouter spent 0.05s answering queries (0.22ms on average).
+ Speed: 6.61
+ Duration: 713.07
+ WaitingTime: 92.14
+ TimeLoss: 168.23
+ DepartDelay: 0.31
+Pedestrian Statistics (avg of 60 walks):
+ RouteLength: 29.92
+ Duration: 26.13
+ TimeLoss: 4.52
+Ride Statistics (avg of 40 rides):
+ WaitingTime: 218.07
+ RouteLength: 323.37
+ Duration: 403.02
+ Bus: 40
+DijkstraRouter answered 100 queries and explored 11.40 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.02ms on average).
+DijkstraRouter answered 119 queries and explored 50.76 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
+DijkstraRouter answered 252 queries and explored 151.99 edges on average.
+DijkstraRouter spent 0.02s answering queries (0.09ms on average).

@@ -1,3 +1,2 @@
 Warning: 1 total messages of type: Ignoring invalid access from non-pedestrian lane '%' in busStop '%'.
-Warning: 2 total messages of type: Not using public transport line '%' for routing persons. It has less than two usable stops.
-Warning: 1 total messages of type: Vehicle '%' with device.taxi should have vClass taxi instead of '%'.
+Warning: 4 total messages of type: Not using public transport line '%' for routing persons. It has less than two usable stops.

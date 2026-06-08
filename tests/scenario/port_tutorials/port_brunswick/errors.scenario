@@ -7,6 +7,4 @@ Warning: busStop '248483771' on lane '28672098#1_1' is too short for vehicle 'pt
 Warning: busStop '715902961' on lane '511308631_1' is too short for vehicle 'pt_bus_414:2.0'.
 Warning: 1 total messages of type: At actuated tlLogic '%', actuated phase % has no controlling detector.
 Warning: 1 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
-Warning: 1 total messages of type: Person '%' is jammed on edge '%', time=%.
-Warning: 1 total messages of type: Teleporting vehicle '%'; waited too long (yield), lane='%', time=%.
-Warning: 1 total messages of type: Vehicle '%' ends teleporting on edge '%', time=%.
+Warning: 1 total messages of type: Vehicle '%' performs emergency braking on lane '%' with decel=%, wished=%, severity=%, time=%.
